@@ -87,7 +87,7 @@
 		"font"			"HudClassHealth"
 		"fgcolor"		"TanLight"
 	}
-	"PlayerStatusHealthValueShadow" // Health value
+	"PlayerStatusHealthValueShadow" // Health value shadow
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
