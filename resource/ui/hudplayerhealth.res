@@ -5,12 +5,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"r120"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
+		"xpos"			"0"
+		"xpos_minmode"	"-5"
+		"ypos"			"r120"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"120"
@@ -40,7 +37,7 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"73"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"35"
 		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
@@ -49,25 +46,17 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthBonusImage" //Overheal
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
+		"xpos"			"215"
+		"ypos"			"22"
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"55"
+		"tall"			"55"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -75,10 +64,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"200"
+		"xpos"			"195"
 		"ypos"			"27"
 		"zpos"			"5"
-		"wide"			"90"
+		"wide"			"100"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
@@ -91,27 +80,25 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"197"
+		"xpos"			"192"
 		"ypos"			"30"
 		"zpos"			"4"
-		"wide"			"90"
+		"wide"			"100"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudClassHealth"
-		"fgcolor"		"HealthShadow"
+		"fgcolor"		"HUDTextShadow"
 	}
 
-	"PlayerStatusMaxHealthValue"
+	"PlayerStatusMaxHealthValue" //Max health value
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"20"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
