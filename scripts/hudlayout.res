@@ -8,7 +8,7 @@
 		"xpos"	"c-330"
 		"ypos"	"r230"
 		"wide"	"200"
-		"tall"	"184"
+		"tall"	"200"
 	}
 
 	HudWeaponAmmo
