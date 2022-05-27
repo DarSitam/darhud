@@ -834,7 +834,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"
-				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
