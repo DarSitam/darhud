@@ -5,10 +5,10 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"xpos"	"c-330"
+		"ypos"	"r230"
+		"wide"	"200"
+		"tall"	"200"
 	}
 
 	HudWeaponAmmo
@@ -16,10 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"xpos"	"c130"
+		"ypos"	"r146"
+		"wide"	"200"
+		"tall"	"100"
 	}
 	
 	HudObjectiveStatus

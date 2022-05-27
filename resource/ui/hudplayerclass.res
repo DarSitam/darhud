@@ -9,8 +9,8 @@
 		"ypos"			"0"
 		"ypos_minmode"	"18"
 		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"200"
+		"tall"			"400"
 		"visible"		"1"
 		"enabled"		"1"		
 	}
@@ -103,8 +103,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"90"
-		"ypos"			"r140"
+		"xpos"			"0"
+		"ypos"			"84"
 		"zpos"			"1"		
 		"wide"			"200"
 		"tall"			"100"
@@ -121,8 +121,8 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"100"
-		"ypos"			"r224"
+		"xpos"			"12"
+		"ypos"			"0"
 		"zpos"			"2"		
 		"wide"			"100"
 		"tall"			"180"
