@@ -74,7 +74,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudClassHealth"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 	"PlayerStatusHealthValueShadow" // Health value shadow
 	{
