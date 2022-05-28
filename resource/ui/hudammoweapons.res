@@ -67,7 +67,8 @@
 		"labelText"		"%Ammo%"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"HUDTextShadow"
-	}						
+	}
+							
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
@@ -83,23 +84,8 @@
 		"labelText"		"%AmmoInReserve%"
 		"font"			"HudFontMediumBigBold"
 		"fgcolor"		"White"
-	}		
-	"AmmoInReserveShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoInReserveShadow"
-		"xpos"			"102"
-		"ypos"			"62"
-		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"		
-		"labelText"		"%AmmoInReserve%"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor"		"HUDTextShadow"
-	}									
+	}
+
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
