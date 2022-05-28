@@ -211,6 +211,7 @@ Scheme
 
 		//Custom colors
 		"HUDTextShadow"			"20 20 20 255"
+		"HUDUberShadow"			"20 20 20 200"
 		"HealGreen"				"0 202 133 255"
 	}
 
