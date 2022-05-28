@@ -16,6 +16,7 @@
 		"teambg_2"		"replay/thumbnails/ammo_bg_red"
 		"teambg_3"		"replay/thumbnails/ammo_bg_blu"	
 	}
+
 	"HudWeaponLowAmmoImage" //Low ammo BG
 	{
 		"ControlName"	"ImagePanel"
@@ -34,6 +35,7 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
+
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
@@ -49,7 +51,8 @@
 		"labelText"		"%Ammo%"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"White"
-	}		
+	}
+
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -67,8 +70,8 @@
 		"labelText"		"%Ammo%"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"HUDTextShadow"
-	}
-							
+	}	
+
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
@@ -85,6 +88,23 @@
 		"font"			"HudFontMediumBigBold"
 		"fgcolor"		"White"
 	}
+			
+	"AmmoInReserveShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserveShadow"
+		"xpos"			"102"
+		"ypos"			"62"
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"		
+		"labelText"		"%AmmoInReserve%"
+		"font"			"HudFontMediumBigBold"
+		"fgcolor"		"HUDTextShadow"
+	}					
 
 	"AmmoNoClip"
 	{
@@ -103,6 +123,7 @@
 		"fgcolor"		"White"
 		
 	}	
+	
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
