@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"c170"
+		"xpos"			"c185"
 		"ypos"			"r120"
 		"wide"			"150"
 		"tall"			"12"
