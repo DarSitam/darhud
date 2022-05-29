@@ -5,7 +5,7 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-330"
+		"xpos"	"c-345"
 		"ypos"	"r230"
 		"wide"	"200"
 		"tall"	"200"
@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c130"
+		"xpos"	"c145"
 		"ypos"	"r146"
 		"wide"	"200"
 		"tall"	"100"
@@ -55,12 +55,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c145"
+		"ypos"			"r120"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -72,7 +68,7 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c130"
+		"xpos"			"c145"
 		"ypos"			"r146"
 		"wide"			"200"
 		"tall"			"100"

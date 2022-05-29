@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+    "$baseTexture"        "vgui\replay\thumbnails\itemeffect_red"
+    "$translucent"        "1"
+}
