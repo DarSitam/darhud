@@ -1,12 +1,12 @@
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"c185"
+		"x_offset"		"0"
+		"xpos"			"c145"
 		"ypos"			"r132"
 		"wide"			"150"
 		"tall"			"12"
