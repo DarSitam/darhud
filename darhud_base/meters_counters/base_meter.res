@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"x_offset"		"0"
 		"wide"			"150"
-		"tall"			"12"
+		"tall"			"9"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -19,7 +19,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"151"
+		"wide"			"150"
 		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
