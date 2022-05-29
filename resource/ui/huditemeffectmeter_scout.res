@@ -1,0 +1,1 @@
+#base "..\..\darhud_base\meters\secondary_slot.res"
