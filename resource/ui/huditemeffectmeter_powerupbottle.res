@@ -1,13 +1,12 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c277"
+		"xpos"			"c159"
 		"ypos"			"r51"
-		"zpos"			"1"
 		"wide"			"88"
 		"tall"			"40"
 		"MeterFG"		"White"
@@ -32,26 +31,41 @@
 		"teambg_3"		"replay/thumbnails/counter_bg_blu"			
 	}
 	
+	"ItemEffectIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectIcon"
+		"xpos"			"6"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"27"
+		"tall"			"27"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ico_powerup_critboost_red"
+		"scaleImage"	"1"
+	}
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"12"
+		"ypos"					"32"
 		"zpos"					"2"
-		"wide"					"35"
-		"tall"					"10"
+		"wide"					"0"
+		"tall"					"0"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"center"
+		"textAlignment"			"north"
+		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
-		"fgcolor"		"White"
 	}
 
 	"ItemEffectMeter"
@@ -62,8 +76,8 @@
 		"xpos"					"25"
 		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"0"
-		"tall"					"0"				
+		"wide"					"40"
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -71,14 +85,14 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}
-
+	}					
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"3"
-		"ypos"					"10"
+		"xpos"					"10"
+		"ypos"					"15"
 		"zpos"					"2"
 		"wide"					"45"
 		"tall"					"50"	
