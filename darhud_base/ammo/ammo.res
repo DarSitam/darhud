@@ -12,9 +12,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"ui/ammo_bg_red"
-		"scaleImage"	"0"	
+		"scaleImage"	"0"
 		"teambg_2"		"ui/ammo_bg_red"
-		"teambg_3"		"ui/ammo_bg_blu"	
+		"teambg_3"		"ui/ammo_bg_blu"
 	}
 
 	"HudWeaponLowAmmoImage" //Low ammo BG
@@ -29,9 +29,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		""
-		"teambg_3"		""	
+		"teambg_3"		""
 	}
 
 	"AmmoInClip"
@@ -45,7 +45,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"south-east"	
+		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"White"
@@ -64,11 +64,11 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"south-east"	
+		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"HUDTextShadow"
-	}	
+	}
 
 	"AmmoInReserve"
 	{
@@ -81,12 +81,12 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"		
+		"textAlignment"	"center"
 		"labelText"		"%AmmoInReserve%"
 		"font"			"HudFontMediumBigBold"
 		"fgcolor"		"White"
 	}
-			
+
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -98,11 +98,11 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"		
+		"textAlignment"	"center"
 		"labelText"		"%AmmoInReserve%"
 		"font"			"HudFontMediumBigBold"
 		"fgcolor"		"HUDTextShadow"
-	}					
+	}
 
 	"AmmoNoClip"
 	{
@@ -115,13 +115,13 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"south-east"	
+		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"White"
-		
-	}	
-	
+
+	}
+
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -135,10 +135,10 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"south-east"	
+		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"HUDTextShadow"
-		
-	}									
+
+	}
 }
