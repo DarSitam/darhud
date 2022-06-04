@@ -19,17 +19,11 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
-		"ypos"			"r88"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
-		"xpos"			"57"	[$X360]
-		"ypos"			"r110"	[$X360]
+		"xpos"			"25"
+		"ypos"			"100"
 		"zpos"			"2"
-		"wide"			"75"
-		"wide_minmode"	"37"
-		"tall"			"75"
-		"tall_minmode"	"37"
+		"wide"			"80"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -84,19 +78,17 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9"
-		"ypos"			"r60"
+		"xpos"			"0"
+		"ypos"			"126"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"200"
+		"tall"			"58"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
-		"teambg_3"		"../hud/character_blue_bg"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
+		"scaleImage"	"0"
+		"image"			"replay/thumbnails/chr_bg_red"
+		"teambg_2"		"replay/thumbnails/chr_bg_red"
+		"teambg_3"		"replay/thumbnails/chr_bg_blu"
 	}
 
 	"classmodelpanelBG" //Character background
