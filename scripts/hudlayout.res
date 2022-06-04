@@ -189,7 +189,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r200"
+		"xpos"					"r188"
 		"ypos"					"r137"
 		"zpos"					"2"
 		"wide"					"116"

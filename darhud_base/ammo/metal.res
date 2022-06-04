@@ -2,7 +2,7 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"70"
+		"delta_item_x"			"58"
 		"delta_item_start_y"	"15"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"0 255 0 255"
@@ -15,7 +15,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"AccountBG"
-		"xpos"			"12"
+		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"0"
 		"wide"			"62"
@@ -48,7 +48,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"23"
+		"xpos"			"11"
 		"ypos"			"17"
 		"zpos"			"2"
 		"wide"			"55"
