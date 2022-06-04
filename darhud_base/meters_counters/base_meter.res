@@ -23,10 +23,10 @@
 		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/itemeffect_red"
+		"image"			"ui/itemeffect_red"
 		"scaleImage"	"0"	
-		"teambg_2"		"replay/thumbnails/itemeffect_red"
-		"teambg_3"		"replay/thumbnails/itemeffect_blu"			
+		"teambg_2"		"ui/itemeffect_red"
+		"teambg_3"		"ui/itemeffect_blu"			
 	}
 	
 	"ItemEffectMeterLabel"
