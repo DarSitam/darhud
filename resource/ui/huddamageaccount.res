@@ -1,0 +1,1 @@
+#base "..\..\darhud_base\ui\damagenumbers.res"
