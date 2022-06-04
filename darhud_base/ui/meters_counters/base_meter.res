@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"x_offset"		"0"
 		"wide"			"150"
-		"tall"			"9"
+		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
