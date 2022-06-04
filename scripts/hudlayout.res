@@ -7,6 +7,8 @@
 		"enabled" "1"
 		"xpos"	"c-345"
 		"ypos"	"r230"
+		"xpos_minmode" "15"
+		"ypos_minmode" "r199"
 		"wide"	"200"
 		"tall"	"200"
 	}
@@ -18,8 +20,10 @@
 		"enabled" "1"
 		"xpos"	"c145"
 		"ypos"	"r103"
+		"xpos_minmode" "r185"
+		"ypos_minmode" "r73"
 		"zpos" 	"3"
-		"wide"	"200"
+		"wide"	"170"
 		"tall"	"58"
 	}
 	
@@ -72,6 +76,8 @@
 		"enabled"		"1"
 		"xpos"			"c145"
 		"ypos"			"r146"
+		"xpos_minmode" "r185"
+		"ypos_minmode" "r115"
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -191,6 +197,8 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"r188"
 		"ypos"					"r137"
+		"xpos_minmode" 			"r91"
+		"ypos_minmode" 			"r108"
 		"zpos"					"2"
 		"wide"					"116"
 		"tall"  				"46"

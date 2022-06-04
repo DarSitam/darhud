@@ -6,6 +6,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"xpos"			"c199"
 		"ypos"			"r51"
+		"xpos_minmode" "r273"
+		"ypos_minmode" "r55"
 	}
 
     "ItemEffectIcon"
