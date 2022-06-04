@@ -1,1 +1,1 @@
-#base "..\..\darhud_base\meters_counters\canteen_counter.res"
+#base "..\..\darhud_base\ui\meters_counters\canteen_counter.res"
