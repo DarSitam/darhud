@@ -3,10 +3,10 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos" "225"
+		"xpos" "215"
 		"ypos" "c80"
 		"delta_item_x"			"0"
-		"delta_item_start_y"	"50"
+		"delta_item_start_y"	"45"
 		"delta_item_end_y"		"2"
 		"PositiveColor"			"HealGreen"
 		"NegativeColor"			"255 0 0 255"
