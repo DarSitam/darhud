@@ -1,6 +1,1 @@
-#base "HudItemEffectMeter.res"
-
-"Resource/UI/HudItemEffectMeter_Raygun.res"
-{
-	
-}					
+#base "..\..\darhud_base\meters_counters\lower_meter.res"

@@ -17,9 +17,10 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c145"
-		"ypos"	"r146"
+		"ypos"	"r103"
+		"zpos" 	"3"
 		"wide"	"200"
-		"tall"	"100"
+		"tall"	"58"
 	}
 	
 	HudObjectiveStatus
@@ -57,6 +58,7 @@
 		"enabled"		"1"
 		"xpos"			"c145"
 		"ypos"			"r120"
+		"zpos" 			"5"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -187,13 +189,11 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"r188"
+		"ypos"					"r137"
+		"zpos"					"2"
 		"wide"					"116"
-		"tall"  				"180"
+		"tall"  				"46"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"

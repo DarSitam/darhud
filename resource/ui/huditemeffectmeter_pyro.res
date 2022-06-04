@@ -1,11 +1,1 @@
-#base "HudItemEffectMeter.res"
-
-"Resource/UI/HudItemEffectMeter_Pyro.res"
-{
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"xpos"			"c145"
-		"ypos"			"r132"
-	}
-}
+#base "..\..\darhud_base\meters_counters\middle_meter.res"

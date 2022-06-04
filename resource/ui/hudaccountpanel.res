@@ -1,0 +1,1 @@
+#base "..\..\darhud_base\ammo\metal.res"
