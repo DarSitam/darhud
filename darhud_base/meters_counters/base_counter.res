@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"1"
+		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"40"
 		"MeterFG"		"White"
