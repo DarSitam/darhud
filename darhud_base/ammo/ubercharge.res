@@ -11,10 +11,10 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"ui/ubercharge_bg_red"
+		"image"			"replay/thumbnails/ubercharge_bg_red"
 		"scaleImage"	"0"	
-		"teambg_2"		"ui/ubercharge_bg_red"
-		"teambg_3"		"ui/ubercharge_bg_blu"				
+		"teambg_2"		"replay/thumbnails/ubercharge_bg_red"
+		"teambg_3"		"replay/thumbnails/ubercharge_bg_blu"				
 	}
 	
 	"ChargeLabel"

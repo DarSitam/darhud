@@ -111,9 +111,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"0"
-		"image"				"ui/chr_bg_red"
-		"teambg_2"			"ui/chr_bg_red"
-		"teambg_3"			"ui/chr_bg_blu"
+		"image"			"replay/thumbnails/chr_bg_red"
+		"teambg_2"		"replay/thumbnails/chr_bg_red"
+		"teambg_3"		"replay/thumbnails/chr_bg_blu"
 	}
 
 	"classmodelpanel" //character

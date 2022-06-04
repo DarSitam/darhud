@@ -24,10 +24,10 @@
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"ui/counter_bg_red"
+		"image"			"replay/thumbnails/counter_bg_red"
 		"scaleImage"	"0"	
-		"teambg_2"		"ui/counter_bg_red"
-		"teambg_3"		"ui/counter_bg_blu"			
+		"teambg_2"		"replay/thumbnails/counter_bg_red"
+		"teambg_3"		"replay/thumbnails/counter_bg_blu"			
 	}
 	
 	"ItemEffectMeterLabel"
