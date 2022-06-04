@@ -22,7 +22,6 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/counter_bg_red"
 		"scaleImage"	"0"	

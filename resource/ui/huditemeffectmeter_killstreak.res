@@ -1,1 +1,1 @@
-#base "..\..\darhud_base\meters_counters\killstreak_counter.res"
+#base "..\..\darhud_base\ui\meters_counters\killstreak_counter.res"

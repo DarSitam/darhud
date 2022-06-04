@@ -1,1 +1,1 @@
-#base "..\..\darhud_base\ammo\ammo.res"
+#base "..\..\darhud_base\ui\ammo\ammo.res"

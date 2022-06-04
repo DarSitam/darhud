@@ -1,1 +1,1 @@
-#base "..\..\darhud_base\health\class.res"
+#base "..\..\darhud_base\ui\health\class.res"

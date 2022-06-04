@@ -1,1 +1,1 @@
-#base "..\..\darhud_base\meters_counters\upper_meter.res"
+#base "..\..\darhud_base\ui\meters_counters\upper_meter.res"

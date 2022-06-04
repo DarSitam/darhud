@@ -1,1 +1,1 @@
-#base "..\..\darhud_base\meters_counters\spell_counter.res"
+#base "..\..\darhud_base\ui\meters_counters\spell_counter.res"

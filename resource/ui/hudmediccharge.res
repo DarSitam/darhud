@@ -1,1 +1,1 @@
-#base "..\..\darhud_base\ammo\ubercharge.res"
+#base "..\..\darhud_base\ui\ammo\ubercharge.res"
