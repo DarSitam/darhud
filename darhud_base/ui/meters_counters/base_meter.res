@@ -8,8 +8,6 @@
 		"x_offset"		"0"
 		"wide"			"150"
 		"tall"			"8"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
 	}
 	
 	"ItemEffectMeterBG"
@@ -55,7 +53,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"bgcolor_override" 		"HUDTextShadow"
+		"bgcolor_override" 		"0 0 0 192"
 		"fgcolor_override" 		"White"
 		"xpos"					"0"
 		"ypos"					"0"

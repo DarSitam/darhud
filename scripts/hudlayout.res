@@ -75,9 +75,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c145"
-		"ypos"			"r146"
+		"ypos"			"r142"
 		"xpos_minmode" "r185"
-		"ypos_minmode" "r115"
+		"ypos_minmode" "r112"
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -195,13 +195,13 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r188"
+		"xpos"					"c242"
 		"ypos"					"r137"
-		"xpos_minmode" 			"r91"
+		"xpos_minmode" 			"r89"
 		"ypos_minmode" 			"r108"
 		"zpos"					"2"
 		"wide"					"116"
-		"tall"  				"46"
+		"tall"  				"51"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
