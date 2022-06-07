@@ -186,14 +186,14 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"pin_to_sibling" "Background"
-		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		"wide"			"36"
-		"tall"			"36"
+		"wide"			"45"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 }
