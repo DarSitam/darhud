@@ -938,22 +938,7 @@
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
-	}	
-	
-	HudDemomanPipes
-	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
-	}	
+	}
 
 	HudTeamGoal
 	{
