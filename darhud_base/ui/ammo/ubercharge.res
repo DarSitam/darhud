@@ -1,5 +1,17 @@
 "."
-{	
+{	HudMedicCharge
+	{
+		"fieldName"		"HudMedicCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c145"
+		"ypos"			"r142"
+		"xpos_minmode" "r185"
+		"ypos_minmode" "r112"
+		"wide"			"200"
+		"tall"			"100"
+	}
+	
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"

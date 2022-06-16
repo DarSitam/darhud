@@ -1,5 +1,18 @@
 "."
 {
+	HudWeaponAmmo
+	{
+		"fieldName" "HudWeaponAmmo"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"c145"
+		"ypos"	"r103"
+		"xpos_minmode" "r170"
+		"ypos_minmode" "r73"
+		"zpos" 	"3"
+		"wide"	"170"
+		"tall"	"58"
+	}
 	"HudWeaponAmmoBG" //Ammo BG
 	{
 		"ControlName"	"CTFImagePanel"

@@ -12,20 +12,6 @@
 		"wide"	"200"
 		"tall"	"200"
 	}
-
-	HudWeaponAmmo
-	{
-		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c145"
-		"ypos"	"r103"
-		"xpos_minmode" "r170"
-		"ypos_minmode" "r73"
-		"zpos" 	"3"
-		"wide"	"170"
-		"tall"	"58"
-	}
 	
 	HudObjectiveStatus
 	{
@@ -54,33 +40,6 @@
 		"red_active_xpos"			"106"
 		"red_active_xpos_minmode"	"105"
 	}	
-
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c145"
-		"ypos"			"r120"
-		"zpos" 			"5"
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
-	
-	HudMedicCharge
-	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c145"
-		"ypos"			"r142"
-		"xpos_minmode" "r185"
-		"ypos_minmode" "r112"
-		"wide"			"200"
-		"tall"			"100"
-	}
 	
 	HudBowCharge
 	{
@@ -172,48 +131,6 @@
 		"SelectionNumberFg"	"200 187 161 255"
 		"NumberFont" "HudSelectionText"
 	}	
-	
-	CHudAccountPanel
-	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c242"
-		"ypos"					"r139"
-		"xpos_minmode" 			"r100"
-		"ypos_minmode" 			"r110"
-		"zpos"					"2"
-		"wide"					"116"
-		"tall"  				"51"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	CHealthAccountPanel
-	{
-		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	CDamageAccountPanel
-	{
-		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
 	
 	DisguiseStatus
 	{

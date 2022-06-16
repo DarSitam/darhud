@@ -1,5 +1,21 @@
 "."
 {
+		
+	CHudAccountPanel
+	{
+		"fieldName"				"CHudAccountPanel"
+		"xpos"					"c242"
+		"ypos"					"r139"
+		"xpos_minmode" 			"r100"
+		"ypos_minmode" 			"r110"
+		"zpos"					"2"
+		"wide"					"116"
+		"tall"  				"51"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
+	
 	"CHudAccountPanel"
 	{
 		"delta_item_x"			"58"
