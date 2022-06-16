@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+    "$baseTexture"        "vgui\replay\thumbnails\killstreak_blu"
+    "$translucent"        "1"
+}
