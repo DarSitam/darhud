@@ -1,0 +1,1 @@
+#base "..\..\darhud_base\ui\ammo\demoman_charge.res"
