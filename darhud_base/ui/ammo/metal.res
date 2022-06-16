@@ -1,5 +1,21 @@
 "."
 {
+		
+	CHudAccountPanel
+	{
+		"fieldName"				"CHudAccountPanel"
+		"xpos"					"c242"
+		"ypos"					"r139"
+		"xpos_minmode" 			"r100"
+		"ypos_minmode" 			"r110"
+		"zpos"					"2"
+		"wide"					"116"
+		"tall"  				"51"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
+	
 	"CHudAccountPanel"
 	{
 		"delta_item_x"			"58"
@@ -18,14 +34,14 @@
 		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"0"
-		"wide"			"62"
-		"tall"			"30"
+		"wide"			"65"
+		"tall"			"33"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/metal_bg_red"
+		"image"			"replay/thumbnails/metal_red"
 		"scaleImage"	"1"	
-		"teambg_2"		"replay/thumbnails/metal_bg_red"
-		"teambg_3"		"replay/thumbnails/metal_bg_blu"
+		"teambg_2"		"replay/thumbnails/metal_red"
+		"teambg_3"		"replay/thumbnails/metal_blu"
 	}
 	
 	"MetalIcon"	

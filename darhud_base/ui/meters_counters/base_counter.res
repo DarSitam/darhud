@@ -23,10 +23,10 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/counter_bg_red"
+		"image"			"replay/thumbnails/counter_red"
 		"scaleImage"	"0"	
-		"teambg_2"		"replay/thumbnails/counter_bg_red"
-		"teambg_3"		"replay/thumbnails/counter_bg_blu"			
+		"teambg_2"		"replay/thumbnails/counter_red"
+		"teambg_3"		"replay/thumbnails/counter_blu"			
 	}
 	
 	"ItemEffectMeterLabel"

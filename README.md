@@ -5,4 +5,5 @@
 ### Credits
 - The huds.tf discord for an enormous help
 - RaysFire / JarateKing for some documentations
-- Vlad for the metal texture
+- Zeesastrous for a source of inspiration
+- Vlad for some textures

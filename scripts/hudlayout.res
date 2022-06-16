@@ -7,24 +7,10 @@
 		"enabled" "1"
 		"xpos"	"c-345"
 		"ypos"	"r230"
-		"xpos_minmode" "15"
+		"xpos_minmode" "0"
 		"ypos_minmode" "r199"
 		"wide"	"200"
 		"tall"	"200"
-	}
-
-	HudWeaponAmmo
-	{
-		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c145"
-		"ypos"	"r103"
-		"xpos_minmode" "r185"
-		"ypos_minmode" "r73"
-		"zpos" 	"3"
-		"wide"	"170"
-		"tall"	"58"
 	}
 	
 	HudObjectiveStatus
@@ -54,53 +40,7 @@
 		"red_active_xpos"			"106"
 		"red_active_xpos_minmode"	"105"
 	}	
-
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c145"
-		"ypos"			"r120"
-		"zpos" 			"5"
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
 	
-	HudMedicCharge
-	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c145"
-		"ypos"			"r146"
-		"xpos_minmode" "r185"
-		"ypos_minmode" "r115"
-		"wide"			"200"
-		"tall"			"100"
-	}
-	
-	HudDemomanCharge
-	{
-		"fieldName"		"HudDemomanCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}	
-
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
@@ -191,48 +131,6 @@
 		"SelectionNumberFg"	"200 187 161 255"
 		"NumberFont" "HudSelectionText"
 	}	
-	
-	CHudAccountPanel
-	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r188"
-		"ypos"					"r137"
-		"xpos_minmode" 			"r91"
-		"ypos_minmode" 			"r108"
-		"zpos"					"2"
-		"wide"					"116"
-		"tall"  				"46"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	CHealthAccountPanel
-	{
-		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
-	CDamageAccountPanel
-	{
-		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
 	
 	DisguiseStatus
 	{
@@ -1040,22 +938,7 @@
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
-	}	
-	
-	HudDemomanPipes
-	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
-	}	
+	}
 
 	HudTeamGoal
 	{

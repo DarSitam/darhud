@@ -1,5 +1,0 @@
-"UnlitGeneric"
-{
-    "$baseTexture"        "vgui\replay\thumbnails\counter_bg_red"
-    "$translucent"        "1"
-}
