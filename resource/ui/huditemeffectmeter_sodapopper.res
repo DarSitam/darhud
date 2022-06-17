@@ -24,7 +24,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"150"
-		"tall"			"9"
+		"tall"			"11"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/itemeffect_red"
@@ -51,7 +51,7 @@
 		"textAlignment"			"north-west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"HudFontSmallest"
 	}
 
 	"ItemEffectMeter"
