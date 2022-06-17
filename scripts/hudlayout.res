@@ -9,6 +9,7 @@
 		"ypos"	"r230"
 		"xpos_minmode" "0"
 		"ypos_minmode" "r199"
+		"zpos" 			"5"
 		"wide"	"300"
 		"tall"	"200"
 	}
