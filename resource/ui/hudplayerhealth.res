@@ -20,14 +20,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
-		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"80"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthImageBG" //Health cross background (black part)
