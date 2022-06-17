@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+    "$baseTexture"        "vgui\replay\thumbnails\spy_disguise_red"
+    "$translucent"        "1"
+}
