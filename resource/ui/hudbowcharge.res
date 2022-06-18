@@ -1,8 +1,8 @@
-"."
-{
-	HudDemomanCharge
+"Resource/UI/HudBowCharge.res"
+{	
+	HudBowCharge
 	{
-		"fieldName"		"HudDemomanCharge"
+		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c145"
@@ -12,7 +12,7 @@
 		"zpos"			"5"
 		"wide"			"115"
 		"tall"			"5"	
-	}	
+	}
 
 	"ChargeMeter"
 	{	
@@ -21,8 +21,8 @@
 		"font"			"Default"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"115"
-		"tall"			"5"				
+		"wide"			"0"
+		"tall"			"0"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
