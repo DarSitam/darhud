@@ -83,7 +83,7 @@
 		"scaleImage"	"0"
 		"image"			"../hud/chr_bg_red"
 		"teambg_2"		"../hud/chr_bg_red"
-		"teambg_3"		"../hud/chr_bgblu"
+		"teambg_3"		"../hud/chr_bg_blue"
 	}
 
 	"classmodelpanelBG" //Character background
@@ -100,7 +100,7 @@
 		"scaleImage"	"0"
 		"image"			"../hud/chr_bg_red"
 		"teambg_2"		"../hud/chr_bg_red"
-		"teambg_3"		"../hud/chr_bg_blu"
+		"teambg_3"		"../hud/chr_bg_blue"
 	}
 
 	"classmodelpanel" //character
