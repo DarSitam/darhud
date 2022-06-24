@@ -29,7 +29,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/ctf_blu"
+		"image"			"../hud/objectives_flagpanel_bg_blue"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -59,7 +59,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/ctf_red"
+		"image"			"../hud/objectives_flagpanel_bg_red"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -245,8 +245,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
-		"ypos"			"r127"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r127"
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
@@ -262,6 +261,8 @@
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-317"
 		"ypos"			"r145"
+		"xpos_minmode"			"25"
+		"ypos_minmode"			"r120"
 		"zpos"			"0"
 		"wide"			"70"
 		"tall"			"70"
@@ -324,8 +325,8 @@
 		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
 		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"	"1"	
@@ -451,11 +452,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PoisonIcon"
-		"xpos"			"cs-0.5"
-		"ypos"			"r75"
+		"xpos"			"c-13"
+		"ypos"			"r68"
 		"zpos"			"6"
-		"wide"			"40"
-		"tall"			"o1"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"marked_for_death"
@@ -476,7 +477,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 	
 	"SpecCarriedImage"
