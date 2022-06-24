@@ -27,7 +27,7 @@
 		"image"			"../hud/ammo_bg_red"
 		"scaleImage"	"0"
 		"teambg_2"		"../hud/ammo_bg_red"
-		"teambg_3"		"../hud/ammo_bg_blu"
+		"teambg_3"		"../hud/ammo_bg_blue"
 	}
 
 	"HudWeaponLowAmmoImage" //Low ammo BG

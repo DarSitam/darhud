@@ -30,7 +30,7 @@
 		"image"			"../hud/counter_red"
 		"scaleImage"	"0"	
 		"teambg_2"		"../hud/counter_red"
-		"teambg_3"		"../hud/counter_blu"			
+		"teambg_3"		"../hud/counter_blue"			
 	}
 	
 	"ItemEffectMeterLabel"
