@@ -81,9 +81,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"0"
-		"image"			"replay/thumbnails/chr_red"
-		"teambg_2"		"replay/thumbnails/chr_red"
-		"teambg_3"		"replay/thumbnails/chr_blu"
+		"image"			"../hud/chr_bg_red"
+		"teambg_2"		"../hud/chr_bg_red"
+		"teambg_3"		"../hud/chr_bgblu"
 	}
 
 	"classmodelpanelBG" //Character background
@@ -98,9 +98,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"0"
-		"image"			"replay/thumbnails/chr_red"
-		"teambg_2"		"replay/thumbnails/chr_red"
-		"teambg_3"		"replay/thumbnails/chr_blu"
+		"image"			"../hud/chr_bg_red"
+		"teambg_2"		"../hud/chr_bg_red"
+		"teambg_3"		"../hud/chr_bg_blu"
 	}
 
 	"classmodelpanel" //character
