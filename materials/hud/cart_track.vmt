@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+    "$baseTexture"        "vgui\replay\thumbnails\payload\cart_track"
+    "$translucent"        "1"
+}
