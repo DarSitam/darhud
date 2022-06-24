@@ -188,8 +188,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"		
-			"font_minmode"		"ItemFontAttribSmall"		
+			"font"			"HudFontSmallest"			
 			"xpos"			"21"
 			"ypos"			"58"	
 			"zpos"			"2"
@@ -394,8 +393,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"HudFontSmallest"
-			"font_minmode"		"ItemFontAttribSmall"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"25"
 			"ypos"			"59"
 			"zpos"			"4"
