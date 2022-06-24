@@ -29,7 +29,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_blue"
+		"image"			"../hud/ctf_blue"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -59,7 +59,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_red"
+		"image"			"../hud/ctf_red"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
