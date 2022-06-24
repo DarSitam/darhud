@@ -30,7 +30,7 @@
 		"image"			"../hud/itemeffectmeter_red"
 		"scaleImage"	"0"	
 		"teambg_2"		"../hud/itemeffectmeter_red"
-		"teambg_3"		"../hud/itemeffectmeter_blu"			
+		"teambg_3"		"../hud/itemeffectmeter_blue"			
 	}
 	
 	"ItemEffectMeterLabel"

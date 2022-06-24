@@ -27,10 +27,10 @@
 		"tall"			"11"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/itemeffect_red"
+		"image"			"../hud/itemeffectmeter_red"
 		"scaleImage"	"0"	
-		"teambg_2"		"replay/thumbnails/itemeffect_red"
-		"teambg_3"		"replay/thumbnails/itemeffect_blu"			
+		"teambg_2"		"../hud/itemeffectmeter_red"
+		"teambg_3"		"../hud/itemeffectmeter_blue"			
 	}
 	
 	"ItemEffectMeterLabel"

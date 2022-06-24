@@ -56,11 +56,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/spy_disguise_red"
+		"image"			"../hud/spy_disguise_red"
 		"scaleImage"	"1"
-		"teambg_1"		"replay/thumbnails/spy_disguise_red"
-		"teambg_2"		"replay/thumbnails/spy_disguise_red"
-		"teambg_3"		"replay/thumbnails/spy_disguise_blu"
+		"teambg_1"		"../hud/spy_disguise_red"
+		"teambg_2"		"../hud/spy_disguise_red"
+		"teambg_3"		"../hud/spy_disguise_blue"
 	}
 
 	"DisguiseNameLabel"
