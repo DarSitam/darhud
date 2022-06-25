@@ -321,7 +321,7 @@
 			"if_multiple_trains_bottom"
 			{
 				"xpos"			"0"
-				"ypos"			"105"
+				"ypos"			"90"
 			}
 		}
 		
@@ -357,7 +357,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"93"
 			}	
 		}
 		
@@ -389,7 +389,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"81"
+				"ypos"			"92"
 			}	
 		}
 
@@ -427,7 +427,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"82"
+				"ypos"			"92"
 			}	
 		}
 		
@@ -463,7 +463,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"94"
 			}
 		}
 	
