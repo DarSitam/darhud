@@ -168,7 +168,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"EscortItemPanel"
-		"xpos"			"0"
+		"xpos"			"1"
 		"ypos"			"49"
 		"zpos"			"2"
 		"wide"			"52"	
@@ -226,7 +226,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
-			"xpos"			"13"
+			"xpos"			"14"
 			"ypos"			"50"
 			"zpos"			"1"
 			"wide"			"24"
