@@ -37,10 +37,10 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/metal_red"
+		"image"			"../hud/metal_red"
 		"scaleImage"	"0"	
-		"teambg_2"		"replay/thumbnails/metal_red"
-		"teambg_3"		"replay/thumbnails/metal_blu"
+		"teambg_2"		"../hud/metal_red"
+		"teambg_3"		"../hud/metal_blue"
 	}
 	
 	"MetalIcon"	

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+    "$baseTexture"        "vgui\replay\thumbnails\ctf\ctf_red"
+    "$translucent"        "1"
+}
