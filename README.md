@@ -6,4 +6,4 @@
 - The huds.tf discord for an enormous help
 - RaysFire / JarateKing for some documentations
 - Zeesastrous for a source of inspiration
-- Vlad for some textures
+- Vlad, Hypnotize for some textures
