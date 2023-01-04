@@ -1555,7 +1555,7 @@
 		
 		"obj_status_dispenser"
 		{
-			"file"	"HUD/hud_obj_status_dispenser"
+			"file"	"vgui\logos\buildings\hud_obj_status_dispenser"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1574,7 +1574,7 @@
 	
 		"obj_status_tele_entrance"
 		{
-			"file"	"HUD/hud_obj_status_tele_entrance"
+			"file"	"vgui\logos\buildings\hud_obj_status_tele_entrance"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1582,7 +1582,7 @@
 		}
 		"obj_status_tele_exit"
 		{
-			"file"	"HUD/hud_obj_status_tele_exit"
+			"file"	"vgui\logos\buildings\hud_obj_status_tele_exit"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
