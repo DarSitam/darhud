@@ -255,10 +255,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-317"
+		"xpos"			"c-325"
 		"ypos"			"r145"
-		"xpos_minmode"			"25"
-		"ypos_minmode"			"r120"
+		"xpos_minmode"			"20"
+		"ypos_minmode"			"r115"
 		"zpos"			"0"
 		"wide"			"70"
 		"tall"			"70"

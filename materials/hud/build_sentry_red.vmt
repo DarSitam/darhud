@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+    "$baseTexture"        "vgui\replay\thumbnails\building\build_sentry_red"
+    "$translucent"        "1"
+}
