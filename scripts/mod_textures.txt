@@ -1615,7 +1615,7 @@
 		}
 		"obj_status_sapper"
 		{
-			"file"	"HUD/hud_obj_status_sapper"
+			"file"	"vgui\logos\buildings\hud_obj_status_sapper"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"
