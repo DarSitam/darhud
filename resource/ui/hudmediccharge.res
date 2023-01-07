@@ -1,5 +1,6 @@
 "."
-{	HudMedicCharge
+{	
+	HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
