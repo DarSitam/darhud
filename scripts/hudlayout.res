@@ -356,31 +356,27 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
+		"xpos"	 "r628"
+		"ypos"	 "0"
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "5"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"LineHeight"	  "14"
+		"LineSpacing"	  "2"
+		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"HudFontSmallestBold"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"TeamBlue"		"DarBlue"
+		"TeamRed"		"DarRed"
+		"IconColor"		"White"
+		"LocalPlayerColor"	"HUDTextShadow"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"HUDUberShadow"
+		"LocalBackgroundColor"	"White"
 	}
 
 	HudVehicle
@@ -1360,6 +1356,22 @@
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
+	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"0"
+		"ypos"				"r100"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"		"65"
+		"ypos_minmode"		"r88"
+		"visible" 			"0"
+		"enabled" 			"1"
+
+		"PaintBackgroundType"	"2"
 	}
 }
 

@@ -1,5 +1,6 @@
 "."
-{	HudMedicCharge
+{	
+	HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
@@ -33,10 +34,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"46"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"95"
 		"tall"			"23"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -44,7 +45,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontBiggerBold"
