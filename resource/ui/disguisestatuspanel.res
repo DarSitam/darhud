@@ -47,7 +47,7 @@
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"c-344"
 		"ypos"			"12"
-		"xpos_minmode"	"3"
+		"xpos_minmode"	"2"
 		"ypos_minmode"	"44"
 		"zpos"			"-1"
 		"wide"			"135"
