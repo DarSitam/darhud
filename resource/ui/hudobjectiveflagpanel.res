@@ -29,7 +29,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/ctf_blue"
+		"image"			"replay/thumbnails/ctf/ctf_blue"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -59,7 +59,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/ctf_red"
+		"image"			"replay/thumbnails/ctf/ctf_red"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -120,7 +120,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
-		"labelText"		"%redscore%"
+		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"White"		
 		
@@ -152,7 +152,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
-		"labelText"		"%redscore%"
+		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"HUDTextShadow"		
 		

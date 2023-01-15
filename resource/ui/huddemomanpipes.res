@@ -69,10 +69,10 @@
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/sticky_red"
+			"image"			"replay/thumbnails/sticky_red"
 			"scaleImage"	"1"
-			"teambg_2"		"../hud/sticky_red"
-			"teambg_3"		"../hud/sticky_blue"	
+			"teambg_2"		"replay/thumbnails/sticky_red"
+			"teambg_3"		"replay/thumbnails/sticky_blue"	
 		}	
 		
 		"NumPipesLabel"

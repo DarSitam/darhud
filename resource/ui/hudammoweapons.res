@@ -24,10 +24,10 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/ammo_bg_red"
+		"image"			"replay/thumbnails/ammo_bg_red"
 		"scaleImage"	"0"
-		"teambg_2"		"../hud/ammo_bg_red"
-		"teambg_3"		"../hud/ammo_bg_blue"
+		"teambg_2"		"replay/thumbnails/ammo_bg_red"
+		"teambg_3"		"replay/thumbnails/ammo_bg_blue"
 	}
 
 	"HudWeaponLowAmmoImage" //Low ammo BG

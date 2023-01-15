@@ -33,21 +33,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"replay/thumbnails/payload/cart_track"
 		"scaleImage"	"1"
 		
 		"if_multiple_trains"
 		{
 			"ypos"			"123"
 			"tall"			"10"
-			"image"			"../hud/cart_track"
+			"image"			"replay/thumbnails/payload/cart_track"
 		}
 		
 		"if_single_with_hills"
 		{
 			"ypos"			"123"
 			"tall"			"10"
-			"image"			"../hud/cart_track"
+			"image"			"replay/thumbnails/payload/cart_track"
 		}		
 	}	
 	
@@ -153,7 +153,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_point_neutral"
+		"image"			"replay/thumbnails/payload/cart_point_neutral"
 		"scaleImage"	"1"	
 												
 		"if_multiple_trains"
@@ -239,17 +239,17 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_neutral"
+			"image"			"replay/thumbnails/payload/cart_neutral"
 			"scaleImage"	"1"
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue"
+				"image"			"replay/thumbnails/payload/cart_blue"
 			}		
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red"
+				"image"			"replay/thumbnails/payload/cart_red"
 			}
 			
 			"if_multiple_trains"
@@ -276,17 +276,17 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_neutral_bottom"
+			"image"			"replay/thumbnails/payload/cart_neutral_bottom"
 			"scaleImage"	"1"	
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue_bottom"
+				"image"			"replay/thumbnails/payload/cart_blue_bottom"
 			}			
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red_bottom"
+				"image"			"replay/thumbnails/payload/cart_red_bottom"
 			}
 			
 			"if_multiple_trains"
@@ -313,7 +313,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_alert"
+			"image"			"replay/thumbnails/payload/cart_alert"
 			"scaleImage"	"1"
 			
 			"if_multiple_trains_bottom"

@@ -27,10 +27,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/killstreak_red"
+		"image"			"replay/thumbnails/killstreak_red"
 		"scaleImage"	"0"	
-		"teambg_2"		"../hud/killstreak_red"
-		"teambg_3"		"../hud/killstreak_blue"			
+		"teambg_2"		"replay/thumbnails/killstreak_red"
+		"teambg_3"		"replay/thumbnails/killstreak_blue"			
 	}
 	
 	"ItemEffectMeterLabel"

@@ -80,10 +80,10 @@
 		"tall"			"58"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"replay/thumbnails/chr_bg_red"
 		"scaleImage"	"0"
-		"image"			"../hud/chr_bg_red"
-		"teambg_2"		"../hud/chr_bg_red"
-		"teambg_3"		"../hud/chr_bg_blue"
+		"teambg_2"		"replay/thumbnails/chr_bg_red"
+		"teambg_3"		"replay/thumbnails/chr_bg_blue"
 	}
 
 	"classmodelpanelBG" //Character background
@@ -97,10 +97,10 @@
 		"tall"			"58"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"replay/thumbnails/chr_bg_red"
 		"scaleImage"	"0"
-		"image"			"../hud/chr_bg_red"
-		"teambg_2"		"../hud/chr_bg_red"
-		"teambg_3"		"../hud/chr_bg_blue"
+		"teambg_2"		"replay/thumbnails/chr_bg_red"
+		"teambg_3"		"replay/thumbnails/chr_bg_blue"
 	}
 
 	"classmodelpanel" //character
@@ -347,7 +347,7 @@
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
 			"font"				"FontStoreOriginalPrice"
-			"font_minmode"		"TFFontSmall"
+			"font_minmode"		"TFFontSmallBold"
 			"xpos"				"5"
 			"xpos_minmode"		"5"
 			"ypos"				"12"

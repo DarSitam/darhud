@@ -27,10 +27,10 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/counter_red"
+		"image"			"replay/thumbnails/counter_red"
 		"scaleImage"	"0"	
-		"teambg_2"		"../hud/counter_red"
-		"teambg_3"		"../hud/counter_blue"			
+		"teambg_2"		"replay/thumbnails/counter_red"
+		"teambg_3"		"replay/thumbnails/counter_blue"			
 	}
 	
 	"ItemEffectMeterLabel"
