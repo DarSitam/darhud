@@ -368,7 +368,7 @@
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"HudFontSmallestBold"
+		"TextFont"		"HudFontSmallest"
 		
 		"TeamBlue"		"DarBlue"
 		"TeamRed"		"DarRed"
