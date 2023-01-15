@@ -5,13 +5,13 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-345"
-		"ypos"	"r230"
+		"xpos"	"0"
+		"ypos"	"0"
 		"xpos_minmode" "0"
 		"ypos_minmode" "r199"
 		"zpos" 			"5"
-		"wide"	"300"
-		"tall"	"200"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 	
 	HudObjectiveStatus
