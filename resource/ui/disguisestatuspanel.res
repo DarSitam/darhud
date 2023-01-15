@@ -47,7 +47,7 @@
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"c-344"
 		"ypos"			"12"
-		"xpos_minmode"	"3"
+		"xpos_minmode"	"2"
 		"ypos_minmode"	"44"
 		"zpos"			"-1"
 		"wide"			"135"
@@ -56,11 +56,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/spy_disguise_red"
+		"image"			"replay/thumbnails/spy_disguise_red"
 		"scaleImage"	"1"
-		"teambg_1"		"../hud/spy_disguise_red"
-		"teambg_2"		"../hud/spy_disguise_red"
-		"teambg_3"		"../hud/spy_disguise_blue"
+		"teambg_1"		"replay/thumbnails/spy_disguise_red"
+		"teambg_2"		"replay/thumbnails/spy_disguise_red"
+		"teambg_3"		"replay/thumbnails/spy_disguise_blue"
 	}
 
 	"DisguiseNameLabel"
@@ -68,8 +68,9 @@
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"HudFontSmallest"
+		"fgcolor_override" 		"White"
 		"xpos"			"c-305"
-		"ypos"			"12"
+		"ypos"			"13"
 		"xpos_minmode"	"43"
 		"ypos_minmode"	"47"
 		"zpos"			"1"
@@ -83,7 +84,6 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor"		"White"
 	}
 	
 	"WeaponNameLabel"
@@ -91,9 +91,9 @@
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"HudFontSmallest"
-		//"font_minmode"	"TFFontMedium"
+		"fgcolor_override" 		"White"
 		"xpos"			"c-305"
-		"ypos"			"27"
+		"ypos"			"26"
 		"xpos_minmode"	"43"
 		"ypos_minmode"	"58"
 		"zpos"			"1"
@@ -107,7 +107,6 @@
 		"textAlignment"	"North-West"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
 	}
 	
 	"SpectatorGUIHealth"

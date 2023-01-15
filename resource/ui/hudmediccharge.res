@@ -24,10 +24,10 @@
 		"tall"			"52"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/ubercharge_red"
-		"scaleImage"	"0"	
-		"teambg_2"		"../hud/ubercharge_red"
-		"teambg_3"		"../hud/ubercharge_blue"				
+		"image"			"replay/thumbnails/ubercharge_red"
+		"scaleImage"	"1"	
+		"teambg_2"		"replay/thumbnails/ubercharge_red"
+		"teambg_3"		"replay/thumbnails/ubercharge_blue"				
 	}
 	
 	"ChargeLabel"

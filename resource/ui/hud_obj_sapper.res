@@ -88,11 +88,11 @@
 			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
+			"image"			"replay/thumbnails/building/build_alt_red"
 			"scaleImage"	"1"	
-			"image"			""
-			"teambg_1"		""
-			"teambg_2"		"../hud/build_alt_red"
-			"teambg_3"		"../hud/build_alt_blue"
+			"teambg_1"		"replay/thumbnails/building/build_alt_red"
+			"teambg_2"		"replay/thumbnails/building/build_alt_red"
+			"teambg_3"		"replay/thumbnails/building/build_alt_blue"
 		}
 
 		"Health"

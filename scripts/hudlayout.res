@@ -5,13 +5,11 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-345"
-		"ypos"	"r230"
-		"xpos_minmode" "0"
-		"ypos_minmode" "r199"
-		"zpos" 			"5"
-		"wide"	"300"
-		"tall"	"200"
+		"xpos"	"0"
+		"ypos"	"0"
+		"zpos" 	"5"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 	
 	HudObjectiveStatus
@@ -368,7 +366,7 @@
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"HudFontSmallestBold"
+		"TextFont"		"HudFontSmallest"
 		
 		"TeamBlue"		"DarBlue"
 		"TeamRed"		"DarRed"

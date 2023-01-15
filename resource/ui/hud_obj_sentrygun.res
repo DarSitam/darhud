@@ -136,11 +136,11 @@
 			"tall"			"54"
 			"visible"		"1"
 			"enabled"		"1"
+			"image"			"replay/thumbnails/building/build_sentry_red"
 			"scaleImage"	"1"	
-			"image"					""
-			"teambg_1"				""
-			"teambg_2"				"../hud/build_sentry_red"
-			"teambg_3"				"../hud/build_sentry_blue"
+			"teambg_1"		"replay/thumbnails/building/build_sentry_red"
+			"teambg_2"		"replay/thumbnails/building/build_sentry_red"
+			"teambg_3"		"replay/thumbnails/building/build_sentry_blue"
 		}
 		
 		"Icon_Upgrade_1"

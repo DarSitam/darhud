@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+    "$baseTexture"        "vgui\replay\thumbnails\jetpack"
+    "$translucent"        "1"
+}
