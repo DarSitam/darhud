@@ -68,8 +68,9 @@
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"HudFontSmallest"
+		"fgcolor_override" 		"White"
 		"xpos"			"c-305"
-		"ypos"			"12"
+		"ypos"			"13"
 		"xpos_minmode"	"43"
 		"ypos_minmode"	"47"
 		"zpos"			"1"
@@ -83,7 +84,6 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor"		"White"
 	}
 	
 	"WeaponNameLabel"
@@ -91,9 +91,9 @@
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"HudFontSmallest"
-		//"font_minmode"	"TFFontMedium"
+		"fgcolor_override" 		"White"
 		"xpos"			"c-305"
-		"ypos"			"27"
+		"ypos"			"26"
 		"xpos_minmode"	"43"
 		"ypos_minmode"	"58"
 		"zpos"			"1"
@@ -107,7 +107,6 @@
 		"textAlignment"	"North-West"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
 	}
 	
 	"SpectatorGUIHealth"
