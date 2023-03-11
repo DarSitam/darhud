@@ -110,7 +110,7 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"87"
+			"xpos"			"86"
 			"zpos"			"5"
 			"wide"			"14"
 			"tall"			"14"

@@ -33,14 +33,29 @@
 		"xpos"			"0"
 		"ypos"			"19"
 		"zpos"			"0"
-		"wide"			"65"
-		"tall"			"28"
+		"wide"			"90"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/metal_red"
 		"scaleImage"	"0"	
 		"teambg_2"		"replay/thumbnails/metal_red"
 		"teambg_3"		"replay/thumbnails/metal_blue"
+	}
+
+	"AccountBGShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"AccountBGShadow"
+		"xpos"			"3"
+		"ypos"			"22"
+		"zpos"			"-1"
+		"wide"			"90"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/metal_shadow"
+		"scaleImage"	"0"	
 	}
 	
 	"MetalIcon"	
@@ -63,7 +78,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"13"
+		"xpos"			"11"
 		"ypos"			"17"
 		"zpos"			"2"
 		"wide"			"55"

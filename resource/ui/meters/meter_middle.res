@@ -10,7 +10,7 @@
 		"xpos_minmode" "r155"
 		"ypos_minmode" "r102"
 		"zpos" 			"5"
-		"wide"			"150"
+		"wide"			"155"
 		"tall"			"11"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -32,7 +32,22 @@
 		"teambg_2"		"replay/thumbnails/itemeffectmeter_red"
 		"teambg_3"		"replay/thumbnails/itemeffectmeter_blue"		
 	}
-	
+
+	"ItemEffectMeterBGShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBGShadow"
+		"xpos"			"2"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/itemeffectmeter_shadow"
+		"scaleImage"	"0"	
+	}
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -40,7 +55,7 @@
 		"xpos"					"95"
 		"ypos"					"-1"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"50"
 		"tall"					"10"
 		"autoResize"			"1"
 		"pinCorner"				"2"

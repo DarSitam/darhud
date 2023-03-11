@@ -3,14 +3,14 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"xpos"			"c-305"
+		"xpos"			"c-215"
 		"ypos"			"r45"
-		"xpos_minmode" 	"12"
+		"xpos_minmode" 	"130"
 		"ypos_minmode" 	"r16"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"6"
-		"wide"			"55"
+		"zpos"			"5"
+		"wide"			"60"
 		"tall"			"20"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -20,17 +20,32 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"55"
-		"tall"			"20"
+		"wide"			"58"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/killstreak_red"
 		"scaleImage"	"0"	
 		"teambg_2"		"replay/thumbnails/killstreak_red"
 		"teambg_3"		"replay/thumbnails/killstreak_blue"			
+	}
+
+	"ItemEffectMeterBGShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBGShadow"
+		"xpos"			"1"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"59"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/killstreak_shadow"
+		"scaleImage"	"0"			
 	}
 	
 	"ItemEffectMeterLabel"
@@ -78,10 +93,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"20"
+		"xpos"					"18"
 		"ypos"					"-2"
 		"zpos"					"2"
-		"wide"					"30"
+		"wide"					"35"
 		"tall"					"15"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -93,5 +108,20 @@
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmallBold"
 		"fgcolor"		        "White"
+	}
+
+	"StreakIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"StreakIcon"
+		"xpos"			"6"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"11"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/icons/killstreak"
+		"scaleImage"	"0"		
 	}
 }

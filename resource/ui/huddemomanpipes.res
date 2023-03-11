@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"r306"
+		"xpos"			"r309"
 		"ypos"			"r67"
 		"xpos_minmode"	"r194"
 		"ypos_minmode"	"r37"
@@ -64,7 +64,7 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"0"
+			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"30"
 			"visible"		"1"
@@ -73,13 +73,28 @@
 			"scaleImage"	"1"
 			"teambg_2"		"replay/thumbnails/sticky_red"
 			"teambg_3"		"replay/thumbnails/sticky_blue"	
+		}
+
+		"PipeIconShadow"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"PipeIconShadow"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"-10"
+			"wide"			"30"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/sticky_shadow"
+			"scaleImage"	"1"
 		}	
 		
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"-1"
+			"xpos"			"1"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"28"
@@ -101,7 +116,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"1"
+			"xpos"			"3"
 			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"28"
