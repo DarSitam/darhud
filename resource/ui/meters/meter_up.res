@@ -10,7 +10,7 @@
 		"xpos_minmode" "r150"
 		"ypos_minmode" "r114"
 		"zpos" 			"5"
-		"wide"			"150"
+		"wide"			"155"
 		"tall"			"11"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -31,6 +31,21 @@
 		"scaleImage"	"0"	
 		"teambg_2"		"replay/thumbnails/itemeffectmeter_red"
 		"teambg_3"		"replay/thumbnails/itemeffectmeter_blue"			
+	}
+
+	"ItemEffectMeterBGShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBGShadow"
+		"xpos"			"2"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/itemeffectmeter_shadow"
+		"scaleImage"	"0"	
 	}
 	
 	"ItemEffectMeterLabel"

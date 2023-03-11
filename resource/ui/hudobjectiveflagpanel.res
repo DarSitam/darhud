@@ -26,10 +26,10 @@
 		"ypos"			"r33"
 		"zpos"			"1"
 		"wide"			"50"
-		"tall"			"35"
+		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/ctf/ctf_blue"
+		"image"			"replay/thumbnails/ctf/ctf_left"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -47,6 +47,21 @@
 			"visible"	"0"
 		}
 	}
+
+	"LeftSideBGShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeftSideBGShadow"
+		"xpos"			"c-47"
+		"ypos"			"r21"
+		"zpos"			"1"
+		"wide"			"47"
+		"tall"			"21"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/ctf/ctf_left_shadow"
+		"scaleImage"	"1"	
+	}
 		
 	"RightSideBG"
 	{
@@ -56,10 +71,10 @@
 		"ypos"			"r33"
 		"zpos"			"1"
 		"wide"			"50"
-		"tall"			"35"
+		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/ctf/ctf_red"
+		"image"			"replay/thumbnails/ctf/ctf_right"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -76,6 +91,21 @@
 		{
 			"visible"	"0"
 		}
+	}
+
+	"RightSideBGShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RightSideBGShadow"
+		"xpos"			"c0"
+		"ypos"			"r21"
+		"zpos"			"0"
+		"wide"			"47"
+		"tall"			"21"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/ctf/ctf_right_shadow"
+		"scaleImage"	"1"
 	}
 		
 	"OutlineBG" //disabled outline

@@ -45,9 +45,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"c-344"
-		"ypos"			"12"
-		"xpos_minmode"	"2"
+		"xpos"			"c-348"
+		"ypos"			"13"
+		"xpos_minmode"	"-2"
 		"ypos_minmode"	"44"
 		"zpos"			"-1"
 		"wide"			"135"
@@ -58,9 +58,27 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/spy_disguise_red"
 		"scaleImage"	"1"
-		"teambg_1"		"replay/thumbnails/spy_disguise_red"
 		"teambg_2"		"replay/thumbnails/spy_disguise_red"
 		"teambg_3"		"replay/thumbnails/spy_disguise_blue"
+	}
+
+	"DisguiseStatusBGShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"DisguiseStatusBGShadow"
+		"xpos"			"c-350"
+		"ypos"			"17"
+		"xpos_minmode"	"-5"
+		"ypos_minmode"	"47"
+		"zpos"			"-2"
+		"wide"			"135"
+		"tall"	 		"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/spy_disguise_shadow"
+		"scaleImage"	"1"
 	}
 
 	"DisguiseNameLabel"

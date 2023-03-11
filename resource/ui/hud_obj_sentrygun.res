@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"54"
+		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -17,6 +17,7 @@
 	
 	"Background"
 	{
+		"wide" "0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -132,15 +133,29 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"54"
+			"wide"			"222"
+			"tall"			"58"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/building/build_sentry_red"
-			"scaleImage"	"1"	
-			"teambg_1"		"replay/thumbnails/building/build_sentry_red"
+			"scaleImage"	"0"
 			"teambg_2"		"replay/thumbnails/building/build_sentry_red"
 			"teambg_3"		"replay/thumbnails/building/build_sentry_blue"
+		}
+
+		"BuiltBgShadow"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"BuiltBgShadow"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"-2"
+			"wide"			"222"
+			"tall"			"58"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/building/build_sentry_shadow"
+			"scaleImage"	"0"
 		}
 		
 		"Icon_Upgrade_1"
@@ -195,7 +210,7 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"100"
+			"xpos"			"110"
 			"ypos"			"0"
 			"ypos"			"0"
 			"zpos"			"-2"
@@ -210,7 +225,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"118"
+			"xpos"			"123"
 			"ypos"			"11"
 			"zpos"			"1"
 			"wide"			"27"
@@ -226,11 +241,11 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"118"
-			"ypos"			"11"
+			"xpos"			"123"
+			"ypos"			"10"
 			"zpos"			"1"
-			"wide"			"35"
-			"tall"			"35"
+			"wide"			"30"
+			"tall"			"30"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
