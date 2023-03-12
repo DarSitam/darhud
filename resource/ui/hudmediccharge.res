@@ -44,6 +44,21 @@
 		"image"			"replay/thumbnails/uber_shadow"
 		"scaleImage"	"1"	
 	}
+
+	"BulletIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BulletIcon"
+		"xpos"			"160"
+		"ypos"			"12"
+		"zpos"			"0"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/icons/health"
+		"scaleImage"	"0"
+	}
 	
 	"ChargeLabel"
 	{

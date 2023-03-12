@@ -63,6 +63,21 @@
 		"teambg_3"		""
 	}
 
+	"BulletIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BulletIcon"
+		"xpos"			"160"
+		"ypos"			"12"
+		"zpos"			"0"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/icons/bullet"
+		"scaleImage"	"0"
+	}
+
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
