@@ -8,7 +8,7 @@
 		"xpos"	"c133"
 		"ypos"	"r103"
 		"xpos_minmode" "r201"
-		"ypos_minmode" "r64"
+		"ypos_minmode" "r72"
 		"zpos" 	"3"
 		"wide"	"250"
 		"tall"	"58"

@@ -6,7 +6,7 @@
 		"xpos"			"c272"
 		"ypos"			"r103"
 		"xpos_minmode" 	"r62"
-		"ypos_minmode" 	"r64"
+		"ypos_minmode" 	"r72"
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"4"
