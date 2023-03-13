@@ -110,7 +110,7 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"87"
+			"xpos"			"86"
 			"zpos"			"5"
 			"wide"			"14"
 			"tall"			"14"
@@ -227,11 +227,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
-			"xpos"			"14"
-			"ypos"			"50"
+			"xpos"			"13"
+			"ypos"			"49"
 			"zpos"			"1"
-			"wide"			"24"
-			"tall"			"24"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -265,7 +265,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageBottom"	
 			"xpos"			"20"
-			"ypos"			"117"
+			"ypos"			"118"
 			"zpos"			"1"
 			"wide"			"40"
 			"tall"			"40"
