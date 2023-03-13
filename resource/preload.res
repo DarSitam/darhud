@@ -15,6 +15,16 @@
 		"image"			"../hud/cart_point_blue"
 	}
 
+	"cart_point_blue_opaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cart_point_blue_opaque"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_blue_opaque"
+	}
+
     "cart_point_red"
 	{
 		"ControlName"	"ImagePanel"
@@ -24,7 +34,16 @@
 		"enabled"		"1"
 		"image"			"../hud/cart_point_red"
 	}
-
+	
+	"cart_point_red_opaquez"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cart_point_red_opaque"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_red_opaque"
+	}
     "cart_point_neutral"
 	{
 		"ControlName"	"ImagePanel"
