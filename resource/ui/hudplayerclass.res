@@ -19,7 +19,7 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"c-325"
-		"ypos"			"r129"
+		"ypos"			"r130"
 		"xpos_minmode"	"20"
 		"ypos_minmode"	"r98"
 		"zpos"			"2"
@@ -74,8 +74,8 @@
 		"xpos_minmode"	"0"
 		"ypos_minmode"	"r72"
 		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"50"
+		"wide"			"212"
+		"tall"			"53"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/chr_red"
@@ -106,7 +106,7 @@
 	"classmodelpanelBGShadow" //Character background
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
+		"fieldName"		"classmodelpanelBGShadow"
 		"xpos"			"c-349"
 		"ypos"			"r99"
 		"xpos_minmode"	"-4"

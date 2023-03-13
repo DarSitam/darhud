@@ -1,5 +1,12 @@
 "UnlitGeneric"
 {
-    "$baseTexture"        "vgui\replay\thumbnails\payload\cart_point_neutral"
     "$translucent"        "1"
+    "$baseTexture"        "vgui\replay\thumbnails\payload\cart_point_mask"
+    "$alpha"            "1"
+    "$vertexalpha"        "1"
+    "$vertexcolor"        "1"
+    "$no_fullbright"    "1"
+    "$ignorez"            "1"
+    "$color"            "{192 192 192}"
+    "%keywords"            "tf"
 }

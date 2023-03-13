@@ -68,7 +68,7 @@
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"BuiltBg"
 			"xpos"			"0"
-			"ypos"			"-10"
+			"ypos"			"-14"
 			"zpos"			"-1"
 			"wide"			"120"
 			"tall"			"32"
@@ -79,6 +79,21 @@
 			"teambg_1"		"replay/thumbnails/building/build_alt_red"
 			"teambg_2"		"replay/thumbnails/building/build_alt_red"
 			"teambg_3"		"replay/thumbnails/building/build_alt_blue"
+		}
+
+		"BuiltBgShadow"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"BuiltBgShadow"
+			"xpos"			"2"
+			"ypos"			"-12"
+			"zpos"			"-2"
+			"wide"			"120"
+			"tall"			"32"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/building/build_alt_shadow"
+			"scaleImage"	"0"	
 		}
 		
 		"Icon_Upgrade_1"
@@ -150,9 +165,9 @@
 			"fieldName"		"Health"
 			"font"			"Default"
 			"xpos"			"6"
-			"ypos"			"2"
+			"ypos"			"0"
 			"wide"			"8"
-			"tall"			"15"
+			"tall"			"18"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

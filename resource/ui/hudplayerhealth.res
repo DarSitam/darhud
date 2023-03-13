@@ -28,8 +28,8 @@
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthImageBG" //Health cross background (black part)
