@@ -5,7 +5,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c145"
+		"xpos"	"c133"
 		"ypos"	"r103"
 		"xpos_minmode" "r201"
 		"ypos_minmode" "r64"
