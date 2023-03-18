@@ -5,6 +5,7 @@
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-220"
 		"ypos"					"r160"
+		"zpos"					"7"
 		"xpos_minmode"			"130"
 		"ypos_minmode"			"r134"
 		"wide"					"116"
