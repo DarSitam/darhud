@@ -9,7 +9,7 @@
 		"ypos_minmode" 	"r16"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"5"
+		"zpos"			"10"
 		"wide"			"60"
 		"tall"			"20"
 		"MeterFG"		"White"
