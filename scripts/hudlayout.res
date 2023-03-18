@@ -119,9 +119,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"295"
 		"wide"	 	"100"
-		"tall"	 	"18"
+		"tall"	 	"19"
 		"priority"	"40"
 	}
 	
@@ -131,9 +131,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"330"
+		"ypos"		"340"
 		"wide"	 	"252"
-		"tall"	 	"18"
+		"tall"	 	"19"
 		"priority"	"45"
 	}
 	
@@ -145,7 +145,7 @@
 		"xpos"		"c-126"
 		"ypos"		"335"
 		"wide"	 	"252"
-		"tall"	 	"18"
+		"tall"	 	"19"
 		"priority"	"35"
 
 	}
