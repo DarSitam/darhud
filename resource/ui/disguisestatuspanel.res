@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"c-348"
+		"xpos"			"c-346"
 		"ypos"			"13"
 		"xpos_minmode"	"-2"
 		"ypos_minmode"	"44"
@@ -132,7 +132,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"c-338"
-		"ypos"			"9"
+		"ypos"			"12"
 		"xpos_minmode"	"10"
 		"ypos_minmode"	"44"
 		"wide"			"38"

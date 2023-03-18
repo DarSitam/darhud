@@ -17,11 +17,6 @@
 		"teambg_1"			"replay/thumbnails/square_red"
 		"teambg_2"			"replay/thumbnails/square_red"
 		"teambg_3"			"replay/thumbnails/square_blue"
-
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
 	}
 
 	"TargetIDBG_Spec_Blue"
@@ -36,11 +31,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"fillcolor"			"DarBlue"
-
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
 	}
 
 	"TargetIDBG_Spec_Red"
@@ -55,11 +45,20 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"fillcolor"			"DarRed"
+	}
 
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height"	"0"
+	"TargetIDBGShadow"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"TargetIDBGShadow"
+		"xpos"				"0"
+		"ypos"				"18"
+		"zpos"				"2"
+		"wide"				"f0"
+		"tall"	 			"1"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"HUDTextShadow"
 	}
 
 	"TargetNameLabel"
@@ -69,16 +68,35 @@
 		"font"			"HudFontSmallest"
 		"xpos"			"0"
 		"ypos"			"8"
+		"zpos"			"3"
+		"wide"			"640"
+		"tall"			"9"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"0"
+		"labelText"		"%targetname%"
+		"textAlignment"		"west"
+		"disabledfgcolor2_override" "White"
+	}
+
+	"TargetNameLabelShadow"
+	{	
+		"ControlName"	"Label"
+		"fieldName"		"TargetNameLabelShadow"
+		"font"			"HudFontSmallest"
+		"xpos"			"49"
+		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"9"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor_override"		"255 255 255 255"
+		"disabledfgcolor2_override" "HUDTextShadow"
 	}
 
 	"TargetDataLabel"
@@ -95,9 +113,10 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"west"
+		"disabledfgcolor2_override" "White"
 	}
 
 	"SpectatorGUIHealth"
@@ -137,8 +156,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"8"
-		"ypos"			"19"
+		"xpos"			"43"
+		"ypos"			"1"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
