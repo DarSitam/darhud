@@ -210,11 +210,12 @@ Scheme
 		"UpgradeDisabledBg"		"79 77 68 255"
 
 		// Custom colors
-		"HUDTextShadow"			"20 20 20 255"
-		"HUDUberShadow"			"20 20 20 200"
+		"HUDTextShadow"			"14 14 14 255"
+		"HUDUberShadow"			"14 14 14 200"
 		"HealGreen"				"0 202 133 255"
 		"DarRed" 				"173 54 54 255"
 		"DarBlue"				"69 100 135 255"
+		"LowHealthLightRed"			"255 70 70 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
