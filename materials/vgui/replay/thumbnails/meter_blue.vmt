@@ -1,12 +1,12 @@
 "UnlitGeneric"
 {
     "$translucent"        "1"
-    "$baseTexture"        "vgui\replay\thumbnails\itemeffectmeter_mask"
+    "$baseTexture"        "vgui\replay\thumbnails\meter_mask"
     "$alpha"            "1"
     "$vertexalpha"        "1"
     "$vertexcolor"        "1"
     "$no_fullbright"    "1"
     "$ignorez"            "1"
-    "$color"            "{67 99 133}"
+    "$color"            "{77 116 139}"
     "%keywords"            "tf"
 }

@@ -224,12 +224,12 @@ event HudHealthBonusPulseLoop
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse 0.0
-	StopEvent HudHealthBonusPulseLoop 0.0
-
 	Animate PlayerStatusHealthValue 		FgColor		"White" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 		FgColor		"White" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"White" Accel 0.0 0.0
+
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
 }
 
 //===========================================
@@ -237,14 +237,15 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-
-	Animate PlayerStatusHealthValue 		FgColor		"LowHealthRed" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator 		FgColor		"LowHealthRed" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"LowHealthRed" Accel 0.0 0.0
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	
+	Animate PlayerStatusHealthValue 		FgColor		"255 220 51 255" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 		FgColor		"BrightYellow" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"BrightYellow" Accel 0.0 0.0
+
+	RunEvent HudHealthDyingPulseLoop	0.3
 }
 
 // call to loop HudHealthDyingPulse
@@ -257,10 +258,6 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-
-	Animate PlayerStatusHealthValue 		FgColor		"White" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator 		FgColor		"White" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"White" Accel 0.0 0.0
 }
 
 //===========================================
@@ -355,8 +352,8 @@ event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
 	
-	Animate PlayerStatusSpyOutlineImage		Position	"0 r300"	Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage		Size		"300 300"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"400 400"		Linear 0.0 0.2
 
 	RunEvent HudSpyDisguiseHide	0.7
 }
@@ -440,11 +437,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"HealGreen"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"White"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"HealGreen"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"White"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -460,8 +457,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"White"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
 }
 
 //====================================

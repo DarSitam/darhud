@@ -1,12 +1,12 @@
 "UnlitGeneric"
 {
     "$translucent"        "1"
-    "$baseTexture"        "vgui\replay\thumbnails\spy_disguise_mask"
-    "$alpha"            "1"
+    "$baseTexture"        "vgui\replay\thumbnails\meter_mask"
+    "$alpha"            "0.8"
     "$vertexalpha"        "1"
     "$vertexcolor"        "1"
     "$no_fullbright"    "1"
     "$ignorez"            "1"
-    "$color"            "{14 14 14}"
+    "$color"            "{50 50 50}"
     "%keywords"            "tf"
 }

@@ -1,3 +1,6 @@
+#base "clientscheme_fonts.res"
+#base "clientscheme_colors.res"
+
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -105,7 +108,7 @@ Scheme
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"255 255 255 255"
+		"ProgressOffWhite"	"251 235 202 255"
 		"ProgressBackground"	"250 234 201 51"
 		"HealthBgGrey"		"72 71 69 255"
 		
@@ -208,14 +211,6 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
-
-		// Custom colors
-		"HUDTextShadow"			"14 14 14 255"
-		"HUDUberShadow"			"14 14 14 200"
-		"HealGreen"				"0 202 133 255"
-		"DarRed" 				"173 54 54 255"
-		"DarBlue"				"69 100 135 255"
-		"LowHealthLightRed"			"255 70 70 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -838,6 +833,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"
+				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1213,8 +1209,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"50"
+				"name"		"TF2"
+				"tall"		"16"
+				"tall_hidef"	"22"
+				"tall_lodef"	"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
