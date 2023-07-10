@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"2"
+		"xpos"			"5"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"48"
@@ -79,7 +79,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"Dar_HealthValue"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"White"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -98,7 +98,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"Dar_HealthValue"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"HudShadow"
 	}
 	"PlayerStatusMaxHealthValue"
@@ -112,12 +112,12 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"155"
-		"tall"			"20"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontSmall"
 		"fgcolor"		"White"
 	}
 	"PlayerStatusBleedImage"
