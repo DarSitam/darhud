@@ -80,7 +80,7 @@
 		"pin_to_sibling" 		"StreakIcon"
 		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
-		"xpos"					"0"
+		"xpos"					"2"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"35"
