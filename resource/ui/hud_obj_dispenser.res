@@ -257,7 +257,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
-				"bgcolor_override" 		"0 0 0 192"
+				"bgcolor_override" 		"255 255 255 24"
 				"fgcolor_override" 		"White"
 				"xpos"			"0"
 				"ypos"			"16"

@@ -3,11 +3,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c223"
-		"ypos"					"r129"
-		"xpos_minmode" 			"r115"
-		"ypos_minmode" 			"r100"
-		"zpos"					"2"
+		"xpos"					"c210"
+		"ypos"					"r139"
+		"zpos"					"-1"
 		"wide"					"116"
 		"tall"  				"51"
 		"visible" 				"1"
@@ -17,13 +15,13 @@
 	
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"58"
+		"delta_item_x"			"62"
 		"delta_item_start_y"	"15"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"0 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"HudFontMediumSmall"
 	}
 	
 	"AccountBG"
@@ -60,18 +58,8 @@
 	
 	"MetalIcon"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"19"
-		"ypos"			"116"
-		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"AccountValue"
@@ -94,5 +82,27 @@
 		"brighttext"	"0"
 		"font"			"HudFontMediumSmallBold"
         "fgcolor"		"White"
+	}
+
+	"AccountValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValue"
+		"xpos"			"12"
+		"ypos"			"18"
+		"zpos"			"1"
+		"wide"			"55"
+		"tall"			"26"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontMediumSmallBold"
+        "fgcolor"		"HudShadow"
 	}
 }
