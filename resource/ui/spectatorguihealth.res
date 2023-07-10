@@ -86,7 +86,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"HudTextShadow"
+		"fgcolor"		"HudShadow"
 	}
 
 
