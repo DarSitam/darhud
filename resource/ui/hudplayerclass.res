@@ -96,7 +96,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBGShadow"
 		"xpos"			"103"
-		"ypos"			"r147"
+		"ypos"			"r149"
 		"zpos"			"0"
 		"wide"			"120"
 		"tall"			"120"
