@@ -3,18 +3,15 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c210"
-		"ypos"					"r139"
+		"xpos"					"r210"
+		"ypos"					"r129"
+		"xpos_minmode"					"c110"
 		"zpos"					"-1"
 		"wide"					"116"
 		"tall"  				"51"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
-	}
-	
-	"CHudAccountPanel"
-	{
 		"delta_item_x"			"62"
 		"delta_item_start_y"	"15"
 		"delta_item_end_y"		"0"
@@ -22,6 +19,10 @@
 		"NegativeColor"			"0 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumSmall"
+	}
+	
+	"CHudAccountPanel"
+	{
 	}
 	
 	"AccountBG"
