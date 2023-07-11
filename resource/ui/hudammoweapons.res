@@ -1,5 +1,16 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
+	HudWeaponAmmo
+	{
+		"fieldName" "HudWeaponAmmo"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"r223"
+		"xpos_minmode" "c99"
+		"ypos"	"r114"
+		"wide"	"125"
+		"tall"	"85"
+	}
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"	"CTFImagePanel"

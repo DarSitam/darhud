@@ -7,6 +7,7 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"80"
 		"ypos"			"r130"
+		"xpos_minmode"			"c-240"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"130"
