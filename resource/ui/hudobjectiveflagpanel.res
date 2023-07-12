@@ -61,6 +61,11 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/ctf/ctf_left_shadow"
 		"scaleImage"	"1"	
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 		
 	"RightSideBG"
@@ -106,6 +111,11 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/ctf/ctf_right_shadow"
 		"scaleImage"	"1"
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 		
 	"OutlineBG" //disabled outline
@@ -381,11 +391,11 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-115"
+		"xpos"			"c-78"
 		"ypos"			"r48"
 		"zpos"			"5"
-		"wide"			"90"
-		"tall"			"90"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -407,7 +417,10 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"xpos"		"cs-0.5"
+			"ypos"		"r60"
+			"wide"			"70"
+			"tall"			"70"
 		}
 		
 		"if_no_flags"
@@ -420,11 +433,11 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-15"
+		"xpos"			"c28"
 		"ypos"			"r48"
 		"zpos"			"5"
-		"wide"			"100"
-		"tall"			"90"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 				
@@ -446,7 +459,8 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"wide"			"0"
+			"tall"			"0"
 		}
 		
 		"if_no_flags"
@@ -474,7 +488,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r70"
 		}
 	}
 

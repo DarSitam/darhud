@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"Arrow"
-		"xpos"			"40"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"50"
@@ -13,11 +13,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
+	
 	"Briefcase"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Briefcase"
-		"xpos"			"55"
+		"xpos"			"15"
 		"ypos"			"15"
 		"zpos"			"2"
 		"wide"			"20"
@@ -39,7 +40,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"StatusIcon"
-		"xpos"			"53"
+		"xpos"			"13"
 		"ypos"			"19"
 		"zpos"			"3"
 		"wide"			"25"
