@@ -54,7 +54,7 @@
 		"pin_to_sibling" "PlayerStatusHealthValue"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
-		"xpos"			"72"
+		"xpos"			"71"
 		"ypos"			"32"
 		"zpos"			"2"
 		"wide"			"55"
