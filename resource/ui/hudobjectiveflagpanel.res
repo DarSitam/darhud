@@ -142,7 +142,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-40"
+		"xpos"			"c-37"
 		"ypos"			"r45"
 		"zpos"			"8"
 		"wide"			"30"
@@ -209,7 +209,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c10"
+		"xpos"			"c7"
 		"ypos"			"r45"
 		"zpos"			"8"
 		"wide"			"30"
@@ -506,7 +506,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"White"
 	}
 	
