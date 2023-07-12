@@ -22,22 +22,6 @@
 		"tall"	"480"
 	}	
 	
-	HudKothTimeStatus
-	{
-		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c-100"
-		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
-		
-		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
-	
-		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
-	}	
 
 	HudItemEffectMeter
 	{
@@ -191,7 +175,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"285"
 		"wide"	 	"252"
 		"tall"	 	"19"
 		"priority"	"40"
