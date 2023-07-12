@@ -21,7 +21,7 @@
 
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG_Spec_Blue"
 		"xpos"				"0"
 		"ypos"				"7"
@@ -30,12 +30,12 @@
 		"tall"	 			"35"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"DarBlue"
+		"image"				"replay/thumbnails/square_blue"
 	}
 
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG_Spec_Red"
 		"xpos"				"0"
 		"ypos"				"7"
@@ -44,7 +44,7 @@
 		"tall"	 			"36"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"DarRed"
+		"image"				"replay/thumbnails/square_red"
 	}
 
 	"TargetIDBGShadow"
