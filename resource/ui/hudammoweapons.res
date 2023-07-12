@@ -8,8 +8,9 @@
 		"xpos"	"r223"
 		"xpos_minmode" "c99"
 		"ypos"	"r99"
+		"zpos"			"1"
 		"wide"	"125"
-		"tall"	"85"
+		"tall"	"100"
 	}
 	"HudWeaponAmmoBG"
 	{
@@ -52,8 +53,8 @@
 		"pin_to_sibling" "HudWeaponAmmoBG"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
-		"xpos"			"2"
-		"ypos"			"4"
+		"xpos"			"4"
+		"ypos"			"8"
 		"zpos"			"0"
 		"wide"			"92"
 		"tall"			"92"
