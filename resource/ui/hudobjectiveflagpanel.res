@@ -66,6 +66,12 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
 	}
 		
 	"RightSideBG"
@@ -116,6 +122,12 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
 	}
 		
 	"OutlineBG" //disabled outline
