@@ -19,7 +19,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"TimePanelProgressBar"
 	{
 		"ControlName"			"CTFProgressBar"
@@ -193,7 +193,7 @@
 		"fieldName"		"SetupLabel"
 		"font"			"HudFontSmallest"
 		"fgcolor"		"White"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"150"
