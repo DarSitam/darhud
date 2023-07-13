@@ -43,6 +43,7 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
 			"ypos"					"0"
+			"tall"					"30"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -72,10 +73,10 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"27"
-				"ypos"			"12"
-				"tall"			"10"
-				"wide"			"35"
+				"xpos"			"24"
+				"ypos"			"11"
+				"tall"			"12"
+				"wide"			"40"
 				"font"			"HudFontSmall"
 			
 			}
@@ -106,6 +107,7 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"0"
+			"tall"					"30"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -135,10 +137,10 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"r60"
-				"ypos"			"12"
-				"wide"			"35"
-				"tall"			"10"
+				"xpos"			"r63"
+				"ypos"			"11"
+				"wide"			"40"
+				"tall"			"12"
 				"font"			"HudFontSmall"
 			
 			}
