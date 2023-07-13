@@ -56,7 +56,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"80"
-		"tall"			"36"
+		"tall"			"38"
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
