@@ -74,7 +74,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"24"
-				"ypos"			"11"
+				"ypos"			"10"
 				"tall"			"12"
 				"wide"			"40"
 				"font"			"HudFontSmall"
@@ -138,7 +138,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"r63"
-				"ypos"			"11"
+				"ypos"			"10"
 				"wide"			"40"
 				"tall"			"12"
 				"font"			"HudFontSmall"

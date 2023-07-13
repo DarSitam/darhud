@@ -199,7 +199,7 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"-2"
+		"ypos"			"0"
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"
@@ -214,8 +214,8 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
+		"wide"				"0"
+		"tall"				"0"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
@@ -278,7 +278,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"cs-0.5"
-		"ypos"				"0"
+		"ypos"				"5"
 		"zpos"				"2"
 		"wide"				"150"
 		"tall"				"100"
@@ -295,8 +295,8 @@
 		if_match
 		{
 			"xpos"					"cs-0.5"
+			"ypos"					"0"
 			"wide"					"130"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -312,10 +312,10 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmallSecondary"
 			"fgcolor"		"White"
-			"xpos"			"50"
+			"xpos"			"45"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"30"
+			"wide"			"40"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
@@ -327,7 +327,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"12"
+				"ypos"			"11"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 			}
@@ -366,8 +366,8 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
+			"color_portrait_bg_red"	"171 72 72 255"
+			"color_portrait_bg_blue"	"77 116 139 255"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"84 191 58 255"

@@ -70,7 +70,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
+			"ypos"					"19"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
 		}
