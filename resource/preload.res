@@ -63,4 +63,26 @@
 		"enabled"		"1"
 		"image"			"../hud/cart_point_neutral_opaque"
 	}
+
+	// Timer
+
+	"objectives_timepanel_red_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"objectives_timepanel_red_bg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_red_bg"
+	}
+
+	"objectives_timepanel_blue_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"objectives_timepanel_blue_bg"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_blue_bg"
+	}
 }
