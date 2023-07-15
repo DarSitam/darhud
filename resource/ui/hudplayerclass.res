@@ -62,7 +62,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"100"
-		"ypos"			"r150"
+		"ypos"			"r137"
 		"xpos_minmode"			"c-220"
 		"zpos"			"1"
 		"wide"			"120"
