@@ -74,7 +74,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"			"c-96"
+		"xpos"			"c-97"
 		"ypos"			"129"
 		"zpos"			"1"
 		"wide"			"12"
@@ -222,7 +222,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
-			"xpos"			"15"
+			"xpos"			"14"
 			"ypos"			"52"
 			"zpos"			"1"
 			"wide"			"22"
