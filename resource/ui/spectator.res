@@ -20,8 +20,7 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"22"	[$WIN32]
-		"tall"			"104"	[$X360]		
+		"tall"			"22"
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -34,12 +33,10 @@
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
+		"ypos"			"r70"
 		"ypos_minmode"	"r20"
-		"tall"			"70"	[$WIN32]
+		"tall"			"70"
 		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -51,12 +48,9 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r0"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
+		"ypos"			"r0"
 		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"tall"			"70"	// this needs to match the size of BottomBar
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -69,17 +63,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
+		"fgcolor_override"		"White"
+		"xpos"			"c-300"
 		"xpos_minmode"	"0"
-		"xpos"			"c-200"	[$X360]
-		"ypos"			"50"	[$WIN32]
-		"ypos_minmode"	"3"		[$WIN32]
-		"ypos"			"67"	[$X360]
-		"ypos_hidef"	"79"
-		"ypos_lodef"	"85"
-		"wide"			"600"	[$WIN32]
+		"ypos"			"35"
+		"ypos_minmode"	"3"
+		"wide"			"600"
 		"wide_minmode"	"300"
-		"wide"			"400"	[$X360]
 		"tall"			"18"
 		"tall_hidef"		"23"
 		"autoResize"		"0"
@@ -98,6 +88,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BuyBackLabel"
+		"fgcolor_override"		"White"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"400"
@@ -117,19 +108,14 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmall"
-		"font_hidef"		"HudFontMedium"
-		"xpos"			"15"	[$WIN32]
-		"ypos"			"2"	[$WIN32]
-		"xpos"			"r285"	[$X360]
-		"ypos"			"32"	[$X360]
-		"wide"			"240"	[$WIN32]
-		"wide"			"220"	[$X360]
-		"tall"			"20"
-		"tall_hidef"		"30"
+		"fgcolor_override"		"White"
+		"xpos"			"15"
+		"ypos"			"0"
+		"wide"			"240"
+		"tall"			"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"west"
@@ -139,22 +125,13 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"xpos"			"c-85"
-		"xpos_hidef"	"c-65"
-		"xpos_lodef"	"40"
 		"ypos"			"68"
-		"ypos_hidef"	"90"
-		"ypos_lodef"	"30"	
 		"wide"			"170"
-		"wide_hidef"	"130"
-		"wide_lodef"	"220"
 		"tall"			"15"
-		"tall_lodef"	"25"
 		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
@@ -168,18 +145,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"15"		[$WIN32]
-		"ypos"			"r85"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"40"	[$X360]
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
+		"xpos"			"15"
+		"ypos"			"r85"
+		"wide"			"60"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"west"
@@ -190,18 +163,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"55"	[$WIN32]
-		"ypos"			"r85"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"40"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]		
+		"xpos"			"55"
+		"ypos"			"r85"	
+		"wide"			"125"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
 		"textAlignment"		"west"
@@ -211,18 +180,15 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"15"	[$WIN32]
-		"ypos"			"r75"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"50"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
+		"xpos"			"15"
+		"ypos"			"r75"
+		"wide"			"60"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"west"
@@ -232,18 +198,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"55"	[$WIN32]
-		"ypos"			"r75"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"50"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]	
+		"xpos"			"55"
+		"ypos"			"r75"	
+		"wide"			"125"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
@@ -253,71 +215,54 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"15"	[$WIN32]
-		"ypos"			"r65"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]		
+		"xpos"			"15"
+		"ypos"			"r65"
+		"wide"			"60"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
 	}
+
 	"CycleTargetRevLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"55"	[$WIN32]
-		"ypos"			"r65"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]
+		"xpos"			"55"
+		"ypos"			"r65"
+		"wide"			"125"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
 	}
+
 	"TipLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
 		"xpos"			"15"
-		"xpos_hidef"	"60"
-		"xpos_lodef"	"45"
 		"ypos"			"r64"
-		"ypos_lodef"		"28"
-		"ypos_hidef"		"35"
 		"wide"			"240"
-		"wide_hidef"	"230"
-		"wide_lodef"	"240"
 		"tall"			"64"
-		"tall_hidef"	"70"
-		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%tip%"
-		"textAlignment"		"center"	[$WIN32]
-		"textAlignment"		"north-west"	[$X360]
-		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"DefaultVerySmall"
+		"textAlignment"		"center"
+		"font"			"TF2Default"
 		"wrap"			"1"
 	}
 	"itempanel"
@@ -330,8 +275,8 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"0 0 0 255"
+		"PaintBackgroundType"	"1"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
