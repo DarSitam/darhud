@@ -7,7 +7,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"xpos"			"80"
 		"ypos"			"r18"
-		"xpos_minmode" "c190"
+		"xpos_minmode" "c-240"
 	}
 	
 	"Icon"
