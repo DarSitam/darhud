@@ -5,7 +5,7 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r223"
+		"xpos"			"r212"
 		"ypos"			"r115"
 		"xpos_minmode" "c99"
 		"wide"			"220"
