@@ -9,6 +9,6 @@
 
 	"bg"
     {
-		"fillcolor"			"HUDBlueTeamSolid"
+		"bgcolor_override"			"HUDBlueTeamSolid"
     }
 }

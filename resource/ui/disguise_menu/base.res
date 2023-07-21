@@ -44,7 +44,7 @@
     
     "bg"
     {
-        "ControlName"		"ImagePanel"
+        "ControlName"		"panel"
 		"fieldName"		"bg"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -55,6 +55,7 @@
 		"enabled"		"1"
 		"scaleImage"		"1"	
 		//"fillcolor"			"0 0 0 192"
+		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
     }
 		

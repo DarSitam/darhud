@@ -9,7 +9,7 @@
 
 	"bg"
     {
-		"fillcolor"			"HUDRedTeamSolid"
+		"bgcolor_override"			"HUDRedTeamSolid"
     }
 
 	"NewNumberLabel"
