@@ -138,6 +138,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
+		"fgcolor"		"White"
 		"xpos"			"16"
 		"ypos"			"33"
 		"zpos"			"5"
