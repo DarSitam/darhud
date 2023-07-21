@@ -138,7 +138,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"White"
-		"xpos"			"6"
+		"xpos"			"4"
 		"ypos"			"22"
 		"zpos"			"5"
 		"wide"			"80"
