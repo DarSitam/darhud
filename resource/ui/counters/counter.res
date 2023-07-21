@@ -3,8 +3,8 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"xpos"			"r130"
-		"ypos"			"r45"
+		"xpos"			"r135"
+		"ypos"			"r43"
 		"xpos_minmode" "c190"
 		"visible"		"1"
 		"enabled"		"1"
@@ -22,8 +22,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"57"
-		"tall"			"25"
+		"wide"			"48"
+		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/counter_red"
@@ -42,8 +42,8 @@
 		"xpos"			"3"
 		"ypos"			"3"
 		"zpos"			"-1"
-		"wide"			"57"
-		"tall"			"25"
+		"wide"			"48"
+		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/counter_shadow"
@@ -54,8 +54,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"29"
-		"ypos"					"2"
+		"xpos"					"25"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"20"	
@@ -67,7 +67,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"HudFontMediumSmall"
 		"fgcolor"		        "White"
 	}
 

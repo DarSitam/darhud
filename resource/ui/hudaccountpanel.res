@@ -3,7 +3,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r210"
+		"xpos"					"r215"
 		"ypos"					"r129"
 		"xpos_minmode"					"c110"
 		"zpos"					"-1"

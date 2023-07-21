@@ -6,10 +6,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"c66"
+		"ypos"			"c46"
 		"zpos"			"3"
 		"wide"			"50"
-		"tall"			"5"	
+		"tall"			"4"	
 	}	
 
 	"ChargeMeter"
@@ -20,7 +20,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"50"
-		"tall"			"5"				
+		"tall"			"4"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
