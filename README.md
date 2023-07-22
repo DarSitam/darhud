@@ -2,6 +2,8 @@
 
 ## A more modern take of the default hud
 
+Warning : HUD in development. Expect jank
+
 ### Credits
 - The huds.tf discord for an enormous help
 - RaysFire / JarateKing for some documentations
