@@ -5,6 +5,7 @@
 	"ItemNameLabel"
 	{
 		"fgcolor"		"0 255 0 255"
+		"font"			"DefaultSmall"
 	}
 
 	"ItemBackground"
@@ -25,5 +26,6 @@
 	"NumberLabel"
 	{
 		"fgcolor"		"0 0 0 255"
+		"font"			"Default"
 	}
 }

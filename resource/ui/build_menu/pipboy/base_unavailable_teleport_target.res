@@ -5,6 +5,7 @@
 	"ItemNameLabel"
 	{
 		"fgcolor"		"0 255 0 255"
+		"font"			"DefaultSmall"
 	}
 	
 	"ItemBackground"	
@@ -15,6 +16,7 @@
 	"CantBuildReason"
 	{
 		"fgcolor"		"0 255 0 255"
+		"font"			"Default"
 	}
 		
 	"NumberBg"	
@@ -25,5 +27,6 @@
 	"NumberLabel"
 	{
 		"fgcolor"		"Black"
+		"font"			"Default"
 	}
 }
