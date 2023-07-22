@@ -628,8 +628,8 @@
 		"enabled" "1"
 		"xpos" "c45"
 		"ypos" "cs-0.5"
-		"wide" "20"
-		"tall" "20"
+		"wide" "25"
+		"tall" "25"
 	}
 
 	HudVoiceStatus
@@ -870,10 +870,11 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
+		"xpos"			"0"
+		"xpos_minmode"	"c-250"
+		"ypos"			"cs-0.5"
+		"wide"			"140"
+		"tall"			"174"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -894,10 +895,11 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
+		"xpos"			"0"
+		"xpos_minmode"	"c-250"
+		"ypos"			"cs-0.5"
+		"wide"			"140"
+		"tall"			"110"
 		"PaintBackgroundType"	"0"
 	}
 	
