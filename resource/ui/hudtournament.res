@@ -23,7 +23,7 @@
 
 		"avatar_width"	"63"
 		"spacer"		"5"
-		"name_width"	"57"
+		"name_width"	"63"
 		"horiz_inset"	"2"
 
 		if_mvm
@@ -33,9 +33,9 @@
 			"wide"					"500"
 			"tall"					"480"
 
-			"team1_player_base_y"			"66"
+			"team1_player_base_y"			"55"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"65"
 		}
 
 		if_competitive
@@ -89,16 +89,19 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"50"
+			"wide"			"55"
 			"tall"			"33"
 			"zpos"			"1"
 
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 
+			"paintborder"			"0"
+			"paintbackground"		"0"
+
 			if_mvm
 			{
-				"wide"		"55"
+				"wide"		"60"
 				"tall"		"35"
 			}
 
@@ -113,17 +116,42 @@
 				"wide"		"55"
 				"tall"		"35"
 			}
+			
+			"background"
+			{
+				"ControlName"	"CTFImagePanel"
+				"fieldName"		"background"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-5"
+				"wide"			"f0"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"image"			"replay/thumbnails/square_red"
+				"scaleImage"		"1"
+				"teambg_2"			"replay/thumbnails/square_red"
+				"teambg_3"			"replay/thumbnails/square_blue"
+				"alpha"				"210"
+				
+				if_readymode 
+				{
+					"visible"	"0"
+				}
+			}
 
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"ScoreboardSmall"
-				"xpos"			"3"
-				"ypos"			"24"
+				"fgcolor"		"White"
+				"xpos"			"0"
+				"ypos"			"26"
 				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
+				"wide"			"60"
+				"tall"			"9"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -140,6 +168,20 @@
 					"textAlignment"		"center"
 					"proportionaltoparent" "1"
 				}
+			}
+
+			"playernamebg"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"playernamebg"
+				"xpos"			"0"
+				"ypos"			"26"
+				"zpos"			"5"
+				"wide"			"60"
+				"tall"			"9"
+				"visible"		"1"
+				"paintBackground" "1"
+				"bgcolor_override"	"0 0 0 128"
 			}
 
 			"classimage"
@@ -248,9 +290,15 @@
 
 			"ReadyBG"
 			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"		"ReadyBG"
-				"xpos"			"30"
+				"wide" "0"
+				"tall"	"0"
+			}
+
+			"ReadyBG1"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"ReadyBG1"
+				"xpos"			"35"
 				"ypos"			"6"
 				"zpos"			"-1"
 				"wide"			"16"
@@ -259,13 +307,8 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
-
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"paintbackground"	"1"
+				"bgcolor_override"	"50 50 50 255"
 
 				if_mvm
 				{
@@ -292,7 +335,7 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"32"
+				"xpos"			"36"
 				"ypos"			"8"
 				"zpos"			"0"
 				"wide"			"12"
