@@ -12,16 +12,21 @@
 		"zpos"			"10"
 		"wide"			"275"
 		"tall"			"78"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"0 0 0 192"
 	}	
 
 	"MainBackground"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
-		"wide"			"0"
-		"tall"			"0"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"275"
+		"tall"			"48"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"0 0 0 192"
 	}
 
 	"Divider"
@@ -35,10 +40,10 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/square_red"
+		"image"			"replay/thumbnails/square_red_transparent"
 		"scaleImage"	"1"	
-		"teambg_2"		"replay/thumbnails/square_red"
-		"teambg_3"		"replay/thumbnails/square_blue"	
+		"teambg_2"		"replay/thumbnails/square_red_transparent"
+		"teambg_3"		"replay/thumbnails/square_blue_transparent"	
 	}	
 
 	"SpyIcon"
