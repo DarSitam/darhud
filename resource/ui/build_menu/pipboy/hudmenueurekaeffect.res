@@ -33,8 +33,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundEngineer"
-		"xpos"			"100"
-		"ypos"			"90"
+		"xpos"			"110"
+		"ypos"			"85"
 		"zpos"			"10"
 		"wide"			"40"
 		"tall"			"40"
