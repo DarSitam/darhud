@@ -5,10 +5,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"EnemyCountPanel"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"3"
+		"ypos"			"6"
+		"zpos"			"10"
 		"wide"			"20"
-		"tall"			"34"
+		"tall"			"45"
 		"visible"		"0"
 		"enabled"		"1"
 	}
