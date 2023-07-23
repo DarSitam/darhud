@@ -10,7 +10,7 @@
 	
 	"ItemBackground"	
 	{
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"15 25 15 230"
 	}
 	
 	"CantBuildReason"
