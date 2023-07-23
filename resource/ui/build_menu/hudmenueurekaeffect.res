@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"50 50 50 192"
+		"bgcolor_override"	"0 0 0 192"
 	}
 	
 	"BuildIcon"	

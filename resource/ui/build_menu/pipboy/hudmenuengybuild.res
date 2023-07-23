@@ -10,13 +10,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemBackground"
-		"xpos"			"-310"
+		"xpos"			"0"
 		"ypos"			"0"
-		"xpos_minmode"			"0"
 		"zpos"			"-2"
-		"wide"			"450"
-		"tall"			"174"
-		"wide_minmode"			"140"
+		"wide"			"275"
+		"tall"			"107"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -53,9 +51,8 @@
 	}
 	
 	"CancelLabel"
-	{	
-		"xpos"			"5"
+	{
 		"fgcolor"		"0 255 0 255"
-		"textAlignment"	"west"
+		"font"			"DefaultSmall"
 	}
 }

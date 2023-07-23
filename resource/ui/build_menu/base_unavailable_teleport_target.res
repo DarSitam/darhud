@@ -63,6 +63,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"TF2DefaultSmall"
+		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"21"
 		"zpos"			"3"

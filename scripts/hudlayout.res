@@ -870,11 +870,10 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
-		"xpos_minmode"	"c-250"
-		"ypos"			"cs-0.5"
-		"wide"			"140"
-		"tall"			"174"
+		"xpos"			"cs-0.5"
+		"ypos"			"c90"
+		"wide"			"275"
+		"tall"			"102"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -895,11 +894,10 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
-		"xpos_minmode"	"c-250"
-		"ypos"			"cs-0.5"
+		"xpos"			"cs-0.5"
+		"ypos"			"c90"
 		"wide"			"140"
-		"tall"			"110"
+		"tall"			"102"
 		"PaintBackgroundType"	"0"
 	}
 	
