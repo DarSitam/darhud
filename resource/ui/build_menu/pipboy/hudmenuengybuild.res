@@ -5,6 +5,11 @@
 	{
 		"bgcolor_override"	"0"
 	}
+	
+	"Divider"
+	{
+		"visible"	"0"
+	}
 
 	"ItemBackground"
 	{
@@ -14,7 +19,7 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"275"
-		"tall"			"107"
+		"tall"			"102"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	

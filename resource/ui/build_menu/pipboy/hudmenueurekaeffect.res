@@ -6,6 +6,11 @@
 	{
 		"paintbackground" "0"
 	}
+	
+	"Divider"
+	{
+		"visible"	"0"
+	}
 
 	"ItemBackground"
 	{
