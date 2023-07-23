@@ -175,7 +175,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"330"
 		"wide"	 	"252"
 		"tall"	 	"19"
 		"priority"	"40"
@@ -400,7 +400,7 @@
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"TF2DefaultSmall"
+		"TextFont"		"TF2Default"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
