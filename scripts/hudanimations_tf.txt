@@ -787,7 +787,7 @@ event DamagedPlayer
 event SpyWarningFlash
 {
 	Animate	EnemyCountImageBG	BgColor	"RedSolid"		Linear 0.0 0.01
-	Animate	EnemyCountImageBG	BgColor	"TanLight"		Linear 0.21 0.01
+	Animate	EnemyCountImageBG	BgColor	"White"		Linear 0.21 0.01
 	
 	RunEvent	SpyWarningFlashLoop		0.42
 }
@@ -805,7 +805,7 @@ event SpyWarningFlashEnd
 
 event HudReadyPulse
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel 	FgColor		"White"		Linear 0.0 0.1
 	Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Linear 0.3 0.4
 
 	RunEvent HudReadyPulseLoop	0.5
@@ -818,7 +818,7 @@ event HudReadyPulseLoop
 
 event HudReadyPulseEnd
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel 	FgColor		"White"		Linear 0.0 0.1
 	
 	StopEvent HudReadyPulse			0.0
 	StopEvent HudReadyPulseLoop		0.0
@@ -1573,8 +1573,8 @@ event HudTournament_ShowTimerCompetitive
 
 event HudTournament_ShowTimerDefault
 {
-	Animate CountdownLabel ypos 425 Linear 0 0
-	Animate CountdownLabelShadow ypos 425 Linear 0 0
+	Animate CountdownLabel ypos 130 Linear 0 0
+	Animate CountdownLabelShadow ypos 133 Linear 0 0
 
 	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0

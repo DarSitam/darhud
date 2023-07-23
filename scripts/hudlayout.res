@@ -247,12 +247,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
-		"wide"				"100"
-		"tall"				"100"
-		"xpos_minmode"		"65"
-		"ypos_minmode"		"r88"
+		"xpos"				"c-58"
+		"ypos"				"r14"
+		"wide"				"57"
+		"tall"				"14"
 		"visible" 			"0"
 		"enabled" 			"1"
 		
@@ -726,10 +724,9 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"separator_width"		"5"	// distance between the icons (including their backgrounds)
+		"separator_height"		"5"
+		"height_offset"			"0" // distance from the bottom of the panel
 	}
 
 	HudCapturePanel

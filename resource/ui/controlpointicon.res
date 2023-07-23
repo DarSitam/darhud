@@ -39,6 +39,8 @@
 		"enabled"	"1"
 		"image"		"capture_icon"
 		"scaleImage"	"1"
+
+		
 	}
 
 	"CapNumPlayers"

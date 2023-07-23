@@ -439,6 +439,14 @@
 		{
 			"visible"	"0"
 		}
+
+		"if_mvm"
+		{
+			"xpos"			"c-65"
+			"ypos"			"r90"
+			"wide"			"100"
+			"tall"			"70"
+		}
 	}
 			
 	"RedFlag"

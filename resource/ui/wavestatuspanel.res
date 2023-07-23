@@ -2,24 +2,8 @@
 {
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"150"
-		"ypos"			"2"
-		"zpos"			"-1"
-		"wide"			"200"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"WaveCountLabel"
@@ -27,7 +11,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"xpos"			"200"
 		"ypos"			"6"
 		"zpos"			"3"
@@ -67,7 +51,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"xpos"			"55"
 		"ypos"			"6"
 		"zpos"			"3"
@@ -88,45 +72,34 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"			"211"
-		"ypos"			"20"
+		"xpos"			"272"
+		"ypos"			"10"
 		"zpos"			"3"
-		"wide"			"178"
-		"tall"			"10"
-		"xpos_minmode"	"270"
-		"ypos_minmode"	"8"
-		"wide_minmode"	"123"
+		"wide"			"119"
+		"tall"			"7"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
+		"scaleImage"	"1"	
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"ProgressBarBG"
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"210"
-		"ypos"			"19"
+		"xpos"			"269"
+		"ypos"			"7"
 		"zpos"			"3"
-		"wide"			"180"
+		"wide"			"125"
 		"tall"			"12"
-		"xpos_minmode"	"269"
-		"ypos_minmode"	"7"
-		"wide_minmode"	"125"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_tan"
-		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"image"			"replay/thumbnails/meter_white"
 	}
 }

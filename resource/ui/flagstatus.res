@@ -12,6 +12,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+		
+		"if_mvm"
+		{
+			"xpos"			"30"
+			"wide"			"60"
+			"tall"			"60"
+		}
 	}
 	
 	"Briefcase"
@@ -30,10 +37,10 @@
 		
 		"if_mvm"
 		{
-			"xpos"			"62"
-			"ypos"			"21"
-			"wide"			"38"
-			"tall"			"38"
+			"xpos"			"42"
+			"ypos"			"12"
+			"wide"			"35"
+			"tall"			"35"
 		}	
 	}				
 	"StatusIcon"
