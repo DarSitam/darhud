@@ -25,10 +25,11 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/square_red_transparent"
+		"image"			"replay/thumbnails/square_red"
 		"scaleImage"	"1"	
-		"teambg_2"		"replay/thumbnails/square_red_transparent"
-		"teambg_3"		"replay/thumbnails/square_blue_transparent"	
+		"teambg_2"		"replay/thumbnails/square_red"
+		"teambg_3"		"replay/thumbnails/square_blue"	
+		"alpha"			"192"	
 	}
 	
 	"BuildIcon"	

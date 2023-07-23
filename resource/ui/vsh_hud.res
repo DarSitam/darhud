@@ -127,7 +127,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/counter_dark_transparent"
+			"image"			"replay/thumbnails/counter_shadow"
 		}	
 		"dmg_icon"
 		{
