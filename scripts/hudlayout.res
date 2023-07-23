@@ -882,10 +882,10 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
+		"xpos"			"cs-0.5"
+		"ypos"			"c90"
+		"wide"			"275"
+		"tall"			"102"
 		"PaintBackgroundType"	"0"
 	}
 
