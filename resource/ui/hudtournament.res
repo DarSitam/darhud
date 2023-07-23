@@ -181,7 +181,7 @@
 				"tall"			"9"
 				"visible"		"1"
 				"paintBackground" "1"
-				"bgcolor_override"	"0 0 0 128"
+				"bgcolor_override"	"0 0 0 150"
 			}
 
 			"classimage"
