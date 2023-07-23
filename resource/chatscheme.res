@@ -355,51 +355,41 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"16"	[$WIN32]
-				"tall"		"16"	[$X360]
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"700"
-				"antialias" "1"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"16"	[$WIN32]
-				"tall"		"16"	[$X360]
+				"name"		"Verdana"
+				"tall"		"14"
 				"weight"	"700"
-				"antialias" "1"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"	[$WIN32]
-				"tall"		"18"	[$X360]
+				"name"		"Verdana"
+				"tall"		"15"
 				"weight"	"700"
-				"antialias" "1"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"20"	[$WIN32]
-				"tall"		"20"	[$X360]
+				"name"		"Verdana"
+				"tall"		"17"
 				"weight"	"700"
-				"antialias" "1"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"24"	[$WIN32]
-				"tall"		"24"	[$X360]
+				"name"		"Verdana"
+				"tall"		"22"
 				"weight"	"700"
-				"antialias" "1"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
