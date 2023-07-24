@@ -101,8 +101,8 @@
 
 			if_mvm
 			{
-				"wide"		"60"
-				"tall"		"35"
+				"wide"		"62"
+				"tall"		"37"
 			}
 
 			if_competitive
@@ -124,8 +124,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"-5"
-				"wide"			"f0"
-				"tall"			"f0"
+				"wide"			"60"
+				"tall"			"35"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -133,7 +133,27 @@
 				"scaleImage"		"1"
 				"teambg_2"			"replay/thumbnails/square_red"
 				"teambg_3"			"replay/thumbnails/square_blue"
-				"alpha"				"210"
+				
+				if_readymode 
+				{
+					"visible"	"0"
+				}
+			}
+			
+			"backgroundbg"
+			{
+				"ControlName"	"CTFImagePanel"
+				"fieldName"		"backgroundbg"
+				"xpos"			"2"
+				"ypos"			"2"
+				"zpos"			"-6"
+				"wide"			"60"
+				"tall"			"35"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"image"			"replay/thumbnails/square_shadow"
+				"scaleImage"		"1"
 				
 				if_readymode 
 				{
