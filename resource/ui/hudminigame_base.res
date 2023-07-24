@@ -26,4 +26,9 @@
 	{
 		"tall"			"0"
 	}
+
+	"OutlineImage"
+	{
+		"tall"			"0"
+	}
 }
