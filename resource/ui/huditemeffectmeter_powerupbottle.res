@@ -7,23 +7,21 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c65"
-		"ypos"			"r32"
+		"xpos"			"r275"
+		"ypos"			"r50"
 		"xpos_minmode" "c65"
-		"ypos_minmode" "r32"
+		"ypos_minmode" "r50"
 	}
-	
 
-	
 	"ItemEffectIcon"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"0"
+		"xpos"			"1"
 		"ypos"			"-2"
 		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"23"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_powerup_critboost_red"

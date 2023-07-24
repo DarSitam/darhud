@@ -2,9 +2,12 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"cs-0.5"
-        "ypos"          "r100"
+		"xpos"			"r275"
+		"xpos_minmode"			"c70"
+        "ypos"          "r90"
         "wide"          "64"
+		"tall"			"100"
+        "zpos"          "-1"
 	}
 			
 	"ItemEffectMeterBG"
@@ -17,13 +20,12 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Spellbook"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"6"
+		"ypos"			"10"
 		"zpos"			"0"
-		"wide"			"64"
-		"tall"			"56"
+		"wide"			"52"
+		"tall"			"42"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"spellbook_book"
 		"scaleImage"	"1"		
@@ -33,8 +35,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
-		"xpos"			"5"
-		"ypos"			"15"
+		"xpos"			"6"
+		"ypos"			"16"
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
@@ -97,8 +99,8 @@
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"37"
-		"ypos"			"18"
+		"xpos"			"36"
+		"ypos"			"17"
 		"wide"			"20"
 		"tall"			"20"
 		"fgcolor"		"White"
