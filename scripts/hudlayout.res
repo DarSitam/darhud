@@ -474,6 +474,8 @@
 		"fieldName" "HudMessage"
 		"visible" "1"
 		"enabled" "1"
+		"ypos"	"0"
+		"zpos"	"99"
 		"wide"	 "f0"
 		"tall"	 "480"
 	}
