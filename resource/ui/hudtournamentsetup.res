@@ -2,7 +2,7 @@
 {
 	"HudTournamentSetupBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudTournamentSetupBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -13,14 +13,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"
+		"image"			"replay/thumbnails/square_red"
+		"scaleImage"		"1"
+		"teambg_2"			"replay/thumbnails/square_red"
+		"teambg_3"			"replay/thumbnails/square_blue"
+		"alpha"				"240"
 	}
 
 	"TournamentSetupLabel"
@@ -28,18 +25,19 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
 		"font"			"HudFontSmallBold"
-		"xpos"			"8"
+		"fgcolor_override" "White"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"180"
-		"tall"			"35"
+		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"west"
+		"textAlignment"		"center"
 	}
 
 	"TournamentTeamNameLabel"
@@ -47,28 +45,29 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
 		"font"			"HudFontSmallest"
-		"xpos"			"67"
-		"ypos"			"28"
+		"fgcolor_override" "HudBlack"
+		"xpos"			"5"
+		"ypos"			"24"
 		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"15"
+		"wide"			"170"
+		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"#Tournament_TeamNamePanel"
-		"textAlignment"		"west"
+		"textAlignment"		"east"
 	}
 
 	"TournamentNameEdit"
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"TournamentNameEdit"
-		"xpos"		"8"
-		"ypos"		"27"
-		"wide"		"120"
-		"tall"		"16"
+		"xpos"		"5"
+		"ypos"		"24"
+		"wide"		"170"
+		"tall"		"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -80,7 +79,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"235 226 202 255"
+		"fgcolor_override"		"White"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
@@ -92,7 +91,7 @@
 		"fieldName"		"HudTournamentNameBG"
 		"xpos"		"8"
 		"ypos"		"28"
-		"wide"		"50"
+		"wide"		"100"
 		"tall"		"14"
 		"zpos"		"0"
 		"autoResize"	"0"
@@ -123,14 +122,20 @@
 		"command"		"teamnotready"
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"Red"
+		
+		"defaultFgColor_override" "White"
+		"defaultBgColor_override" "HudBlack"
+		"armedFgColor_override" "TanLight"
+		"armedBgColor_override" "TFOrange"
+		"depressedFgColor_override" "TanLight"
+		"depressedBgColor_override" "TFOrange"
 	}
 
 	"TournamentReadyButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentReadyButton"
-		"xpos"		"96"
+		"xpos"		"102"
 		"ypos"		"46"
 		"wide"		"70"
 		"tall"		"14"
@@ -146,6 +151,12 @@
 		"command"		"teamready"
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"FooterBGBlack"
+
+		"defaultFgColor_override" "White"
+		"defaultBgColor_override" "HudBlack"
+		"armedFgColor_override" "TanLight"
+		"armedBgColor_override" "TFOrange"
+		"depressedFgColor_override" "TanLight"
+		"depressedBgColor_override" "TFOrange"
 	}
 }
