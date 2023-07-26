@@ -483,7 +483,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
-				"font"				"DefaultSmall"
+				"font"				"TF2Default"
 				"textAlignment"		"center"
 				"xpos"				"0"
 				"ypos"				"0"
@@ -495,7 +495,7 @@
 				"visible"			"0"
 				"enabled"			"1"
 				"labelText"			"progress"
-				"fgcolor"			"White"
+				"fgcolor"			"HudWhite"
 				"dulltext"			"0"
 				"brighttext"		"0"
 				"centerwrap"		"1"

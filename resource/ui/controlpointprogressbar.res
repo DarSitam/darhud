@@ -66,7 +66,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"ProgressText"
-		"font"			"HudFontSmallest"
+		"font"			"TF2Default"
 		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"23"
