@@ -30,8 +30,8 @@
 		"RoundWinPanelRed_kv"
 		{
 			"ypos"				"-4"
-			"wide"				"17"
-			"tall"				"17"
+			"wide"				"16"
+			"tall"				"16"
 			"zpos"				"8"
 			"image"				"../hud/comp_round_counter_light_red"
 			"scaleimage"		"1"
@@ -40,8 +40,8 @@
 		"RoundWinPanelBlue_kv"
 		{
 			"ypos"				"-4"
-			"wide"				"17"
-			"tall"				"17"
+			"wide"				"16"
+			"tall"				"16"
 			"zpos"				"8"
 			"image"				"../hud/comp_round_counter_light_blue"
 			"scaleimage"		"1"
