@@ -250,6 +250,26 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+
+	"WinningTeamLabelBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"WinningTeamLabelBG"
+		"xpos"			"15"
+		"ypos"			"r165"
+		"zpos"			"0"
+		"wide"			"268"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"	
+		"image"				"replay/thumbnails/square_red"
+		"scaleImage"		"1"
+		"teambg_2"			"replay/thumbnails/square_red"
+		"teambg_3"			"replay/thumbnails/square_blue"
+		"alpha"				"200"
+	}
+
 	"WinningTeamLabelDropshadow"
 	{	
 		"ControlName"		"CExLabel"
@@ -354,7 +374,7 @@
 
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"cs-0.5"
 		"ypos"			"r115"
@@ -364,9 +384,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"	
-		"fillcolor"			"0 0 0 192"
+		"bgcolor_override"	"0 0 0 192"
+		"paintBackgroundtype" "2"
 		"proportionaltoparent"	"1"
 	}
+
 	"TopPlayersLabel"
 	{	
 		"ControlName"		"CExLabel"
