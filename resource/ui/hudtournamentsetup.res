@@ -123,10 +123,10 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "HudBlack"
+		"defaultFgColor_override" "HudBlack"
+		"defaultBgColor_override" "Yellow"
 		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "TFOrange"
+		"armedBgColor_override" "Orange"
 		"depressedFgColor_override" "TanLight"
 		"depressedBgColor_override" "TFOrange"
 	}
@@ -152,10 +152,10 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "HudBlack"
+		"defaultFgColor_override" "HudBlack"
+		"defaultBgColor_override" "Yellow"
 		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "TFOrange"
+		"armedBgColor_override" "Orange"
 		"depressedFgColor_override" "TanLight"
 		"depressedBgColor_override" "TFOrange"
 	}
