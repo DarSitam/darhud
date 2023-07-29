@@ -107,7 +107,7 @@
 		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"150"
-		"tall"			"19"
+		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
