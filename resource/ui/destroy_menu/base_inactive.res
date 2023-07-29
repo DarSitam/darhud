@@ -42,7 +42,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"Default"
+		"font"			"TF2Default"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"21"
