@@ -605,7 +605,6 @@
 
 		if_mvm
 		{
-			"ypos"		"357"
 		}
 	}
 	"SpectatorsInQueue"
@@ -812,10 +811,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
-		"xpos"			"0"
-		"ypos"			"110"
+		"xpos"			"cs-0.5"
+		"ypos"			"115"
 		"zpos"			"3"
-		"wide"			"500"
+		"wide"			"525"
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -827,6 +826,7 @@
 
 		if_mvm
 		{
+			"zpos"			"3"
 			"visible"		"1"
 		}
 	}
