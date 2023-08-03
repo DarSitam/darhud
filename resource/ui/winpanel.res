@@ -37,6 +37,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override" "HUDBlueTeamSolid"
+			"paintbackgroundtype" "2"
+			"paintBorder"	"1"
+			"RoundedCorners" "5"
 		}
 
 		"RedScoreBG"
@@ -52,6 +55,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override" "HUDRedTeamSolid"
+			"paintbackgroundtype" "2"
+			"paintBorder"	"1"
+			"RoundedCorners" "10"
 		}
 
 		"BlueTeamLabel"
