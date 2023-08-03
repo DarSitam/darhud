@@ -489,7 +489,7 @@
 				"visible"			"0"
 				"enabled"			"1"
 				"labelText"			"progress"
-				"fgcolor"			"White"
+				"fgcolor_override"			"White"
 				"dulltext"			"0"
 				"brighttext"		"0"
 				"centerwrap"		"1"
