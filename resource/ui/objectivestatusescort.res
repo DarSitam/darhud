@@ -184,12 +184,13 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"			
+			"font"			"HudFontSmallest"		
+			"fgcolor"		"White"	
 			"xpos"			"16"
-			"ypos"			"59"	
+			"ypos"			"58"	
 			"zpos"			"2"
 			"wide"			"21"
-			"tall"			"10"
+			"tall"			"11nna"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -223,10 +224,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
 			"xpos"			"14"
-			"ypos"			"52"
+			"ypos"			"51"
 			"zpos"			"1"
-			"wide"			"22"
-			"tall"			"22"
+			"wide"			"23"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -249,9 +250,7 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"14"
-				"ypos"			"53"
-				"wide"			"22"
-				"tall"			"22"
+				"ypos"			"51"
 			}						
 		}
 		
@@ -259,11 +258,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageBottom"	
-			"xpos"			"15"
-			"ypos"			"52"
+			"xpos"			"14"
+			"ypos"			"51"
 			"zpos"			"1"
-			"wide"			"22"
-			"tall"			"22"
+			"wide"			"23"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -287,8 +286,6 @@
 			{
 				"xpos"			"14"
 				"ypos"			"85"
-				"wide"			"22"
-				"tall"			"22"
 			}			
 		}
 		
@@ -366,36 +363,33 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"ItemFontAttribSmall"
-			"xpos"			"23"
-			"ypos"			"59"
-			"zpos"			"4"
-			"wide"			"20"
-			"tall"			"10"
+			"fgcolor"		"White"
+			"xpos"			"0"
+			"ypos"			"52"
+			"zpos"			"2"
+			"wide"			"53"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"#ControlPointIconCappers"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			
 			"if_multiple_trains"
 			{
-				"font"			"ItemFontAttribSmall"
-				"xpos"			"23"
-				"wide"			"20"
-				"tall"			"10"
 			}			
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"60"
+				"ypos"			"52"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"92"
+				"ypos"			"86"
 			}	
 		}
 		
@@ -403,8 +397,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
-			"xpos"			"23"
-			"ypos"			"58"
+			"xpos"			"24"
+			"ypos"			"60"
 			"zpos"			"2"
 			"wide"			"7"
 			"tall"			"7"
@@ -426,12 +420,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"60"
+				"ypos"			"59"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"92"
+				"ypos"			"93"
 			}
 		}
 	
@@ -495,18 +489,13 @@
 				"visible"			"0"
 				"enabled"			"1"
 				"labelText"			"progress"
-				"fgcolor"			"HudWhite"
+				"fgcolor"			"White"
 				"dulltext"			"0"
 				"brighttext"		"0"
 				"centerwrap"		"1"
 				
 				"if_multiple_trains"
-				{
-					"font"			"DefaultVerySmall"
-					"xpos"			"0"
-					"ypos"			"3"			
-					"wide"			"35"			
-					"tall"			"28"			
+				{		
 				}	
 			}
 
