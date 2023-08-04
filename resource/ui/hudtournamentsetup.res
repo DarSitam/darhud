@@ -123,12 +123,10 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 		
-		"defaultFgColor_override" "HudBlack"
-		"defaultBgColor_override" "Yellow"
+		"defaultFgColor_override" "White"
+		"defaultBgColor_override" "Black"
 		"armedFgColor_override" "TanLight"
 		"armedBgColor_override" "Orange"
-		"depressedFgColor_override" "TanLight"
-		"depressedBgColor_override" "TFOrange"
 	}
 
 	"TournamentReadyButton"
@@ -152,11 +150,9 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 
-		"defaultFgColor_override" "HudBlack"
-		"defaultBgColor_override" "Yellow"
+		"defaultFgColor_override" "White"
+		"defaultBgColor_override" "Black"
 		"armedFgColor_override" "TanLight"
 		"armedBgColor_override" "Orange"
-		"depressedFgColor_override" "TanLight"
-		"depressedBgColor_override" "TFOrange"
 	}
 }
