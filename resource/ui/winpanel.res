@@ -273,7 +273,7 @@
 		"scaleImage"		"1"
 		"teambg_2"			"replay/thumbnails/square_red"
 		"teambg_3"			"replay/thumbnails/square_blue"
-		"alpha"				"200"
+		"alpha"				"220"
 	}
 
 	"WinningTeamLabelDropshadow"

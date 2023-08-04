@@ -104,10 +104,10 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"210"
+		"xpos"			"211"
 		"ypos"			"19"
 		"zpos"			"3"
-		"wide"			"180"
+		"wide"			"177"
 		"tall"			"12"
 		"xpos_minmode"	"269"
 		"ypos_minmode"	"7"
