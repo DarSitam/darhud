@@ -176,10 +176,10 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"c-102"
+		"xpos"			"cs-0.5"
 		"ypos"			"c20"
 		"zpos"			"3"
-		"wide"			"204"
+		"wide"			"260"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
