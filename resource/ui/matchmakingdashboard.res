@@ -703,14 +703,11 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
-
+			
 			"defaultFgColor_override" "White"
+			"defaultBgColor_override" "Black"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"armedBgColor_override" "Orange"
 
 			"SubImage"
 			{
