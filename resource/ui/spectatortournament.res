@@ -98,7 +98,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"35"
+				"xpos"				"30"
 				"ypos"				"-1"
 				"zpos"				"3"
 				"wide"				"55"
