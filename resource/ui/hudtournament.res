@@ -92,18 +92,18 @@
 			"visible"		"0"
 			"wide"			"55"
 			"tall"			"33"
-			"zpos"			"1"
+			"zpos"			"6"
 
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 
-			"paintborder"			"0"
-			"paintbackground"		"0"
+			"paintborder"			"1"
+			"paintbackground"		"1"
 
 			if_mvm
 			{
-				"wide"		"62"
-				"tall"		"37"
+				"wide"		"48"
+				"tall"		"28"
 			}
 
 			if_competitive
@@ -116,52 +116,6 @@
 			{
 				"wide"		"48"
 				"tall"		"28"
-			}
-			
-			"background"
-			{
-				"ControlName"	"CTFImagePanel"
-				"fieldName"		"background"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-5"
-				"wide"			"48"
-				"tall"			"28"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"image"			"replay/thumbnails/square_red"
-				"scaleImage"		"1"
-				"teambg_2"			"replay/thumbnails/square_red"
-				"teambg_3"			"replay/thumbnails/square_blue"
-				
-				if_readymode 
-				{
-					"image"			"replay/thumbnails/square_shadow"
-					"teambg_2"			"replay/thumbnails/square_shadow"
-					"teambg_3"			"replay/thumbnails/square_shadow"
-				}
-			}
-			
-			"backgroundbg"
-			{
-				"ControlName"	"CTFImagePanel"
-				"fieldName"		"backgroundbg"
-				"xpos"			"2"
-				"ypos"			"2"
-				"zpos"			"-6"
-				"wide"			"48"
-				"tall"			"28"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"image"			"replay/thumbnails/square_shadow"
-				"scaleImage"		"1"
-				
-				if_readymode 
-				{
-					"visible"	"0"
-				}
 			}
 
 			"playername"

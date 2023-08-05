@@ -85,7 +85,7 @@
 		"fieldName"		"BuyBackLabel"
 		"fgcolor_override"		"White"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"20"
 		"wide"			"400"
 		"tall"			"f0"
 		"autoResize"		"0"
@@ -94,7 +94,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallBold"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
