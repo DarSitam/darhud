@@ -2395,7 +2395,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
 		"xpos"			"c-47"
-		"ypos"			"437"
+		"ypos"			"r90"
 		"zpos"			"11"
 		"wide"			"30"
 		"tall"			"25"
@@ -2432,12 +2432,14 @@
 
 			"paintbackground"	"1"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultbgColor_override" "MMenu_Black"
+			"armedbgColor_override" "Orange"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultfgColor_override" "White"
+			"armedfgColor_override" "White"
+
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 
 			"proportionaltoparent"	"1"
 
@@ -2464,7 +2466,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"c-24"
-		"ypos"			"437"
+		"ypos"			"r90"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2501,12 +2503,14 @@
 			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultbgColor_override" "MMenu_Black"
+			"armedbgColor_override" "Orange"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultfgColor_override" "White"
+			"armedfgColor_override" "White"
+
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2531,7 +2535,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"c-1"
-		"ypos"			"437"
+		"ypos"			"r90"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2568,12 +2572,14 @@
 			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultbgColor_override" "MMenu_Black"
+			"armedbgColor_override" "Orange"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultfgColor_override" "White"
+			"armedfgColor_override" "White"
+
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2599,7 +2605,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
 		"xpos"			"c22"
-		"ypos"			"437"
+		"ypos"			"r90"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2636,12 +2642,14 @@
 
 			"paintbackground"	"1"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultbgColor_override" "MMenu_Black"
+			"armedbgColor_override" "Orange"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultfgColor_override" "White"
+			"armedfgColor_override" "White"
+
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
