@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"3"		
 		"wide"			"f0"
 		"tall"			"f0"
@@ -185,8 +185,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"rs1"
+		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"f40"
@@ -206,16 +206,16 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"0"
+			"xpos"			"110"
 			"ypos"			"5"
-			"wide"			"f0"
+			"wide"			"200"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
 			"fgcolor_override"	"White"
-			"textAlignment"	"north-west"
+			"textAlignment"	"north"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -229,16 +229,16 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"0"
+			"xpos"			"110"
 			"ypos"			"19"
-			"wide"			"195"
+			"wide"			"200"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"White"
-			"textAlignment"	"north-west"
+			"textAlignment"	"north"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
@@ -260,16 +260,16 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"0"
+			"xpos"			"110"
 			"ypos"			"29"
-			"wide"			"195"
+			"wide"			"200"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"White"
-			"textAlignment"	"north-west"
+			"textAlignment"	"north"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
@@ -297,10 +297,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-10"
+			"xpos"			"rs1-5"
 			"ypos"			"0"
-			"wide"			"f10"
-			"tall"			"100"
+			"wide"			"f0"
+			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -308,25 +308,19 @@
 				"xpos"			"rs1-10"
 				"ypos"			"0"
 				"wide"			"p0.85"
-				"tall"			"f0"
 			}
 
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"0"
-				"ypos"			"rs1-40"
-				"wide"			"160"
+				"xpos"			"110"
+				"ypos"			"rs1-3"
+				"wide"			"200"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-				"if_mini"
-				{
-					"xpos"		"cs-0.5"
-					"ypos"		"rs1-3"
-					"wide"		"p1"
-				}
+	
 
 				"CurrentXPLabel"
 				{
@@ -368,9 +362,9 @@
 				{
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
-					"xpos"			"1"
+					"xpos"			"0"
 					"ypos"			"rs1-10"
-					"wide"			"159"
+					"wide"			"p1"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
 
@@ -380,7 +374,7 @@
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
-						"wide"			"f1"
+						"wide"			"f0"
 						"tall"			"f-2"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
@@ -423,10 +417,10 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"170"
-				"ypos"			"13"
-				"wide"			"260"
-				"tall"			"p0.35"
+				"xpos"			"330"
+				"ypos"			"10"
+				"wide"			"250"
+				"tall"			"p0.65"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 100"
