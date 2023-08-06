@@ -13,7 +13,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 
-		"bgcolor_override"	"0 0 0 128"
+		"bgcolor_override"	"0 0 0 150"
 
 		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"https://www.teamfortress.com/"
@@ -413,7 +413,7 @@
 		"tall"			"70"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"14 14 14 255"
+		"bgcolor_override"	"20 20 20 255"
 		"proportionaltoparent"	"1"
 	}
 
@@ -2128,7 +2128,7 @@
 			"tall"			"105"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
-			"bgcolor_override" "14 14 14 255"
+			"bgcolor_override" "20 20 20 255"
 
 			"columns_count"	"2"
 			"inset_x"		"0"

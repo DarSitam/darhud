@@ -51,7 +51,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"14 14 14 255"
+			"bgcolor_override"	"20 20 20 255"
 			"proportionaltoparent"	"1"
 		}
 
