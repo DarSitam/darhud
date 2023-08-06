@@ -223,17 +223,52 @@
 		}
 		
 		if_mvm
-		{
+		{		
+			"team1_player_base_offset_x"		"0"
+			"team1_player_base_y"				"440"
+			"team1_player_delta_x"				"0"
+			"team1_player_delta_y"				"-31"
+			"team2_player_base_offset_x"		"347"
+			"team2_player_base_y"				"440"
+			"team2_player_delta_x"				"0"
+			"team2_player_delta_y"				"-31"
 		}		
 	}
 
 	"topbar"
 	{
-		"ControlName"	"Panel"
+		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"tall"			"25"
+		"wide"			"f0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
 		"visible"		"0"
-		"tall"			"0"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"alpha"		"0"
 	}
+
+	"topbardark"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"topbardark"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"tall"			"25"
+		"wide"			"f0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintBackground"	"1"
+		"bgcolor_override"	"20 20 20 255"
+	}
+
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
@@ -253,34 +288,31 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-150"
-		"ypos"			"32"
+		"xpos"			"r315"
+		"ypos"			"0"
 		"wide"			"300"
-		"tall"			"18"
+		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
+		"textAlignment"		"east"
 		"font"			"HudFontSmall"
 		
 		if_mvm
 		{
-			"xpos"			"c-190"
-			"ypos"			"1"
-			"wide"			"380"
-			"textAlignment"		"center"
 		}
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"c-190"
-		"ypos"			"65"
-		"wide"			"380"
-		"tall"			"14"
+		"xpos"			"cs-0.5"
+		"ypos"			"30"
+		"zpos"			"1"
+		"wide"			"400"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -288,7 +320,9 @@
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
-		"fgcolor"	"White"
+		"bgcolor_override"	"GreenSolid"
+		"fgcolor"	"white"
+		"paintBackgroundType" "2"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
@@ -297,6 +331,7 @@
 			"visible"		"1"
 		}	
 	}
+
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -306,7 +341,7 @@
 		"xpos"			"15"
 		"ypos"			"0"
 		"wide"			"240"
-		"tall"			"22"
+		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
