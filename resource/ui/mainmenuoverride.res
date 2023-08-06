@@ -1520,7 +1520,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Options"
+		"labelText"		"#GameUI_GameMenu_Options"
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"west"
 		"textinsetx"	"25"
