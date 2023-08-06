@@ -228,7 +228,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-325"
+		"xpos"			"55"
 		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"256"
@@ -1382,7 +1382,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ButtonsContainer"
-		"xpos"			"c-300"
+		"xpos"			"80"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"216"
@@ -1397,7 +1397,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-290"
+		"xpos"			"90"
 		"ypos"			"105"
 		"zpos"			"6"
 		"wide"			"196"
@@ -1456,7 +1456,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-290"
+		"xpos"			"90"
 		"ypos"			"140"
 		"zpos"			"6"
 		"wide"			"196"
@@ -1510,7 +1510,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomSettingsButton"
-		"xpos"			"c-290"
+		"xpos"			"90"
 		"ypos"			"175"
 		"zpos"			"6"
 		"wide"			"196"
@@ -1626,7 +1626,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-290"
+		"xpos"			"90"
 		"ypos"			"215"
 		"zpos"			"6"
 		"wide"			"25"
@@ -1680,7 +1680,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"c-265"
+		"xpos"			"114"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1734,7 +1734,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"c-241"
+		"xpos"			"138"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1788,7 +1788,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-217"
+		"xpos"			"162"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1842,7 +1842,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButton"
-		"xpos"			"c-193"
+		"xpos"			"186"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1896,7 +1896,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplayButton"
-		"xpos"			"c-169"
+		"xpos"			"210"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1951,7 +1951,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ConsoleButton"
-		"xpos"			"c-145"
+		"xpos"			"234"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"26"
@@ -2021,7 +2021,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-120"
+		"xpos"			"258"
 		"ypos"			"215"
 		"zpos"			"6"
 		"wide"			"26"
@@ -2076,7 +2076,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"c-300"
+		"xpos"			"80"
 		"ypos"			"245"
 		"zpos"			"5"
 		"wide"			"216"
