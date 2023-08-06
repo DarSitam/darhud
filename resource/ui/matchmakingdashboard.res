@@ -28,6 +28,8 @@
 		"tall"			"35"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+		"paintBackground" "0"
+
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -40,8 +42,17 @@
 
 		"BGPanel"
 		{
-			"wide"			"0"
-			"tall"			"0"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BGPanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"-1"
+			"zpos"			"-1"
+			"wide"			"p1.1"
+			"tall"			"f5"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"14 14 14 255"
+			"proportionaltoparent"	"1"
 		}
 
 		"OuterShadow"

@@ -13,7 +13,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 
-//		"bgcolor_override"	"0 0 0 240"
+		"bgcolor_override"	"0 0 0 128"
 
 		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"https://www.teamfortress.com/"
@@ -228,7 +228,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-320"
+		"xpos"			"c-325"
 		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"256"
@@ -260,7 +260,7 @@
 		"fieldName"		"RankModelPanel"
 		"xpos"			"cs-0.5-220"
 		"ypos"			"-50"
-		"zpos"			"1"
+		"zpos"			"4"
 		"wide"			"1000"
 		"tall"			"1000"
 		"visible"		"0"
@@ -350,7 +350,7 @@
 		"fieldName"		"RankPanel"
 		"xpos"			"cs-0.5+40"
 		"ypos"			"r60"
-		"zpos"			"1"
+		"zpos"			"11"
 		"wide"			"440"
 		"tall"			"100"
 		"visible"		"0"
@@ -407,13 +407,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
 		"xpos"			"-10"
-		"ypos"			"r61"
-		"zpos"			"0"
+		"ypos"			"r59"
+		"zpos"			"4"
 		"wide"			"f-20"
 		"tall"			"70"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"14 14 14 255"
 		"proportionaltoparent"	"1"
 	}
 
@@ -1383,14 +1383,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ButtonsContainer"
 		"xpos"			"c-300"
-		"ypos"			"95"
-		"zpos"			"5"
+		"ypos"			"0"
+		"zpos"			"1"
 		"wide"			"216"
-		"tall"			"158"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"border"		"MainMenuBGBorder"
+		"bgcolor_override"	"0 0 0 250"
 	}
 
 	"CharacterSetupButton"
@@ -1424,7 +1424,7 @@
 
 		"image_drawcolor"	"White"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -1484,7 +1484,7 @@
 
 		"image_drawcolor"	"White"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -1540,7 +1540,7 @@
 
 		"image_drawcolor"	"White"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -1654,7 +1654,7 @@
 		"image_drawcolor"	"White"
 		"RoundedCorners"	"5"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -1708,7 +1708,7 @@
 		"image_drawcolor"	"White"
 		"border_default"	"MainMenuSubButtonBorder"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -1762,7 +1762,7 @@
 		"image_drawcolor"	"White"
 		"border_default"	"MainMenuSubButtonBorder"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -1816,7 +1816,7 @@
 		"image_drawcolor"	"White"
 		"border_default"	"MainMenuSubButtonBorder"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -1870,7 +1870,7 @@
 		"image_drawcolor"	"White"
 		"border_default"	"MainMenuSubButtonBorder"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -1925,7 +1925,7 @@
 		"image_drawcolor"	"White"
 		"border_default"	"MainMenuSubButtonBorder"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -1991,7 +1991,7 @@
 			"image_drawcolor"	"White"
 			"RoundedCorners"	"0"
 
-			"defaultbgColor_override" "OrangeDim"
+			"defaultbgColor_override" "MMenu_Black"
 			"armedbgColor_override" "Orange"
 
 			"defaultfgColor_override" "White"
@@ -2050,7 +2050,7 @@
 
 		"RoundedCorners"	"10"
 
-		"defaultbgColor_override" "OrangeDim"
+		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
 
 		"defaultfgColor_override" "White"
@@ -2083,24 +2083,21 @@
 		"tall"			"150"
 		"visible"		"1"
 
-		"border"		"MainMenuBGBorder"
-
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
 			"xpos"			"12"
 			"ypos"			"0"
-			"wide"			"f0"
+			"wide"			"220"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"0"
 			"fgcolor_override"	"White"
 		}
 
@@ -2110,15 +2107,13 @@
 			"fieldname"		"InnerShadow"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
-			"zpos"			"501"
+			"zpos"			"502"
 			"wide"			"f10"
 			"tall"			"105"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
-			"paintborder"	"1"
 			"border"		"InnerShadowBorder"
 		}
 
@@ -2128,11 +2123,12 @@
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
-			"zpos"			"500"
+			"zpos"			"501"
 			"wide"			"f10"
 			"tall"			"105"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+			"bgcolor_override" "14 14 14 255"
 
 			"columns_count"	"2"
 			"inset_x"		"0"
