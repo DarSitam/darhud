@@ -428,7 +428,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"bgcolor_override"	"20 20 20 255"
 
 		"TipSubLabel"
 		{
@@ -446,7 +446,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"TanDark"
 			"wrap"			"1"
 		}
 
@@ -466,7 +466,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"auto_wide_tocontents" "1"
 		}
 	}
@@ -1506,10 +1506,10 @@
 		}
 	}	
 	
-	"SettingsButton"
+	"CustomSettingsButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"SettingsButton"
+		"fieldName"		"CustomSettingsButton"
 		"xpos"			"c-290"
 		"ypos"			"175"
 		"zpos"			"6"
@@ -1566,7 +1566,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"pin_to_sibling" "SettingsButton"
+		"pin_to_sibling" "CustomSettingsButton"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		"xpos"			"-3"
