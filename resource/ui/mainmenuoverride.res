@@ -2851,7 +2851,7 @@
 	"DashboardDimmer"        // allows for clicking off playlist frames
     {
         "wide"                "f0"
-        "tall"                "f0"
+        "tall"                "480"
         "paintbackground"    "1"
         "paintborder"        "0"
         "roundedcorners"    "0"
