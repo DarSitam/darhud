@@ -8,6 +8,9 @@ exec joystick.cfg
 // run a user script file if present
 exec autoexec.cfg
 
+//Fullscreen Dimmer
+wait 5; showconsole; incrementvar mat_aaquality 0 1 1; hideconsole
+
 //
 // stuff command line statements
 //

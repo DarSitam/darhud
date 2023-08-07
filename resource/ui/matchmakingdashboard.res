@@ -42,17 +42,7 @@
 
 		"BGPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BGPanel"
-			"xpos"			"cs-0.5"
-			"ypos"			"-1"
-			"zpos"			"-1"
-			"wide"			"p1.1"
-			"tall"			"f5"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"20 20 20 255"
-			"proportionaltoparent"	"1"
+			"visible"		"0"
 		}
 
 		"OuterShadow"
@@ -65,7 +55,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"xpos"			"0"
+			"xpos"			"107"
 			"ypos"			"5"
 			"zpos"			"100"
 			"wide"			"24"
@@ -85,7 +75,8 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
-			"roundedcorners"	"0"
+
+			"roundedcorners"	"12"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -119,10 +110,10 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"25"
+			"xpos"			"132"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
-			"wide"			"o1"
+			"wide"			"24"
 			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -140,7 +131,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"50"
+			"xpos"			"157"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -161,7 +152,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"75"
+			"xpos"			"182"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -182,7 +173,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"100"
+			"xpos"			"207"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -203,7 +194,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"125"
+			"xpos"			"232"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -224,7 +215,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"150"
+			"xpos"			"257"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"

@@ -1,4 +1,4 @@
-#base "../preload.res"
+#base "../../resource/preload.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -13,10 +13,10 @@
 		"wide"			"f0"
 		"tall"			"480"
 
-		"bgcolor_override"	"0 0 0 150"
+		"bgcolor_override"	"0 0 0 96"
 
-		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
-		"blog_url"		"https://www.teamfortress.com/"
+		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
+		"blog_url"		"http://www.teamfortress.com/"
 
 		"button_x_offset"	"-285"
 		"button_y"			"120"
@@ -228,7 +228,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"55"
+		"xpos"			"60"
 		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"256"
@@ -238,13 +238,41 @@
 		"image"			"../vgui/replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
+	}	
+	
+	"VerticalBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"VerticalBG"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"217"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"10 10 10 240"
+	}
+
+	"VerticalBGBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"VerticalBG"
+		"xpos"			"80"
+		"ypos"			"-5"
+		"zpos"			"1"
+		"wide"			"226"
+		"tall"			"490"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"OuterShadowBorder"
 	}
 
 	"TFCharacterImage"
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
+		"xpos"			"c-240"
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
@@ -258,11 +286,12 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"-320"
-		"ypos"			"48"
-		"zpos"			"4"
-		"wide"			"800"
-		"tall"			"800"
+		"xpos"			"-290"
+		"ypos"			"-18"
+
+		"zpos"			"5"
+		"wide"			"820"
+		"tall"			"820"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -276,11 +305,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-28"
-		"ypos"			"r55"
-		"zpos"			"3"
-		"wide"			"15"
-		"tall"			"15"
+		"xpos"			"279"
+		"ypos"			"r110"
+		"zpos"			"7"
+		"wide"			"11"
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -304,8 +333,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"255 255 255 255"
+		"image_drawcolor"	"White"
+		"image_armedcolor"	"White"
+
+		"defaultbgColor_override" "MMenu_Black"
+		"armedbgColor_override" "Orange"
+
+		"defaultfgColor_override" "White"
+		"armedfgColor_override" "White"
 
 		"SubImage"
 		{
@@ -348,11 +383,11 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"r80"
-		"zpos"			"11"
-		"wide"			"f0"
-		"tall"			"100"
+		"xpos"			"95"
+		"ypos"			"358"
+		"zpos"			"2"
+		"wide"			"196"
+		"tall"			"160"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -367,32 +402,29 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"c-295"
-		"ypos"			"94"
-		"zpos"			"-99"
-		"wide"			"260"
-		"tall"			"100"
+		"xpos"			"98"
+		"ypos"			"r80"
+		"zpos"			"0"
+		"wide"			"210"
+		"tall"			"80"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"wrap"			"1"
-		"textinsetx"	"40"
-		"textinsety"	"10"
 
 		"font"			"HudFontSmallestBold"
 		"fgcolor_override"	"White"
 		"labelText"		"#TF_MM_NoGC_Rank"
-		"textAlignment"	"north-west"
-		"use_proportional_insets"	"1"
+		"textAlignment"	"east"
 	}
 
 	"NoGCImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
-		"ypos"			"107"
-		"zpos"			"-99"
+		"xpos"			"175"
+		"ypos"			"r105"
+		"zpos"			"100"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
@@ -404,17 +436,7 @@
 
 	"RankBorder"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RankBorder"
-		"xpos"			"-10"
-		"ypos"			"r60"
-		"zpos"			"4"
-		"wide"			"f-20"
-		"tall"			"70"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"20 20 20 255"
-		"proportionaltoparent"	"1"
+		"visible"		"0"
 	}
 
 	"TooltipPanel"
@@ -469,8 +491,10 @@
 			"fgcolor_override"	"White"
 			"auto_wide_tocontents" "1"
 		}
-	}
 
+		
+	}
+	
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1378,26 +1402,11 @@
 		"visible"		"0"
 	}
 
-	"ButtonsContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ButtonsContainer"
-		"xpos"			"80"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"216"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"bgcolor_override"	"0 0 0 250"
-	}
-
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"90"
+		"xpos"			"95"
 		"ypos"			"105"
 		"zpos"			"6"
 		"wide"			"196"
@@ -1421,8 +1430,10 @@
 		"proportionaltoparent"	"1"
 
 		"paintbackground"	"1"
+		"paintBorder"	"1"
 
 		"image_drawcolor"	"White"
+		"border_default"    "MainMenuButtonDefault"
 
 		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
@@ -1444,6 +1455,22 @@
 			"scaleImage"	"1"
 			"image"			"glyph_items"
 		}
+	}	
+	
+	"ItemShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ItemShadow"
+		"pin_to_sibling"	"CharacterSetupButton"
+		"xpos"			"5"
+		"ypos"			"5"
+		"zpos"			"5"
+		"wide"			"206"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"StoreHasNewItemsImage"
@@ -1456,7 +1483,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"90"
+		"xpos"			"95"
 		"ypos"			"140"
 		"zpos"			"6"
 		"wide"			"196"
@@ -1489,14 +1516,14 @@
 
 		"defaultfgColor_override" "White"
 		"armedfgColor_override" "White"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"5"
 			"ypos"			"7"
-			"zpos"			"1"
+			"zpos"			"2"
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"1"
@@ -1505,12 +1532,28 @@
 			"image" "glyph_store"
 		}
 	}	
+
+	"GeneralStoreShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"GeneralStoreShadow"
+		"pin_to_sibling"	"GeneralStoreButton"
+		"xpos"			"5"
+		"ypos"			"5"
+		"zpos"			"5"
+		"wide"			"206"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
+	}
 	
 	"CustomSettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomSettingsButton"
-		"xpos"			"90"
+		"xpos"			"95"
 		"ypos"			"175"
 		"zpos"			"6"
 		"wide"			"196"
@@ -1561,6 +1604,22 @@
 			"image"			"glyph_options"
 		}
 	}
+	
+	"SettingsShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SettingsShadow"
+		"pin_to_sibling"	"CustomSettingsButton"
+		"xpos"			"5"
+		"ypos"			"5"
+		"zpos"			"5"
+		"wide"			"206"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
+	}
 
 	"TF2SettingsButton"
 	{
@@ -1570,10 +1629,10 @@
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		"xpos"			"-3"
-		"ypos"			"-2"
+		"ypos"			"-4"
 		"zpos"			"8"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"23"
+		"tall"			"23"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -1609,8 +1668,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
+			"xpos"			"4"
+			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"15"
 			"tall"			"15"
@@ -1620,13 +1679,29 @@
 			"image"			"glyph_options"
 			"scaleImage"	"1"
 		}
+	}	
+	
+	"TF2SettingsShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TF2SettingsShadow"
+		"pin_to_sibling"	"TF2SettingsButton"
+		"xpos"			"5"
+		"ypos"			"5"
+		"zpos"			"7"
+		"wide"			"33"
+		"tall"			"33"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"90"
+		"xpos"			"95"
 		"ypos"			"215"
 		"zpos"			"6"
 		"wide"			"25"
@@ -1680,7 +1755,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"114"
+		"xpos"			"119"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1706,7 +1781,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"image_drawcolor"	"White"
-		"border_default"	"MainMenuSubButtonBorder"
+		"RoundedCorners"	"0"
 
 		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
@@ -1734,7 +1809,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"138"
+		"xpos"			"143"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1760,7 +1835,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"image_drawcolor"	"White"
-		"border_default"	"MainMenuSubButtonBorder"
+		"RoundedCorners"	"0"
 
 		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
@@ -1788,7 +1863,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"162"
+		"xpos"			"167"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1814,7 +1889,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"image_drawcolor"	"White"
-		"border_default"	"MainMenuSubButtonBorder"
+		"RoundedCorners"	"0"
 
 		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
@@ -1842,7 +1917,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButton"
-		"xpos"			"186"
+		"xpos"			"190"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1868,7 +1943,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"image_drawcolor"	"White"
-		"border_default"	"MainMenuSubButtonBorder"
+		"RoundedCorners"	"0"
 
 		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
@@ -1896,7 +1971,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplayButton"
-		"xpos"			"210"
+		"xpos"			"215"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"25"
@@ -1923,7 +1998,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 
 		"image_drawcolor"	"White"
-		"border_default"	"MainMenuSubButtonBorder"
+		"RoundedCorners"	"0"
 
 		"defaultbgColor_override" "MMenu_Black"
 		"armedbgColor_override" "Orange"
@@ -1951,7 +2026,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ConsoleButton"
-		"xpos"			"234"
+		"xpos"			"239"
 		"ypos"			"215"
 		"zpos"			"7"
 		"wide"			"26"
@@ -1981,7 +2056,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 
 			"defaultFgColor_override" "46 43 42 255"
@@ -2021,7 +2095,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"258"
+		"xpos"			"264"
 		"ypos"			"215"
 		"zpos"			"6"
 		"wide"			"26"
@@ -2072,44 +2146,48 @@
 		}
 	}
 
+	"SmallButtonsShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SmallButtonsShadow"
+		"pin_to_sibling"	"NewUserForumsButton"
+		"xpos"			"5"
+		"ypos"			"5"
+		"zpos"			"5"
+		"wide"			"205"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
+	}
+
 	"FriendsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"80"
-		"ypos"			"245"
-		"zpos"			"5"
-		"wide"			"216"
-		"tall"			"175"
+		"xpos"			"95"
+		"ypos"			"250"
+		"zpos"			"7"
+		"wide"			"196"
+		"tall"			"112"
 		"visible"		"1"
 
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
-			"labelText"		"#TF_Competitive_Friends"
-			"textAlignment"	"south-west"
-			"xpos"			"12"
-			"ypos"			"0"
-			"wide"			"220"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"wide"			"0"
+			"tall"			"0"
 		}
 
 		"InnerShadow"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"InnerShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"502"
-			"wide"			"f10"
-			"tall"			"130"
+			"wide"			"f5"
+			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -2121,11 +2199,11 @@
 		{
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"501"
-			"wide"			"f10"
-			"tall"			"130"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"bgcolor_override" "20 20 20 255"
@@ -2139,7 +2217,7 @@
 
 			"friendpanel_kv"
 			{
-				"wide"		"104"
+				"wide"		"98"
 				"tall"		"20"
 			}
 
@@ -2147,7 +2225,7 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
+				"xpos"			"r5"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.
@@ -2180,10 +2258,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"BelowDarken"
-			"xpos"			"cs-0.5"
+			"xpos"			"0"
 			"ypos"			"rs1-10"
 			"zpos"			"499"
-			"wide"			"f10"
+			"wide"			"f5"
 			"tall"			"105"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
@@ -2395,7 +2473,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
 		"xpos"			"c-47"
-		"ypos"			"r90"
+		"ypos"			"437"
 		"zpos"			"11"
 		"wide"			"30"
 		"tall"			"25"
@@ -2432,14 +2510,12 @@
 
 			"paintbackground"	"1"
 
-			"defaultbgColor_override" "MMenu_Black"
-			"armedbgColor_override" "Orange"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
 
-			"defaultfgColor_override" "White"
-			"armedfgColor_override" "White"
-
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"proportionaltoparent"	"1"
 
@@ -2466,7 +2542,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"c-24"
-		"ypos"			"r90"
+		"ypos"			"437"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2503,14 +2579,12 @@
 			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 
-			"defaultbgColor_override" "MMenu_Black"
-			"armedbgColor_override" "Orange"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
 
-			"defaultfgColor_override" "White"
-			"armedfgColor_override" "White"
-
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2535,7 +2609,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"c-1"
-		"ypos"			"r90"
+		"ypos"			"437"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2572,14 +2646,12 @@
 			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 
-			"defaultbgColor_override" "MMenu_Black"
-			"armedbgColor_override" "Orange"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
 
-			"defaultfgColor_override" "White"
-			"armedfgColor_override" "White"
-
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2605,7 +2677,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
 		"xpos"			"c22"
-		"ypos"			"r90"
+		"ypos"			"437"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2642,14 +2714,12 @@
 
 			"paintbackground"	"1"
 
-			"defaultbgColor_override" "MMenu_Black"
-			"armedbgColor_override" "Orange"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
 
-			"defaultfgColor_override" "White"
-			"armedfgColor_override" "White"
-
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2680,7 +2750,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
 
 	"BackToReplaysButton"
 	{
@@ -2756,5 +2825,15 @@
 			"angles_z"		"0"
 		}
 	}
+	
+	"DashboardDimmer"        // allows for clicking off playlist frames
+    {
+        "wide"                "f0"
+        "tall"                "f0"
+        "paintbackground"    "1"
+        "paintborder"        "0"
+        "roundedcorners"    "0"
+		"bgColor_override"       "0 0 0 240" // Set the background color to black with transparency (alpha = 100)
+		"fgColor_override"       "0 0 0 0"   // Set the foreground color (text, if applicable) to fully transparent
+	}
 }
-
