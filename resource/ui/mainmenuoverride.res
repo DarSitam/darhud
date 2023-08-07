@@ -237,9 +237,30 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
+		"mouseinputenabled"	"1"
 	}	
 	
+	"TFLogoEasterEgg"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"TFLogoEasterEgg"
+			"xpos"			"60"
+			"ypos"			"36"
+			"zpos"			"2"
+			"wide"			"256"
+			"tall"			"64"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"default"		"1"
+			"labelText"		""
+			//"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/tv_tune3.wav"
+			
+			"paintbackground"	"0"
+		}
+
 	"VerticalBG"
 	{
 		"ControlName"	"EditablePanel"
