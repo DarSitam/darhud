@@ -2472,10 +2472,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-47"
-		"ypos"			"437"
+		"xpos"			"30"
+		"ypos"			"105"
 		"zpos"			"11"
-		"wide"			"30"
+		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
 
@@ -2506,16 +2506,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"RoundedCorners"	"5"
+			"RoundedCorners"	"7"
 
 			"paintbackground"	"1"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultbgColor_override" "MMenu_Black"
+			"armedbgColor_override" "Orange"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultfgColor_override" "White"
+			"armedfgColor_override" "White"
+
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 
 			"proportionaltoparent"	"1"
 
@@ -2541,8 +2543,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-24"
-		"ypos"			"437"
+		"xpos"			"30"
+		"ypos"			"129"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2575,16 +2577,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"RoundedCorners"	"0"
 
-			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultbgColor_override" "MMenu_Black"
+			"armedbgColor_override" "Orange"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultfgColor_override" "White"
+			"armedfgColor_override" "White"
+
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2608,8 +2612,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-1"
-		"ypos"			"437"
+		"xpos"			"30"
+		"ypos"			"153"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2642,16 +2646,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"RoundedCorners"	"0"
 
-			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultbgColor_override" "MMenu_Black"
+			"armedbgColor_override" "Orange"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultfgColor_override" "White"
+			"armedfgColor_override" "White"
+
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2676,9 +2682,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c22"
-		"ypos"			"437"
-		"zpos"			"12"
+		"xpos"			"30"
+		"ypos"			"177"
+		"zpos"			"11"
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
@@ -2710,16 +2716,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			"RoundedCorners"	"12"
 
 			"paintbackground"	"1"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultbgColor_override" "MMenu_Black"
+			"armedbgColor_override" "Orange"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultfgColor_override" "White"
+			"armedfgColor_override" "White"
+
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2738,6 +2746,20 @@
 				"proportionaltoparent"	"1"
 			}
 		}
+	}
+
+	"GameButtonsShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"GameButtonsShadow"
+		"xpos"			"25"
+		"ypos"			"100"
+		"zpos"			"10"
+		"wide"			"34"
+		"tall"			"107"
+		"visible"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"BackgroundFooter"
