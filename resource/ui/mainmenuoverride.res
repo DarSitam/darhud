@@ -2769,20 +2769,6 @@
 		}
 	}
 
-	"GameButtonsShadow"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"GameButtonsShadow"
-		"xpos"			"25"
-		"ypos"			"100"
-		"zpos"			"10"
-		"wide"			"34"
-		"tall"			"107"
-		"visible"		"1"
-
-		"border"	"OuterShadowBorder"
-	}
-
 	"BackgroundFooter"
 	{
 		"visible"		"0"
