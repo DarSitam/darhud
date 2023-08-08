@@ -13,6 +13,36 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+	}	
+	
+	"bg"
+	{		
+		"ControlName"	"EditablePanel"
+		"fieldName"		"bg"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override"		"BackgroundTransparent"
+	}
+
+	"Stripe"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Stripe"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TransparentStripe"
 	}
 
 	"SysMenu"
@@ -65,16 +95,8 @@
 	
 	"classBgShadow"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"classBgShadow"
-		"xpos"			"0"
-		"ypos"			"cs-0.5"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"teambutton0"
@@ -262,24 +284,17 @@
 	}
 
 	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-		"bgcolor_override" "BackgroundTransparent"
+	{	
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 	
 	"ShadedBar"
 	{
+		"wide"			"0"
+		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"0"
 	}		

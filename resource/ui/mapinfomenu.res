@@ -13,20 +13,43 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override" "BackgroundTransparent"
+	}
+	
+	"bg"
+	{		
+		"ControlName"	"EditablePanel"
+		"fieldName"		"bg"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override"		"BackgroundTransparent"
+	}
+
+	"Stripe"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Stripe"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"305"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TransparentStripe"
 	}
 
 	"MapInfoBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MapInfoBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"300"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"MapInfoTitle"
@@ -35,7 +58,7 @@
 		"fieldName"		"MapInfoTitle"
 		"xpos"			"c-190"
 		"ypos"			"125"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"24"
 		"autoResize"	"0"
@@ -54,7 +77,7 @@
 		"fieldName"		"MapInfoType"
 		"xpos"			"c-190"
 		"ypos"			"155"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"24"
 		"autoResize"	"0"
@@ -185,20 +208,11 @@
 	}
 	
 	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-		"bgcolor_override" "BackgroundTransparent"
+	{	
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}					
 
 	"ShadedBar"

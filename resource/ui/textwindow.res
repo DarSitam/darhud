@@ -15,6 +15,36 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
+
+	"bg"
+	{		
+		"ControlName"	"EditablePanel"
+		"fieldName"		"bg"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override"		"BackgroundTransparent"
+	}
+
+	"Stripe"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Stripe"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"305"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TransparentStripe"
+	}
 	
 	"TFMessageTitle"
 	{
@@ -83,16 +113,8 @@
 
 	"MessageBG"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MessageBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"305"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"ok"
@@ -126,20 +148,12 @@
 	}
 	
 	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override" "BackgroundTransparent"	
-	}
+	{	
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}	
 	
 	"ShadedBar"
 	{

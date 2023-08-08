@@ -14,6 +14,22 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"paintbackground"	"0"
+	}	
+	
+	"bg"
+	{		
+		"ControlName"	"EditablePanel"
+		"fieldName"		"bg"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override"		"0 0 0 250"
 	}
 	
 	"titlelabel"
@@ -172,23 +188,6 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
-
-	"MenuBG1"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MenuBG1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-		"bgcolor_override" "BackgroundTransparent"
 	}					
 	
 	"VideoCaption"
