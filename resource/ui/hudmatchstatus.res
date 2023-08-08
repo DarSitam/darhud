@@ -311,7 +311,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmallSecondary"
-			"fgcolor"		"White"
+			"fgcolor"		"MiscLabel"
 			"xpos"			"45"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -477,7 +477,7 @@
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"					"HudOffWhite"
+				"TextColor"					"HudOffMiscLabel"
 			}
 			"ReadyBG"
 			{

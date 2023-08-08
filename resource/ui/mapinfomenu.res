@@ -26,7 +26,7 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 220"
+		"bgcolor_override"	"TransparentStripe"
 	}
 	
 	"MapInfoTitle"
@@ -45,7 +45,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
 		"font"			"ChalkboardTitle"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	
 	"MapInfoType"
@@ -64,7 +64,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
 		"font"			"ChalkboardText"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}	
 	
 	"MapInfoText"
@@ -83,7 +83,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	
 	"MapImage"
@@ -122,10 +122,11 @@
 		"default"		"1"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"MapInfoWatchIntro"
@@ -149,10 +150,11 @@
 		"default"		"1"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"MapInfoBack"
@@ -175,10 +177,11 @@
 		"command"		"back"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"MenuBG"
@@ -195,7 +198,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		"bgcolor_override" "0 0 0 192"
+		"bgcolor_override" "BackgroundTransparent"
 	}					
 
 	"ShadedBar"

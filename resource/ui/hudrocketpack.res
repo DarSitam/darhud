@@ -71,6 +71,7 @@
 		"enabled"		"1"
 		"image" 		"replay/thumbnails/icons/jetpack"
 		"scaleImage" "1"
+		"drawcolor"		"CounterIcon"
 	}
 
 	"ItemEffectMeterLabel"
@@ -84,8 +85,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
-		"bgcolor_override" 		"0 0 0 192"
-		"fgcolor_override" 		"White"
+		"bgcolor_override" 		"MeterBackground"
+		"fgcolor_override" 		"Meter"
 		"xpos"			"8"
 		"ypos"			"12"
 		"zpos"			"2"

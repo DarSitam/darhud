@@ -60,7 +60,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmall"
-		"fgcolor"		"White"
+		"fgcolor"		"ObjectiveLabel"
 		
 		"if_hybrid"
 		{
@@ -302,7 +302,7 @@
 				"textAlignment"	"west"	
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"White"		
+				"fgcolor"		"ObjectiveLabel"		
 				"proportionalToParent"	"1"
 			}
 			
@@ -323,7 +323,7 @@
 				"textAlignment"	"west"	
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"HUDShadow"		
+				"fgcolor"		"ObjectiveShadow"		
 				"proportionalToParent"	"1"
 			}
 
@@ -360,7 +360,7 @@
 				"textAlignment"	"east"	
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"White"			
+				"fgcolor"		"ObjectiveLabel"			
 				"proportionalToParent"	"1"
 			}
 			
@@ -381,7 +381,7 @@
 				"textAlignment"	"east"	
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"HUDShadow"	
+				"fgcolor"		"ObjectiveShadow"	
 				"proportionalToParent"	"1"
 			}
 
@@ -412,7 +412,7 @@
 					"textAlignment"	"east"	
 					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"White"		
+					"fgcolor"		"ObjectiveLabel"		
 					"proportionalToParent"	"1"
 				}
 
@@ -430,7 +430,7 @@
 					"textAlignment"	"east"	
 					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"HudShadow"		
+					"fgcolor"		"ObjectiveShadow"		
 					"proportionalToParent"	"1"
 				}
 
@@ -448,7 +448,7 @@
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"White"		
+					"fgcolor"		"ObjectiveLabel"		
 					"proportionalToParent"	"1"
 				}
 
@@ -466,7 +466,7 @@
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"HudShadow"		
+					"fgcolor"		"ObjectiveShadow"		
 					"proportionalToParent"	"1"
 				}
 			}
@@ -548,7 +548,7 @@
 					"textAlignment"	"east"	
 					"labelText"		"#TF_RD_RedFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"White"		
+					"fgcolor"		"ObjectiveLabel"		
 					"proportionalToParent"	"1"
 				}
 
@@ -566,7 +566,7 @@
 					"textAlignment"	"east"	
 					"labelText"		"#TF_RD_RedFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"HudShadow"		
+					"fgcolor"		"ObjectiveShadow"		
 					"proportionalToParent"	"1"
 				}
 
@@ -584,7 +584,7 @@
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"White"		
+					"fgcolor"		"ObjectiveLabel"		
 					"proportionalToParent"	"1"
 				}
 
@@ -602,7 +602,7 @@
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"HudShadow"		
+					"fgcolor"		"ObjectiveShadow"		
 					"proportionalToParent"	"1"
 				}
 			}
@@ -686,7 +686,7 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBigBold"
-				"fgcolor"		"White"		
+				"fgcolor"		"ObjectiveLabel"		
 				"proportionalToParent"	"1"
 			}	
 		
@@ -704,7 +704,7 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBigBold"
-				"fgcolor"		"HudShadow"		
+				"fgcolor"		"ObjectiveShadow"		
 				"proportionalToParent"	"1"
 			}
 		}
@@ -737,7 +737,7 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBigBold"
-				"fgcolor"		"White"	
+				"fgcolor"		"ObjectiveLabel"	
 				"proportionalToParent"	"1"	
 			}	
 		
@@ -755,7 +755,7 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBigBold"
-				"fgcolor"		"HudShadow"		
+				"fgcolor"		"ObjectiveShadow"		
 				"proportionalToParent"	"1"
 			}
 		}
@@ -1021,7 +1021,7 @@
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumBold"
-			"fgcolor"		"White"		
+			"fgcolor"		"ObjectiveLabel"		
 			"proportionalToParent"	"1"
 		}
 
@@ -1042,7 +1042,7 @@
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumBold"
-			"fgcolor"		"HudShadow"		
+			"fgcolor"		"ObjectiveShadow"		
 			"proportionalToParent"	"1"
 		}
 	}

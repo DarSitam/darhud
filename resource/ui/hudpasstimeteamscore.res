@@ -94,7 +94,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"White"		
+		"fgcolor"		"ObjectiveLabel"		
 	}	
 		
 	"BlueScoreShadow"
@@ -114,7 +114,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"HUDShadow"	
+		"fgcolor"		"ObjectiveShadow"	
 	}	
 							
 	"RedScore"
@@ -131,7 +131,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"White"				
+		"fgcolor"		"ObjectiveLabel"				
 	}	
 		
 	"RedScoreShadow"
@@ -151,7 +151,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"HUDShadow"	
+		"fgcolor"		"ObjectiveShadow"	
 	}
 
 	"PlayingToCluster"
@@ -182,7 +182,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmallest"
-			"fgcolor"		"White"
+			"fgcolor"		"ObjectiveLabel"
 		}	
 				
 		"PlayingToBG"

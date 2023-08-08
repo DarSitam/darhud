@@ -69,7 +69,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TF2DefaultSmall"
-		"disabledfgcolor2_override" "50 50 50 255"
+		"disabledfgcolor2_override" "MeterLabel"
 	}
 
 	"ItemEffectMeter"
@@ -77,7 +77,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"bgcolor_override" 		"255 255 255 24"
+		"bgcolor_override" 		"MeterBackground"
 		"pin_to_sibling" 		"ItemEffectMeterLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"

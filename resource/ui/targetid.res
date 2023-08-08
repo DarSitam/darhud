@@ -58,7 +58,7 @@
 		"tall"	 			"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"HudShadow"
+		"fillcolor"			"MiscShadow"
 	}
 
 	"TargetNameLabel"
@@ -77,7 +77,7 @@
 		"enabled"		"0"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"disabledfgcolor2_override" "White"
+		"disabledfgcolor2_override" "MiscLabel"
 	}
 
 	"TargetNameLabelShadow"
@@ -99,7 +99,7 @@
 		"enabled"		"0"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"disabledfgcolor2_override" "HUDShadow"
+		"disabledfgcolor2_override" "MiscShadow"
 	}
 
 	"TargetDataLabel"
@@ -119,7 +119,7 @@
 		"enabled"		"0"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"west"
-		"disabledfgcolor2_override" "White"
+		"disabledfgcolor2_override" "MiscLabel"
 	}
 
 	"SpectatorGUIHealth"
@@ -137,7 +137,7 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"White"
+		"TextColor"		"HealthNormal"
 	}	
 	
 	"AmmoIcon"
@@ -278,6 +278,6 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-		"color_outline"	"52 48 45 255"
+		"color_outline"	"255 255 255 255"
 	}	
 }

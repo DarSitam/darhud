@@ -82,7 +82,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMediumSmallBold"
-        "fgcolor"		"White"
+        "fgcolor"		"AdditionalValue"
 	}
 
 	"AccountValueShadow"
@@ -104,6 +104,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMediumSmallBold"
-        "fgcolor"		"HudShadow"
+        "fgcolor"		"AdditionalShadow"
 	}
 }

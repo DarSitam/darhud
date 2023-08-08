@@ -26,7 +26,7 @@
 		"ypos"			"95"
 		"wide"			"524"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 		
 	"PopFileLabelShadow"
@@ -67,7 +67,7 @@
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"10"
-			"fgcolor"		"White"
+			"fgcolor"		"MiscLabel"
 		}
 				
 		"DifficultyLabelShadow"
@@ -97,7 +97,7 @@
 			"ypos"			"11"
 			"wide"			"100"
 			"tall"			"10"
-			"fgcolor"		"White"
+			"fgcolor"		"MiscLabel"
 		}		
 		
 		"DifficultyValueShadow"
@@ -147,7 +147,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"22"
-		"textcolor"		"White"
+		"textcolor"		"MiscLabel"
 	}
 	
 	"CreditStatsContainer"
@@ -188,7 +188,7 @@
 		{
 			"wide"			"0"
 			"tall"			"0"
-			"fgcolor"		"White"
+			"fgcolor"		"MiscLabel"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -246,7 +246,7 @@
 			"ypos"			"100"
 			"wide"			"332"
 			"tall"			"25"
-			"fgcolor"		"White"
+			"fgcolor"		"MiscLabel"
 		}
 	}
 }

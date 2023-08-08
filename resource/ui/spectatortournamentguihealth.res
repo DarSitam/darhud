@@ -63,7 +63,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	"PlayerHealthValueShadow"
 	{
@@ -79,7 +79,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"MiscShadow"
 		"pin_to_sibling"	"PlayerHealthValue"
 	}
 }

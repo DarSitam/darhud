@@ -74,7 +74,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 220"
+		"bgcolor_override"	"TransparentStripe"
 	}
 
 	"teambutton0"
@@ -106,8 +106,8 @@
 		"defaultbgColor_override" "HUDBlueTeam"
 		"armedbgColor_override" "HUDBlueTeamSolid"
 
-		"defaultfgColor_override" "TanLight"
-		"armedfgColor_override" "White"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"teambutton1"
@@ -138,8 +138,8 @@
 		"defaultbgColor_override" "HUDRedTeam"
 		"armedbgColor_override" "HUDRedTeamSolid"
 
-		"defaultfgColor_override" "TanLight"
-		"armedfgColor_override" "White"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"teambutton2"
@@ -165,11 +165,11 @@
 		"associated_model"	"autodoor"
 		"font"			"HudFontMediumBigBold"
 
-		"defaultbgColor_override" "Black"
-		"armedbgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
 
-		"defaultfgColor_override" "White"
-		"armedfgColor_override" "TanLight"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"teambutton3"
@@ -195,11 +195,11 @@
 		"associated_model"	"spectate"	
 		"font"			"HudFontMediumSmallBold"
 				
-		"defaultbgColor_override" "Black"
-		"armedbgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
 
-		"defaultfgColor_override" "White"
-		"armedfgColor_override" "TanLight"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"CancelButton"
@@ -223,10 +223,11 @@
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"TeamMenuSelect"
@@ -245,7 +246,7 @@
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	
 	"TeamMenuAuto"
@@ -274,7 +275,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		"bgcolor_override" "0 0 0 192"
+		"bgcolor_override" "BackgroundTransparent"
 	}	
 	
 	"ShadedBar"

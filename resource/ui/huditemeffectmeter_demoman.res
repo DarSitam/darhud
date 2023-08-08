@@ -17,6 +17,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/icons/skull"
+		"drawcolor"		"CounterIcon"
 		"scaleImage"	"0"		
 	}
 }

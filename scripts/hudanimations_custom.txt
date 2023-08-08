@@ -42,10 +42,10 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.2 0.4
 	
-	Animate	PlayerHealthValue			FgColor		"HealGreen" Accel 0.0 0.0
-	Animate PlayerStatusHealthValue 		FgColor		"HealGreen" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator 		FgColor		"HealGreen" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"HealGreen" Accel 0.0 0.0
+	Animate	PlayerHealthValue			FgColor		"HealthGain" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 		FgColor		"HealthGain" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 		FgColor		"HealthGain" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"HealthGain" Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -55,10 +55,10 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
-	Animate	PlayerHealthValue			FgColor		"White" Accel 0.0 0.0
-	Animate PlayerStatusHealthValue 		FgColor		"White" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator 		FgColor		"White" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"White" Accel 0.0 0.0
+	Animate	PlayerHealthValue			FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 		FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 		FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"WhitHealthNormale" Accel 0.0 0.0
 }
 
 //===========================================
@@ -82,10 +82,10 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
-	Animate	PlayerHealthValue			FgColor		"White" Accel 0.0 0.0
-	Animate PlayerStatusHealthValue 		FgColor		"White" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator 		FgColor		"White" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"White" Accel 0.0 0.0
+	Animate	PlayerHealthValue			FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 		FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 		FgColor		"HealthNormal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 		FgColor		"HealthNormal" Accel 0.0 0.0
 }
 //==========================================================================================================================
 // UBERCHARGE ANIMATION
@@ -93,11 +93,11 @@ event HudHealthDyingPulseStop
 //Health Bonus Pulse
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"White"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"HealGreen"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"UberForeground"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"HealthGain"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"HealGreen"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"UberForeground"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"HealthGain"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -113,8 +113,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"White"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"UberForeground"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"UberForeground"		Linear 0.0 0.0001
 }
 
 event HudSnapShotReminderIn

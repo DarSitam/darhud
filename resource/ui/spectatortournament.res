@@ -36,7 +36,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
-				"fgcolor_override"	"White"
+				"fgcolor_override"	"MiscLabel"
 				"xpos"			"2"
 				"ypos"			"22"
 				"zpos"			"5"
@@ -109,7 +109,7 @@
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"					"White"
+				"TextColor"					"HealthNormal"
 			}
 			
 			"ReadyBG"
@@ -177,7 +177,7 @@
 				"enabled"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"White"
+				"fgcolor"		"MiscLabel"
 				
 				if_mvm
 				{
@@ -200,7 +200,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"HealGreen"
+				"fgcolor"		"HealthGain"
 			}
 			
 			"specindex"
@@ -321,7 +321,7 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
 		"bgcolor_override"	"GreenSolid"
-		"fgcolor"	"white"
+		"fgcolor"	"MiscLabel"
 		"paintBackgroundType" "2"
 		"wrap"			"1"
 		"centerwrap"	"1"
@@ -337,7 +337,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmall"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"MiscLabel"
 		"xpos"			"15"
 		"ypos"			"0"
 		"wide"			"240"

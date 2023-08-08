@@ -68,7 +68,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
-		"fgcolor"		        "White"
+		"fgcolor"		        "CounterValue"
 	}
 
 	"ItemEffectMeterLabel"

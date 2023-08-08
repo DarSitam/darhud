@@ -58,7 +58,7 @@
 		"tall"			"165"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 220"
+		"bgcolor_override"	"TransparentStripe"
 	}
 	
 	"random"
@@ -89,26 +89,26 @@
 		"image_default"		"class_sel_sm_random_inactive"
 		"image_armed"		"class_sel_sm_random_inactive"
 		
-		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "White"
+		"selectedFgColor_override" "White"		
+		
+		"paintbackground"	"1"
+		
+		"defaultbgColor_override" "0 0 0 192"
+		"armedbgColor_override" "0 0 0 192"
+		"depressedbgColor_override" "0 0 0 192"
+		"selectedbgColor_override" "Black"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"1"
-		"fgcolor"			"0 0 0 192"
-		"defaultbgColor_override" "0 0 0 192"
-		"armedbgColor_override" "0 0 0 192"
-		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -755,10 +755,11 @@
 		"Command"		"vguicancel"
 		"font"			"HudFontSmallBold"
 
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"EditLoadoutButton"
@@ -780,10 +781,11 @@
 		"Command"		"openloadout"
 		"font"			"HudFontSmallBold"
 
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"ClassMenuSelect1"
@@ -802,7 +804,7 @@
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	
 	"MenuBG"

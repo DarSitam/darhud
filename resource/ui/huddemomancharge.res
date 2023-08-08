@@ -28,7 +28,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-        "bgcolor_override" 		"255 255 255 24"
+        "bgcolor_override" 		"MeterBackground"
 		"fgcolor_override" 		"White"
 	}					
 }

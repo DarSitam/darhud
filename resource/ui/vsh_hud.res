@@ -236,7 +236,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"White"		
+				"fgcolor"		"ObjectiveLabel"		
 				"proportionalToParent"	"1"
 			}	
 		
@@ -254,7 +254,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"HudShadow"		
+				"fgcolor"		"ObjectiveShadow"
 				"proportionalToParent"	"1"
 			}
 		}
@@ -288,7 +288,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"CenterPrintText"
-				"fgcolor"		"White"		
+				"fgcolor"		"ObjectiveLabel"		
 				"proportionalToParent"	"1"
 			}	
 		
@@ -307,7 +307,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"CenterPrintText"
-				"fgcolor"		"HudShadow"		
+				"fgcolor"		"ObjectiveShadow"
 				"proportionalToParent"	"1"
 			}
 		}

@@ -65,7 +65,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"HudFontGiantBold"
-		"fgcolor"		"White"
+		"fgcolor"		"AmmoNormal"
 		"xpos"			"-2"
 		"ypos"			"12"
 		"zpos"			"5"
@@ -92,7 +92,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"font"			"HudFontGiantBold"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"AmmoShadow"
 		"textAlignment"	"north"	
 		"labelText"		"%Ammo%"
 		
@@ -109,7 +109,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"font"			"HudFontMediumSmall"
-		"fgcolor"		"White"
+		"fgcolor"		"AmmoReserve"
 		"textAlignment"	"south-east"		
 		"labelText"		"%AmmoInReserve%"
 	}		
@@ -128,7 +128,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"font"			"HudFontMediumSmall"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"AmmoShadow"
 		"textAlignment"	"south"		
 		"labelText"		"%AmmoInReserve%"
 	}									
@@ -137,7 +137,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudFontGiantBold"
-		"fgcolor"		"White"
+		"fgcolor"		"AmmoNormal"
 		"xpos"			"4"
 		"ypos"			"22"
 		"zpos"			"5"
@@ -163,7 +163,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"font"			"HudFontGiantBold"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"AmmoShadow"
 		"textAlignment"	"center"	
 		"labelText"		"%Ammo%"		
 	}									

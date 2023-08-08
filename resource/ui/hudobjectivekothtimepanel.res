@@ -58,7 +58,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmallSecondary"
-			"fgcolor"		"White"
+			"fgcolor"		"MiscLabel"
 			"xpos"			"50"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -122,7 +122,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmallSecondary"
-			"fgcolor"		"White"
+			"fgcolor"		"MiscLabel"
 			"xpos"			"50"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -158,7 +158,7 @@
 		"tall"				"22"
 		"visible"			"0"
 		"enabled"			"1"
-		"bgcolor_override"	"White"
+		"bgcolor_override"	"MiscLabel"
 		"PaintBackgroundType"	"0"
 	}
 }

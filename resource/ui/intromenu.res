@@ -53,10 +53,11 @@
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"Continue"
@@ -81,10 +82,11 @@
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"Back"
@@ -107,10 +109,11 @@
 		"command"		"back"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"ReplayVideo"
@@ -133,10 +136,11 @@
 		"command"		"replayVideo"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"ShadedBar"
@@ -184,7 +188,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		"bgcolor_override" "0 0 0 250"
+		"bgcolor_override" "BackgroundTransparent"
 	}					
 	
 	"VideoCaption"
@@ -205,7 +209,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"IntroMenuCaption"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 		"wrap"			"1"
 	}
 }

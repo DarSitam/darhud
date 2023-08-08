@@ -174,7 +174,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"White"		
+		"fgcolor"		"ObjectiveLabel"		
 		
 		"if_hybrid"
 		{
@@ -209,7 +209,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"HUDShadow"		
+		"fgcolor"		"ObjectiveShadow"		
 		
 		"if_hybrid"
 		{
@@ -241,7 +241,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"White"		
+		"fgcolor"		"ObjectiveLabel"		
 		
 		"if_hybrid"
 		{
@@ -276,7 +276,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"HUDShadow"		
+		"fgcolor"		"ObjectiveShadow"		
 		
 		"if_hybrid"
 		{

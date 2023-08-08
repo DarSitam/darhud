@@ -420,8 +420,8 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"HudShadow"
-		"LocalBackgroundColor"	"White"
+		"BaseBackgroundColor"	"KillfeedNormal"
+		"LocalBackgroundColor"	"KillfeedKill"
 	}
 
 	HudVehicle

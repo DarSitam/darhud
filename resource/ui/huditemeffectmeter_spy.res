@@ -17,6 +17,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/icons/kritz"
+		"drawcolor"		"CounterIcon"
 		"scaleImage"	"0"		
 	}
 }

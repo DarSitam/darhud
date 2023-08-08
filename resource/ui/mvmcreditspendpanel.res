@@ -25,7 +25,7 @@
 		"ypos"			"15"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	
 	"UpgradesCountLabel"
@@ -39,7 +39,7 @@
 		"ypos"			"15"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	
 	"BuyBackLabel"
@@ -53,7 +53,7 @@
 		"ypos"			"27"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	
 	"BuyBackCountLabel"
@@ -67,7 +67,7 @@
 		"ypos"			"27"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	
 	"BottleLabel"
@@ -81,7 +81,7 @@
 		"ypos"			"39"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 	
 	"BottleCountLabel"
@@ -95,6 +95,6 @@
 		"ypos"			"39"
 		"wide"			"30"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 }

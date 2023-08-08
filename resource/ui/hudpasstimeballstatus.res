@@ -42,7 +42,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
-		fgcolor_override	"White"
+		fgcolor_override	"ObjectiveLabel"
 	}
 
 	"EventBonusLabel"
@@ -81,7 +81,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
-		fgcolor_override	"White"
+		fgcolor_override	"ObjectiveLabel"
 		pin_to_sibling			EventTitleLabel
 		pin_corner_to_sibling	4
 		pin_to_sibling_corner	6
@@ -311,7 +311,7 @@
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
 		"font"					"HudFontSmallest"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"ObjectiveLabel"
 		"visible"				"1"
 		"enabled"				"1"
 		"zpos"					"5"
@@ -389,7 +389,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"image"			"white"
+				"image"			"ObjectiveLabel"
 				"scaleImage"	"1"					
 			}
 		}
@@ -425,7 +425,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"image"			"white"
+				"image"			"ObjectiveLabel"
 				"scaleImage"	"1"					
 			}
 		}

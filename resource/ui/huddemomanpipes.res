@@ -37,7 +37,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TF2Default"
-		"disabledfgcolor2_override" "50 50 50 255"
+		"disabledfgcolor2_override" "MeterLabel"
 	}
 
 	"ChargeMeter"
@@ -45,7 +45,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"bgcolor_override" 		"255 255 255 24"
+		"bgcolor_override" 		"MeterBackground"
 		"fgcolor_override" 		"White"
 		"pin_to_sibling" 		"ChargeLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -85,6 +85,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/icons/sticky"
+			"drawcolor"		"AdditionalIcon"
 			"scaleImage"	"0"		
 		}	
 		
@@ -110,14 +111,30 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"fgcolor"		"White"
+			"fgcolor"		"AdditionalValue"
 		}
 			
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"tall"			"0"
+			"pin_to_sibling"	"NumPipesLabel"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"1"
+			"wide"			"22"
+			"tall"			"20"
+			"autoResize"	"1"
+			"pinCorner"		"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"%activepipes%"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"HudFontMedium"
+			"fgcolor"		"AdditionalShadow"
 		}		
 
 		"StickyBG"

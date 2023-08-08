@@ -60,7 +60,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_spy_disguise_menu_icon"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"TitleLabel"
@@ -71,7 +71,7 @@
 		"pin_to_sibling" "SpyIcon"
 		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 		"xpos"			"0"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"3"
@@ -93,7 +93,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontMediumBold"
 		"pin_to_sibling" "TitleLabel"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"MiscShadow"
 		"xpos"			"-1"			// align me to the left edge of the first selection
 		"ypos"			"-1"
 		"zpos"			"1"

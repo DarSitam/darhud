@@ -11,7 +11,7 @@
 		"wide"	 		"280"
 		"tall"	 		"120"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"50 50 50 255"
+		"bgcolor_override"	"MiscBackground"
 	}
 
 	ChatInputLine

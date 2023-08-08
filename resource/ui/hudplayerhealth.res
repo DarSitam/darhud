@@ -15,7 +15,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"HealthDeathWarningColor"	"HealthWarning"
 	}	
 	"PlayerStatusHealthImage"
 	{
@@ -81,7 +81,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFontGiantBold"
-		"fgcolor"		"White"
+		"fgcolor"		"HealthNormal"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -100,7 +100,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFontGiantBold"
-		"fgcolor"		"HudShadow"
+		"fgcolor"		"HealthShadow"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -119,7 +119,7 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"HudFontSmall"
-		"fgcolor"		"White"
+		"fgcolor"		"MaxHealth"
 	}
 	"PlayerStatusBleedImage"
 	{

@@ -34,7 +34,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"ChalkboardTitle"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}	
 
 	"TextMessage"
@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 	}
 
 	"HTMLMessage"
@@ -92,7 +92,7 @@
 		"tall"			"305"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 220"
+		"bgcolor_override"	"TransparentStripe"
 	}
 	
 	"ok"
@@ -118,10 +118,11 @@
 		"default"		"1"
 		"font"			"HudFontSmallBold"
 		
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"MenuBG"
@@ -137,7 +138,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 220"
+		"bgcolor_override" "BackgroundTransparent"	
 	}
 	
 	"ShadedBar"

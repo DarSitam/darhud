@@ -117,7 +117,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"TF2Default"
-			"fgcolor_override"		"White"
+			"fgcolor_override"		"MiscLabel"
 			"xpos"			"65"
 			"ypos"			"165"
 			"zpos"			"1"
@@ -148,14 +148,14 @@
 			"HealthDeathWarning"	"0.49"
 			"TFFont"		"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"		"HudOffWhite"
+			"TextColor"		"HudOffMiscLabel"
 		}	
 
 		"FreezeLabelKiller"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"fgcolor_override"		"White"
+			"fgcolor_override"		"MiscLabel"
 			"font"			"HudFontSmall"
 			"xpos"			"80"
 			"ypos"			"173"

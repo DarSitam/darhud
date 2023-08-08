@@ -83,7 +83,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"HudFontSmallest"
-		"fgcolor_override" 		"White"
+		"fgcolor_override" 		"MiscLabel"
 		"xpos"			"45"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -104,7 +104,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"HudFontSmallest"
-		"fgcolor_override" 		"White"
+		"fgcolor_override" 		"MiscLabel"
 		"xpos"			"45"
 		"ypos"			"14"
 		"zpos"			"1"
@@ -135,7 +135,7 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"HudOffMiscLabel"
 	}	
 	
 }

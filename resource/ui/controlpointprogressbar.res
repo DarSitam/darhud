@@ -67,7 +67,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"ProgressText"
 		"font"			"TF2Default"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"MiscLabel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"22"
