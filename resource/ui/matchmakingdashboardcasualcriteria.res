@@ -19,7 +19,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"0"
-		"ypos"		"20"
+		"ypos"		"25"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"20"
