@@ -370,7 +370,7 @@
 			"color_portrait_bg_blue"	"77 116 139 255"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
+			"color_bar_health_high"	"0 131 17 255"
 			"color_bar_health_med"	"191 183 58 255"
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"191 58 58 255"
@@ -438,7 +438,7 @@
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"bgcolor_override"	   "80 80 80 255"
+				"bgcolor_override"	 	"MeterBackground"
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
