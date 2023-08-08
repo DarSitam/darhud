@@ -1,4 +1,4 @@
-#base "../../resource/preload.res"
+#base "../preload.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -2228,7 +2228,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
-			"bgcolor_override" "20 20 20 255"
+			"bgcolor_override" "BackgroundDefault"
 
 			"columns_count"	"2"
 			"inset_x"		"0"
@@ -2742,14 +2742,14 @@
 
 			"paintbackground"	"1"
 
-			"defaultbgColor_override" "MMenu_Black"
-			"armedbgColor_override" "Orange"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
 
-			"defaultfgColor_override" "White"
-			"armedfgColor_override" "White"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"ButtonLogoDefault"
+			"image_armedcolor"	"ButtonLogoArmed"
 			"proportionaltoparent"	"1"
 
 			"SubImage"

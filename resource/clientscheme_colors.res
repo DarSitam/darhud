@@ -55,7 +55,7 @@ Scheme
 		//Menus
 
 		////Main Menu
-		"BackgroundDefault"	"50 50 50 255"
+		"BackgroundDefault"	"20 20 20 255"
 		"BackgroundTransparent"	"0 0 0 200"
 		"TransparentStripe"		"10 10 10 240"
 
