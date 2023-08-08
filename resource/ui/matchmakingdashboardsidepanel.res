@@ -151,6 +151,6 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"bgcolor_override"	"20 20 20 255"
+		"bgcolor_override"	"BackgroundDefault"
 	}
 }
