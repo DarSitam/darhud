@@ -41,9 +41,9 @@ Scheme
 		"MiscShadow"		"0 0 0 240"
 		"MiscBackground"	"0 0 0 192"
 
-		"HUDBlueTeam"		"73 90 132 127"
+		"HUDBlueTeam"		"73 108 132 127"
 		"HUDRedTeam"		"160 52 53 127"
-		"HUDBlueTeamSolid"	"73 90 132 255"
+		"HUDBlueTeamSolid"	"73 108 132 255"
 		"HUDRedTeamSolid"	"160 52 53 255"
 
 		////Killfeed
