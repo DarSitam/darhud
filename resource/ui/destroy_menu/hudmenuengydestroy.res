@@ -115,7 +115,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"DefaultVerySmall"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"

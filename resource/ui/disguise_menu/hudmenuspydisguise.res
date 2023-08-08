@@ -60,7 +60,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_spy_disguise_menu_icon"
-		"iconColor"		"White"
+		"iconColor"		"MiscLabel"
 	}
 	
 	"TitleLabel"
@@ -114,7 +114,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
 		"font"			"DefaultVerySmall"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"3"
@@ -135,7 +135,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"DefaultVerySmall"
-		"fgcolor"		"White"
+		"fgcolor"		"MiscLabel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
