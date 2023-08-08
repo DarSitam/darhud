@@ -246,7 +246,7 @@
 			"fieldName"		"TFLogoEasterEgg"
 			"xpos"			"60"
 			"ypos"			"36"
-			"zpos"			"2"
+			"zpos"			"7"
 			"wide"			"256"
 			"tall"			"64"
 			"autoResize"	"0"
