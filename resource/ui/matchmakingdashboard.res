@@ -81,13 +81,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
+
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
+
+			"image_drawcolor"	"ButtonLogoDefault"
+			"image_armedcolor"	"ButtonLogoArmed"
 			
-			"defaultFgColor_override" "White"
-			"defaultBgColor_override" "Black"
-			"armedFgColor_override" "TanLight"
-			"armedBgColor_override" "Orange"
 
 			"SubImage"
 			{
@@ -591,11 +593,11 @@
 			"armedBgColor_override"		"192 28 0 255"
 			"defaultBgColor_override"	"141 21 0 255"
 
-			"defaultFgColor_override" "White"
-			"armedFgColor_override" "TanLight"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_drawcolor"	"ButtonLogoDefault"
+			"image_armedcolor"	"ButtonLogoArmed"
 
 			"SubImage"
 			{
@@ -650,11 +652,11 @@
 			"armedBgColor_override"		"192 28 0 255"
 			"defaultBgColor_override"	"141 21 0 255"
 
-			"defaultFgColor_override" "White"
-			"armedFgColor_override" "TanLight"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_drawcolor"	"ButtonLogoDefault"
+			"image_armedcolor"	"ButtonLogoArmed"
 
 			"SubImage"
 			{
@@ -706,10 +708,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "White"
-			"defaultBgColor_override" "Black"
-			"armedFgColor_override" "TanLight"
-			"armedBgColor_override" "Orange"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
+
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
+
+			"image_drawcolor"	"ButtonLogoDefault"
+			"image_armedcolor"	"ButtonLogoArmed"
 
 			"SubImage"
 			{
@@ -763,12 +769,13 @@
 
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"
+			
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 
-			"defaultFgColor_override" "White"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-
+			"image_drawcolor"	"ButtonLogoDefault"
+			"image_armedcolor"	"ButtonLogoArmed"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
