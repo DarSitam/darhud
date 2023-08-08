@@ -15,8 +15,9 @@
 		
 		"model_center_y"	"1"
 		"model_center_x"	"1"
-		"model_wide"		"80"
-		"model_tall"		"50"
+		"model_ypos" "20"
+		"model_wide" "80"
+		"model_tall" "50"
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"
