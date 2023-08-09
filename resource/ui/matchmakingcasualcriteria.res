@@ -179,6 +179,7 @@
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"north-west"
 			"font"			"HudFontMediumSmallBold"
+			"fgcolor_override"	"MainMenuLabel"
 		
 			"mouseinputenabled"	"0"
 		}
