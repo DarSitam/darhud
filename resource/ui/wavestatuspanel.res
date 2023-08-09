@@ -20,7 +20,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"White"
+		"fgcolor"		"GeneralLabel"
 		"xpos"			"200"
 		"ypos"			"6"
 		"zpos"			"3"
@@ -60,7 +60,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"White"
+		"fgcolor"		"GeneralLabel"
 		"xpos"			"55"
 		"ypos"			"6"
 		"zpos"			"3"
@@ -114,6 +114,6 @@
 		"wide_minmode"	"125"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_white"
+		"image"			"replay/thumbnails/meter_GeneralLabel"
 	}
 }

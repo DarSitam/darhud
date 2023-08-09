@@ -13,7 +13,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "BackgroundTransparent"
 	}
 	
 	"bg"
@@ -68,7 +67,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
 		"font"			"ChalkboardTitle"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"MapInfoType"
@@ -87,7 +86,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
 		"font"			"ChalkboardText"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}	
 	
 	"MapInfoText"
@@ -106,7 +105,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"MapImage"

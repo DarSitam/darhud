@@ -44,7 +44,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"ActionText"
@@ -58,7 +58,7 @@
 		"ypos"			"48"
 		"wide"			"64"
 		"tall"			"10"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 		"visible"		"1"
 	}
 	
@@ -73,7 +73,7 @@
 		"ypos"			"25"
 		"wide"			"64"
 		"tall"			"10"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 		"visible"		"0"
 	}
 	
@@ -89,7 +89,7 @@
 		"ypos"			"-1"
 		"wide"			"20"
 		"tall"			"20"
-		"fgcolor"		"MiscShadow"
+		"fgcolor"		"GeneralShadow"
 	}
 	
 	"CountText"
@@ -103,6 +103,6 @@
 		"ypos"			"17"
 		"wide"			"20"
 		"tall"			"20"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 }

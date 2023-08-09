@@ -58,7 +58,7 @@
 		"tall"	 			"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"MiscShadow"
+		"fillcolor"			"GeneralShadow"
 	}
 
 	"TargetNameLabel"
@@ -99,7 +99,7 @@
 		"enabled"		"0"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"disabledfgcolor2_override" "MiscShadow"
+		"disabledfgcolor2_override" "GeneralShadow"
 	}
 
 	"TargetDataLabel"
@@ -107,7 +107,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"DefaultVerySmall"
-		"fgcolor"		"White"
+		"fgcolor"		"GeneralLabel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"

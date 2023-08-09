@@ -36,7 +36,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
-				"fgcolor_override"	"MiscLabel"
+				"fgcolor_override"	"GeneralLabel"
 				"xpos"			"2"
 				"ypos"			"22"
 				"zpos"			"5"
@@ -177,7 +177,7 @@
 				"enabled"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"MiscLabel"
+				"fgcolor"		"GeneralLabel"
 				
 				if_mvm
 				{
@@ -321,7 +321,7 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
 		"bgcolor_override"	"GreenSolid"
-		"fgcolor"	"MiscLabel"
+		"fgcolor"	"GeneralLabel"
 		"paintBackgroundType" "2"
 		"wrap"			"1"
 		"centerwrap"	"1"
@@ -337,7 +337,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmall"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"15"
 		"ypos"			"0"
 		"wide"			"240"

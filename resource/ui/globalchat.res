@@ -45,7 +45,7 @@
 		"font"			"HudFontSmallest"
 		
 		"bgcolor_override"	"0 0 0 50"
-		"fgcolor_override"	"MiscLabel"
+		"fgcolor_override"	"GeneralLabel"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -94,7 +94,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
-		"fgcolor_override"	"MiscLabel"
+		"fgcolor_override"	"GeneralLabel"
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 		"alpha"			"0"

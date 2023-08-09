@@ -85,7 +85,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"r315"
 		"ypos"			"0"
 		"wide"			"300"
@@ -102,7 +102,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"0"
 		"ypos"			"20"
 		"wide"			"400"
@@ -122,7 +122,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmall"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"15"
 		"ypos"			"0"
 		"wide"			"240"
@@ -158,7 +158,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"15"
 		"ypos"			"r85"
 		"wide"			"60"
@@ -177,7 +177,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"55"
 		"ypos"			"r85"	
 		"wide"			"125"
@@ -195,7 +195,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"15"
 		"ypos"			"r75"
 		"wide"			"60"
@@ -214,7 +214,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"55"
 		"ypos"			"r75"	
 		"wide"			"125"
@@ -232,7 +232,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"15"
 		"ypos"			"r65"
 		"wide"			"60"
@@ -251,7 +251,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"55"
 		"ypos"			"r65"
 		"wide"			"125"
@@ -270,7 +270,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"15"
 		"ypos"			"r64"
 		"wide"			"240"

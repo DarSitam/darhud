@@ -354,8 +354,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"image_drawcolor"	"White"
-		"image_armedcolor"	"White"
+		"image_drawcolor"	"ButtonLogoDefault"
+		"image_armedcolor"	"ButtonLogoArmed"
 
 		"defaultbgColor_override" "ButtonDefault"
 		"armedbgColor_override" "ButtonArmed"
@@ -434,7 +434,7 @@
 		"wrap"			"1"
 
 		"font"			"HudFontSmallestBold"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"MainMenuLabel"
 		"labelText"		"#TF_MM_NoGC_Rank"
 		"textAlignment"	"east"
 	}
@@ -509,7 +509,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"MainMenuLabel"
 			"auto_wide_tocontents" "1"
 		}
 

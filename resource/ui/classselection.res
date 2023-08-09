@@ -826,7 +826,7 @@
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"MenuBG"
@@ -855,7 +855,7 @@
 		"textAlignment"	"west"
 		"wrap"			"1"
 		"font"			"HudFontMediumSmallSecondary"
-		"fgcolor"		"White"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"ShadedBar"
@@ -1086,7 +1086,7 @@
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
 		"font"			"HudFontMediumSmallSecondary"
-		"fgcolor"		"White"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"numScout"

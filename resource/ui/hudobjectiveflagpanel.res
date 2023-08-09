@@ -350,7 +350,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"White"
+		"fgcolor"		"GeneralLabel"
 		
 		"if_hybrid"
 		{
@@ -541,7 +541,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"White"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"SpecCarriedImage"

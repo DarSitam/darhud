@@ -64,7 +64,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"ChalkboardTitle"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}	
 
 	"TextMessage"
@@ -91,7 +91,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 
 	"HTMLMessage"

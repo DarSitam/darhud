@@ -335,7 +335,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"MainMenuLabel"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"

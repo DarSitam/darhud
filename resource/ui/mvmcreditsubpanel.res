@@ -11,7 +11,7 @@
 		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"15"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 		
 	"TableBackground"
@@ -38,7 +38,7 @@
 		"ypos"			"15"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"CreditCollectedCountLabel"
@@ -66,7 +66,7 @@
 		"ypos"			"27"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"CreditMissedCountLabel"
@@ -94,7 +94,7 @@
 		"ypos"			"39"
 		"wide"			"90"
 		"tall"			"20"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"CreditBonusCountLabel"
@@ -121,7 +121,7 @@
 		"ypos"			"23"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 	"CreditRatingLabelShadow"
 	{

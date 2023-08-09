@@ -268,7 +268,7 @@
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 	}
 	
 	"TeamMenuAuto"

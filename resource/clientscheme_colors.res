@@ -2,16 +2,21 @@ Scheme
 {	
 	Colors
 	{
-		//In-Game elements
-
-		"HealthGain"		"0 202 133 255"	//Also used when the uber is ready
-		"HealthLow"			"255 230 0 255"
+		//In-Game elements		
+		
+		//General
+		//Will be used by most elements of the hud, so try to choose some readable colors. Or not, i'm not your parent
+		"GeneralLabel"			"235 235 235 255"
+		"GeneralShadow"		"0 0 0 240"
+		"GeneralBackground"	"0 0 0 192"
 
 		////Health
 		"HealthNormal"	"235 235 235 255"
 		"HealthShadow" 	"0 0 0 240"
 		"HealthWarning"		"255 0 0 255"
-		"MaxHealth"		"235 235 235 255"
+		"MaxHealth"		"235 235 235 255"		
+		"HealthGain"		"0 202 133 255"	//Also used when the uber is ready
+		"HealthLow"			"255 230 0 255"
 
 		////Ammo
 		"AmmoNormal" 	"235 235 235 255"
@@ -36,11 +41,6 @@ Scheme
 		"ObjectiveLabel"	"235 235 235 255"
 		"ObjectiveShadow"	"0 0 0 240"
 
-		////Misc
-		"MiscLabel"			"235 235 235 255"
-		"MiscShadow"		"0 0 0 240"
-		"MiscBackground"	"0 0 0 192"
-
 		"HUDBlueTeam"		"73 108 132 127"
 		"HUDRedTeam"		"160 52 53 127"
 		"HUDBlueTeamSolid"	"73 108 132 255"
@@ -58,6 +58,8 @@ Scheme
 		"BackgroundDefault"	"20 20 20 255"
 		"BackgroundTransparent"	"0 0 0 200"
 		"TransparentStripe"		"10 10 10 240"
+
+		"MainMenuLabel"			"235 235 235 255"
 
 		////Buttons
 		"ButtonArmed"		"178 82 22 255"

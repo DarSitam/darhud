@@ -311,7 +311,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmallSecondary"
-			"fgcolor"		"MiscLabel"
+			"fgcolor"		"ObjectiveLabel"
 			"xpos"			"45"
 			"ypos"			"0"
 			"zpos"			"3"

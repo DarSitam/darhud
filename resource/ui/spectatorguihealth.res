@@ -65,7 +65,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"HealthNormal"
 	}
 	
 	"PlayerStatusHealthValueShadow"
@@ -85,7 +85,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"MiscShadow"
+		"fgcolor"		"HealthShadow"
 	}
 
 

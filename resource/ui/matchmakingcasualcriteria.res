@@ -214,7 +214,7 @@
 			"labeltext"		"#TF_Casual_QueueEstimation"
 			"textAlignment"	"east"
 			"font"			"HudFontSmallest"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"MainMenuLabel"
 			"textinsetx"	"5"
 			"visible"	"0"
 		

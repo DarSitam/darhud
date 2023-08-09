@@ -51,7 +51,7 @@
 	{
 		"ControlName"		"RichText"
 		"fieldName"		"HudChatHistory"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"10"
 		"ypos"			"17"
 		"wide"	 		"260"

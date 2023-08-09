@@ -208,7 +208,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"IntroMenuCaption"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 		"wrap"			"1"
 	}
 }

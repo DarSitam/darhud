@@ -25,7 +25,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
 		"font"			"HudFontSmallBold"
-		"fgcolor_override" "MiscLabel"
+		"fgcolor_override" "GeneralLabel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -79,7 +79,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"MiscLabel"
+		"fgcolor_override"		"GeneralLabel"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
@@ -123,10 +123,10 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 		
-		"defaultFgColor_override" "MiscLabel"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultFgColor_override" "ButtonLabelDefault"
+		"defaultBgColor_override" "ButtonDefault"
+		"armedFgColor_override" "ButtonLabelArmed"
+		"armedBgColor_override" "OrButtonArmedange"
 	}
 
 	"TournamentReadyButton"
@@ -150,9 +150,9 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 
-		"defaultFgColor_override" "MiscLabel"
-		"defaultBgColor_override" "Black"
-		"armedFgColor_override" "TanLight"
-		"armedBgColor_override" "Orange"
+		"defaultFgColor_override" "ButtonLabelDefault"
+		"defaultBgColor_override" "ButtonDefault"
+		"armedFgColor_override" "ButtonLabelArmed"
+		"armedBgColor_override" "OrButtonArmedange"
 	}
 }

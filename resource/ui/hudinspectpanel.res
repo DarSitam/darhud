@@ -42,7 +42,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"ItemFontAttribSmall"
-			"fgcolor_override"		"MiscLabel"
+			"fgcolor_override"		"GeneralLabel"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -74,7 +74,7 @@
 			"enabled"		"0"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
-			"fgcolor"		"MiscLabel"
+			"fgcolor"		"GeneralLabel"
 			"centerwrap"	"1"
 		}
 	}	

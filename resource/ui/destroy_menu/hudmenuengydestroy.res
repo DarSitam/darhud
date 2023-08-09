@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"MiscBackground"
+		"bgcolor_override"	"GeneralBackground"
 	}
 
 	"Divider"
@@ -45,7 +45,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"MiscLabel"
+		"iconColor"		"GeneralLabel"
 	}
 
 	"DestroyIconShadow"	
@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"MiscShadow"
+		"iconColor"		"GeneralShadow"
 	}
 	
 	"TitleLabel"
@@ -72,7 +72,7 @@
 		"pin_to_sibling" "DestroyIcon"
 		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 		"xpos"			"5"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"3"
@@ -94,7 +94,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontMediumBold"
 		"pin_to_sibling" "TitleLabel"
-		"fgcolor"		"MiscShadow"
+		"fgcolor"		"GeneralShadow"
 		"xpos"			"-1"			// align me to the left edge of the first selection
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -115,7 +115,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"DefaultVerySmall"
-		"fgcolor"		"MiscLabel"
+		"fgcolor"		"GeneralLabel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
