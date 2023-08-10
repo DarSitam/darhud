@@ -15,25 +15,22 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"			"#CharInfoAndSetup"
+		"title"			""
 		"title_font"	"HudFontMediumBold"
-		"titletextinsetX"	"40"
+		"titletextinsetX"	"9999"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"sheetinset_bottom"				"0"
 	}
 	
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -42,12 +39,11 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
+		"bgcolor_override"	"BackgroundTransparent"
 	}				
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
@@ -56,22 +52,12 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
+		"bgcolor_override"	"BackgroundDefault"
 	}				
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterLine"
-		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}				
 	
 	"Sheet"
@@ -81,35 +67,27 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"20"
+		"tabheight"		"30"
 		"transition_time" "0"
-		"yoffset"	"14"
+		"yoffset"	"16"
 		
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"HeaderLine"
-			"xpos"			"0"
-			"ypos"			"32"
-			"zpos"			"5"
-			"wide"			"f0"
-			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
+			"visible"		"0"
+			"enabled"		"0"
 		}				
 		
 		"tabskv"
 		{
 			"textinsetx"		"40"
 			"font"				"HudFontMediumSmallBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
-			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"selectedcolor"		"ButtonLabelArmed"
+			"unselectedcolor"	"ButtonLabelDefault"	
+			"defaultBgColor_override"	"BackgroundDefault"
+			"paintbackground"	"1"
+			"paintbackgroundType"	"2"
+			"paintBorder"	"1"
+			"RoundedCorners"	"3"
 		}
 	}
 	
@@ -136,6 +114,12 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}		
 	
 	"NotificationsPresentPanel"
