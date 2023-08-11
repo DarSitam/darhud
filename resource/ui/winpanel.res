@@ -449,7 +449,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"255 255 255 255"
+		"fillcolor"		"GeneralLabel"
 		"PaintBackgroundType"	"0"
 	}
 	"Player1Badge"
@@ -795,7 +795,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"255 255 255 255"
+		"fillcolor"		"GeneralLabel"
 		"PaintBackgroundType"	"0"
 	}
 	"KillStreakPlayer1Badge"
