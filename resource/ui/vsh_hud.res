@@ -47,7 +47,7 @@
 	"alivecounter"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"aivecounter"
+		"fieldName"		"alivecounter"
 		"xpos"			"c-32"
 		"ypos"			"r80"
 		"zpos"			"-10"
