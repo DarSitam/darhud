@@ -6,7 +6,7 @@ Scheme
 		
 		//General
 		//Will be used by most elements of the hud, so try to choose some readable colors. Or not, i'm not your parent
-		"GeneralLabel"			"235 235 235 255"
+		"GeneralLabel"			"235 226 202 255"
 		"GeneralShadow"		"0 0 0 240"
 		"GeneralBackground"	"0 0 0 192"
 
@@ -16,34 +16,34 @@ Scheme
 		"HUDRedTeamSolid"	"170 52 53 255"
 
 		////Health
-		"HealthNormal"	"235 235 235 255"
+		"HealthNormal"	"235 226 202 255"
 		"HealthShadow" 	"0 0 0 240"
 		"HealthWarning"		"255 0 0 255"
-		"MaxHealth"		"235 235 235 255"		
+		"MaxHealth"		"235 226 202 255"		
 		"HealthGain"		"0 202 133 255"	//Also used when the uber is ready
 		"HealthLow"			"255 230 0 255"
 
 		////Ammo
-		"AmmoNormal" 	"235 235 235 255"
-		"AmmoReserve"	"235 235 235 255"
+		"AmmoNormal" 	"235 226 202 255"
+		"AmmoReserve"	"235 226 202 255"
 		"AmmoShadow" 	"0 0 0 240"
 
 		////Additional (stickies, metal, ubercharge)
-		"AdditionalValue"	"235 235 235 255"
+		"AdditionalValue"	"235 226 202 255"
 		"AdditionalShadow"	"0 0 0 240"
-		"AdditionalIcon"	"235 235 235 255"
-		"UberForeground"	"235 235 235 255"
+		"AdditionalIcon"	"235 226 202 255"
+		"UberForeground"	"235 226 202 255"
 
 		////Meters
 		"MeterLabel"	"50 50 50 255"
 		"MeterBackground"	"255 255 255 24" //Also used as the background of the uber meter
 
 		////Counter
-		CounterValue	"235 235 235 255"
-		CounterIcon		"235 235 235 255" //Also used for the jetpack icon
+		CounterValue	"235 226 202 255"
+		CounterIcon		"235 226 202 255" //Also used for the jetpack icon
 
 		////Objectives
-		"ObjectiveLabel"	"235 235 235 255"
+		"ObjectiveLabel"	"235 226 202 255"
 		"ObjectiveShadow"	"0 0 0 240"
 
 		////Killfeed
@@ -55,21 +55,21 @@ Scheme
 		//Menus
 
 		////Main Menu
-		"BackgroundDefault"	"20 20 20 255"
+		"BackgroundDefault"	"31 31 31 255"
 		"BackgroundTransparent"	"0 0 0 200"
 		"TransparentStripe"		"10 10 10 240"
 
-		"MainMenuLabel"			"235 235 235 255"
+		"MainMenuLabel"			"235 226 202 255"
 
 		////Buttons
 		"ButtonArmed"		"178 82 22 255"
 		"ButtonDefault"		"46 43 42 255"
 
 		"ButtonLabelArmed"	"235 235 235 255"
-		"ButtonLabelDefault"	"235 235 235 255"
+		"ButtonLabelDefault"	"235 226 202 255"
 
 		"ButtonLogoArmed"			"235 235 235 255"
-		"ButtonLogoDefault"		"235 235 235 255"
+		"ButtonLogoDefault"		"235 226 202 255"
 
 
 
@@ -160,7 +160,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanLight"				"235 226 202 25"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
