@@ -254,7 +254,7 @@
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"Font"					"Default"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
+				"HealthDeathWarningColor"	"HealthWarning"
 				"TextColor"					"GeneralLabel"
 
 				if_competitive
