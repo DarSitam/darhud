@@ -38,33 +38,33 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
-		Econ.Button.DepressedFgColor						"Black"
+		Econ.Button.BgColor									"ButtonDefault"
+		Econ.Button.FgColor									"ButtonLabelDefault"
+		Econ.Button.ArmedBgColor							"ButtonArmed"
+		Econ.Button.ArmedFgColor							"ButtonLabelArmed"
+		Econ.Button.DepressedBgColor						"ButtonDefault"
+		Econ.Button.DepressedFgColor						"ButtonLabelDefault"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetDefaultColorFg					"ButtonLabelArmed"
+		Econ.Button.PresetArmedColorFg						"ButtonLabelArmedHovering"
+		Econ.Button.PresetDepressedColorFg					"ButtonLabelArmed"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"ButtonArmed"
+		Econ.Button.PresetArmedColorBg						"ButtonArmedHovering"
+		Econ.Button.PresetDepressedColorBg					"ButtonArmed"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.TextColor				"ButtonLabelDefault"
+		Button.BgColor					"ButtonDefault"
+		Button.ArmedTextColor			"ButtonLabelArmed"
+		Button.ArmedBgColor				"ButtonArmed"
+		Button.SelectedTextColor		"ButtonLabelHovering"
+		Button.SelectedBgColor			"ButtonArmed"
+		Button.DepressedTextColor		"ButtonLabelDefault"
+		Button.DepressedBgColor			"ButtonDefault"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"

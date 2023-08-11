@@ -62,17 +62,18 @@ Scheme
 		"MainMenuLabel"			"235 226 202 255"
 
 		////Buttons
-		"ButtonArmed"		"178 82 22 255"
-		"ButtonDefault"		"46 43 42 255"
-
-		"ButtonLabelArmed"	"235 235 235 255"
+		"ButtonDefault"		"61 60 59 255"
 		"ButtonLabelDefault"	"235 226 202 255"
+
+		"ButtonArmed"		"178 82 22 255" //Used when you hover over a button
+		"ButtonLabelArmed"	"235 235 235 255"
+
+
+		"ButtonArmedHovering"	"178 82 22 128" //Used when you hover over a selected button
+		"ButtonLabelArmedHovering"	"235 235 235 255"
 
 		"ButtonLogoArmed"			"235 235 235 255"
 		"ButtonLogoDefault"		"235 226 202 255"
-
-
-
 
 
 

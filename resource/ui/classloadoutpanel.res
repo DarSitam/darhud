@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"BackgroundDefault"
+		"infocus_bgcolor_override" "BackgroundDefault"
+		"outoffocus_bgcolor_override" "BackgroundDefault"
 
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -115,6 +115,7 @@
 		"fieldName"		"ClassLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#ClassBeingEquipped"
+		"fgcolor"		"MainMenuLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
 		"ypos"			"15"
@@ -150,6 +151,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntLabel"
 		"font"			"HudFontMediumBold"
+		"fgcolor"		"MainMenuLabel"
 		"labelText"		"#TF_Taunt"
 		"textAlignment"	"west"
 		"xpos"			"c-130"
@@ -494,7 +496,7 @@
 		"default"		"0"
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"		
 
 		"SubImage"
 		{
@@ -516,8 +518,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"RedButton"
-		"xpos"				"c-166"
-		"ypos"				"c-126"
+		"xpos"				"c136"
+		"ypos"				"c-180"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -533,8 +535,11 @@
 		"command"			"sv_cheats 1;r_skin 0"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"HUDRedTeamSolid"
-		"armedFgColor_override"		"White"
+		"defaultbgColor_override" "HUDRedTeamSolid"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -545,8 +550,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"BlueButton"
-		"xpos"				"c-166"
-		"ypos"				"c-99"
+		"xpos"				"c136"
+		"ypos"				"c-153"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -562,8 +567,11 @@
 		"command"			"sv_cheats 1;r_skin 1"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"HUDBlueTeamSolid"
-		"armedFgColor_override"		"White"
+		"defaultbgColor_override" "HUDBlueTeamSolid"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
