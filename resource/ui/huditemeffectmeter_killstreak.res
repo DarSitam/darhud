@@ -25,7 +25,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/icons/killstreak"
-		"scaleImage"	"0"		
+		"scaleImage"	"0"
+		"drawcolor"		"CounterIcon"
 	}	
 	
 	"ItemEffectMeterCount"
