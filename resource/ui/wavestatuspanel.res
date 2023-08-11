@@ -102,18 +102,25 @@
 	
 	"ProgressBarBG"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"ProgressBarBG"
-		"xpos"			"211"
-		"ypos"			"19"
-		"zpos"			"3"
-		"wide"			"177"
-		"tall"			"12"
-		"xpos_minmode"	"269"
-		"ypos_minmode"	"7"
-		"wide_minmode"	"125"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"ProgressBarBG1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ProgressBarBG1"
+		"xpos"			"214"
+		"ypos"			"20"
+		"zpos"			"2"
+		"wide"			"174"
+		"tall"			"11"
+		"xpos_minmode"	"271"
+		"ypos_minmode"	"8"
+		"wide_minmode"	"124"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_GeneralLabel"
+		"bgcolor_override"	"255 255 255 255"
+		"paintbackgroundtype"	"2"
 	}
 }
