@@ -1765,7 +1765,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"RoundedCorners"	"5"
+		"RoundedCorners"	"0"
 		"image_drawcolor"	"ButtonLogoDefault"
 
 		"SubImage"
