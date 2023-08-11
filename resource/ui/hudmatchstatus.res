@@ -366,8 +366,8 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"171 72 72 255"
-			"color_portrait_bg_blue"	"77 116 139 255"
+			"color_portrait_bg_red"	"HUDRedTeamSolid"
+			"color_portrait_bg_blue"	"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"0 131 17 255"

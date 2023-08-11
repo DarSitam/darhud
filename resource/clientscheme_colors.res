@@ -11,9 +11,9 @@ Scheme
 		"GeneralBackground"	"0 0 0 192"
 
 		"HUDBlueTeam"		"73 108 132 127"
-		"HUDRedTeam"		"165 52 53 127"
+		"HUDRedTeam"		"170 52 53 127"
 		"HUDBlueTeamSolid"	"73 108 132 255"
-		"HUDRedTeamSolid"	"165 52 53 255"
+		"HUDRedTeamSolid"	"170 52 53 255"
 
 		////Health
 		"HealthNormal"	"235 235 235 255"
