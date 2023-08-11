@@ -139,12 +139,6 @@
 		"command"		"okay"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"MenuBG"

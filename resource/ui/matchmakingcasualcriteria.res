@@ -51,16 +51,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"			
-			
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
+			"proportionaltoparent"	"1"
 
 			"image_drawcolor"	"ButtonLogoDefault"
-			"image_armedcolor"	"ButtonLogoArmed"
 			
 			"SubImage"
 			{
@@ -102,16 +95,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"			
-			
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
+			"proportionaltoparent"	"1"
 
 			"image_drawcolor"	"ButtonLogoDefault"
-			"image_armedcolor"	"ButtonLogoArmed"
 
 			"SubImage"
 			{
@@ -153,16 +139,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"			
-			
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
+			"proportionaltoparent"	"1"
 
 			"image_drawcolor"	"ButtonLogoDefault"
-			"image_armedcolor"	"ButtonLogoArmed"
 			
 		}
 

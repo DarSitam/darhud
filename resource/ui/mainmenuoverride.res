@@ -354,14 +354,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"image_drawcolor"	"ButtonLogoDefault"
-		"image_armedcolor"	"ButtonLogoArmed"
-
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 
 		"SubImage"
 		{
@@ -1454,12 +1446,6 @@
 
 		"image_drawcolor"	"ButtonLogoDefault"
 
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
-
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1530,12 +1516,6 @@
 
 		"image_drawcolor"	"ButtonLogoDefault"
 
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
-
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1603,12 +1583,6 @@
 		"paintbackground"	"1"
 
 		"image_drawcolor"	"ButtonLogoDefault"
-
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 
 		"SubImage"
 		{
@@ -1681,12 +1655,6 @@
 
 		"image_drawcolor"	"ButtonLogoDefault"
 
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
-
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1752,12 +1720,6 @@
 		"RoundedCorners"	"5"
 		"image_drawcolor"	"ButtonLogoDefault"
 
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
-
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1806,12 +1768,6 @@
 		"RoundedCorners"	"5"
 		"image_drawcolor"	"ButtonLogoDefault"
 
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
-
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1859,12 +1815,6 @@
 
 		"RoundedCorners"	"0"
 		"image_drawcolor"	"ButtonLogoDefault"
-
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 		
 		"SubImage"
 		{
@@ -1913,12 +1863,6 @@
 
 		"RoundedCorners"	"0"
 		"image_drawcolor"	"ButtonLogoDefault"
-
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 		
 		"SubImage"
 		{
@@ -1967,12 +1911,6 @@
 
 		"RoundedCorners"	"0"
 		"image_drawcolor"	"ButtonLogoDefault"
-
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 		
 		"SubImage"
 		{
@@ -2022,12 +1960,6 @@
 
 		"RoundedCorners"	"0"
 		"image_drawcolor"	"ButtonLogoDefault"
-
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 		
 		"SubImage"
 		{
@@ -2087,12 +2019,6 @@
 
 			"RoundedCorners"	"5"
 			"image_drawcolor"	"ButtonLogoDefault"
-
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
 		
 			"proportionaltoparent"	"1"
 			
@@ -2145,12 +2071,6 @@
 
 		"RoundedCorners"	"10"
 		"image_drawcolor"	"ButtonLogoDefault"
-
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 		
 		"SubImage"
 		{
@@ -2532,14 +2452,7 @@
 
 			"paintbackground"	"1"
 
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
-
 			"image_drawcolor"	"ButtonLogoDefault"
-			"image_armedcolor"	"ButtonLogoArmed"
 
 			"proportionaltoparent"	"1"
 
@@ -2603,14 +2516,7 @@
 
 			"paintbackground"	"1"
 
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
-
 			"image_drawcolor"	"ButtonLogoDefault"
-			"image_armedcolor"	"ButtonLogoArmed"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2672,14 +2578,7 @@
 
 			"paintbackground"	"1"
 
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
-
 			"image_drawcolor"	"ButtonLogoDefault"
-			"image_armedcolor"	"ButtonLogoArmed"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2742,14 +2641,8 @@
 
 			"paintbackground"	"1"
 
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
-
 			"image_drawcolor"	"ButtonLogoDefault"
-			"image_armedcolor"	"ButtonLogoArmed"
+
 			"proportionaltoparent"	"1"
 
 			"SubImage"

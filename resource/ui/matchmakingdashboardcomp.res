@@ -56,13 +56,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"actionsignallevel"	"1"
-		"proportionaltoparent"	"1"			
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
+		"proportionaltoparent"	"1"
 	}
 
 	"RankTooltipPanel"
@@ -108,13 +102,7 @@
 		"mouseinputenabled"	"1"
 		"eatmouseinput"	"0"	
 		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"			
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
+		"proportionaltoparent" "1"
 	}
 
 "QueueButton"

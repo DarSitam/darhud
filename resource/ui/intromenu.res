@@ -68,12 +68,6 @@
 		"wrap"		"0"
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"Continue"
@@ -97,12 +91,6 @@
 		"wrap"		"0"
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"Back"
@@ -124,12 +112,6 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"ReplayVideo"
@@ -151,12 +133,6 @@
 		"brighttext"	"0"
 		"command"		"replayVideo"
 		"font"			"HudFontSmallBold"
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"ShadedBar"

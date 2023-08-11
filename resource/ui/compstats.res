@@ -74,13 +74,7 @@
 			"textAlignment"	"center"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"			
-			
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
+			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
 		"ShowMatchHistoryButton"
@@ -103,13 +97,7 @@
 			"textAlignment"	"center"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"			
-			
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
+			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
 		"PlaylistBGPanel"

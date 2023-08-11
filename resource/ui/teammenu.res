@@ -127,9 +127,6 @@
 
 		"defaultbgColor_override" "HUDBlueTeam"
 		"armedbgColor_override" "HUDBlueTeamSolid"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"teambutton1"
@@ -159,9 +156,6 @@
 
 		"defaultbgColor_override" "HUDRedTeam"
 		"armedbgColor_override" "HUDRedTeamSolid"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"teambutton2"
@@ -186,12 +180,6 @@
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
 		"font"			"HudFontMediumBigBold"
-
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"teambutton3"
@@ -216,12 +204,6 @@
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
 		"font"			"HudFontMediumSmallBold"
-				
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"CancelButton"
@@ -244,12 +226,6 @@
 		"brighttext"	"0"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"TeamMenuSelect"

@@ -143,12 +143,6 @@
 		"command"		"continue"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"MapInfoWatchIntro"
@@ -171,12 +165,6 @@
 		"command"		"intro"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"MapInfoBack"
@@ -198,12 +186,6 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
-		
-		"defaultbgColor_override" "ButtonDefault"
-		"armedbgColor_override" "ButtonArmed"
-
-		"defaultfgColor_override" "ButtonLabelDefault"
-		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"MenuBG"

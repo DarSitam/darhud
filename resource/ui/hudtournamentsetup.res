@@ -122,11 +122,6 @@
 		"command"		"teamnotready"
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
-		
-		"defaultFgColor_override" "ButtonLabelDefault"
-		"defaultBgColor_override" "ButtonDefault"
-		"armedFgColor_override" "ButtonLabelArmed"
-		"armedBgColor_override" "OrButtonArmedange"
 	}
 
 	"TournamentReadyButton"
@@ -149,10 +144,5 @@
 		"command"		"teamready"
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
-
-		"defaultFgColor_override" "ButtonLabelDefault"
-		"defaultBgColor_override" "ButtonDefault"
-		"armedFgColor_override" "ButtonLabelArmed"
-		"armedBgColor_override" "OrButtonArmedange"
 	}
 }
