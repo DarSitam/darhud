@@ -77,7 +77,7 @@
 		"enabled"		"0"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"disabledfgcolor2_override" "MiscLabel"
+		"disabledfgcolor2_override" "GeneralLabel"
 	}
 
 	"TargetNameLabelShadow"
@@ -119,7 +119,7 @@
 		"enabled"		"0"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"west"
-		"disabledfgcolor2_override" "MiscLabel"
+		"disabledfgcolor2_override" "GeneralLabel"
 	}
 
 	"SpectatorGUIHealth"
