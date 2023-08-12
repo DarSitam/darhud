@@ -9,8 +9,10 @@
 		"zpos"			"10"
 		"wide"			"190"
 		"tall"			"100"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"visible"		"1"
+		"paintBackground"	"1"
+		"paintBorder"	"0"
+		"bgcolor_override"		"GeneralBackground"
 		"PaintBackgroundType"	"0"
 		
 		"model_center_y"	"1"
