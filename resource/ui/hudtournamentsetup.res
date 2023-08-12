@@ -23,7 +23,7 @@
 	"TournamentSetupLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"TournamentLabel"
+		"fieldName"		"TournamentSetupLabel"
 		"font"			"HudFontSmallBold"
 		"fgcolor_override" "GeneralLabel"
 		"xpos"			"0"
