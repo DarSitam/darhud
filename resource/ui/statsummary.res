@@ -178,42 +178,46 @@
 	"OnYourWayLabel"
 	{
 		"font"			"HudFontSmallBold"
-		"xpos"			"c+10"
+		"xpos"			"r230"
 		"ypos"			"30"
 		"zpos"			"40"
-		"wide"			"285"
+		"wide"			"200"
 		"visible"		"1"
-		"fgcolor_override" "173 168 148 255"
+		"fgcolor_override" "MainMenuLabel"
 	}
 	
 	"MapLabel"
 	{
-		"xpos"			"c-25"
+		"xpos"			"r230"
 		"ypos"			"55"
+		"wide"			"200"
 		"visible"		"1"
 	}
 	
 	"MapType"
 	{
 		"font"			"HudFontSmallBold"
-		"xpos"			"c-25"
+		"xpos"			"r230"
 		"ypos"			"80"
+		"wide"			"200"
 		"visible"		"1"
 	}
 	
 	"StatData"
 	{
-		"ypos"			"0"
+		"ypos"			"0"		
+		"wide"		"0"
+		"tall"		"0"
 	}
 	
 	"TipImage"
 	{
-		"ypos"			"412"
+		"ypos"			"440"
 	}
 	
 	"TipText"
 	{
-		"ypos"			"405"
+		"ypos"			"435"
 	}
 	
 	"CloseButton" [$WIN32]
