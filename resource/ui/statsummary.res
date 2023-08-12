@@ -59,7 +59,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"ContributedLabel"
 			"xpos"			"30"
-			"ypos"			"345"
+			"ypos"			"r330"
 			"zpos"			"40"
 			"wide"			"300"
 			"tall"			"100"
@@ -68,17 +68,8 @@
 			
 			"BG"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BG"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"300"
-				"tall"			"55"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"border"		"TFThinLineBorder"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 			
 			"ActualLabel"
@@ -104,17 +95,8 @@
 		
 		"InfoBG"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"InfoBG"
-			"xpos"			"c+10"
-			"ypos"			"120"
-			"wide"			"285"
-			"tall"			"280"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"Title"
@@ -124,8 +106,8 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"%title%"
 			"textAlignment"	"north"
-			"xpos"			"c20"
-			"ypos"			"135"
+			"xpos"			"r305"
+			"ypos"			"155"
 			"zpos"			"2"
 			"wide"			"275"
 			"tall"			"30"
@@ -143,7 +125,7 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"%authors%"
 			"textAlignment"	"north"
-			"xpos"			"c20"
+			"xpos"			"r305"
 			"ypos"			"155"
 			"zpos"			"2"
 			"wide"			"275"
@@ -162,8 +144,8 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"%map_leaderboard_title%"
 			"textAlignment"	"north"
-			"xpos"			"c20"
-			"ypos"			"230"
+			"xpos"			"r305"
+			"ypos"			"250"
 			"zpos"			"2"
 			"wide"			"275"
 			"tall"			"30"
@@ -178,28 +160,28 @@
 	"OnYourWayLabel"
 	{
 		"font"			"HudFontSmallBold"
-		"xpos"			"r230"
+		"xpos"			"r330"
 		"ypos"			"30"
 		"zpos"			"40"
-		"wide"			"200"
+		"wide"			"300"
 		"visible"		"1"
 		"fgcolor_override" "MainMenuLabel"
 	}
 	
 	"MapLabel"
 	{
-		"xpos"			"r230"
+		"xpos"			"r330"
 		"ypos"			"55"
-		"wide"			"200"
+		"wide"			"300"
 		"visible"		"1"
 	}
 	
 	"MapType"
 	{
 		"font"			"HudFontSmallBold"
-		"xpos"			"r230"
+		"xpos"			"r330"
 		"ypos"			"80"
-		"wide"			"200"
+		"wide"			"300"
 		"visible"		"1"
 	}
 	
@@ -212,12 +194,12 @@
 	
 	"TipImage"
 	{
-		"ypos"			"440"
+		"ypos"			"420"
 	}
 	
 	"TipText"
 	{
-		"ypos"			"435"
+		"ypos"			"415"
 	}
 	
 	"CloseButton" [$WIN32]
