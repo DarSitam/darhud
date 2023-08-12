@@ -180,6 +180,12 @@
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
 		"font"			"HudFontMediumBigBold"
+		
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"teambutton3"
@@ -203,7 +209,13 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumSmallBold"		
+		
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+		
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"CancelButton"
