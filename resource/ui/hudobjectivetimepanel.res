@@ -54,7 +54,7 @@
 		"font"			"HudFontSmallest"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"25"
+		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"19"
@@ -69,10 +69,12 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"19"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"xpos"			"cs-0.5"
+			"ypos"			"21"
+			"zpos"			"5"
+			"wide"			"150"
+			"tall"			"19"
+			"font"			"HudFontSmallestBold"
 		}
 	}
 
@@ -80,21 +82,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"16"
-		"ypos"			"31"
-		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
-		"tall_minmode"	"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-
-		if_match
-		{
-			"wide"	"0"
-		}
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 	}
 
 	"OvertimeLabel"
@@ -104,10 +95,10 @@
 		"font"			"HudFontSmallest"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"25"
+		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"150"
-		"tall"			"25"
+		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
@@ -119,10 +110,12 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"xpos"			"cs-0.5"
+			"ypos"			"21"
+			"zpos"			"5"
+			"wide"			"150"
+			"tall"			"19"
+			"font"			"HudFontSmallestBold"
 		}
 	}		
 
@@ -130,6 +123,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"0"
 		"tall"			"0"
 	}
@@ -140,9 +135,9 @@
 		"fieldName"		"SuddenDeathLabel"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"33"
+		"ypos"			"21"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"150"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -151,16 +146,18 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"HudFontSmallestBold"
+		"proportionaltoparent"	"1"
 
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"xpos"			"cs-0.5"
+			"ypos"			"21"
+			"zpos"			"5"
+			"wide"			"150"
+			"tall"			"19"
+			"font"			"HudFontSmallestBold"
 		}
 	}			
 
@@ -168,24 +165,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
-		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
-		"tall_minmode"	"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-
-		if_match
-		{
-			"wide"	"0"
-		}
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 	}	
 
 	"SetupLabel"
@@ -195,7 +178,7 @@
 		"font"			"HudFontSmallest"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"25"
+		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"19"
@@ -211,11 +194,12 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"xpos"			"cs-0.5"
+			"ypos"			"21"
+			"zpos"			"5"
+			"wide"			"150"
+			"tall"			"19"
+			"font"			"HudFontSmallestBold"
 		}
 	}	
 
@@ -225,7 +209,6 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
 	}
@@ -235,9 +218,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"33"
+		"ypos"			"21"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"150"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -251,11 +234,12 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"xpos"			"cs-0.5"
+			"ypos"			"21"
+			"zpos"			"5"
+			"wide"			"150"
+			"tall"			"19"
+			"font"			"HudFontSmallestBold"
 		}
 	}	
 
