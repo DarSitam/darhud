@@ -120,7 +120,7 @@
 		"wide_minmode"	"124"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"GeneralLabel"
 		"paintbackgroundtype"	"2"
 	}
 }
