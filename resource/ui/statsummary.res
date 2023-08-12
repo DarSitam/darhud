@@ -126,7 +126,7 @@
 			"labelText"		"%authors%"
 			"textAlignment"	"north"
 			"xpos"			"r305"
-			"ypos"			"155"
+			"ypos"			"175"
 			"zpos"			"2"
 			"wide"			"275"
 			"tall"			"275"
