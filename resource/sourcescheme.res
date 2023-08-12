@@ -152,7 +152,7 @@ Scheme
 		// Selection list (options)
 		SectionedListPanel.TextColor			"ButtonLabel"
 		SectionedListPanel.BrightTextColor		"ButtonLabel"
-		SectionedListPanel.BgColor				"ButtonDefault"
+		SectionedListPanel.BgColor				"0 0 0 255"
 		SectionedListPanel.SelectedTextColor	"ButtonArmedLabel"
 		SectionedListPanel.SelectedBgColor		"ButtonArmed"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"ButtonLabelArmedHovering"
