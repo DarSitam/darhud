@@ -2017,7 +2017,7 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 
-			"RoundedCorners"	"5"
+			"RoundedCorners"	"0"
 			"image_drawcolor"	"235 226 202 255"
 		
 			"proportionaltoparent"	"1"
