@@ -1444,7 +1444,7 @@
 
 		"paintbackground"	"1"
 
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 
 		"SubImage"
 		{
@@ -1514,7 +1514,7 @@
 
 		"paintbackground"	"1"
 
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 
 		"SubImage"
 		{
@@ -1582,7 +1582,7 @@
 
 		"paintbackground"	"1"
 
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 
 		"SubImage"
 		{
@@ -1653,7 +1653,7 @@
 
 		"paintbackground"	"1"
 
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 
 		"SubImage"
 		{
@@ -1718,7 +1718,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"RoundedCorners"	"5"
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 
 		"SubImage"
 		{
@@ -1766,7 +1766,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"RoundedCorners"	"0"
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 
 		"SubImage"
 		{
@@ -1814,7 +1814,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"RoundedCorners"	"0"
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
 		{
@@ -1862,7 +1862,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"RoundedCorners"	"0"
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
 		{
@@ -1910,7 +1910,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"RoundedCorners"	"0"
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
 		{
@@ -1959,7 +1959,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 
 		"RoundedCorners"	"0"
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
 		{
@@ -2018,7 +2018,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 
 			"RoundedCorners"	"5"
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 		
 			"proportionaltoparent"	"1"
 			
@@ -2070,7 +2070,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"RoundedCorners"	"10"
-		"image_drawcolor"	"ButtonLogoDefault"
+		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
 		{
@@ -2203,7 +2203,7 @@
 			"xpos"			"0"
 			"ypos"			"rs1-10"
 			"zpos"			"499"
-			"wide"			"f5"
+			"wide"			"f0"
 			"tall"			"105"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
@@ -2452,7 +2452,7 @@
 
 			"paintbackground"	"1"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 
 			"proportionaltoparent"	"1"
 
@@ -2516,7 +2516,7 @@
 
 			"paintbackground"	"1"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2578,7 +2578,7 @@
 
 			"paintbackground"	"1"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2641,7 +2641,7 @@
 
 			"paintbackground"	"1"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 
 			"proportionaltoparent"	"1"
 

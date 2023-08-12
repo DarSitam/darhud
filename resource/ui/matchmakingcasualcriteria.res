@@ -53,7 +53,7 @@
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 			
 			"SubImage"
 			{
@@ -97,7 +97,7 @@
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
@@ -141,7 +141,7 @@
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 			
 		}
 

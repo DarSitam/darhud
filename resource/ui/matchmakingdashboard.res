@@ -81,7 +81,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 			
 
 			"SubImage"
@@ -589,7 +589,7 @@
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"ButtonLogoArmed"
 
 			"SubImage"
@@ -648,7 +648,7 @@
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"ButtonLogoArmed"
 
 			"SubImage"
@@ -701,7 +701,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
@@ -759,7 +759,7 @@
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
 
-			"image_drawcolor"	"ButtonLogoDefault"
+			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"ButtonLogoArmed"
 			
 			"SubImage"
