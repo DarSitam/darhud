@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"BackgroundDefault"
 	}
 	"MainBackground"
 	{
@@ -25,7 +25,7 @@
 		"image"			""
 		"scaleImage"		"1"
 	}
-	"OnYourWayLabel" [$WIN32]
+	"OnYourWayLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OnYourWayLabel"
@@ -46,30 +46,26 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold" [$WIN32]
-		"font"			"HudFontMediumBold" [$X360]
+		"font"			"HudFontMediumBigBold"
+		"fgcolor"		"MainMenuLabel"
 		"labelText"		"%maplabel%"
-		"textAlignment"		"center" [$WIN32]
-		"textAlignment"		"west" [$X360]
-		"xpos"			"5" [$WIN32]
-		"xpos"			"60" [$X360]
+		"textAlignment"		"center"
+		"xpos"			"5"
 		"ypos"			"92"
-		"ypos_hidef"		"425"
-		"ypos_lodef"		"425"
 		"zpos"			"50"
-		"wide"			"350" [$WIN32]
-		"wide"			"600" [$X360]
+		"wide"			"350" 
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	"MapType" [$WIN32]
+	"MapType"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
 		"font"			"HudFontMediumBigBold"
+		"fgcolor"		"MainMenuLabel"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"5"
@@ -250,42 +246,19 @@
 		}
 		"AveragesBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"AveragesBG"
-			"xpos"			"c-295"
-			"xpos_hidef"			"c-283"
-			"xpos_lodef"			"c-283"
-			"ypos"			"165"
-			"ypos_hidef"			"22"
-			"ypos_lodef"			"22"
-			"wide"			"406"
-			"wide_hidef"	"566"
-			"wide_lodef"	"566"
-			"tall"			"300"
-			"tall_hidef"			"633"
-			"tall_lodef"			"633"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"visible"		"0"
+			"enabled"		"0"
 		}
+
 		"AveragesLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
 			"font"			"ScoreboardMedium"
+			"fgcolor_override"	"MainMenuLabel"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"center"
-			"textAlignment_hidef"		"center"
-			"textAlignment_lodef"		"center"
 			"xpos"			"c-285"
-			"xpos_hidef"			"c-193"
-			"xpos_lodef"			"c-193"
-			"ypos"			"180" [!$OSX]
-			"ypos"			"185" [$OSX]
-			"ypos_hidef"			"32"
-			"ypos_lodef"			"32"
 			"wide"			"406"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -1636,24 +1609,8 @@
 		}
 		"RecordsBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"RecordsBG"
-			"xpos"			"c+115"
-			"xpos_hidef"			"c+95"
-			"ypos"			"165"
-			"ypos_hidef"			"115"
-			"wide"			"200"
-			"wide_hidef"			"225"
-			"tall"			"300"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"visible_hidef"		"0"
-			"visible_lodef"		"0"
-			"enabled"		"1"
-			"enabled_hidef"		"0"
-			"enabled_lodef"		"0"
-			"border"		"TFThinLineBorder"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"RecordsLabel1"
 		{
@@ -2441,8 +2398,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
-		"xpos"			"c-285"
-		"ypos"			"270"
+		"xpos"			"30"
+		"ypos"			"305"
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
@@ -2456,36 +2413,26 @@
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
 		"font"			"ScoreboardSmall"
-		"font_hidef"	"Default"
+		"fgcolor"		"MainMenuLabel"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
-		"textAlignment_hidef"		"north-west"
-		"textAlignment_lodef"		"north-west"
 		"xpos"			"c-245"
-		"xpos_lodef"			"c-180"
-		"xpos_hidef"			"c-180"
-		"ypos"			"263"
-		"ypos_hidef"			"262"
-		"ypos_lodef"			"262"
+		"ypos"			"300"
 		"zpos"			"12"
 		"wide"			"340"
-		"wide_hidef"		"360"
-		"wide_lodef"		"360"
-		"tall"			"48"
-		"tall_hidef"	"60"
-		"tall_lodef"	"60"
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 	}
-	"NextTipButton" [$WIN32]
+	"NextTipButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"		"NextTipButton"
-		"xpos"			"c-285"
-		"ypos"			"310"
+		"xpos"			"25"
+		"ypos"			"345"
 		"zpos"			"6"
 		"wide"			"90"
 		"tall"			"15"
@@ -2501,7 +2448,7 @@
 		"Command"		"nexttip"
 		"font"			"HudFontSmallest"
 	}
-	"ResetStatsButton" [$WIN32]
+	"ResetStatsButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
@@ -2522,7 +2469,7 @@
 		"Command"		"resetstatsbutton"
 		"font"			"HudFontSmallest"
 	}
-	"CloseButton" [$WIN32]
+	"CloseButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"		"CloseButton"
@@ -2541,51 +2488,5 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"vguicancel"
-	}
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"bgcolor"			"TanDarker"
-		"paintbackground"	"1"
-		"tall"				"100"
-		"tall_lodef"				"60"
-		"center"			"1"
-		"buttonoffsety"		"20"
-		"buttonoffsety_lodef"		"5"
-		"button_separator"	"10"
-		"button_separator_lodef"	"2"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"zpos"				"6"
-		"fgcolor"			"HudOffWhite"
-
-		"button"
-		{
-			"name"		"back"
-			"text"		"#GameUI_Back"
-			"icon"		"#GameUI_Icons_B_BUTTON"
-		}
-
-		"button"
-		{
-			"name"		"nexttip"
-			"text"		"#TF_NextTip_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"
-		}
-	}
-	"TitleBanner" [$X360]
-	{
-		"ControlName"	"ImagePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"128"
-		"image"			"menu_header"
-		"visible_lodef"	"0"
-		"enabled_lodef"	"0"
 	}
 }
