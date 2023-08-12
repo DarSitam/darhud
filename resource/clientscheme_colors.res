@@ -39,7 +39,8 @@ Scheme
 		"MeterBackground"	"255 255 255 24" //Also used as the background of the uber meter
 
 		////Counter
-		CounterValue	"235 226 202 255"
+		"CounterValue"	"235 226 202 255"
+		"CounterShadow"	"0 0 0 240"
 		CounterIcon		"235 226 202 255" //Also used for the jetpack icon
 
 		////Objectives
