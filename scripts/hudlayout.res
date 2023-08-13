@@ -911,7 +911,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"c90"
 		"wide"			"140"
-		"tall"			"107"
+		"tall"			"108"
 		"PaintBackgroundType"	"0"
 	}
 	

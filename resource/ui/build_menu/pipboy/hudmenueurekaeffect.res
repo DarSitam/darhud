@@ -20,7 +20,7 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"140"
-		"tall"			"107"
+		"tall"			"108"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -58,8 +58,6 @@
 	
 	"CancelLabel"
 	{
-		"xpos"			"5"
 		"fgcolor"		"0 255 0 255"
-		"textAlignment"	"west"
 	}
 }
