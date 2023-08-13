@@ -100,6 +100,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponTauntLabel"
 		"font"			"DefaultVerySmall"
+		"fgcolor_override"	"GeneralLabel"
 		"xpos"			"0"
 		"ypos"			"125"
 		"zpos"			"2"
