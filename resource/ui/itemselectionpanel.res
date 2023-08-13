@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"BackgroundDefault"
 
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
@@ -112,6 +112,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
 		"font"			"HudFontMediumBold"
+		"fgcolor_override"	"MainMenuLabel"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -141,7 +142,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"MainMenuLabel"
 	}
 
 	"NameFilterTextEntry"
@@ -161,8 +162,8 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"MainMenuLabel"
+		"bgcolor_override"	"BackgroundTransparent"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -283,8 +284,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c100"
-		"ypos"			"340"
+		"xpos"			"c-300"
+		"ypos"			"288"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"
@@ -307,8 +308,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c100"
-		"ypos"			"340"
+		"xpos"			"c-300"
+		"ypos"			"288"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"
