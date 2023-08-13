@@ -355,6 +355,8 @@
 		"paintbackground"	"1"
 		"paintborder"		"0"
 
+		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
