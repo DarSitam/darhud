@@ -44,9 +44,9 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
-		"PaintBorder"	"1"
+		"paintbackground"	"1"
+		"PaintBorder"	"0"
+		"bgcolor_override" "BackgroundDefault"
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
@@ -60,8 +60,9 @@
 			"tall"			"209"
 			"visible"		"1"
 			"enabled"		"1"
-			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"paintbackground"	"1"
+			"PaintBorder"	"0"
+			"bgcolor_override" "BackgroundTransparent"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -79,7 +80,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "BackgroundDefault"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -95,9 +96,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "BackgroundDefault"
 		}
 	}
 	
