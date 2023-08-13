@@ -19,7 +19,7 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"275"
-		"tall"			"102"
+		"tall"			"108"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -32,9 +32,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundEngineer"
-		"xpos"			"245"
-		"ypos"			"80"
-		"zpos"			"10"
+		"xpos"			"230"
+		"ypos"			"5"
+		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"1"
@@ -58,6 +58,5 @@
 	"CancelLabel"
 	{
 		"fgcolor"		"0 255 0 255"
-		"font"			"DefaultSmall"
 	}
 }
