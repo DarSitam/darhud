@@ -16,5 +16,6 @@
 	"NotBuiltLabel"
 	{	
 		"fgcolor"		"0 255 0 255"
+		"font"			"Default"
 	}
 }
