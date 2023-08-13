@@ -65,14 +65,14 @@ Scheme
 		// Checkboxes
 		CheckButton.TextColor			"ButtonLabelDefault"
 		CheckButton.SelectedTextColor		"ButtonLabelArmed"
-		CheckButton.BgColor				"0 0 0 255"
+		CheckButton.BgColor				"BackgroundTransparent"
 		CheckButton.HighlightFgColor		"ButtonLabelArmed"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor		"Blank"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"ButtonLabelArmed"	// color of the check itself
-		CheckButton.DisabledBgColor	    "0 0 0 255"
+		CheckButton.DisabledBgColor	    "BackgroundTransparent"
 
 		ToggleButton.SelectedTextColor	"ButtonLabelArmed"
 		
@@ -110,7 +110,7 @@ Scheme
 		
 		// List panels
 		ListPanel.TextColor					"ButtonLabel"
-		ListPanel.BgColor					"0 0 0 255"
+		ListPanel.BgColor					"BackgroundTransparent"
 		ListPanel.SelectedBgColor			"ButtonArmed"
 		ListPanel.SelectedOutOfFocusBgColor	"ButtonArmedHovering"
 		
@@ -137,7 +137,7 @@ Scheme
 		
 		Slider.NobColor				"ButtonDefault"		
 		Slider.TextColor			"ButtonLabel"
-		Slider.TrackColor			"0 0 0 255"
+		Slider.TrackColor			"BackgroundTransparent"
 		Slider.DisabledTextColor1	"BackgroundTransparent"
         Slider.DisabledTextColor2	"Blank"
 		
@@ -147,12 +147,12 @@ Scheme
 		TextEntry.SelectedBgColor	        "ButtonArmed"		
 		
 		// Console background
-		RichText.BgColor				"0 0 0 255"		
+		RichText.BgColor				"BackgroundTransparent"		
 		
 		// Selection list (options)
 		SectionedListPanel.TextColor			"ButtonLabel"
 		SectionedListPanel.BrightTextColor		"ButtonLabel"
-		SectionedListPanel.BgColor				"0 0 0 255"
+		SectionedListPanel.BgColor				"BackgroundTransparent"
 		SectionedListPanel.SelectedTextColor	"ButtonArmedLabel"
 		SectionedListPanel.SelectedBgColor		"ButtonArmed"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"ButtonLabelArmedHovering"
