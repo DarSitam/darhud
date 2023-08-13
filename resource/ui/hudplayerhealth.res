@@ -29,7 +29,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-	}		
+	}
+
+	"PlayerStatusHealthImageOverheal"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageOverheal"
+		"xpos"			"5"
+		"ypos"			"36"
+		"zpos"			"5"
+		"wide"			"48"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/overhealcross"
+		"drawcolor"		"HealthGain"
+		"alpha"			"0"
+	}
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"

@@ -41,6 +41,8 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.2 0.4
+
+	Animate	PlayerStatusHealthImageOverheal 	Alpha		"255"			Linear 0.0 0.0
 	
 	Animate	PlayerHealthValue			FgColor		"HealthGain" Accel 0.0 0.0
 	Animate PlayerStatusHealthValue 		FgColor		"HealthGain" Accel 0.0 0.0
@@ -54,6 +56,8 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	
+	Animate	PlayerStatusHealthImageOverheal 	Alpha		"0"			Linear 0.0 0.0
 	
 	Animate	PlayerHealthValue			FgColor		"HealthNormal" Accel 0.0 0.0
 	Animate PlayerStatusHealthValue 		FgColor		"HealthNormal" Accel 0.0 0.0
