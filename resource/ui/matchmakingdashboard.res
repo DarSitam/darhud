@@ -590,7 +590,7 @@
 			"armedfgColor_override" "ButtonLabelArmed"
 
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"ButtonLogoArmed"
+			"image_armedcolor"	"235 235 235 255"
 
 			"SubImage"
 			{
@@ -649,7 +649,7 @@
 			"armedfgColor_override" "ButtonLabelArmed"
 
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"ButtonLogoArmed"
+			"image_armedcolor"	"235 235 235 255"
 
 			"SubImage"
 			{
@@ -760,7 +760,7 @@
 			"armedfgColor_override" "ButtonLabelArmed"
 
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"ButtonLogoArmed"
+			"image_armedcolor"	"235 235 235 255"
 			
 			"SubImage"
 			{
