@@ -11,7 +11,7 @@
 		"ypos"			"c90"
 		"zpos"			"10"
 		"wide"			"275"
-		"tall"			"78"
+		"tall"			"90"
 	}	
 
 	"MainBackground"	
@@ -24,7 +24,7 @@
 		"ypos"			"30"
 		"zpos"			"10"
 		"wide"			"275"
-		"tall"			"48"
+		"tall"			"f0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"0 0 0 192"
 	}
@@ -44,7 +44,7 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"replay/thumbnails/square_red"
 		"teambg_3"		"replay/thumbnails/square_blue"	
-		"alpha"			"192"
+		"alpha"			"255"
 	}	
 
 	"SpyIcon"
@@ -67,7 +67,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontMediumBigBold"
 		"pin_to_sibling" "SpyIcon"
 		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
@@ -91,7 +91,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontMediumBigBold"
 		"pin_to_sibling" "TitleLabel"
 		"fgcolor"		"GeneralShadow"
 		"xpos"			"-1"			// align me to the left edge of the first selection
@@ -116,16 +116,16 @@
 		"font"			"DefaultVerySmall"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"0"
-		"ypos"			"5"
-		"zpos"			"3"
-		"wide"			"270"
-		"tall"			"25"
+		"ypos"			"78"
+		"zpos"			"11"
+		"wide"			"275"
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
-		"textAlignment"	"north-east"
+		"textAlignment"	"north"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -137,16 +137,16 @@
 		"font"			"DefaultVerySmall"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"270"
-		"tall"			"25"
+		"ypos"			"78"
+		"zpos"			"11"
+		"wide"			"275"
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
-		"textAlignment"	"south-east"
+		"textAlignment"	"south"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
