@@ -1,17 +1,5 @@
 "Resource/UI/arenawinpanel.res"
 {	
-	ArenaWinPanel
-	{
-		"fieldName"				"ArenaWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-175"
-		"ypos"					"0"
-		"wide"					"350"
-		"tall"					"480"
-		"zpos"					"4"
-	}
-
 	"ArenaWinPanelScores"
 	{
 		"ControlName"		"EditablePanel"
@@ -21,18 +9,42 @@
 		"wide"			"300"
 		"tall"			"430"
 		"visible"		"1"
-		
+
 		"BlueScoreBG"
 		{
-			"wide"			"0"
-			"tall"			"0"
+			"ControlName"		"EditablePanel"
+			"fieldName"		"BlueScoreBG"
+			"xpos"			"0"
+			"ypos"			"15"
+			"wide"			"150"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"bgcolor_override" "HUDBlueTeamSolid"
+			"paintbackgroundtype" "2"
+			"paintBorder"	"1"
+			"RoundedCorners" "5"
 		}
 		"RedScoreBG"
 		{
-			"wide"			"0"
-			"tall"			"0"
-		}
-
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedScoreBG"
+			"xpos"			"150"
+			"ypos"			"15"
+			"wide"			"150"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"bgcolor_override" "HUDRedTeamSolid"
+			"paintbackgroundtype" "2"
+			"paintBorder"	"1"
+			"RoundedCorners" "10"
+		}		
+		
 		"BlueScoreBG1"
 		{
 			"ControlName"		"EditablePanel"
@@ -67,6 +79,7 @@
 			"paintBorder"	"1"
 			"RoundedCorners" "10"
 		}
+
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"

@@ -23,19 +23,43 @@
 		"wide"			"300"
 		"tall"			"60"
 		"visible"		"1"
-		
+
 		"BlueScoreBG"
 		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"BlueScoreBG"
+			"xpos"			"0"
+			"ypos"			"15"
+			"wide"			"150"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"0"
+			"enabled"		"1"
+			"bgcolor_override" "HUDBlueTeamSolid"
+			"paintbackgroundtype" "2"
+			"paintBorder"	"1"
+			"RoundedCorners" "5"
 		}
 
 		"RedScoreBG"
 		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedScoreBG"
+			"xpos"			"150"
+			"ypos"			"15"
+			"wide"			"150"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"0"
-		}
-
+			"enabled"		"1"
+			"bgcolor_override" "HUDRedTeamSolid"
+			"paintbackgroundtype" "2"
+			"paintBorder"	"1"
+			"RoundedCorners" "10"
+		}		
+		
 		"BlueScoreBG1"
 		{
 			"ControlName"		"EditablePanel"
