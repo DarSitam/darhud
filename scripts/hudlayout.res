@@ -767,17 +767,6 @@
 	{
 
 	}
-
-	ArenaWinPanel
-	{
-		"fieldName"				"ArenaWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
-	}
 	
 	PVEWinPanel
 	{
@@ -1076,17 +1065,6 @@
 		"ypos"					"r75"
 		"wide"					"150"
 		"tall"					"25"
-	}
-	
-	HudArenaClassLayout [$WIN32]
-	{
-		"fieldName"				"HudArenaClassLayout"		
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"r320"
-		"wide"					"f0"
-		"tall"					"320"
 	}
 	
 	HudArenaVsPanel [$WIN32]
