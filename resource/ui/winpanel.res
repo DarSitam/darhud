@@ -23,11 +23,23 @@
 		"wide"			"300"
 		"tall"			"60"
 		"visible"		"1"
-
+		
 		"BlueScoreBG"
 		{
+			"visible"		"0"
+			"enabled"		"0"
+		}
+
+		"RedScoreBG"
+		{
+			"visible"		"0"
+			"enabled"		"0"
+		}
+
+		"BlueScoreBG1"
+		{
 			"ControlName"		"EditablePanel"
-			"fieldName"		"BlueScoreBG"
+			"fieldName"		"BlueScoreBG1"
 			"xpos"			"0"
 			"ypos"			"15"
 			"wide"			"150"
@@ -42,10 +54,10 @@
 			"RoundedCorners" "5"
 		}
 
-		"RedScoreBG"
+		"RedScoreBG1"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"RedScoreBG"
+			"fieldName"		"RedScoreBG1"
 			"xpos"			"150"
 			"ypos"			"15"
 			"wide"			"150"
