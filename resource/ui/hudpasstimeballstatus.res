@@ -92,43 +92,31 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressLevelBar"	
 		"xpos"			"c-190"
-		"ypos"			"r88"
+		"ypos"			"r89"
 		"zpos"			"0"
-		"wide"			"0"
+		"wide"			"380"
 		"tall"			"48"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		""
-		"image"			"../passtime/hud/passtime_ballcontrol_bar"
+		"image"			"replay/thumbnails/passtime/passtime_bar"
 		"scaleImage"	"1"
 	}
 
-	"ProgressLevelRed"
+	"ProgressLevelBarShadow"
 	{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"ProgressLevelRed"
-			"xpos"					"c0"
-			"ypos"					"r71"
-			"zpos"					"0"
-			"wide"					"155"
-			"tall"					"15"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"HUDRedTeam"
-	}
-
-	"ProgressLevelBlue"
-	{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"ProgressLevelBlue"
-			"xpos"					"c-155"
-			"ypos"					"r71"
-			"zpos"					"0"
-			"wide"					"155"
-			"tall"					"15"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"HUDBlueTeam"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ProgressLevelBar"	
+		"xpos"			"c-190"
+		"ypos"			"r86"
+		"zpos"			"-1"
+		"wide"			"380"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"image"			"replay/thumbnails/passtime/passtime_bar_shadow"
+		"scaleImage"	"1"
 	}
 
 	"BlueProgressEnd"
@@ -380,16 +368,16 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"BallPowerMeterFinalSection"	
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"1"
 				"zpos"			"0"
 				"wide"			"168"
-				"tall"			"18"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"image"			"ObjectiveLabel"
+				"image"			"white"
 				"scaleImage"	"1"					
 			}
 		}
@@ -425,7 +413,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"image"			"ObjectiveLabel"
+				"image"			"white"
 				"scaleImage"	"1"					
 			}
 		}
@@ -437,6 +425,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon0"
+		"ypos"	"5"
 		wide 12
 		tall 12
 	}
