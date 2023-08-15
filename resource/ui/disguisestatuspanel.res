@@ -41,6 +41,22 @@
 			"angles_z"		"0"
 		}
 	}
+	
+	"SpyIcon"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"SpyIcon"
+		"xpos"			"-6"
+		"ypos"			"-2"
+		"zpos"			"1"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"hud_spy_disguise_menu_icon"
+		"iconColor"		"GeneralLabel"
+	}
 
 	"DisguiseStatusBG"
 	{
@@ -84,7 +100,7 @@
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"HudFontSmallest"
 		"fgcolor_override" 		"GeneralLabel"
-		"xpos"			"45"
+		"xpos"			"48"
 		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"102"
@@ -103,9 +119,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"TF2DefaultLarge"
+		"font"			"TF2Default"
 		"fgcolor_override" 		"GeneralLabel"
-		"xpos"			"45"
+		"xpos"			"48"
 		"ypos"			"13"
 		"zpos"			"1"
 		"wide"			"102"
@@ -124,7 +140,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
+		"xpos"			"10"
 		"ypos"			"-10"
 		"zpos"			"2"
 		"wide"			"44"
