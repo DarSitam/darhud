@@ -12,37 +12,15 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"BlueScoreBG"
-			"xpos"			"0"
-			"ypos"			"15"
-			"wide"			"150"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"bgcolor_override" "HUDBlueTeamSolid"
-			"paintbackgroundtype" "2"
-			"paintBorder"	"1"
-			"RoundedCorners" "5"
+			"xpos"			"9999"
 		}
 		"RedScoreBG"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"150"
-			"ypos"			"15"
-			"wide"			"150"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"bgcolor_override" "HUDRedTeamSolid"
-			"paintbackgroundtype" "2"
-			"paintBorder"	"1"
-			"RoundedCorners" "10"
+			"xpos"			"9999"
 		}		
 		
 		"BlueScoreBG1"
@@ -188,15 +166,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
-
+		}
 	
 		"ArenaStreaksBG"
 		{
-			"wide"	"0"
-			"tall"	"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"ControlName"	"ScalableImagePanel"
+			"fieldName"		"ArenaStreaksBG"
+			"xpos"			"9999"
 		}	
 
 		"ArenaStreakLabel"
@@ -223,10 +199,9 @@
 
 	"WinPanelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"WinPanelBG"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"9999"
 	}
 	
 	"WinningTeamLabel"
@@ -353,11 +328,30 @@
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-	}
+	}	
+	
 	"ShadedBar"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"
+		"wide"			"382"
+		"tall"			"84"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"fillcolor"		"0 0 0 150"
+		"PaintBackgroundType"	"0"
+	}	
+	
+	"ScoreBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ScoreBG"
 		"xpos"			"0"
 		"ypos"			"r115"
 		"zpos"			"0"
@@ -369,12 +363,12 @@
 		"bgcolor_override"	"GeneralBackground"
 		"paintBackgroundtype" "2"
 		"proportionaltoparent"	"1"
-	}
+	}	
 
 	"TopPlayersLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"TopPlayersLabel"
+		"fieldName"		"TopPlayerLabel"
 		"font"			"HudFontSmallest"
 		"fgcolor_override"	"GeneralLabel"
 		"xpos"			"5"

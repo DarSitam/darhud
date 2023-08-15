@@ -768,6 +768,30 @@
 
 	}
 	
+	WinPanel
+	{
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-150"
+		"ypos"					"0"
+		"wide"					"300"
+		"tall"					"480"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
+	}
+	
+	ArenaWinPanel
+	{
+		"fieldName"				"ArenaWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-175"
+		"ypos"					"0"
+		"wide"					"350"
+		"tall"					"480"
+	}
+	
 	PVEWinPanel
 	{
 		"fieldName"				"PVEWinPanel"
@@ -982,18 +1006,6 @@
 		"wide"					"30"
 		"tall"					"30"
 		"zpos"					"99"
-	}	
-	
-	ArenaWinPanel
-	{
-		"fieldName"				"ArenaWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-175"
-		"ypos"					"0"
-		"wide"					"350"
-		"tall"					"480"
-		"zpos"					"4"
 	}
 
 	HudStalemate

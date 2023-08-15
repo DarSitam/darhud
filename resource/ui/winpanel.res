@@ -1,19 +1,5 @@
 "Resource/UI/winpanel.res"
 {
-
-	WinPanel
-	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"0"
-		"wide"					"300"
-		"tall"					"480"
-		"zpos"					"4"
-		"proportionaltoparent"	"1"
-	}
-
 	"TeamScoresPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -266,10 +252,19 @@
 
 	"WinPanelBGBorder"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"WinPanelBGBorder"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"15"
+		"ypos"			"r165"
+		"zpos"			"0"
+		"wide"			"268"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"	
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
+		"alpha"	"220"
 	}
 
 	"WinningTeamLabel"
@@ -291,25 +286,6 @@
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-	}
-
-	"WinningTeamLabelBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"WinningTeamLabelBG"
-		"xpos"			"15"
-		"ypos"			"r165"
-		"zpos"			"0"
-		"wide"			"268"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"	
-		"image"				"replay/thumbnails/square_red"
-		"scaleImage"		"1"
-		"teambg_2"			"replay/thumbnails/square_red"
-		"teambg_3"			"replay/thumbnails/square_blue"
-		"alpha"				"220"
 	}
 
 	"WinningTeamLabelDropshadow"
