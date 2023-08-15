@@ -39,7 +39,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"BackgroundTransparent"
+		"bgcolor_override"	"TransparentStripe"
 	}				
 	"BackgroundFooter"
 	{

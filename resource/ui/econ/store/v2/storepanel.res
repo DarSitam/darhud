@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tileImage"		"1"
-		"bgcolor_override"	"BackgroundTransparent"
+		"bgcolor_override"	"TransparentStripe"
 	}				
 	"BackgroundFooter"
 	{
