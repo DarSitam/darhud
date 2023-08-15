@@ -21,4 +21,4 @@ startupmenu
 
 sv_unlockedchapters 99
 
-vgui_cache_res_files 0
+vgui_cache_res_files 1
