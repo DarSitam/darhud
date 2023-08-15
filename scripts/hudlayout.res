@@ -786,10 +786,11 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-175"
-		"ypos"					"0"
+		"xpos"					"cs-0.5"
+		"ypos"					"cs-0.5"
 		"wide"					"350"
 		"tall"					"480"
+		"zpos"					"3000"
 	}
 	
 	PVEWinPanel

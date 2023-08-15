@@ -1,5 +1,17 @@
 "Resource/UI/arenawinpanel.res"
-{	
+{		
+	"ArenaWinPanel"
+	{
+		"fieldName"				"ArenaWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"cs-0.5"
+		"wide"					"350"
+		"tall"					"480"
+		"zpos"					"3000"
+	}
+
 	"ArenaWinPanelScores"
 	{
 		"ControlName"		"EditablePanel"
@@ -7,7 +19,7 @@
 		"xpos"			"25"
 		"ypos"			"50"
 		"wide"			"300"
-		"tall"			"430"
+		"tall"			"60"
 		"visible"		"1"
 
 		"BlueScoreBG"
@@ -408,7 +420,7 @@
 	"HealingThisRoundLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
+		"fieldName"		"HealingThisRoundLabel"
 		"font"			"HudFontSmallest"
 		"fgcolor_override"	"GeneralLabel"
 		"xpos"			"225"
@@ -428,7 +440,7 @@
 	"LifetimeThisRoundLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
+		"fieldName"		"LifetimeThisRoundLabel"
 		"font"			"HudFontSmallest"
 		"fgcolor_override"	"GeneralLabel"
 		"xpos"			"275"
@@ -448,7 +460,7 @@
 	"KillingBlowsThisRoundLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
+		"fieldName"		"KillingBlowsThisRoundLabel"
 		"font"			"HudFontSmallest"
 		"fgcolor_override"	"GeneralLabel"
 		"xpos"			"325"
