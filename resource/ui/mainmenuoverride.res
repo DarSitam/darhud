@@ -229,7 +229,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
 		"xpos"			"60"
-		"ypos"			"36"
+		"ypos"			"39"
 		"zpos"			"1"
 		"wide"			"256"
 		"tall"			"64"
@@ -245,7 +245,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"TFLogoEasterEgg"
 			"xpos"			"60"
-			"ypos"			"36"
+			"ypos"			"39"
 			"zpos"			"7"
 			"wide"			"256"
 			"tall"			"64"
@@ -1036,7 +1036,7 @@
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
 			"xpos"			"20"
-			"ypos"			"215"
+			"ypos"			"205"
 			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
@@ -1422,7 +1422,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"95"
-		"ypos"			"105"
+		"ypos"			"108"
 		"zpos"			"6"
 		"wide"			"196"
 		"tall"			"30"
@@ -1444,7 +1444,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
 
-		"paintbackground"	"1"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
 
 		"image_drawcolor"	"235 226 202 255"
 
@@ -1469,11 +1473,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemShadow"
 		"pin_to_sibling"	"CharacterSetupButton"
-		"xpos"			"5"
-		"ypos"			"5"
-		"zpos"			"5"
-		"wide"			"206"
-		"tall"			"40"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"6"
+		"wide"			"202"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -1514,7 +1518,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"1"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
 
 		"image_drawcolor"	"235 226 202 255"
 
@@ -1539,11 +1547,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"GeneralStoreShadow"
 		"pin_to_sibling"	"GeneralStoreButton"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"3"
+		"ypos"			"3"
 		"zpos"			"5"
-		"wide"			"206"
-		"tall"			"40"
+		"wide"			"202"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -1555,7 +1563,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomSettingsButton"
 		"xpos"			"95"
-		"ypos"			"175"
+		"ypos"			"172"
 		"zpos"			"6"
 		"wide"			"196"
 		"tall"			"30"
@@ -1582,7 +1590,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"1"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
 
 		"image_drawcolor"	"235 226 202 255"
 
@@ -1607,11 +1619,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SettingsShadow"
 		"pin_to_sibling"	"CustomSettingsButton"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"3"
+		"ypos"			"3"
 		"zpos"			"5"
-		"wide"			"206"
-		"tall"			"40"
+		"wide"			"202"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -1653,7 +1665,11 @@
 		"paintBorder"	"1"
 		"RoundedCorners"	"15"
 
-		"paintbackground"	"1"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
 
 		"image_drawcolor"	"235 226 202 255"
 
@@ -1679,11 +1695,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TF2SettingsShadow"
 		"pin_to_sibling"	"TF2SettingsButton"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"3"
+		"ypos"			"3"
 		"zpos"			"7"
-		"wide"			"33"
-		"tall"			"33"
+		"wide"			"29"
+		"tall"			"29"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -1695,7 +1711,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
 		"xpos"			"95"
-		"ypos"			"215"
+		"ypos"			"205"
 		"zpos"			"6"
 		"wide"			"25"
 		"tall"			"25"
@@ -1719,7 +1735,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"RoundedCorners"	"5"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
+
 		"image_drawcolor"	"235 226 202 255"
 
 		"SubImage"
@@ -1736,6 +1757,22 @@
 			"image"			"glyph_tutorial"
 			"scaleImage"	"1"
 		}
+	}	
+	
+	"NewUserForumsShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"NewUserForumsShadow"
+		"pin_to_sibling"	"NewUserForumsButton"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"AchievementsButton"
@@ -1743,7 +1780,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
 		"xpos"			"119"
-		"ypos"			"215"
+		"ypos"			"205"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -1767,7 +1804,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"RoundedCorners"	"0"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
+
 		"image_drawcolor"	"235 226 202 255"
 
 		"SubImage"
@@ -1784,6 +1826,22 @@
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
 		}
+	}	
+	
+	"AchievementsShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"AchievementsShadow"
+		"pin_to_sibling"	"AchievementsButton"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"CommentaryButton"
@@ -1791,7 +1849,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
 		"xpos"			"143"
-		"ypos"			"215"
+		"ypos"			"205"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -1815,7 +1873,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"RoundedCorners"	"0"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
+
 		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
@@ -1832,6 +1895,22 @@
 			"image"			"glyph_forums"
 			"scaleImage"	"1"
 		}
+	}	
+	
+	"CommentaryShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CommentaryShadow"
+		"pin_to_sibling"	"CommentaryButton"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"CoachPlayersButton"
@@ -1839,7 +1918,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
 		"xpos"			"167"
-		"ypos"			"215"
+		"ypos"			"205"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -1863,7 +1942,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"RoundedCorners"	"0"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
+
 		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
@@ -1880,14 +1964,30 @@
 			"image"			"glyph_commentary"
 			"scaleImage"	"1"
 		}
+	}	
+	
+	"CoachPlayersShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CoachPlayersShadow"
+		"pin_to_sibling"	"CoachPlayersButton"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"WorkshopButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButton"
-		"xpos"			"190"
-		"ypos"			"215"
+		"xpos"			"191"
+		"ypos"			"205"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -1911,7 +2011,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"RoundedCorners"	"0"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
+
 		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
@@ -1928,6 +2033,22 @@
 			"image"			"glyph_steamworkshop"
 			"scaleImage"	"1"
 		}
+	}	
+	
+	"WorkshopShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WorkshopShadow"
+		"pin_to_sibling"	"WorkshopButton"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"ReplayButton"
@@ -1935,7 +2056,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplayButton"
 		"xpos"			"215"
-		"ypos"			"215"
+		"ypos"			"205"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -1958,9 +2079,13 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
 
-		"RoundedCorners"	"0"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
+
 		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
@@ -1977,6 +2102,22 @@
 			"image"			"glyph_tv"
 			"scaleImage"	"1"
 		}
+	}	
+	
+	"ReplayShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ReplayShadow"
+		"pin_to_sibling"	"ReplayButton"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"ConsoleButton"
@@ -1984,7 +2125,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ConsoleButton"
 		"xpos"			"239"
-		"ypos"			"215"
+		"ypos"			"205"
 		"zpos"			"7"
 		"wide"			"26"
 		"tall"			"25"
@@ -2012,14 +2153,13 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"paintbackground"	"1"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"paintbackground"	"0"
 
-			"RoundedCorners"	"0"
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
+
 			"image_drawcolor"	"235 226 202 255"
 		
 			"proportionaltoparent"	"1"
@@ -2040,6 +2180,22 @@
 				"proportionaltoparent"	"1"
 			}
 		}
+	}	
+	
+	"ConsoleShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ConsoleShadow"
+		"pin_to_sibling"	"ConsoleButton"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"border"	"OuterShadowBorder"
 	}
 
 	"ReportBugButton"
@@ -2047,7 +2203,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
 		"xpos"			"264"
-		"ypos"			"215"
+		"ypos"			"205"
 		"zpos"			"6"
 		"wide"			"26"
 		"tall"			"25"
@@ -2071,7 +2227,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"RoundedCorners"	"10"
+		"paintbackground"	"0"
+
+		"paintBorder"	"1"
+		"border_default"    "customMainMenuButtonDefault"
+    	"border_armed"      "customMainMenuButtonArmed"
+
 		"image_drawcolor"	"235 226 202 255"
 		
 		"SubImage"
@@ -2090,16 +2251,16 @@
 		}
 	}
 
-	"SmallButtonsShadow"
+	"ReportBugShadow"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"SmallButtonsShadow"
-		"pin_to_sibling"	"NewUserForumsButton"
-		"xpos"			"5"
-		"ypos"			"5"
+		"fieldName"		"ReportBugShadow"
+		"pin_to_sibling"	"ReportBugButton"
+		"xpos"			"3"
+		"ypos"			"3"
 		"zpos"			"5"
-		"wide"			"205"
-		"tall"			"35"
+		"wide"			"31"
+		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -2111,10 +2272,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"95"
-		"ypos"			"250"
+		"ypos"			"240"
 		"zpos"			"7"
 		"wide"			"196"
-		"tall"			"112"
+		"tall"			"117"
 		"visible"		"1"
 
 		"TitleLabel"
@@ -2221,7 +2382,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
 		"xpos"			"c-295"
-		"ypos"			"210"
+		"ypos"			"205"
 		"zpos"			"-50"
 		"wide"			"270"
 		"tall"			"190"
