@@ -515,14 +515,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
 		"xpos"			"r50"
-		"ypos"			"30"
-		"zpos"			"10"
-		"wide"			"32"
-		"tall"			"32"
+		"ypos"			"60"
+		"zpos"			"11"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"1"			
 
 		"navUp"			"MOTD_ShowButtonPanel"
 		"navDown"		"SettingsButton"
@@ -592,7 +592,13 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+		
+			"paintbackground"	"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -600,14 +606,14 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"3"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"26"
+				"tall"			"26"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_Alert"
+				"image"			"replay/thumbnails/mainmenu/alert"
 				"scaleImage"	"1"
 			}
 		}
@@ -618,10 +624,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
 		"xpos"			"r50"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"ypos"			"95"
+		"zpos"			"11"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -656,7 +662,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
+			"proportionaltoparent"	"1"			
+			
+			"paintbackground"	"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -672,12 +684,12 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"button_streaming"
+				"image"			"replay/thumbnails/mainmenu/twitch"
 
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -691,10 +703,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"r50"
-		"ypos"			"100"
-		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"ypos"			"130"
+		"zpos"			"11"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -733,8 +745,13 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
 			"paintbackground"	"0"
-			"paintborder"		"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -750,7 +767,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"button_quests_pda"
+				"image"			"replay/thumbnails/mainmenu/contracker"
 
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -764,10 +781,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"r50"
-		"ypos"			"135"
-		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"ypos"			"165"
+		"zpos"			"11"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -786,8 +803,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -806,7 +823,13 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+
+			"paintbackground"	"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -814,14 +837,14 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"1"
+				"ypos"			"1"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"28"
+				"tall"			"28"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_MOTD"
+				"image"			"replay/thumbnails/mainmenu/letter"
 				"scaleImage"	"1"
 			}
 		}
@@ -832,7 +855,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
 		"xpos"			"5"
-		"ypos"			"70"
+		"ypos"			"102"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
@@ -1214,8 +1237,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"r270"
-		"ypos"			"30"
+		"xpos"			"r260"
+		"ypos"			"60"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"
@@ -2580,8 +2603,8 @@
 		"xpos"			"30"
 		"ypos"			"105"
 		"zpos"			"11"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"27"
+		"tall"			"27"
 		"visible"		"1"
 
 		"navLeft"		"ResumeGameButton"
@@ -2596,7 +2619,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"p1"
-			"tall"			"25"
+			"tall"			"27"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2613,7 +2636,12 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"RoundedCorners"	"3"
 
-			"paintbackground"	"1"
+			"paintbackground"	"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
+
 
 			"image_drawcolor"	"235 226 202 255"
 
@@ -2623,7 +2651,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"5"
+				"xpos"			"6"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"15"
@@ -2644,8 +2672,8 @@
 		"xpos"			"30"
 		"ypos"			"129"
 		"zpos"			"12"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"27"
+		"tall"			"27"
 		"visible"		"1"
 
 		"navLeft"		"ReportPlayerButton"
@@ -2660,7 +2688,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"p1"
-			"tall"			"25"
+			"tall"			"27"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2677,7 +2705,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"RoundedCorners"	"0"
 
-			"paintbackground"	"1"
+			"paintbackground"	"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
 
 			"image_drawcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
@@ -2706,8 +2738,8 @@
 		"xpos"			"30"
 		"ypos"			"153"
 		"zpos"			"12"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"27"
+		"tall"			"27"
 		"visible"		"1"
 
 		"navLeft"		"CallVoteButton"
@@ -2722,7 +2754,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"p1"
-			"tall"			"25"
+			"tall"			"27"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2739,7 +2771,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"RoundedCorners"	"0"
 
-			"paintbackground"	"1"
+			"paintbackground"	"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
 
 			"image_drawcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
@@ -2769,8 +2805,8 @@
 		"xpos"			"30"
 		"ypos"			"177"
 		"zpos"			"11"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"27"
+		"tall"			"27"
 		"visible"		"1"
 
 		"navLeft"		"MutePlayersButton"
@@ -2785,7 +2821,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"p1"
-			"tall"			"25"
+			"tall"			"27"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2802,7 +2838,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"RoundedCorners"	"12"
 
-			"paintbackground"	"1"
+			"paintbackground"	"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
 
 			"image_drawcolor"	"235 226 202 255"
 
