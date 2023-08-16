@@ -48,5 +48,19 @@
 		"command" 		"engine toggleconsole"
 		"subimage"		"replay/thumbnails/mainmenu/console"
 		"tooltip" 		"#GameUI_Console"
+	}		
+	"QuestLogButton"
+	{
+		"label"			""
+		"command" 		"questlog"
+		"subimage"		"replay/thumbnails/mainmenu/contracker"
+		"tooltip" 		"#Context_ConTracker"
+	}	
+	"MOTDButton"
+	{
+		"label"			""
+		"command" 		"motd_show"
+		"subimage"		"replay/thumbnails/mainmenu/letter"
+		"tooltip" 		"#MMenu_News"
 	}
 }
