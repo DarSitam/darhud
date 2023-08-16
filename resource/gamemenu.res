@@ -46,7 +46,7 @@
 	{
 		"label"			""
 		"command" 		"engine toggleconsole"
-		"subimage"		"glyph_vr"
+		"subimage"		"replay/thumbnails/mainmenu/console"
 		"tooltip" 		"#GameUI_Console"
 	}
 }

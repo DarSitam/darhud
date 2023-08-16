@@ -2198,7 +2198,7 @@
 				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_vr"
+				"image"			"replay/thumbnails/mainmenu/console"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
