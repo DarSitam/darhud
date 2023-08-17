@@ -39,7 +39,7 @@
 		"ypos"			"cs-0.5"
 		"zpos"			"-1"
 		"wide"			"f0"
-		"tall"			"150"
+		"tall"			"235"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentStripe"
@@ -124,7 +124,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -202,7 +202,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -268,7 +268,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -333,7 +333,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -404,7 +404,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -469,7 +469,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -534,7 +534,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -606,7 +606,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -671,7 +671,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -736,7 +736,7 @@
 		"defaultbgColor_override" "0 0 0 192"
 		"armedbgColor_override" "0 0 0 192"
 		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "Black"
+		"selectedbgColor_override" "20 20 20 250"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
