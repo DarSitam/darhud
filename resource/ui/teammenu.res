@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"paintBackground"	"0"
 	}	
 	
 	"bg"
@@ -51,8 +52,8 @@
 		"fieldName"		"SysMenu"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"64"
-		"tall"			"24"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
