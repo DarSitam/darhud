@@ -32,5 +32,13 @@
 	"ItemEffectMeterCount"
 	{
 		"xpos"					"22"
-	}
+	}	
+	
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"visible"				"0"
+		"enabled"				"1"
+	}	
 }
