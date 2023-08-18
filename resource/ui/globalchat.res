@@ -5,10 +5,10 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"90"
-		"ypos"					"30"
+		"xpos"					"94"
+		"ypos"					"10"
 		"zpos"					"1001"
-		"wide"					"207"
+		"wide"					"200"
 		"tall"					"200"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
@@ -26,7 +26,7 @@
 
 		"collapsed_height"		"0"
 		"expanded_height"		"200"
-		"resize_time"	"0.2"
+		"resize_time"	"0.3"
 		"invalidate_parent_on_resize"	"0"
 	}
 
@@ -35,7 +35,7 @@
 		// "ControlName"	"richtext"
 		"fieldName"		"chatlog"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f20"
@@ -44,8 +44,7 @@
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 		
-		"bgcolor_override"	"0 0 0 255"
-		"fgcolor_override"	"GeneralLabel"
+		"bgcolor_override"	"0 0 0 50"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -86,7 +85,7 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"91"
+		"xpos"					"95"
 		"ypos"					"rs1+19"
 		"zpos"			"1"
 		"wide"			"f2"
@@ -94,7 +93,6 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
-		"fgcolor_override"	"GeneralLabel"
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 		"alpha"			"0"
