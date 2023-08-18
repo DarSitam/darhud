@@ -72,7 +72,7 @@ Scheme
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"ButtonLabelArmed"	// color of the check itself
-		CheckButton.DisabledBgColor	    "BackgroundTransparent"
+		CheckButton.DisabledBgColor	    "TFTanMedium"
 
 		ToggleButton.SelectedTextColor	"ButtonLabelArmed"
 		
@@ -97,7 +97,7 @@ Scheme
 		FrameTitleButton.FgColor		"MainMenuLabel"
 		FrameTitleBar.Font			"DefaultLarge"
 		FrameTitleBar.TextColor			"MainMenuLabel"
-		FrameTitleBar.DisabledTextColor	"MainMenuLabel"
+		FrameTitleBar.DisabledTextColor	"TFTanMedium"
 		
 		// Labels
 		Label.TextDullColor				"MainMenuLabel"
@@ -138,12 +138,12 @@ Scheme
 		Slider.NobColor				"ButtonDefault"		
 		Slider.TextColor			"ButtonLabel"
 		Slider.TrackColor			"BackgroundTransparent"
-		Slider.DisabledTextColor1	"BackgroundTransparent"
+		Slider.DisabledTextColor1	"TFTanMedium"
         Slider.DisabledTextColor2	"Blank"
 		
 		// Text fields
 		TextEntry.TextColor			        "ButtonLabel"
-		TextEntry.DisabledTextColor	        "BackgroundTransparent"
+		TextEntry.DisabledTextColor	        "TFTanMedium"
 		TextEntry.SelectedBgColor	        "ButtonArmed"		
 		
 		// Console background
