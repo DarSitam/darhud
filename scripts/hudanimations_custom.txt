@@ -187,3 +187,21 @@ event HudSpyDisguiseFadeOut
 }
 
 //===========================================
+
+event HudTournament_ShowTimerCompetitive
+{
+	Animate CountdownLabel ypos 90 Linear 0 0
+	Animate CountdownLabelShadow ypos 91 Linear 0 0
+	SetVisible CountdownBG  1 0
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	Animate CountdownLabel ypos 123 Linear 0 0
+	Animate CountdownLabelShadow ypos 124 Linear 0 0
+	SetVisible CountdownBG  1 0
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+}
