@@ -8,11 +8,60 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 768"
+			}
+			"3"
+			{
 				"name"		"TF2 Secondary"
-				"tall"		"8"
-				"weight"	"600"
-				"additive"	"0"
-				"antialias" "1"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"769 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"17"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		"TF2DefaultSmall"
