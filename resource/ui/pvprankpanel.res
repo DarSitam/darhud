@@ -215,7 +215,7 @@
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
 			"fgcolor_override"	"MainMenuLabel"
-			"textAlignment"	"north-east"
+			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -238,7 +238,7 @@
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"MainMenuLabel"
-			"textAlignment"	"north-east"
+			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
@@ -269,7 +269,7 @@
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"MainMenuLabel"
-			"textAlignment"	"north-east"
+			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
