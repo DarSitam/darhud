@@ -51,7 +51,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
 		"ypos"			"21"
@@ -61,6 +61,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
+		"proportionaltoparent"	"1"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -92,7 +93,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
 		"xpos"			"cs-0.5"
 		"ypos"			"21"
@@ -103,6 +104,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
 		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
@@ -175,9 +177,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"font"			"HudFontSmallest"
 		"fgcolor"		"GeneralLabel"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"150"
@@ -189,7 +190,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"HudFontSmallestBold"
+		"proportionaltoparent"	"1"
 
 		if_match
 		{
@@ -229,7 +231,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"HudFontSmallestBold"
+		"proportionaltoparent"	"1"
 
 		if_match
 		{
