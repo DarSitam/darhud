@@ -4,6 +4,15 @@
 
 HUD aimed to be more modern-looking while keeping the aspect of TF2
 
+### Links :
+[Album](https://imgur.com/a/pTE0V2X)
+
+[GameBanana page](https://gamebanana.com/mods/463048)
+
+[Comfig hud page](https://comfig.app/huds/page/darhud/)
+
+[TF2Huds page](https://tf2huds.dev/hud/DarHUD)
+
 ### Credits
 - The huds.tf discord for an enormous help
 - RaysFire / JarateKing for some documentations
