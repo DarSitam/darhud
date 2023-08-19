@@ -13,6 +13,21 @@
 		"enabled"	"1"
 	}
 	
+	"ControlPointIconShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"ControlPointIconShadow"
+		"xpos"		"3"
+		"ypos"		"4"
+		"zpos"		"-10"
+		"wide"		"26"
+		"tall"		"26"
+		"visible"	"1"
+		"enabled"	"1"
+		"scaleImage" "1"
+		"image"		"replay/thumbnails/obj_icons/icon_obj_shadow"
+	}
+	
 	"Countdown"
 	{
 		"ControlName"	"CControlPointCountdown"
@@ -67,11 +82,11 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"OverlayImage"
-		"xpos"		"19"
-		"ypos"		"0"
+		"xpos"		"16"
+		"ypos"		"2"
 		"zpos"		"4"
-		"wide"		"0"
-		"tall"		"0"
+		"wide"		"8"
+		"tall"		"8"
 		"visible"	"0"
 		"enabled"	"0"
 		"image"		"capture_icon"
@@ -84,7 +99,7 @@
 		"fieldName"		"CPTimerLabel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"4"
 		"wide"			"9"
 		"tall"			"20"
 		"visible"		"0"
@@ -103,7 +118,7 @@
 		"fieldName"		"CPTimerBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"3"
 		"wide"		"53"
 		"tall"		"26"
 		"visible"		"0"
