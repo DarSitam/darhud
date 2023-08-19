@@ -402,7 +402,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r627"
-		"ypos"	 "18"
+		"ypos"	 "20"
 		"wide"	 "628"
 		"tall"	 "468"
 
