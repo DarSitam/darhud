@@ -4,8 +4,6 @@
 
 HUD aimed to be more modern-looking while keeping the aspect of TF2
 
-*Version 2023.02*
-
 ### Credits
 - The huds.tf discord for an enormous help
 - RaysFire / JarateKing for some documentations
