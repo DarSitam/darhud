@@ -73,9 +73,18 @@
 		
 		"HeaderLine"
 		{
-			"visible"		"0"
-			"enabled"		"0"
-		}				
+			"ControlName"	"EditablePanel"
+			"fieldName"		"HeaderLine"
+			"xpos"			"0"
+			"ypos"			"44"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"ButtonArmed"
+			"scaleImage"	"1"
+		}			
 		
 		"tabskv"
 		{
@@ -85,9 +94,11 @@
 			"unselectedcolor"	"ButtonLabelDefault"	
 			"defaultBgColor_override"	"BackgroundDefault"
 			"paintbackground"	"1"
-			"paintbackgroundType"	"2"
 			"paintBorder"	"1"
+			"paintbackgroundtype" 	"2"
 			"RoundedCorners"	"3"
+			"activeborder_override"	"SelectedTabBorder"
+			"normalborder_override" "NoBorder"
 		}
 	}
 	
