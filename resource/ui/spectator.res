@@ -87,7 +87,7 @@
 		"fieldName"		"ReinforcementsLabel"
 		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"50"
+		"ypos"			"35"
 		"wide"			"300"
 		"tall"			"25"
 		"autoResize"		"0"
@@ -98,7 +98,7 @@
 		"textAlignment"		"center"
 		"font"			"HudFontSmall"
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"		"CExLabel"
