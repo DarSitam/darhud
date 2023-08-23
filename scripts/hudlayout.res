@@ -641,8 +641,8 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "c-60"
-		"ypos" "cs-0.5"
+		"xpos" "r162"
+		"ypos" "350"
 		"wide" "25"
 		"tall" "25"
 	}
