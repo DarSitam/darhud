@@ -288,8 +288,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"r315"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"40"
 		"wide"			"300"
 		"tall"			"25"
 		"autoResize"		"0"
@@ -297,7 +297,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"east"
+		"textAlignment"		"center"
 		"font"			"HudFontSmall"
 		
 		if_mvm
@@ -309,7 +309,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"30"
+		"ypos"			"120"
 		"zpos"			"1"
 		"wide"			"400"
 		"tall"			"25"
