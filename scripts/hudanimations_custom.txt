@@ -13,11 +13,11 @@ event HudTournamentSetupPanelClose
 //==========================================================================================================================
 // CROSSHAIR ANIMATION
 //--------------------------------------------------------------------------------------------------------------------------
-event DamagedPlayer
-{
-	Animate CustomCrosshair		FgColor     "Hitmarker"		Linear 	0.0 	0.00001
-	Animate CustomCrosshair		FgColor     "Crosshair"		Linear 	0.10 	0.10001
-}
+// event DamagedPlayer
+// {
+// 	Animate CustomCrosshair		FgColor     "Hitmarker"		Linear 	0.0 	0.00001
+// 	Animate CustomCrosshair		FgColor     "Crosshair"		Linear 	0.10 	0.10001
+// }
 
 //==========================================================================================================================
 // SPY DISGUISE
