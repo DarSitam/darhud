@@ -80,10 +80,10 @@
 	{
 		"fieldName"		"stats"
 		"xpos"			"-1"
-		"ypos"			"40"
+		"ypos"			"60"
 		"zpos"			"100"
-		"wide"			"305"
-		"tall"			"f65"
+		"wide"			"300"
+		"tall"			"f100"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -105,7 +105,7 @@
 		"proportionaltoparent" "1"
 	}
 
-"QueueButton"
+	"QueueButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
