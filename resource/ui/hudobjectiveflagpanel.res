@@ -443,7 +443,7 @@
 		"if_mvm"
 		{
 			"xpos"			"c-65"
-			"ypos"			"r90"
+			"ypos"			"r95"
 			"wide"			"100"
 			"tall"			"70"
 		}
