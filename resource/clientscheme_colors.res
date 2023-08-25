@@ -58,7 +58,7 @@ Scheme
 		////Main Menu
 		"BackgroundDefault"	"31 31 31 255"
 		"BackgroundTransparent"	"0 0 0 220"
-		"TransparentStripe"		"0 0 0 250"
+		"TransparentStripe"		"0 0 0 235"
 
 		"MainMenuLabel"			"235 226 202 255"
 
