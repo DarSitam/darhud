@@ -11,9 +11,9 @@ Scheme
 		"GeneralBackground"	"0 0 0 192"
 
 		"HUDBlueTeam"		"73 108 132 127"
-		"HUDRedTeam"		"170 52 53 127"
+		"HUDRedTeam"		"152 47 47 127"
 		"HUDBlueTeamSolid"	"73 108 132 255"
-		"HUDRedTeamSolid"	"170 52 53 255"
+		"HUDRedTeamSolid"	"152 47 47 255"
 
 		////Health
 		"HealthNormal"	"235 226 202 255"
@@ -49,7 +49,7 @@ Scheme
 
 		////Killfeed
 		"KillfeedKill"		"235 235 235 255"
-		"KillfeedNormal"	"0 0 0 220"
+		"KillfeedNormal"	"25 25 25 220"
 
 
 
