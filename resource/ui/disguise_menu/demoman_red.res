@@ -14,7 +14,7 @@
 	
 	"NewNumberLabel"
 	{
-		"labelText"		"4"
+		"labelText"		"1"
 	}
 	
 	"NumberLabel"
