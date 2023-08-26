@@ -1,5 +1,3 @@
-#base "customfontfiles.res"
-
 Scheme
 {
 	Fonts
@@ -133,136 +131,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	// Range specificies the characters to be used from the custom font before falling back to a default font
-	// characters in the range not specificed in the font will appear empty
-	// For TF2: Any special character will need to be added to our font file
-	CustomFontFiles
-	{
-		"1" "resource/tf.ttf"
-		"2" "resource/tfd.ttf"
-		"3"
-		{
-			"font" "resource/TF2.ttf"
-			"name" "TF2"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"4" 
-		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"5" 
-		{
-			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
-			"russian"
-			{
-				"range" "0x0000 0x00FF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x00FF"
-			}
-		}	
-		"6" 
-		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}			
-		"7"
-		{
-			"font"	"resource/ocra.ttf"
-			"name" "ocra"
-			"turkish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"german"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"french"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x007E"
-			}
-		}
-	}
-		
+
 		//DEFAULT TF2 FONTS -- AVOID MESSING WITH
 		"Default"
 		{
@@ -325,7 +194,7 @@ Scheme
 				"weight"		"800"
 			}
 
-			
+
 		}
 		"DefaultUnderline"
 		{
@@ -668,7 +537,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -679,7 +548,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -762,7 +631,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -826,6 +695,28 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudMenuNumberFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"15"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MatchmakingDialogMenuSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				tall		"47"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -998,6 +889,28 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HDRDemoText"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Ui"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudClassHealth"
 		{
 			"1"
@@ -1126,7 +1039,7 @@ Scheme
 				"weight"	"200"
 				"outline"	"1"
 			}
-		}		
+		}
 		TFTypeDeath
 		{
 			"1"
@@ -1138,7 +1051,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		Icons
 		{
 			"1"
@@ -1294,7 +1207,27 @@ Scheme
 				"weight"	"500"
 			}
 		}
-		
+		"MenuMedium"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"15"
+				"antialias" "1"
+				"weight"	"500"
+			}
+		}
+		"MenuSmall"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"15"
+				"antialias" "1"
+				"weight"	"500"
+			}
+		}
+
 		"GoalText"
 		{
 			"1"
@@ -1307,8 +1240,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		"ChalkboardTitle"
 		{
 			"1"
@@ -1317,7 +1250,7 @@ Scheme
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
-				"antialias"		"1" 
+				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
 				"weight_lodef"	"800"
@@ -1623,7 +1556,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -1765,8 +1698,8 @@ Scheme
 				"weight"		"300"
 				"antialias"		"1"
 			}
-		}	
-		
+		}
+
 		MenuSmallFont
 		{
 			"1"
@@ -1779,7 +1712,7 @@ Scheme
 				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
-		}			
+		}
 		CapPlayerFont
 		{
 			"1"
@@ -1817,7 +1750,7 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -1830,8 +1763,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		InstructionalText
 		{
 			"1"
@@ -1843,8 +1776,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		MatchmakingDialogTitle
 		{
 			"1"
@@ -1892,7 +1825,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"900"
 			}
-		}		
+		}
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -1940,7 +1873,7 @@ Scheme
 				"weight"	"900"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
@@ -1962,7 +1895,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		"IntroMenuCaption"
 		{
 			"1"
@@ -1973,7 +1906,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}			
+		}
 		"AchievementNotification"
 		{
 			"1"
@@ -2048,7 +1981,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"ItemFontNameSmallest"
 		{
 			"1"
@@ -2135,7 +2068,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -2147,7 +2080,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2251,7 +2184,7 @@ Scheme
 			"3"
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"	
+				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2293,7 +2226,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"QuestLargeText"
 		{
 			"1"
@@ -2426,7 +2359,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -2450,7 +2383,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"AdFont_AdText"
 		{
 			"1"
@@ -2497,7 +2430,7 @@ Scheme
 				"italic"	"1"
 			}
 		}
-		
+
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
@@ -2670,7 +2603,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -2778,7 +2711,7 @@ Scheme
 			"1"
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"		
+				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2822,6 +2755,428 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+	}
+
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// Range specificies the characters to be used from the custom font before falling back to a default font
+	// characters in the range not specificed in the font will appear empty
+	// For TF2: Any special character will need to be added to our font file
+	CustomFontFiles
+	{
+		"1" "resource/tf.ttf"
+		"2" "resource/tfd.ttf"
+		"3"
+		{
+		"font" "resource/fonts/TF2.ttf"
+		"name" "TF2"
+		
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
+			}
+		}
+		"4" 
+		{
+		"font" "resource/fonts/TF2Secondary.ttf"
+		"name" "TF2 Secondary"
+		
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
+			}
+		}
+		"5" 
+		{
+		"font" "resource/fonts/TF2Professor.ttf"
+		"name" "TF2 Professor"
+
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
+			}
+		}
+		"6" 
+		{
+		"font" "resource/fonts/TF2Build.ttf"
+		"name" "TF2 Build"
+		
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
+			}
+		}
+		"7" 
+		{
+		"font"	"resource/fonts/ocra.ttf"
+		"name" "ocra"	
+
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
 			}
 		}
 	}
