@@ -36,7 +36,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Stripe"
 		"xpos"			"cs-0.5"
-		"ypos"			"c10"
+		"ypos"			"c-22"
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"165"
@@ -75,6 +75,7 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"replay/thumbnails/square_red"
 		"teambg_3"		"replay/thumbnails/square_blue"
+		"alpha"			"220"
 	}	
 	
 	"classBgShadow"
@@ -1590,7 +1591,7 @@
 		"fieldName"		"TFPlayerModel"
 		
 		"xpos"			"0"
-		"ypos"			"90"
+		"ypos"			"60"
 		"zpos"			"1"		
 		"wide"			"480"
 		"tall"			"480"
@@ -1633,7 +1634,7 @@
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"r260"
-		"ypos"			"c10"
+		"ypos"			"c-22"
 		"zpos"			"7"
 		"wide"			"240"
 		"tall"			"165"
