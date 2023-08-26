@@ -49,7 +49,7 @@ Scheme
 
 		////Killfeed
 		"KillfeedKill"		"235 235 235 255"
-		"KillfeedNormal"	"0 0 0 220"
+		"KillfeedNormal"	"25 25 25 220"
 
 
 
