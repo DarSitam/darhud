@@ -14,7 +14,8 @@
 	{
 		"CountdownImage"
         { 
-			"ypos"			"18"
+			"xpos"			"125"
+			"ypos"			"20"
             "wide"  "25"
             "tall"  "25"
         }
