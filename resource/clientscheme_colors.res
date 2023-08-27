@@ -45,6 +45,7 @@ Scheme
 
 		////Objectives
 		"ObjectiveLabel"	"235 226 202 255"
+		"ObjectiveIcon"	"235 226 202 255"
 		"ObjectiveShadow"	"0 0 0 240"
 
 		////Killfeed
