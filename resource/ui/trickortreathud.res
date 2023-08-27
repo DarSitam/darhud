@@ -22,7 +22,6 @@
 			"teambg_2"		"replay/thumbnails/playerdestruction/countdown_blank"
 			"teambg_3"		"replay/thumbnails/playerdestruction/countdown_blank"
 			"drawcolor"	"203 111 53 255"
-			"alpha"		"192"
 		}
 		"CountdownImage"
 		{
