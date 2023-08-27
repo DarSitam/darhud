@@ -2606,74 +2606,6 @@
 		}
 	}
 
-	"RequestCoachButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
-		"xpos"			"30"
-		"ypos"			"177"
-		"zpos"			"11"
-		"wide"			"27"
-		"tall"			"27"
-		"visible"		"1"
-
-		"navLeft"		"MutePlayersButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navDown"		"QuickplayChangeButton"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"p1"
-			"tall"			"27"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"RoundedCorners"	"12"
-
-			"paintbackground"	"0"
-
-			"paintBorder"	"1"
-			"border_default"    "customMainMenuButtonDefault"
-			"border_armed"      "customMainMenuButtonArmed"
-
-			"image_drawcolor"	"235 226 202 255"
-
-			"proportionaltoparent"	"1"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"rs1-5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
 	"BackgroundFooter"
 	{
 		"visible"		"0"
@@ -2952,6 +2884,74 @@
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 				"keyboardinputenabled" "0"
+			}
+		}
+	}
+	
+	"RequestCoachButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"RequestCoachButton"
+		"xpos"			"30"
+		"ypos"			"177"
+		"zpos"			"11"
+		"wide"			"27"
+		"tall"			"27"
+		"visible"		"1"
+
+		"navLeft"		"MutePlayersButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navDown"		"QuickplayChangeButton"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"p1"
+			"tall"			"27"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"RoundedCorners"	"12"
+
+			"paintbackground"	"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonDefault"
+			"border_armed"      "customMainMenuButtonArmed"
+
+			"image_drawcolor"	"235 226 202 255"
+
+			"proportionaltoparent"	"1"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"rs1-5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
 			}
 		}
 	}

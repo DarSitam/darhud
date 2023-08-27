@@ -11,9 +11,9 @@ Scheme
 		"GeneralBackground"	"0 0 0 192"
 
 		"HUDBlueTeam"		"73 108 132 127"
-		"HUDRedTeam"		"170 52 53 127"
+		"HUDRedTeam"		"152 47 47 127"
 		"HUDBlueTeamSolid"	"73 108 132 255"
-		"HUDRedTeamSolid"	"170 52 53 255"
+		"HUDRedTeamSolid"	"152 47 47 255"
 
 		////Health
 		"HealthNormal"	"235 226 202 255"
@@ -45,11 +45,12 @@ Scheme
 
 		////Objectives
 		"ObjectiveLabel"	"235 226 202 255"
+		"ObjectiveIcon"	"235 226 202 255"
 		"ObjectiveShadow"	"0 0 0 240"
 
 		////Killfeed
 		"KillfeedKill"		"235 235 235 255"
-		"KillfeedNormal"	"0 0 0 220"
+		"KillfeedNormal"	"25 25 25 240"
 
 
 
@@ -58,7 +59,7 @@ Scheme
 		////Main Menu
 		"BackgroundDefault"	"31 31 31 255"
 		"BackgroundTransparent"	"0 0 0 220"
-		"TransparentStripe"		"0 0 0 250"
+		"TransparentStripe"		"0 0 0 235"
 
 		"MainMenuLabel"			"235 226 202 255"
 

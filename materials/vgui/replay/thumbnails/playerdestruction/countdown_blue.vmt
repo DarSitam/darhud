@@ -1,12 +1,12 @@
 "UnlitGeneric"
 {
-    "$translucent"        "1"
-    "$baseTexture"        "vgui\replay\thumbnails\arena\arenaclass_mask"
+    "$translucent"        "1"   
+    "$baseTexture"        "vgui\replay\thumbnails\playerdestruction\countdown_mask"
     "$alpha"            "1"
     "$vertexalpha"        "1"
     "$vertexcolor"        "1"
     "$no_fullbright"    "1"
     "$ignorez"            "1"
-    "$color"            "{152 47 47}"
+    "$color"            "{73 108 132}"
     "%keywords"            "tf"
 }
