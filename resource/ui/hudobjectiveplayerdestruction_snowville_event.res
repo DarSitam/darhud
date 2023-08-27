@@ -31,7 +31,7 @@
 			"image"			"replay/thumbnails/playerdestruction/countdown_blank"		
 			"teambg_2"		"replay/thumbnails/playerdestruction/countdown_blank"
 			"teambg_3"		"replay/thumbnails/playerdestruction/countdown_blank"
-			"drawcolor"	"9 176 91 255"
+			"drawcolor"	"40 135 13 255"
 		}		
 	
 		"CountdownImage"
