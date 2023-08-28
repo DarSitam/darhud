@@ -194,7 +194,7 @@
 				"ControlName"	"CIconPanel"
 				"fieldName"		"TargetIcon"
 				"xpos"			"0"
-				"ypos"			"5"
+				"ypos"			"8"
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"1"
