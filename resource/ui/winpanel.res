@@ -403,7 +403,6 @@
 		"enabled"		"1"
 		"scaleImage"		"1"	
 		"bgcolor_override"	"GeneralBackground"
-		"paintBackgroundtype" "2"
 		"proportionaltoparent"	"1"
 	}
 
