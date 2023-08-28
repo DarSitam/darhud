@@ -35,6 +35,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageOverheal"
+		"pin_to_sibling"	"PlayerStatusHealthImage"
 		"xpos"			"5"
 		"ypos"			"36"
 		"zpos"			"5"
