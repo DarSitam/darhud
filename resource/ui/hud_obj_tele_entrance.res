@@ -50,20 +50,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"HudFontSmallest"
-			"fgcolor"		"White"
-			"xpos"			"60"
-			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"31"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Building_hud_tele_enter_not_built_360"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 	}
 	
