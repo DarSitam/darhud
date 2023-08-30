@@ -130,6 +130,18 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
+		}		
+		
+		"KillfeedFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"700"
+				"additive"	"0"
+				"antialias" "1"
+			}
 		}
 
 		//DEFAULT TF2 FONTS -- AVOID MESSING WITH
@@ -675,18 +687,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
-			}
-		}
-		"HudFontSmallestShadow"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
 			}
 		}
 		"HudFontSmallestBold"
