@@ -30,7 +30,7 @@ Scheme
 
 		////Additional (stickies, metal, ubercharge)
 		"AdditionalValue"	"235 226 202 255"
-		"AdditionalShadow"	"0 0 0 240"
+		"AdditionalShadow"	"0 0 0 255"
 		"AdditionalIcon"	"235 226 202 255"
 		"UberForeground"	"235 226 202 255"
 
