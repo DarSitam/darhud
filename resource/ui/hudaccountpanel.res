@@ -5,7 +5,7 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"r215"
 		"ypos"					"r129"
-		"xpos_minmode"					"c110"
+		"xpos_minmode"					"c145"
 		"zpos"					"-1"
 		"wide"					"116"
 		"tall"  				"51"

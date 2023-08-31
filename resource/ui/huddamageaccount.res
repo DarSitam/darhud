@@ -19,7 +19,7 @@
 		"fieldName"				"DamageAccountValue"
 		"xpos"					"210"
 		"ypos" 					"r110"
-		"xpos_minmode"			"c-110"
+		"xpos_minmode"			"c-150"
 		"zpos"					"2"
 		"wide"					"90"
 		"tall"					"25"

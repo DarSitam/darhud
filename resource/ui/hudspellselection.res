@@ -3,7 +3,7 @@
 	HudSpellMenu
 	{
 		"xpos"			"r275"
-		"xpos_minmode"			"c70"
+		"xpos_minmode"			"c85"
         "ypos"          "r90"
         "wide"          "64"
 		"tall"			"100"
