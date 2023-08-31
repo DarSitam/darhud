@@ -255,9 +255,7 @@
 			"enabled"		"1"
 			"default"		"1"
 			"labelText"		""
-			//"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/tv_tune3.wav"
-			
+			"command"	"engine play ui/tv_tune3.wav"
 			"paintbackground"	"0"
 		}
 
