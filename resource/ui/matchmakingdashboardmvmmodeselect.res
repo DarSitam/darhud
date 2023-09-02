@@ -7,8 +7,8 @@
 		"fieldName"		"MVMModeSelect"
 		"xpos"			"r0"
 		"ypos"			"0"
-		"zpos"			"1002"
-		"wide"			"270"
+		"zpos"			"1002"		
+		"wide"			"f100"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMLogoImage"
-		"xpos"			"30"
+		"xpos"			"270"
 		"ypos"			"-5"
 		"zpos"			"2"
 		"wide"			"o2"
@@ -34,8 +34,8 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
-		"xpos"		"6"
-		"ypos"		"55"
+		"xpos"		"100"
+		"ypos"		"cs-0.5"
 		"zpos"		"1"
 		"wide"		"250"
 		"tall"		"215"
@@ -150,11 +150,11 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"PracticeGroupBox"
-		"xpos"		"6"
-		"ypos"		"275"
+		"xpos"		"403"
+		"ypos"		"cs-0.5"
 		"zpos"		"100"
 		"wide"		"250"
-		"tall"		"130"
+		"tall"		"215"
 		"visible"	"1"
 		"enabled"	"1"
 		"proportionaltoparent"	"1"
@@ -261,5 +261,46 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
+	}	
+	
+	"ReturnButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReturnButton"
+		"xpos"			"5"
+		"labelText"		"<"
+
+		if_left
+		{
+			"xpos"	"rs1-3"
+			"labelText"		">"
+		}
+
+		"ypos"			"cs-0.5"
+		"zpos"			"10000"
+		"wide"			"25"
+		"tall"			"240"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"command"		"nav_to"
+		"labelText"		"<"
+
+		"textAlignment"	"center"
+		"font"			"HudFontBiggerBold"
+
+		"RoundedCorners"	"5"
+
+		"armedBgColor_override"	"ButtonArmed"
+		"defaultBgColor_override"	"ButtonDefault"
+
+		"armedFgColor_override"	"ButtonLabelArmed"
+		"armedFgColor_override"	"ButtonLabelDefault"
+	}	
+	
+	"CloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"9999"
 	}
 }

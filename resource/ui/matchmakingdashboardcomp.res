@@ -7,22 +7,37 @@
 		"fieldName"		"CompStats"
 		"xpos"			"r0"
 		"ypos"			"0"
-		"zpos"			"1002"
-		"wide"			"270"
+		"zpos"			"1002"		
+		"wide"			"f100"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+	}	
+	
+	"BG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BG"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"99"
+		"wide"		"480"
+		"tall"		"f0"
+		"proportionaltoparent"	"1"
+		"image"	"replay/thumbnails/mainmenu/illustrations/process"
+		"scaleImage"	"1"
+
 	}
 
 	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
+		"xpos"		"r300"
 		"ypos"		"25"
 		"zpos"		"99"
-		"wide"		"f20"
-		"tall"		"20"
+		"wide"		"300"
+		"tall"		"25"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"center"
@@ -63,7 +78,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"5"
+		"xpos"			"r265"
 		"ypos"			"40"
 		"zpos"			"1000"
 		"wide"			"8"
@@ -79,8 +94,8 @@
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"-1"
-		"ypos"			"60"
+		"xpos"			"r268"
+		"ypos"			"75"
 		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"f100"
@@ -109,10 +124,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"8"
+		"xpos"			"r260"
 		"ypos"			"r35"
 		"zpos"			"100"
-		"wide"			"f20"
+		"wide"			"245"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -135,5 +150,12 @@
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
+	}	
+	
+	"CloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"9999"
 	}
 }

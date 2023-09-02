@@ -8,17 +8,32 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1003"
-		"wide"			"420"
+		"wide"			"f130"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+	}	
+	
+	"BG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BG"
+		"xpos"		"-40"
+		"ypos"		"0"
+		"zpos"		"99"
+		"wide"		"480"
+		"tall"		"f0"
+		"proportionaltoparent"	"1"
+		"image"	"replay/thumbnails/mainmenu/illustrations/mannworks"
+		"scaleImage"	"1"
+
 	}
 
 	"criteria"
 	{
 		"ControlName"	"CMVMCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"5"
+		"xpos"			"r405"
 		"ypos"			"15"
 		"zpos"			"100"
 		"wide"			"410"
@@ -33,7 +48,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"6"
+		"xpos"			"r405"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"90"
@@ -79,7 +94,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MannUpQueueButton"
-		"xpos"			"106"
+		"xpos"			"r310"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"170"
@@ -128,10 +143,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BootCampQueueButton"
-		"xpos"			"5"
+		"xpos"			"r405"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
-		"wide"			"270"
+		"wide"			"260"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -160,10 +175,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"r405"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
-		"wide"			"f20"
+		"wide"			"410"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -212,5 +227,12 @@
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 		"fgcolor_override"	"MainMenuLabel"
 		"proportionaltoparent"	"1"
+	}	
+	
+	"CloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"9999"
 	}
 }

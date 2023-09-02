@@ -53,8 +53,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"OuterGradient"
-		"xpos"		"rs1"
-		"rotation"		"1"
+		"xpos"		"0"
+		"rotation"		"2"
 
 		if_left
 		{
@@ -63,7 +63,7 @@
 		}
 
 		"ypos"		"0"
-		"wide"		"20"
+		"wide"		"70"
 		"tall"		"f0"
 		"zpos"	"1000"
 		"visible"		"1"
@@ -82,8 +82,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"rs1"
-		"labelText"		">"
+		"xpos"			"5"
+		"labelText"		"X"
 
 		if_left
 		{
@@ -93,14 +93,14 @@
 
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
+		"wide"			"50"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
 
-		"textAlignment"	"east"
-		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+		"font"			"HudFontGiantBold"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
@@ -112,7 +112,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"3"
+		"xpos"			"70"
 		"labelText"		"<"
 
 		if_left
@@ -121,22 +121,23 @@
 			"labelText"		">"
 		}
 
-		"ypos"			"0"
+		"ypos"			"cs-0.5"
 		"zpos"			"10000"
-		"wide"			"20"
-		"tall"			"f0"
+		"wide"			"35"
+		"tall"			"240"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"
 
-		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"	"ButtonArmed"
+		"defaultBgColor_override"	"ButtonDefault"
 
-		"armedFgColor_override"	"Orange"
+		"armedFgColor_override"	"ButtonLabelArmed"
+		"armedFgColor_override"	"ButtonLabelDefault"
 	}
 	
 	"BGPanel"

@@ -8,21 +8,35 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1002"
-		"wide"			"270"
+		"wide"			"f100"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
+	"BG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BG"
+		"xpos"		"-20"
+		"ypos"		"0"
+		"zpos"		"99"
+		"wide"		"480"
+		"tall"		"f0"
+		"proportionaltoparent"	"1"
+		"image"	"replay/thumbnails/mainmenu/illustrations/mountainlab"
+		"scaleImage"	"1"
+
+	}
 	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"0"
+		"xpos"		"r300"
 		"ypos"		"25"
 		"zpos"		"99"
-		"wide"		"f0"
-		"tall"		"20"
+		"wide"		"300"
+		"tall"		"25"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"	"center"
@@ -36,10 +50,10 @@
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"-3"
+		"xpos"			"r300"
 		"ypos"			"18"
 		"zpos"			"100"
-		"wide"			"f0"
+		"wide"			"300"
 		"tall"			"f60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -66,10 +80,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"8"
+		"xpos"			"r290"
 		"ypos"			"r35"
 		"zpos"			"100"
-		"wide"			"f20"
+		"wide"			"280"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -92,5 +106,12 @@
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
+	}	
+	
+	"CloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"9999"
 	}
 }
