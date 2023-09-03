@@ -38,7 +38,7 @@
 		"ypos"		"cs-0.5"
 		"zpos"		"1"
 		"wide"		"250"
-		"tall"		"215"
+		"tall"		"250"
 		"visible"	"1"
 		"enabled"	"1"
 
@@ -154,7 +154,7 @@
 		"ypos"		"cs-0.5"
 		"zpos"		"100"
 		"wide"		"250"
-		"tall"		"215"
+		"tall"		"250"
 		"visible"	"1"
 		"enabled"	"1"
 		"proportionaltoparent"	"1"
