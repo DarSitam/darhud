@@ -2120,7 +2120,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"502"
-			"wide"			"f5"
+			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
