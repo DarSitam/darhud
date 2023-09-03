@@ -47,10 +47,10 @@
 			"paintborder"	"1"
 
 			"model_center_x"	"1"
-			"model_ypos"		"5"
+			"model_ypos"		"3"
 			"model_tall"		"55"
 			"model_wide"		"82"
-			"text_ypos"			"54"
+			"text_ypos"			"52"
 			"text_center"		"1"
 			"name_only"			"1"
 
