@@ -225,7 +225,17 @@ Scheme
 	}
 	
 	Fonts
-	{
+	{		
+		"DefaultFixedOutline"
+		{
+			"1"
+			{
+				"name"		 "Verdana"
+				"tall"		 "10"
+				"weight"	 "0"
+				"outline"	 "1"
+			}
+		}
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
