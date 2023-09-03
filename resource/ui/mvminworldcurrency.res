@@ -77,5 +77,22 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
+	}	
+	
+	"CurrencyShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyBad"
+		"font"			"HudFontSmallBold"
+		"fgcolor"		"GeneralShadow"
+		"xpos"			"10"
+		"ypos"			"2"
+		"zpos"			"3"
+		"wide"			"55"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%currency%"
 	}
 }
