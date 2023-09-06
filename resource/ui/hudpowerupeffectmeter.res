@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"110"
+		"xpos"			"r220"
 		"ypos"			"r21"
 		"zpos" 			"6"
 		"wide"			"82"
