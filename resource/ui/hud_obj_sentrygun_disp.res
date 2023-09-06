@@ -69,7 +69,7 @@
 			"fieldName"		"BuiltBg"
 			"xpos"			"0"
 			"ypos"			"-14"
-			"zpos"			"0"
+			"zpos"			"-1"
 			"wide"			"120"
 			"tall"			"32"
 			"visible"		"1"
