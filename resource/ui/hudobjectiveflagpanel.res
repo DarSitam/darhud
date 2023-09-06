@@ -313,11 +313,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-30"
-		"ypos"			"r105"
+		"xpos"			"c-350"
+		"xpos"			"10"
+		"ypos"			"r115"
 		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"60"
+		"wide"			"75"
+		"tall"			"75"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -330,7 +331,7 @@
 		
 		"if_specialdelivery"
 		{
-			"visible"	"r142"
+			"visible"	"1"
 		}
 	}		
 	
