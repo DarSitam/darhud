@@ -39,7 +39,7 @@
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
+		"subimage"		"replay/thumbnails/mainmenu/alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 	"ConsoleButton"
@@ -62,5 +62,12 @@
 		"command" 		"motd_show"
 		"subimage"		"replay/thumbnails/mainmenu/letter"
 		"tooltip" 		"#MMenu_News"
+	}	
+	"ReloadButton"
+	{
+		"label"			""
+		"command" 		"engine hud_reloadscheme"
+		"subimage"		"replay/thumbnails/mainmenu/reload"
+		"tooltip" 		"Reload HUD"
 	}
 }

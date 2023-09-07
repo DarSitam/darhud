@@ -64,6 +64,16 @@ Scheme
 		"MainMenuLabel"			"235 226 202 255"
 
 		////Buttons
+
+		//Main Menu
+		"ButtonMM"		"140 43 43 255"
+		"ButtonLabelMM"	"235 226 202 255"
+		"ButtonMMShadow"	"10 10 10 200"
+
+		"ButtonArmedMM"		"194 52 52 255" //Used when you hover over a button
+		"ButtonLabelMM"	"235 235 235 255"
+		
+		//Default
 		"ButtonDefault"		"61 60 59 255"
 		"ButtonLabelDefault"	"235 226 202 255"
 

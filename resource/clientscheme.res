@@ -3341,29 +3341,100 @@ Scheme
 		}
 
 		// BUTTONS
-		customMainMenuButtonDefault
+		customMainMenuButtonGradient
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"				"replay/thumbnails/mainmenu/button_central"	
+			"image"					"replay/thumbnails/mainmenu/button_gradient"	
 			"color"					"ButtonDefault"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-		customMainMenuButtonArmed
+		customMainMenuButtonGradientArmed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"				"replay/thumbnails/mainmenu/button_central"	
+			"image"					"replay/thumbnails/mainmenu/button_gradient"	
 			"color"					"ButtonArmed"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
+		}		
+		
+		customMainMenuButtonItems
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_items"	
+			"color"					"ButtonMM"
+		}
+		customMainMenuButtonItemsArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_items"	
+			"color"					"ButtonArmedMM"
+		}
+				
+		customMainMenuButtonShop
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"color"					"ButtonMM"
+		}
+		
+		customMainMenuButtonShopArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"color"					"ButtonArmedMM"
+		}		
+		
+		customMainMenuButtonOptions
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_options"	
+			"color"					"ButtonMM"
+		}
+		
+		customMainMenuButtonOptionsArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_options"	
+			"color"					"ButtonArmedMM"
+		}		
+		
+		customMainMenuButtonAdvOptions
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_adv_options"	
+			"color"					"ButtonMM"
+		}
+		
+		customMainMenuButtonAdvOptionsArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_adv_options"		
+			"color"					"ButtonArmedMM"
 		}
 		
 		// BORDERS
@@ -3709,6 +3780,28 @@ Scheme
 			}
 
 			Right
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "1 0"
+				}
+			}
+		}		
+		
+		MainMenuSubButtonBorderVertical
+		{
+			"inset" "0 0 1 1"
+			Top
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
+
+			Bottom
 			{
 				"1"
 				{
