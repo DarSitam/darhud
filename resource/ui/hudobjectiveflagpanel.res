@@ -313,7 +313,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-350"
+		"xpos_minmode"			"c-350"
 		"xpos"			"10"
 		"ypos"			"r115"
 		"zpos"			"0"
