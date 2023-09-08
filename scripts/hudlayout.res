@@ -779,7 +779,7 @@
 		"ypos"					"0"
 		"wide"					"300"
 		"tall"					"480"
-		"zpos"					"4"
+		"zpos"					"12"
 		"proportionaltoparent"	"1"
 	}
 	
