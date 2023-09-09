@@ -379,9 +379,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-285"
-		"ypos"			"99"
-		"zpos"			"-1"
+		"xpos"			"c-140"
+		"ypos"			"r55"
+		"zpos"			"11"
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"1"
