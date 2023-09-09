@@ -64,7 +64,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
+		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"GeneralLabel"
 	}	
 
@@ -80,7 +80,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
+		"font"			"HudFontSmall"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"1"
@@ -93,6 +93,8 @@
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
 		"fgcolor"		"GeneralLabel"
+
+		"image_box"		"replay/thumbnails/square_white"
 	}
 
 	"HTMLMessage"

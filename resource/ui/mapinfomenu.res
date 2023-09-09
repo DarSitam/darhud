@@ -67,7 +67,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"font"			"ChalkboardTitle"
+		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"GeneralLabel"
 	}
 	
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"ChalkboardText"
+		"font"			"HudFontSmall"
 		"fgcolor"		"GeneralLabel"
 	}	
 	
@@ -94,7 +94,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"ChalkboardText"
+		"font"			"HudFontSmallest"
 		"xpos"			"c-190"
 		"ypos"			"190"
 		"zpos"			"3"
