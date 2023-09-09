@@ -1,0 +1,1 @@
+Put every .res files in darhud/addons

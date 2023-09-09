@@ -8,9 +8,9 @@
 		"xpos"			"r145"
 		"ypos"			"r75"
 		"xpos_minmode" "c215"
-		"zpos" 			"6"
-		"wide"			"200"
-		"tall"			"200"
+		"zpos" 			"1"
+		"wide"			"88"
+		"tall"			"12"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
