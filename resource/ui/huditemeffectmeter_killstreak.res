@@ -1,4 +1,4 @@
-#base "./counters/counter.res"
+#base "../../darhud_base/in_game/counters/counter.res"
 
 "."
 {	

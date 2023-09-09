@@ -1,4 +1,4 @@
-#base "counters/counter.res"
+#base "../../darhud_base/in_game/counters/counter.res"
 
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
