@@ -1,1 +1,3 @@
 Put every .res files in darhud/addons
+
+WARNING : Not compatible with Versus Saxton Hale
