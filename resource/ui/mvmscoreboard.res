@@ -129,8 +129,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override" "GeneralBackground"
-		"paintbackgroundtype"	"2"
-		"RoundedCorners"	"15"
+		"paintbackgroundtype"	"0"
 	}
 	
 	"MvMPlayerList"
@@ -180,8 +179,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override" "GeneralBackground"
-			"paintbackgroundtype"	"2"
-			"RoundedCorners"	"15"
+			"paintbackgroundtype"	"0"
 		}
 		
 		"CreditsLabel"

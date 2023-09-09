@@ -482,8 +482,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override" "GeneralBackground"
-		"PaintBackgroundType"	"2"
-		"RoundedCorners"	"15"
+		"PaintBackgroundType"	"0"
 
 		if_mvm
 		{
@@ -505,8 +504,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override" "GeneralBackground"
-		"PaintBackgroundType"	"2"
-		"RoundedCorners"	"15"
+		"PaintBackgroundType"	"0"
 
 		if_mvm
 		{
