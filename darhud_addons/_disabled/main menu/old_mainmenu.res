@@ -193,6 +193,12 @@
 	"CustomSettingsButtonBG"
 	{
 		"visible"		"0"
+	}	
+	
+	"OptionBlocker"
+	{
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"TF2SettingsButton"
