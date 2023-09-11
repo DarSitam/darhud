@@ -88,7 +88,7 @@
 		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
 		"xpos"			"-40"
-		"ypos"			"0"
+		"ypos"			"-1"
 		"zpos"			"11"
 		"wide"			"155"
 		"tall"			"40"
