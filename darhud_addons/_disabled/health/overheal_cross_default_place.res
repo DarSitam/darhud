@@ -1,0 +1,7 @@
+"."
+{
+	"PlayerStatusHealthBonusImage"
+	{
+		"xpos"			"83"
+	}
+}
