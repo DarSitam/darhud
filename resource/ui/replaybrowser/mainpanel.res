@@ -15,13 +15,13 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"	"BackgroundDefault"
+		"infocus_bgcolor_override" "BackgroundDefault"
+		"outoffocus_bgcolor_override" "BackgroundDefault"
 		
-		"title"			"#Replay_Replay"
+		"title"			""
 		"title_font"	"HudFontMediumBold"
-		"titletextinsetX"	"40"
+		"titletextinsetX"	"9999"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
@@ -33,7 +33,7 @@
 	
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -42,12 +42,11 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
-	}				
+		"bgcolor_override"	"TransparentStripe"
+	}			
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
@@ -56,23 +55,13 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-	}				
+		"bgcolor_override"	"BackgroundDefault"
+	}			
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterLine"
-		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
-	}				
+		"visible"		"0"
+		"enabled"		"0"
+	}					
 	
 	"Sheet"
 	{
@@ -81,35 +70,38 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"20"
+		"tabheight"		"30"
 		"transition_time" "0"
-		"yoffset"	"14"
+		"yoffset"	"16"
 		
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"44"
 			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"10"
+			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/replaybrowser_solidline"
+			"bgcolor_override"	"ButtonArmed"
 			"scaleImage"	"1"
-		}				
+		}			
 		
 		"tabskv"
 		{
 			"textinsetx"		"40"
 			"font"				"HudFontMediumSmallBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
-			"paintbackground"	"0"
-			"activeborder_override"	"ReplayOutlinedGreyBox"
-			"normalborder_override" "ReplayOutlinedDullGreyBox"
+			"selectedcolor"		"ButtonLabelArmed"
+			"unselectedcolor"	"ButtonLabelDefault"	
+			"defaultBgColor_override"	"BackgroundDefault"
+			"paintbackground"	"1"
+			"paintBorder"	"1"
+			"paintbackgroundtype" 	"2"
+			"RoundedCorners"	"3"
+			"activeborder_override"	"SelectedTabBorder"
+			"normalborder_override" "NoBorder"
 		}
 	}
 	
