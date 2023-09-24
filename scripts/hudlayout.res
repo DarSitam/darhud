@@ -1392,5 +1392,29 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+	
+	"HudAlert"
+	{
+		"fieldName"        "HudAlert"
+		"visible"        "0"
+		"enable"        "1"
+		"xpos"            "0"
+		"ypos"            "100"
+		"wide"            "f0"
+		"tall"            "72"
+	}
+	
+	HudTeamSwitch
+	{
+		"fieldName"        "HudTeamSwitch"
+		"visible"        "0"
+		"enabled"        "1"
+		"xpos"            "0"
+		"ypos"            "75"
+		"ypos_hidef"        "90"
+		"ypos_lodef"        "90"
+		"wide"            "f0"
+		"tall"            "100"
+	}
 }
 
