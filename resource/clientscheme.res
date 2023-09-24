@@ -1,4 +1,4 @@
-#base "customcolors.res"
+#base "../darhud_addons/customcolors.res"
 
 //
 // TRACKER SCHEME RESOURCE FILE
