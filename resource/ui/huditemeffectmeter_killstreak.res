@@ -5,10 +5,24 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"xpos"			"80"
-		"ypos"			"r18"
-		"xpos_minmode" "c-280"
-	}
+		"xpos"			"0"
+		"ypos"			"r21"
+		"xpos_minmode" "c-360"
+	}	
+	
+	"ItemEffectMeterBG"
+	{
+		"wide"			"40"
+		"tall"			"17"		
+	}		
+	
+	"ItemEffectMeterBGShadow"
+	{		
+		"xpos"			"2"
+		"ypos"			"2"
+		"wide"			"40"
+		"tall"			"17"		
+	}	
 	
 	"Icon"
 	{
@@ -17,7 +31,7 @@
 		"pin_to_sibling" "ItemEffectMeterCount"
 		"pin_corner_to_sibling" "PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"9"
@@ -31,8 +45,16 @@
 	
 	"ItemEffectMeterCount"
 	{
-		"xpos"					"22"
+		"xpos"					"17"
+		"font"					"HudFontSmall"
+		"tall"					"17"
 	}	
+		
+	"ItemEffectMeterCountShadow"
+	{
+		"font"					"HudFontSmall"
+		"tall"					"17"
+	}
 	
 	"ItemEffectMeter"
 	{	
