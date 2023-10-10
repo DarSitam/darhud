@@ -30,7 +30,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"alpha"			"0"
-	}	
+	}
 	
 	"topbardark"
 	{
@@ -200,7 +200,7 @@
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"15"
-		"ypos"			"r85"
+		"ypos"			"r89"
 		"wide"			"60"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -219,7 +219,7 @@
 		"fieldName"		"SwitchCamModeLabel"
 		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"55"
-		"ypos"			"r85"	
+		"ypos"			"r89"	
 		"wide"			"125"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -231,6 +231,7 @@
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
 	}
+	
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -286,7 +287,6 @@
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
 	}
-
 	"CycleTargetRevLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -312,7 +312,7 @@
 		"fieldName"		"TipLabel"
 		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"15"
-		"ypos"			"r64"
+		"ypos"			"r58"
 		"wide"			"240"
 		"tall"			"64"
 		"autoResize"		"0"
@@ -325,6 +325,21 @@
 		"font"			"TF2Default"
 		"wrap"			"1"
 	}
+	"TipLabelBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TipLabelBG"
+		"xpos"				"0"
+		"ypos"				"r44"
+		"zpos"				"-1"
+		"wide"				"260"
+		"tall"				"36"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"bgcolor_override"	"GeneralBackground"
+	}
+	
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"
