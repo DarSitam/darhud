@@ -97,45 +97,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"HudFontSmall"
-	}
-	"ReinforcementsLabelBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"ReinforcementsLabelBG"
-		"xpos"				"cs-0.5"
-		"ypos"				"35"
-		"zpos"				"-2"
-		"wide"				"310"
-		"tall"				"20"
-		"autoResize"		"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"replay/thumbnails/transparent"
-		"scaleImage"		"1"
-		"teambg_0"			"replay/thumbnails/transparent"
-		"teambg_1"			"replay/thumbnails/transparent"
-		"teambg_2"			"replay/thumbnails/meter_red"
-		"teambg_3"			"replay/thumbnails/meter_blue"
-	}
-	"ReinforcementsLabelBGShadow"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"ReinforcementsLabelBGShadow"
-		"pin_to_sibling"	"ReinforcementsLabelBG"
-		"xpos"				"-2"
-		"ypos"				"-2"
-		"zpos"				"-3"
-		"wide"				"310"
-		"tall"				"20"
-		"autoResize"		"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"replay/thumbnails/transparent"
-		"scaleImage"		"1"
-		"teambg_0"			"replay/thumbnails/transparent"
-		"teambg_1"			"replay/thumbnails/transparent"
-		"teambg_2"			"replay/thumbnails/meter_shadow"
-		"teambg_3"			"replay/thumbnails/meter_shadow"
+		"bgcolor_override"	"GeneralBackground"
 	}
 
 	"BuyBackLabel"
@@ -157,6 +119,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
+
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
