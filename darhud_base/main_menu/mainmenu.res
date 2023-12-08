@@ -233,7 +233,8 @@
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/main_menu_logo"
+		"image"			"../logo/new_tf2_logo"
+		//"image"			"replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"1"
 	}	
