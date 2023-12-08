@@ -35,6 +35,7 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
+			"enabled"	"0"
 		}
 		
 		"if_mvm"
@@ -61,7 +62,12 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/counter_shadow"
 		"scaleImage"	"1"	
-		
+				
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -118,6 +124,11 @@
 		"image"			"replay/thumbnails/counter_reverse_shadow"
 		"scaleImage"	"1"
 		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -325,7 +336,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"		"r142"
+			"ypos"		"r120"
 		}
 		
 		"if_specialdelivery"
@@ -420,7 +431,8 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"cs-0.5"
+			"ypos"			"r80"
 		}
 		
 		"if_hybrid_double"
@@ -504,7 +516,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"		"r100"
+			"ypos"		"r80"
 		}
 		
 		"if_specialdelivery"
