@@ -929,7 +929,18 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-	//"HudMenuSpyDisguise" in disguise_menu\hudmenuspydisguise.res
+	"HudMenuSpyDisguise"
+	{
+		"fieldName" 	"HudMenuSpyDisguise"
+		"ControlName"	"EditablePanel"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"cs-0.5"
+		"ypos"			"c90"
+		"zpos"			"10"
+		"wide"			"305"
+		"tall"			"85"
+	}	
 	
 	HudDemomanPipes
 	{
@@ -1291,7 +1302,7 @@
 		"enabled" 		"1"
 		"xpos"			"cs-0.5"
 		"ypos"			"c70"
-		"wide"			"185"
+		"wide"			"200"
 		"tall"			"134"
 		"PaintBackgroundType"	"0"
 	}
