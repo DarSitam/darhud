@@ -33,7 +33,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"bgcolor_override"		"0 0 0 192"
+		"bgcolor_override"		"15 15 15 255"
 		"paintbackgroundtype" "2"
 		"proportionaltoparent"	"1"
 	}

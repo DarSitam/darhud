@@ -268,7 +268,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"ButtonArmed"
+		"iconColor"		"255 215 0 255"
 	}
 	
 	"BuildHintIcon"
@@ -316,7 +316,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildHintLabel_Dim"
-		"font"			"HudFontSmallest"
 		"font"			"TF2Default"
 		"xpos"			"14"
 		"ypos"			"103"
@@ -328,7 +327,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Build"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
