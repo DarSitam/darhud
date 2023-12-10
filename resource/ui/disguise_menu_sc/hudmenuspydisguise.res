@@ -126,7 +126,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"hud_menu_item_bg"
-			"iconColor"		"ButtonArmed"
+			"iconColor"		"255 215 0 255"
 		}
 	}
 		
