@@ -899,7 +899,7 @@
 		"ypos"			"c90"
 		"zpos"			"1"
 		"wide"			"275"
-		"tall"			"108"
+		"tall"			"115"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -912,7 +912,7 @@
 		"ypos"			"c90"
 		"zpos"			"1"
 		"wide"			"275"
-		"tall"			"108"
+		"tall"			"115"
 		"PaintBackgroundType"	"0"
 	}
 
