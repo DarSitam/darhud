@@ -936,11 +936,11 @@
 		"ControlName"	"EditablePanel"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c90"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"305"
-		"tall"			"85"
+		"wide"			"f0"
+		"tall"			"f0"
 	}	
 	
 	HudDemomanPipes

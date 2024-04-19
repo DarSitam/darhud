@@ -10,8 +10,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Icon"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"3"
+		"ypos"			"3"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -26,8 +26,8 @@
     {
         "ControlName"		"panel"
 		"fieldName"		"bg"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"3"
+		"ypos"			"3"
 		"zpos"			"0"
 		"wide"			"25"
 		"tall"			"25"
