@@ -642,10 +642,11 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r172"
+		"xpos" "40"
+		"xpos_minmode" "c-320"
 		"ypos" "350"
-		"wide" "25"
-		"tall" "25"
+		"wide" "35"
+		"tall" "35"
 	}
 
 	HudVoiceStatus
