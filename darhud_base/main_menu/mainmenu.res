@@ -323,8 +323,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"c15"
-		"ypos"			"r55"
+		"xpos"			"c-210"
+		"ypos"			"r56"
 		"zpos"			"7"
 		"wide"			"11"
 		"tall"			"11"
