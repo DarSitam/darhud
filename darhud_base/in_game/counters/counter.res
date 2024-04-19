@@ -98,4 +98,12 @@
 		"wide"					"0"
 		"tall"					"0"
 	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"visible"				"0"
+		"enabled"				"0"
+	}	
 }
