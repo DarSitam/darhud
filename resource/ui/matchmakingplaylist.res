@@ -6,8 +6,8 @@
 		"fieldName"		"EventEntry"
 		"xpos"			"0"
 		"ypos"			"3"
-		"tall"			"45"
-		"wide"			"255"
+		"tall"			"50"
+		"wide"			"260"
 		"proportionaltoparent"	"1"
 
 		"button_command"	"play_event"
@@ -19,8 +19,8 @@
 		"fieldName"		"CasualEntry"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"190"
-		"tall"			"195"
+		"tall"			"65"
+		"wide"			"255"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"illustrations/gamemode_attackdefend"
@@ -37,15 +37,13 @@
 
 	"CompetitiveEntry"
 	{
-		"pin_to_sibling"	"CasualEntry"
-		"pin_to_sibling_corner"	"1"
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CompetitiveEntry"
-		"xpos"			"20"
-		"ypos"			"0"
-		"wide"			"190"
-		"tall"			"195"
-		"proportionaltoparent"	"0"
+		"xpos"			"0"
+		"ypos"			"72"
+		"tall"			"65"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
 
 		"image_name"		"illustrations/gamemode_cp"
 		"button_token"		"#MMenu_PlayList_Competitive_Button"
@@ -61,14 +59,12 @@
 
 	"MvMEntry"
 	{
-		"pin_to_sibling"	"CompetitiveEntry"
-		"pin_to_sibling_corner"	"1"
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"MvMEntry"
-		"xpos"			"20"
-		"ypos"			"0"
-		"wide"			"190"
-		"tall"			"195"
+		"xpos"			"0"
+		"ypos"			"144"
+		"tall"			"65"
+		"wide"			"255"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"replay/thumbnails/mainmenu/illustrations/gamemode_mvm"
@@ -87,10 +83,10 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"ServerBrowserEntry"
-		"xpos"			"105"
-		"ypos"			"195"
-		"wide"			"190"
-		"tall"			"195"
+		"xpos"			"0"
+		"ypos"			"216"
+		"tall"			"65"
+		"wide"			"255"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"illustrations/gamemode_operation_gunmettle"
@@ -103,30 +99,7 @@
 			"ypos"			"203"
 		}
 	}
-
-	"TrainingEntry"
-	{		
-		"pin_to_sibling"	"ServerBrowserEntry"
-		"pin_to_sibling_corner"	"1"
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"TrainingEntry"
-		"xpos"			"20"
-		"ypos"			"0"
-		"wide"			"190"
-		"tall"			"195"
-		"proportionaltoparent"	"1"
-
-		"image_name"		"illustrations/training_basic"
-		"button_token"		"#MMenu_PlayList_Training_Button"
-		"button_command"	"play_training"
-		"desc_token"		"#MMenu_PlayList_Training_Desc"
-
-		if_event
-		{
-			"ypos"			"253"
-		}
-	}
-
+	
 	"CreateServerEntry"
 	{
 		"ControlName"	"CPlayListEntry"
@@ -139,17 +112,15 @@
 		"pin_to_sibling"	"ServerBrowserEntry"
 		"ControlName"	"CExButton"
 		"fieldName"		"CreateServerButton"
-		"xpos"			"-12"
-		"ypos"			"-12"
+		"xpos"			"-6"
+		"ypos"			"-6"
 		"zpos"			"6"
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"+"
-		"textinsetx"	"4"
-		"use_proportional_insets" "1"
-		"font"			"DefaultLarge"
+		"font"			"Default"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -164,6 +135,27 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"TrainingEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"TrainingEntry"
+		"xpos"			"0"
+		"ypos"			"288"
+		"tall"			"65"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
+
+		"image_name"		"illustrations/training_basic"
+		"button_token"		"#MMenu_PlayList_Training_Button"
+		"button_command"	"play_training"
+		"desc_token"		"#MMenu_PlayList_Training_Desc"
+
+		if_event
+		{
+			"ypos"			"253"
+		}
 	}
 
 	"ScrollBar"

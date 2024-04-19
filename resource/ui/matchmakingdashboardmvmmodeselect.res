@@ -8,8 +8,8 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1002"		
-		"wide"			"f100"
-		"tall"			"f0"
+		"wide"			"300"
+		"tall"			"f60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -18,11 +18,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMLogoImage"
-		"xpos"			"270"
-		"ypos"			"-5"
+		"xpos"			"18"
+		"ypos"			"-10"
 		"zpos"			"2"
-		"wide"			"o2"
-		"tall"			"100"
+		"wide"			"250"
+		"tall"			"125"
 		"visible"		"1"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
@@ -34,11 +34,11 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
-		"xpos"		"100"
-		"ypos"		"cs-0.5"
+		"xpos"		"20"
+		"ypos"		"70"
 		"zpos"		"1"
 		"wide"		"250"
-		"tall"		"250"
+		"tall"		"205"
 		"visible"	"1"
 		"enabled"	"1"
 
@@ -102,7 +102,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-5"
 			"zpos"			"20"
-			"wide"			"120"
+			"wide"			"180"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -150,11 +150,11 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"PracticeGroupBox"
-		"xpos"		"403"
-		"ypos"		"cs-0.5"
-		"zpos"		"100"
+		"xpos"		"20"
+		"ypos"		"283"
+		"zpos"		"1"
 		"wide"		"250"
-		"tall"		"250"
+		"tall"		"130"
 		"visible"	"1"
 		"enabled"	"1"
 		"proportionaltoparent"	"1"
@@ -220,7 +220,7 @@
 			"ypos"			"rs1-5"
 			"zpos"			"20"
 			"tall"			"25"
-			"wide"			"120"
+			"wide"			"180"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -261,46 +261,5 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
-	}	
-	
-	"ReturnButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReturnButton"
-		"xpos"			"5"
-		"labelText"		"<"
-
-		if_left
-		{
-			"xpos"	"rs1-3"
-			"labelText"		">"
-		}
-
-		"ypos"			"cs-0.5"
-		"zpos"			"10000"
-		"wide"			"25"
-		"tall"			"240"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"command"		"nav_to"
-		"labelText"		"<"
-
-		"textAlignment"	"center"
-		"font"			"HudFontBiggerBold"
-
-		"RoundedCorners"	"5"
-
-		"armedBgColor_override"	"ButtonArmed"
-		"defaultBgColor_override"	"ButtonDefault"
-
-		"armedFgColor_override"	"ButtonLabelArmed"
-		"armedFgColor_override"	"ButtonLabelDefault"
-	}	
-	
-	"CloseButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"9999"
 	}
 }

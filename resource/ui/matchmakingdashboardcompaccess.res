@@ -9,7 +9,7 @@
 		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"290"
-		"tall"			"f0"
+		"tall"			"f60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}

@@ -8,25 +8,10 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1002"		
-		"wide"			"f100"
+		"wide"			"275"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-	}	
-	
-	"BG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BG"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"99"
-		"wide"		"480"
-		"tall"		"f0"
-		"proportionaltoparent"	"1"
-		"image"	"replay/thumbnails/mainmenu/illustrations/process"
-		"scaleImage"	"1"
-
 	}
 
 	"Title"
@@ -52,7 +37,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
 		"xpos"			"rs1-21"
-		"ypos"			"20"
+		"ypos"			"25"
 		"zpos"			"100"
 		"wide"			"15"
 		"tall"			"o1"
@@ -78,8 +63,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"r265"
-		"ypos"			"40"
+		"xpos"			"rs1-25"
+		"ypos"			"45"
 		"zpos"			"1000"
 		"wide"			"8"
 		"tall"			"8"

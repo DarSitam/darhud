@@ -53,8 +53,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"OuterGradient"
-		"xpos"		"0"
-		"rotation"		"2"
+		"xpos"		"rs1"
+		"rotation"		"1"
 
 		if_left
 		{
@@ -63,7 +63,7 @@
 		}
 
 		"ypos"		"0"
-		"wide"		"70"
+		"wide"		"20"
 		"tall"		"f0"
 		"zpos"	"1000"
 		"visible"		"1"
@@ -82,8 +82,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"5"
-		"labelText"		"X"
+		"xpos"			"r20"
+		"labelText"		">"
 
 		if_left
 		{
@@ -93,7 +93,7 @@
 
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"50"
+		"wide"			"20"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -112,7 +112,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"70"
+		"xpos"			"2"
 		"labelText"		"<"
 
 		if_left
@@ -123,15 +123,15 @@
 
 		"ypos"			"cs-0.5"
 		"zpos"			"10000"
-		"wide"			"35"
-		"tall"			"240"
+		"wide"			"30"
+		"tall"			"40"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"
 
-		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"textAlignment"	"west"
+		"font"			"HudFontBiggerBold"
 
 		"armedBgColor_override"	"ButtonArmed"
 		"defaultBgColor_override"	"ButtonDefault"

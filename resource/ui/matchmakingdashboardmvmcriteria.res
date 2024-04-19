@@ -8,25 +8,10 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1003"
-		"wide"			"f130"
+		"wide"			"420"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-	}	
-	
-	"BG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BG"
-		"xpos"		"-40"
-		"ypos"		"0"
-		"zpos"		"99"
-		"wide"		"480"
-		"tall"		"f0"
-		"proportionaltoparent"	"1"
-		"image"	"replay/thumbnails/mainmenu/illustrations/mannworks"
-		"scaleImage"	"1"
-
 	}
 
 	"criteria"

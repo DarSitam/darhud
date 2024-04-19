@@ -8,34 +8,20 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1002"
-		"wide"			"f100"
-		"tall"			"f0"
+		"wide"			"300"
+		"tall"			"f60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
-	"BG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BG"
-		"xpos"		"-20"
-		"ypos"		"0"
-		"zpos"		"99"
-		"wide"		"480"
-		"tall"		"f0"
-		"proportionaltoparent"	"1"
-		"image"	"replay/thumbnails/mainmenu/illustrations/mountainlab"
-		"scaleImage"	"1"
-
-	}
 	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"r300"
-		"ypos"		"25"
+		"xpos"		"10"
+		"ypos"		"15"
 		"zpos"		"99"
-		"wide"		"300"
+		"wide"		"255"
 		"tall"		"25"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
@@ -50,11 +36,11 @@
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"r300"
-		"ypos"			"18"
+		"xpos"			"0"
+		"ypos"			"10"
 		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"f60"
+		"wide"			"f15"
+		"tall"			"f45"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -80,11 +66,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"r290"
-		"ypos"			"r35"
+		"xpos"			"10"
+		"ypos"			"rs1-8"
 		"zpos"			"100"
-		"wide"			"280"
-		"tall"			"25"
+		"wide"			"f36"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -100,18 +86,12 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"roundedcorners" "0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
-	}	
-	
-	"CloseButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"9999"
 	}
 }

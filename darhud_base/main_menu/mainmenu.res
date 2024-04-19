@@ -305,7 +305,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"c-670"
-		"ypos"			"-53"
+		"ypos"			"-48"
 
 		"zpos"			"5"
 		"wide"			"1000"
@@ -379,7 +379,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
 		"xpos"			"c-140"
-		"ypos"			"r55"
+		"ypos"			"r50"
 		"zpos"			"11"
 		"wide"			"8"
 		"tall"			"8"
