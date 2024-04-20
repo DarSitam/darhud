@@ -18,11 +18,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"275"
-		"tall"			"108"
+		"xpos"			"cs-0.5"
+		"ypos"			"c90"
+		"wide"			"290"
+		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -30,13 +29,13 @@
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 	}
-	
+
 	"BackgroundEngineer"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundEngineer"
-		"xpos"			"230"
-		"ypos"			"5"
+		"xpos"			"c100"
+		"ypos"			"c85"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
