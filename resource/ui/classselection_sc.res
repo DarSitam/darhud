@@ -13,8 +13,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-	}	
-	
+	}
+		
 	"bg"
 	{		
 		"ControlName"	"EditablePanel"
@@ -44,7 +44,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentStripe"
 	}
-	
+
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -60,15 +60,51 @@
 		"tabPosition"	"0"
 	}
 
+	"PrevOptionHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"PrevOptionHintIcon"
+		"xpos"			"c-250"
+		"ypos"			"135"
+		"wide"			"25"
+		"tall"			"25"
+		"zpos"			"4"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_left"
+	}
+
+	"NextOptionHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"NextOptionHintIcon"
+		"xpos"			"c225"
+		"ypos"			"135"
+		"wide"			"25"
+		"tall"			"25"
+		"zpos"			"4"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_right"
+	}	
+	
 	"classBg"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classBg"
 		"xpos"			"cs-0.5"
-		"ypos"			"c-120"
+		"ypos"			"c-126"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"58"
+		"tall"			"66"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/square_red"
@@ -76,19 +112,13 @@
 		"teambg_2"		"replay/thumbnails/square_red"
 		"teambg_3"		"replay/thumbnails/square_blue"
 	}	
-	
-	"classBgShadow"
-	{
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	
+
 	"random"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
 		"xpos"				"r55"
-		"ypos"				"c-115"
+		"ypos"				"c-118"
 		"zpos"				"6"
 		"wide"				"48"
 		"tall"				"48"
@@ -150,12 +180,34 @@
 			"scaleImage"	"1"
 		}				
 	}
+
+	"RandomHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"RandomHintIcon"
+		"pin_to_sibling" "random"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"-6"
+		"wide"			"19"
+		"tall"			"19"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
+	}
 		
 	"Offense"
 	{
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
@@ -219,6 +271,27 @@
 			"image"			"class_sel_sm_scout_inactive"
 			"scaleImage"	"1"
 		}		
+	}
+
+	"ScoutHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"ScoutHintIcon"
+		"pin_to_sibling" "scout"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"17"
+		"tall"			"17"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
 	}
 
 	"soldier"
@@ -285,7 +358,29 @@
 			"scaleImage"	"1"
 		}				
 	}
-	"pyro"
+
+	"SoldierHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"SoldierHintIcon"
+		"pin_to_sibling" "soldier"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"17"
+		"tall"			"17"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
+	}
+
+		"pyro"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
@@ -349,12 +444,34 @@
 			"scaleImage"	"1"
 		}				
 	}
-	
+
+	"PyroHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"PyroHintIcon"
+		"pin_to_sibling" "pyro"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"17"
+		"tall"			"17"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
+	}
+
 	"Defense"
 	{
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
 	"demoman"
 	{
 		"ControlName"		"CExImageButton"
@@ -418,7 +535,29 @@
 			"image"			"class_sel_sm_demo_inactive"
 			"scaleImage"	"1"
 		}				
-	}	
+	}
+
+	"DemomanHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"DemomanHintIcon"
+		"pin_to_sibling" "demoman"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"17"
+		"tall"			"17"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
+	}
+		
 	"heavyweapons"
 	{
 		"ControlName"		"CExImageButton"
@@ -484,6 +623,28 @@
 			"scaleImage"	"1"
 		}				
 	}
+
+	"HeavyHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"HeavyHintIcon"
+		"pin_to_sibling" "heavyweapons"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"17"
+		"tall"			"17"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
+	}
+
 	"engineer"
 	{
 		"ControlName"		"CExImageButton"
@@ -547,6 +708,27 @@
 			"image"			"class_sel_sm_engineer_inactive"
 			"scaleImage"	"1"
 		}				
+	}
+
+	"EngineerHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"EngineerHintIcon"
+		"pin_to_sibling" "engineer"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"17"
+		"tall"			"17"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
 	}
 	
 	"Support"
@@ -619,6 +801,28 @@
 			"scaleImage"	"1"
 		}				
 	}
+
+	"MedicHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"MedicHintIcon"
+		"pin_to_sibling" "medic"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"17"
+		"tall"			"17"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
+	}
+
 	"sniper"
 	{
 		"ControlName"		"CExImageButton"
@@ -683,6 +887,28 @@
 			"scaleImage"	"1"
 		}				
 	}
+
+	"SniperHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"SniperHintIcon"
+		"pin_to_sibling" "sniper"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"17"
+		"tall"			"17"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
+	}
+
 	"spy"
 	{
 		"ControlName"		"CExImageButton"
@@ -746,102 +972,152 @@
 			"image"			"class_sel_sm_spy_inactive"
 			"scaleImage"	"1"
 		}				
-	}	
+	}
 
-	"CancelButton"
+	"SpyHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"SpyHintIcon"
+		"pin_to_sibling" "spy"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"xpos"			"0"
+		"ypos"			"2"
+		"wide"			"17"
+		"tall"			"17"
+		"zpos"			"9"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"south-west"
+		"pinCorner"		"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
+	}
+
+	"CancelButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"30"
+		"xpos"			"c-295"
 		"ypos"			"r38"
 		"zpos"			"6"
-		"wide"			"150"
+		"wide"			"120"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_ClassMenu_Cancel"
+		"labelText"		"#TF_ClassMenu_Cancel_NoKey"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"font"			"HudFontSmallBold"
+		"fgcolor_override" "200 80 60 255"
+	}
+
+	"CancelHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"CancelHintIcon"
+		"xpos"			"c-290"
+		"ypos"			"r38"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_cancel"
 	}
 	
-	"EditLoadoutButton"
+	"EditLoadoutButton" [$WIN32] 
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"5"
-		"ypos"			"c-115"
+		"xpos"			"r180"
+		"ypos"			"r38"
 		"zpos"			"6"
-		"wide"			"48"
-		"tall"			"48"
+		"wide"			"165"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
+		"labelText"		"#EditLoadout"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"HudFontSmallBold"				
-		
-		"image_default"		"../hud/backpack_01_grey"
-		"image_armed"		"../hud/backpack_01"	
-		
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "White"		
-		
-		"paintbackground"	"1"	
-		
-		"defaultbgColor_override" "0 0 0 192"
-		"armedbgColor_override" "20 20 20 250"
-		"depressedbgColor_override" "0 0 0 192"
-		"selectedbgColor_override" "20 20 20 250"	
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"	
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"3"
-			"ypos"			"5"
-			"zpos"			"7"
-			"wide"			"42"
-			"tall"			"42"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/backpack_01"
-			"scaleImage"	"1"
-		}
+		"font"			"HudFontSmallBold"
 	}
 
-	"ClassMenuSelect1"
+	"EditLoadoutHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"EditLoadoutHintIcon"
+		"xpos"			"r176"
+		"ypos"			"r38"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_toggle_function"
+	}
+
+	"ResetButton" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ResetButton"
+		"xpos"			"r470"
+		"ypos"			"r38"
+		"zpos"			"6"
+		"wide"			"110"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_ClassMenu_Reset"
+		"textAlignment"	"center"
+		"Command"		"resetclass"
+		"font"			"HudFontSmallBold"
+	}
+
+	"ClassMenuSelect"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ClassMenuSelect1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c-150"
+		"fieldName"		"ClassMenuSelect"
+		"xpos"			"30"
+		"xpos_lodef"			"62"
+		"xpos_hidef"			"72"
+		"ypos"			"r40"
+		"ypos_lodef"			"r60"
+		"ypos_hidef"			"r54"
 		"zpos"			"5"
 		"wide"			"450"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"visible_lodef"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
-		"textAlignment"	"center"
-		"font"			"HudFontMediumSmallBold"
-		"fgcolor"		"GeneralLabel"
+		"textAlignment"	"west"
+		"font"			"MenuMainTitle"
+		"fgcolor"		"HudOffWhite"
 	}
 	
 	"MenuBG"
@@ -878,7 +1154,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
+	
 	"localPlayerImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1104,13 +1380,19 @@
 		"fgcolor"		"GeneralLabel"
 	}
 	
+	"CountLabel"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
 	"numScout"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
 		"pin_to_sibling"	"scout"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
@@ -1132,8 +1414,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
 		"pin_to_sibling"	"soldier"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
@@ -1155,8 +1437,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
 		"pin_to_sibling"	"pyro"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
@@ -1178,8 +1460,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
 		"pin_to_sibling"	"demoman"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
@@ -1201,8 +1483,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
 		"pin_to_sibling"	"heavyweapons"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
@@ -1217,15 +1499,15 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
-	}					
+	}	
 	
 	"numEngineer"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
 		"pin_to_sibling"	"engineer"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
@@ -1240,15 +1522,15 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
-	}						
+	}					
 	
 	"numMedic"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
 		"pin_to_sibling"	"medic"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
@@ -1270,12 +1552,13 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
 		"pin_to_sibling"	"sniper"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"30"
+		"tall"			"12"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1293,12 +1576,13 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
 		"pin_to_sibling"	"spy"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"30"
+		"tall"			"12"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1481,7 +1765,7 @@
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"250"
-		"tall"			"0"
+		"tall"			"165"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -1590,7 +1874,7 @@
 		
 		"xpos"			"0"
 		"ypos"			"60"
-		"zpos"			"1"		
+		"zpos"			"2"		
 		"wide"			"480"
 		"tall"			"480"
 		
