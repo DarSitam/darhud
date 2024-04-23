@@ -264,13 +264,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"68"
-		"tall"			"93"
+		"wide"			"62"
+		"tall"			"72"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg"
-		"iconColor"		"255 215 0 255"
+		"scaleImage"	"1"
+		"paintBorder"	"1"
+		"border"		"BackpackItemMouseOverBorder_Unique"
 	}
 	
 	"BuildHintIcon"

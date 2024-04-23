@@ -112,24 +112,11 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"11"
-		"wide"			"55"
-		"tall"			"130"
+		"wide"			"31"
+		"tall"			"31"
 		"visible"		"1"
-		
-		"selection_image"
-		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"selection_image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"33"
-			"tall"			"39"		
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"	
-			"icon"			"hud_menu_item_bg"
-			"iconColor"		"255 215 0 255"
-		}
+		"paintBorder"	"1"
+		"border"		"BackpackItemMouseOverBorder_Unique"
 	}
 		
 	"class_item_red_1"
