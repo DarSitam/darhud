@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+    "$translucent"        "1"
+    "$baseTexture"        "vgui\replay\thumbnails\scoreboard\score_right_mask"
+    "$alpha"            "1"
+    "$vertexalpha"        "1"
+    "$vertexcolor"        "1"
+    "$no_fullbright"    "1"
+    "$ignorez"            "1"
+    "$color"            "{73 108 132}"
+    "%keywords"            "tf"
+}
