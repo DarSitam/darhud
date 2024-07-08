@@ -48,6 +48,13 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
 		"xpos"			"80"
+	}	
+	
+	"BlueTeamLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"BlueTeamLabel"
+		"xpos"			"80"
 	}
 
 	"RedTeamScore"
@@ -69,6 +76,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
+		"xpos"			"r240"
+	}	
+	
+	"RedTeamLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamLabel"
 		"xpos"			"r240"
 	}
 
