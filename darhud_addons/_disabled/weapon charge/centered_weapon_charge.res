@@ -6,6 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
+		"xpos_minmode"	"cs-0.5"
 		"ypos"			"c46"
 		"zpos"			"3"
 		"wide"			"50"
