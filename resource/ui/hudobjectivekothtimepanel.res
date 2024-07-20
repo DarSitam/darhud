@@ -41,7 +41,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
+			"xpos"					"-10"
 			"ypos"					"0"
 			"tall"					"45"
 			"delta_item_x"			"10"
@@ -72,8 +72,7 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-
-				"xpos"			"24"
+				"xpos"			"34"
 				"ypos"			"10"
 				"tall"			"12"
 				"wide"			"40"
@@ -105,7 +104,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"-10"
 			"ypos"					"0"
 			"tall"					"45"
 			"delta_item_x"			"50"
@@ -114,7 +113,7 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"HudFontBig"
 		}
 		
 		"TimePanelValue"
@@ -137,7 +136,7 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"r63"
+				"xpos"			"r55"
 				"ypos"			"10"
 				"wide"			"40"
 				"tall"			"12"

@@ -95,7 +95,7 @@
 		"fieldName"		"OvertimeLabel"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"GeneralLabel"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"150"
@@ -112,7 +112,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"			"cs-0.5"
+			"xpos"			"0"
 			"ypos"			"21"
 			"zpos"			"5"
 			"wide"			"150"
