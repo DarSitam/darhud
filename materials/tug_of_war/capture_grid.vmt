@@ -1,0 +1,59 @@
+"UnlitGeneric"
+{
+  "$baseTexture"   "vgui/replay/thumbnails/tug_of_war/capture_grid"
+  "$no_fullbright" "1"
+  "$ignorez"       "1"
+  "$translucent"   "1"
+  
+  "$center"    "[0.0 0.0]"
+  "$scale"     "[0.25 0.125]"
+  "$translate" "[0.0 0.0]"
+  
+  "$cheapWaterStartDistance" "0.0"
+  "$cheapWaterEndDistance"   "0.0"
+  
+  "$offsetX"   "0.0"
+  "$offsetY"   "0.0"
+  "$cthousand" "0.001"
+
+  "Proxies"
+  {
+    "WaterLOD"
+    {
+    }
+    "Frac"
+    {
+      "srcVar1"    "$cheapWaterEndDistance"
+      "resultVar"  "$offsetX"
+    }
+    "Int"
+    {
+      "srcVar1"    "$cheapWaterEndDistance"
+      "resultVar"  "$offsetY"
+    }
+    "Multiply"
+    {
+      "srcVar1"    "$offsetY"
+      "srcVar2"    "$cthousand"
+      "resultVar"  "$offsetY"
+    }
+    
+    "Equals"
+    {
+      "srcVar1"    "$offsetX"
+      "resultVar"  "$translate[0]"
+    }
+    "Equals"
+    {
+      "srcVar1"    "$offsetY"
+      "resultVar"  "$translate[1]"
+    }
+    "TextureTransform"
+    {
+      "translateVar" "$translate"
+      "scaleVar"     "$scale"
+      "centerVar"    "$center"
+      "resultVar"    "$basetexturetransform"
+    }
+  }
+}

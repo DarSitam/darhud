@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+  "$baseTexture"   "vgui/replay/thumbnails/tug_of_war/cart_track_32"
+  "$translucent"   "1"
+  "$no_fullbright" "1"
+  "$ignorez"       "1"
+}

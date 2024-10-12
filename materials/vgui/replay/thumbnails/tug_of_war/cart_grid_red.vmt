@@ -1,0 +1,53 @@
+"UnlitGeneric"
+{
+  "$baseTexture"   "vgui/replay/thumbnails/tug_of_war/cart_grid_arrows"
+  "$translucent"   "1"
+  "$no_fullbright" "1"
+  "$ignorez"       "1"
+
+  "$cheapWaterStartDistance" "0.0"
+  "$cheapWaterEndDistance"   "0.0"
+
+  "$almostZero" "0.01"
+
+  "$offsetX"    "0.0"
+  "$center"     "[0.0 0.0]"
+  "$scale"      "[0.25 0.5]"
+  "$translate"  "[0.0 0.0]"
+
+  "$translate_cap"   "[0.25 0.0]"
+  "$translate_nocap" "[0.75 0.0]"
+
+  "Proxies"
+  {
+    "WaterLOD"
+    {
+    }
+    "Frac"
+    {
+      "srcVar1"    "$cheapWaterEndDistance"
+      "resultVar"  "$offsetX"
+    }
+    "AnimatedTexture"
+    {
+      "animatedTextureVar"         "$basetexture"
+      "animatedTextureFrameNumVar" "$frame"
+      "animatedTextureFrameRate"   "20"
+    }
+    "LessOrEqual"
+    {
+      "srcVar1"      "$offsetX"
+      "srcVar2"      "$almostZero"
+      "resultVar"    "$translate"
+      "greaterVar"   "$translate_nocap"
+      "LessEqualVar" "$translate_cap"
+    }
+    "TextureTransform"
+    {
+      "translateVar" "$translate"
+      "scaleVar"     "$scale"
+      "centerVar"    "$center"
+      "resultVar"    "$basetexturetransform"
+    }
+  }
+}

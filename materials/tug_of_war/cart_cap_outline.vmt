@@ -1,0 +1,54 @@
+"UnlitGeneric"
+{
+  "$baseTexture"   "vgui/replay/thumbnails/tug_of_war/cart_cap_outline"
+  "$translucent"   "1"
+  "$no_fullbright" "1"
+  "$ignorez"       "1"
+
+  "$cheapWaterStartDistance" "0.0"
+  "$cheapWaterEndDistance"   "0.0"
+
+  "$zero"       "0"
+  "$almostZero" "0.01"
+  "$alphaMin"   "0.1"
+  "$alphaMax"   "0.35"
+
+  "$alphaMinR"  "0"
+  "$alphaMaxR"  "0"
+  "$offsetX"    "0.0"
+
+  "Proxies"
+  {
+    "WaterLOD"
+    {
+    }
+    "Frac"
+    {
+      "srcVar1"      "$cheapWaterEndDistance"
+      "resultVar"    "$offsetX"
+    }
+    "LessOrEqual"
+    {
+      "srcVar1"      "$offsetX"
+      "srcVar2"      "$almostZero"
+      "resultVar"    "$alphaMinR"
+      "greaterVar"   "$zero"
+      "LessEqualVar" "$alphaMin"
+    }
+    "LessOrEqual"
+    {
+      "srcVar1"      "$offsetX"
+      "srcVar2"      "$almostZero"
+      "resultVar"    "$alphaMaxR"
+      "greaterVar"   "$zero"
+      "LessEqualVar" "$alphaMax"
+    }
+    "Sine"
+    {
+      "resultVar"    "$alpha"
+      "sineperiod"   "1.5"
+      "sinemin"      "$alphaMinR"
+      "sinemax"      "$alphaMaxR"
+    }
+  }
+}
