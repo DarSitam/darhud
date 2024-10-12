@@ -15,9 +15,9 @@
 		"mouseinputenabled"		"1"
 		"border"		"QuickplayBorder"
 
-		"log_font_small"			"HudFontSmall"
-		"log_font_medium"			"HudFontMediumSmallSecondary"
-		"log_font_large"			"HudFontMediumSecondary"
+		"log_font_small"			"HudFontSmallest"
+		"log_font_medium"			"HudFontSmallest"
+		"log_font_large"			"HudFontMediumSmallSecondary"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"
@@ -42,7 +42,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"Default"
 		
 		"bgcolor_override"	"0 0 0 50"
 
