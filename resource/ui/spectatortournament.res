@@ -11,21 +11,24 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-				
-		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"440"
-		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-31"
-		"team2_player_base_offset_x"		"347"
-		"team2_player_base_y"				"440"
-		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"-31"
-		
+			
+		"team1_player_base_offset_x"				"0"
+		"team1_player_base_x"						"5"
+		"team1_player_base_y"						"180"
+		"team1_player_delta_x"						"0"
+		"team1_player_delta_y"						"25"
+			
+		"team2_player_base_offset_x"				"347"
+		"team2_player_base_x"						"0"
+		"team2_player_base_y"						"180"
+		"team2_player_delta_x"						"0"
+		"team2_player_delta_y"						"25"
+
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"80"
-			"tall"			"30"
+			"wide"			"75"
+			"tall"			"24"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
@@ -37,8 +40,8 @@
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
 				"fgcolor_override"	"GeneralLabel"
-				"xpos"			"2"
-				"ypos"			"22"
+				"xpos"			"1"
+				"ypos"			"16"
 				"zpos"			"5"
 				"wide"			"70"
 				"tall"			"8"
@@ -48,21 +51,35 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
-					
-				if_mvm
-				{
-				}
+			}
+
+			"playernamebg"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"playernamebg"
+				"xpos"			"0"
+				"ypos"			"17"
+				"zpos"			"4"
+				"wide"			"75"
+				"tall"			"7"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"		"0"
+				"paintBackground"	"1"
+				"bgcolor_override"	"GeneralShadow"
 			}
 			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"2"
-				"ypos"			"2"
-				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"xpos"			"1"
+				"ypos"			"1"
+				"zpos"			"5"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -78,11 +95,11 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"2"
-				"ypos"			"2"
+				"xpos"			"1"
+				"ypos"			"1"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
@@ -98,8 +115,8 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"30"
-				"ypos"				"-1"
+				"xpos"				"0"
+				"ypos"				"0"
 				"zpos"				"3"
 				"wide"				"55"
 				"tall"				"55"
@@ -165,12 +182,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"HudFontSmallest"
-				"xpos"			"28"
-				"ypos"			"0"
-				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"15"
+				"font"			"HudFontSmallBold"
+				"xpos"			"20"
+				"ypos"			"1"
+				"zpos"			"6"
+				"wide"			"35"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -178,26 +195,22 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				"fgcolor"		"GeneralLabel"
-				
-				if_mvm
-				{
-					"ypos"			"8"
-				}
 			}
 			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"TF2DefaultSmall"
-				"xpos"			"5"
-				"ypos"			"23"
+				"font"			"TF2DefaultLarge"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"70"
-				"tall"			"8"
+				"wide"			"75"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
+				"enabled"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
 				"fgcolor"		"HealthGain"
@@ -224,31 +237,30 @@
 		
 		if_mvm
 		{		
-			"team1_player_base_offset_x"		"0"
-			"team1_player_base_y"				"440"
-			"team1_player_delta_x"				"0"
-			"team1_player_delta_y"				"-31"
-			"team2_player_base_offset_x"		"347"
-			"team2_player_base_y"				"440"
-			"team2_player_delta_x"				"0"
-			"team2_player_delta_y"				"-31"
+			"team1_player_base_offset_x"				"0"
+			"team1_player_base_x"						"5"
+			"team1_player_base_y"						"200"
+			"team1_player_delta_x"						"0"
+			"team1_player_delta_y"						"32"
+			
+			"team2_player_base_offset_x"				"0"
+			"team2_player_base_y"						"280"
+			"team2_player_delta_x"						"0"
+			"team2_player_delta_y"						"-18"
+
 		}		
 	}
 
 	"topbar"
 	{
-		"ControlName"		"Panel"
-		"fieldName"		"TopBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"tall"			"25"
-		"wide"			"f0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"alpha"		"0"
+		"ControlName"								"Panel"
+		"fieldName"									"TopBar"
+		"xpos"										"0"
+		"ypos"										"100"
+		"tall"										"0"
+		"wide"										"0"
+		"visible"									"1"
+		"enabled"									"1"
 	}
 
 	"topbardark"
@@ -258,7 +270,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"tall"			"25"
+		"tall"			"20"
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -273,9 +285,11 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"visible"		"0"
-		"ypos"			"100"
-		"tall"			"0"
+		"xpos"										"9999"
+		"tall"										"0"
+		"wide"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"bottombarblank"
 	{
@@ -284,6 +298,7 @@
 		"visible"		"0"
 		"ypos"			"480"
 	}
+
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -303,8 +318,10 @@
 		
 		if_mvm
 		{
+			"ypos"			"100"
 		}
 	}
+
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -313,7 +330,7 @@
 		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"400"
-		"tall"			"21"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -342,7 +359,7 @@
 		"xpos"			"15"
 		"ypos"			"0"
 		"wide"			"240"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -411,5 +428,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 }
+
