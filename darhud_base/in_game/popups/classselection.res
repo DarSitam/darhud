@@ -1114,7 +1114,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"50;,"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1123,7 +1123,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
 	}	
 	
@@ -1137,7 +1137,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1146,7 +1146,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
 	}		
 	
@@ -1160,7 +1160,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1169,7 +1169,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
 	}			
 	
@@ -1183,7 +1183,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1192,7 +1192,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
 	}				
 	
@@ -1206,7 +1206,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1215,7 +1215,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
 	}					
 	
@@ -1229,7 +1229,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1238,7 +1238,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
 	}						
 	
@@ -1252,7 +1252,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1261,7 +1261,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
 	}							
 	
@@ -1275,7 +1275,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1284,7 +1284,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
 	}						
 	
@@ -1298,7 +1298,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"30"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1307,7 +1307,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2DefaultLarge"
 		"fgcolor"		"GeneralLabel"
 	}								
 	
