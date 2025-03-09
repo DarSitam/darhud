@@ -6,12 +6,13 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"25"
-		"ypos"			"240"
-		"wide"	 		"280"
+		"xpos"			"0"
+		"ypos"			"r205"
+		"wide"	 		"270"
 		"tall"	 		"120"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"20 20 20 255"
+		"roundedcorners"	"0"
+		"bgcolor_override"	"0 0 0 255"
 	}
 
 	ChatInputLine
@@ -20,9 +21,9 @@
 		"fieldName" 		ChatInputLine
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"
-		"ypos"			"395"
-		"wide"	 		"260"
+		"xpos"			"0"
+		"ypos"			"385"
+		"wide"	 		"270"
 		"tall"	 		"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -31,9 +32,10 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ChatFiltersButton"
-		"xpos"			"225"
-		"ypos"			"2"
-		"wide"			"45"
+		"xpos"			"234"
+		"ypos"			"6"
+		"zpos" 			"10"
+		"wide"			"30"
 		"tall"			"15"
 		"autoResize"		"1"
 		"pinCorner"		"0"
@@ -44,7 +46,9 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Default"		"0"		
+		"Default"		"0"
+		"paintbackground"	"1"	
+		"defaultbgColor_override" "0 0 0 192"
 	}
 
 	"HudChatHistory"
@@ -52,9 +56,9 @@
 		"ControlName"		"RichText"
 		"fieldName"		"HudChatHistory"
 		"fgcolor_override"		"GeneralLabel"
-		"xpos"			"10"
-		"ypos"			"17"
-		"wide"	 		"260"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"270"
 		"tall"			"75"
 		"wrap"			"1"
 		"autoResize"		"1"
