@@ -2647,7 +2647,7 @@
 		"xpos"			"-5"
 		"ypos"			"418"
 		"zpos"			"3"
-		"wide"			"1000"
+		"wide"			"1300"
 		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
