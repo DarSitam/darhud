@@ -76,7 +76,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"44"
+			"ypos"			"28"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"2"
