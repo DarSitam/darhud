@@ -77,11 +77,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
+		"zpos"			"10"
 		"tabxindent"	"10"
 		"tabxdelta"		"3"
 		"tabxfittotext"	"1"
 		"tabheight"		"20"
-		"yoffset"		"14"
+		"yoffset"		"0"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -122,7 +123,7 @@
 		"fieldName"		"CloseButton"
 		"xpos"			"c-295"
 		"ypos"			"rs1-18"
-		"zpos"			"2"
+		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"26"
 		"autoResize"	"0"

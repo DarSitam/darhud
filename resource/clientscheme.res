@@ -3376,7 +3376,24 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}		
+				
+		customMainMenuButtonPlay
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"color"					"GreenSolid"
+		}
 		
+		customMainMenuButtonPlayArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"color"					"CreditsGreen"
+		}		
 		customMainMenuButtonItems
 		{
 			"bordertype"			"scalable_image"

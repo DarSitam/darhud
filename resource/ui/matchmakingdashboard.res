@@ -6,16 +6,94 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"-5"
-		"zpos"					"10001"
+		"ypos"					"0"
+		"zpos"					"5" //1003
 		"wide"					"f0"
-		"tall"					"35"
+		"tall"					"480"
 		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"35"
-		"resize_time"		"0.2"
+		"expanded_height"	"480"
+		"resize_time"		"0"
 	}
+
+	"CustomFindAGameButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"CustomFindAGameButton"
+			"xpos"			"89"
+			"ypos"			"100" //369
+			"zpos"			"1"
+			"wide"			"210"
+			"tall"			"35"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"HudFontMediumBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"find_game"
+			"proportionaltoparent"	"1"
+			"labeltext"		"#TF_Play"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"roundedcorners"	"1"
+			"textinsetx"	"35"
+			"use_proportional_insets"	"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"0"
+
+			"paintBorder"	"1"
+			"border_default"    "customMainMenuButtonPlay"
+			"border_armed"      "customMainMenuButtonPlayArmed"
+
+			"image_drawcolor"	"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9"
+				"ypos"			"cs-0.5"
+				"zpos"			"2"
+				"wide"			"18"
+				"tall"			"18"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"glyph_multiplayer"
+				"drawcolor_override" "White"
+			}
+		}
+
+		"PartySlot0"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot0"
+			"xpos"			"132"
+			"ypos"			"20"
+			"zpos"			"100"
+			"wide"			"24"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+
+			"party_slot"	"0"
+		}
 
 	"TopBar"
 	{
@@ -27,7 +105,7 @@
 		"wide"			"f0"
 		"tall"			"35"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		"paintBackground" "0"
 
 
@@ -99,27 +177,6 @@
 				"proportionaltoparent"	"1"
 				"image"			"glyph_chat"
 			}
-		}
-
-		"PartySlot0"
-		{
-			"ControlName"	"CDashboardPartyMember"
-			"fieldName"		"PartySlot0"
-			"xpos"			"132"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"24"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
-			"party_slot"	"0"
 		}
 
 		"PartySlot1"
@@ -732,8 +789,8 @@
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
