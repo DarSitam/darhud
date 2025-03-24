@@ -2,11 +2,12 @@
 {
 	"partychat"
 	{
+		"pin_to_sibling" 		"PartyChatPin"
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"94"
-		"ypos"					"10"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"1001"
 		"wide"					"200"
 		"tall"					"200"
@@ -26,7 +27,7 @@
 
 		"collapsed_height"		"0"
 		"expanded_height"		"200"
-		"resize_time"	"0.3"
+		"resize_time"	"0.2"
 		"invalidate_parent_on_resize"	"0"
 	}
 
@@ -42,7 +43,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"Default"
+		"font"			"HudFontSmallest"
 		
 		"bgcolor_override"	"0 0 0 50"
 
@@ -84,21 +85,20 @@
 	"chatentry"
 	{
 		// "ControlName"	"TextEntry"
-		"fieldName"		"chatentry"
-		"xpos"					"95"
-		"ypos"					"rs1+19"
+		"pin_to_sibling" 		"PartyChatPin"
+		"fieldName"				"chatentry"
+		"xpos"					"c-64"
+		"ypos"					"401"
 		"zpos"			"1"
-		"wide"			"f2"
+		"wide"			"198"
 		"tall"			"13"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		"bgcolor_override"	"0 0 0 255"
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
-
-		"pinCorner"		"2"
 		//"autoResize"	"1"
 	}
 

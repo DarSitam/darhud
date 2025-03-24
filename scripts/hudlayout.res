@@ -1427,6 +1427,13 @@
 		"ypos_lodef"        "90"
 		"wide"            "f0"
 		"tall"            "100"
+	}	
+	
+	"MMDashBoardPopupContainer"
+	{
+		"ypos"					"-470"
+		"tall"					"550"
+		"mouseinputenabled"		"1"
 	}
 }
 
