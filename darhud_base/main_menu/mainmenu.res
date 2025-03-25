@@ -1269,7 +1269,7 @@
 		"wide"			"210"
 		"tall"			"35"
 		"visible"		"1"
-		"image"			"replay/thumbnails/mainmenu/button_items"
+		"image"			"replay/thumbnails/mainmenu/button1"
 		"drawcolor"		"ButtonMMShadow"
 		"scaleimage"	"1"
 	}
@@ -1345,7 +1345,7 @@
 		"wide"			"210"
 		"tall"			"35"
 		"visible"		"1"
-		"image"			"replay/thumbnails/mainmenu/button_shop"
+		"image"			"replay/thumbnails/mainmenu/button2"
 		"drawcolor"		"ButtonMMShadow"
 		"scaleimage"	"1"
 	}

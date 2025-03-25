@@ -3382,7 +3382,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"image"					"replay/thumbnails/mainmenu/button2"	
 			"color"					"GreenSolid"
 		}
 		
@@ -3391,7 +3391,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"image"					"replay/thumbnails/mainmenu/button2"	
 			"color"					"CreditsGreen"
 		}		
 		customMainMenuButtonItems
@@ -3399,7 +3399,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_items"	
+			"image"					"replay/thumbnails/mainmenu/button1"	
 			"color"					"ButtonMM"
 		}
 		customMainMenuButtonItemsArmed
@@ -3407,7 +3407,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_items"	
+			"image"					"replay/thumbnails/mainmenu/button1"	
 			"color"					"ButtonArmedMM"
 		}
 				
@@ -3416,7 +3416,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"image"					"replay/thumbnails/mainmenu/button2"	
 			"color"					"ButtonMM"
 		}
 		
@@ -3425,7 +3425,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"image"					"replay/thumbnails/mainmenu/button2"	
 			"color"					"ButtonArmedMM"
 		}		
 		
