@@ -63,10 +63,10 @@
 
 			if_mini
 			{
-				"xpos"		"cs-0.5-228"
+				"xpos"		"cs-0.5-240"
 				"ypos"		"cs-0.5"
-				"wide"		"200"
-				"tall"		"200"
+				"wide"		"160"
+				"tall"		"100"
 			}
 
 			"paintbackground"	"0"
@@ -245,7 +245,7 @@
 			if_mini
 			{
 				"xpos"	"67"
-				"ypos"	"4"
+				"ypos"	"0"
 			}
 
 			"fonts"
@@ -276,7 +276,7 @@
 			if_mini
 			{
 				"xpos"	"67"
-				"ypos"	"4"
+				"ypos"	"0"
 			}
 
 			"fonts"
