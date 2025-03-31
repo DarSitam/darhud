@@ -3377,23 +3377,60 @@ Scheme
 			"draw_corner_height" 	"4"	
 		}		
 				
-		customMainMenuButtonPlay
+		customMainMenuTopButtonPlay
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button2"	
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
 			"color"					"GreenSolid"
 		}
 		
-		customMainMenuButtonPlayArmed
+		customMainMenuTopButtonPlayArmed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button2"	
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
 			"color"					"CreditsGreen"
-		}		
+		}
+
+		customMainMenuTopButtonQuit
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"132 28 0 255"
+		}
+		
+		customMainMenuTopButtonQuitArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"192 28 0 255"
+		}
+
+		customMainMenuTopButtonRegular
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"ButtonDefault"
+		}
+		
+		customMainMenuTopButtonRegularArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"ButtonArmed"
+		}	
+
 		customMainMenuButtonItems
 		{
 			"bordertype"			"scalable_image"
