@@ -2779,7 +2779,7 @@
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"-4"
+		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
