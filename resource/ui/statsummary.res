@@ -9,7 +9,7 @@
 	
 	"MainBackground"
 	{
-		"ypos"			"20"
+		"ypos"			"0"
 		"visible"		"1"
 	}	
 	
