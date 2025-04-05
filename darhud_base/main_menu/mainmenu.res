@@ -1649,8 +1649,472 @@
 	// {
 	// 	"pin_to_sibling" 		"PartyChatPin"
 	// }
+	
+	
+	"BackgroundFooter"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"5"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"BackgroundDefault"
+		"tileImage"		"1"
+	}
 
+	"FooterLine"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
 
+	"FooterShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"FooterShadow"
+		"xpos"			"-5"
+		"ypos"			"418"
+		"zpos"			"-5"
+		"wide"			"1300"
+		"tall"			"70"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"	"OuterShadowBorderThin"
+		"tileImage"		"1"
+	}
+
+	//Jukebox buttons
+	"PreviousMusicButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PreviousMusicButton"
+		"xpos"			"c-320"
+		"ypos"			"r42"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"proportionaltoparent"	"1"
+
+			"navUp"			"VRModeButton"
+			"navLeft"		"CommentaryButton"
+			"navRight"		"ReportBugButton"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+			"border_default"	"MainMenuSubButtonBorder"
+
+			"image_drawcolor"	"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"proportionaltoparent"	"1"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/mainmenu/reload"
+				"scaleImage"	"1"
+			}
+		}
+	}
+
+	"NextMusicButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"NextMusicButton"
+		"pin_to_sibling" 	"PreviousMusicButton"
+		"pin_to_sibling_corner"	"1"
+		"xpos"			"1"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"engine nextmusic"
+
+			"navUp"			"VRModeButton"
+			"navLeft"		"CommentaryButton"
+			"navRight"		"ReportBugButton"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+			"border_default"	"MainMenuSubButtonBorder"
+
+			"image_drawcolor"	"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"proportionaltoparent"	"1"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+
+	"StopMusicButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"StopMusicButton"
+		"pin_to_sibling" 	"NextMusicButton"
+		"pin_to_sibling_corner"	"1"
+		"xpos"			"1"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"engine play nomusic.mp3"
+
+			"navUp"			"VRModeButton"
+			"navLeft"		"CommentaryButton"
+			"navRight"		"ReportBugButton"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+			"border_default"	"MainMenuSubButtonBorder"
+
+			"image_drawcolor"	"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"proportionaltoparent"	"1"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			""
+				"scaleImage"	"1"
+			}
+		}
+	}
+
+	"ReloadSoundButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ReloadSoundButton"
+		"pin_to_sibling" 	"StopMusicButton"
+		"pin_to_sibling_corner"	"1"
+		"xpos"			"1"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"engine snd_restart"
+
+			"navUp"			"VRModeButton"
+			"navLeft"		"CommentaryButton"
+			"navRight"		"ReportBugButton"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+			"border_default"	"MainMenuSubButtonBorder"
+
+			"image_drawcolor"	"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"proportionaltoparent"	"1"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+
+	//Actions buttons
+	"MOTDButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MOTDButton"
+		"xpos"			"c-22"
+		"ypos"			"r42"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
+		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
+		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
+		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"actionsignallevel" "2"
+			"Command"		"motd_show"
+			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"proportionaltoparent"	"1"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"23"
+				"tall"			"23"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/mainmenu/letter"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
+	"QuestLogButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"QuestLogButton"
+		"pin_to_sibling" 	"MOTDButton"
+		"pin_to_sibling_corner"	"1"
+		"xpos"			"1"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"labelText"		""
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"command"		"questlog"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"1"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"23"
+				"tall"			"23"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/mainmenu/contracker"
+
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+				"keyboardinputenabled" "0"
+			}
+		}
+	}
+
+	//Misc buttons
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2061,11 +2525,11 @@
 		}
 	}
 	
-	"LowerButton2BG"
+	"MiscButtonBG"
 	{				
 		"pin_to_sibling"	"NewUserForumsButton"
 		"ControlName"	"EditablePanel"
-		"fieldName"		"LowerButton2BG"
+		"fieldName"		"MiscButtonBG"
 		"xpos"			"0"
 		"ypos"			"-3"
 		"zpos"			"5"
@@ -2077,164 +2541,7 @@
 		"bgcolor_override"	"ButtonMMShadow"
 	}
 	
-	"MOTDButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTDButton"
-		"xpos"			"c-60"
-		"ypos"			"r42"
-		"zpos"			"10"
-		"wide"			"22"
-		"tall"			"23"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
-		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"f0"
-			"tall"			"f0"
-			"proportionaltoparent"	"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-
-			"actionsignallevel" "2"
-			"Command"		"motd_show"
-			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"1"
-			"paintBorder"	"0"
-			"RoundedCorners"	"0"
-
-			"defaultBgColor_override"	"ButtonMM"
-			"armedBgColor_override"	"ButtonArmedMM"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"proportionaltoparent"	"1"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"23"
-				"tall"			"23"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/mainmenu/letter"
-				"scaleImage"	"1"
-			}
-		}
-	}
-	
-	"QuestLogButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"QuestLogButton"
-		"pin_to_sibling" 	"MOTDButton"
-		"pin_to_sibling_corner"	"1"
-		"xpos"			"1"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"22"
-		"tall"			"23"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"labelText"		""
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"command"		"questlog"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"paintbackground"	"1"
-			"RoundedCorners"	"0"
-
-			"defaultBgColor_override"	"ButtonMM"
-			"armedBgColor_override"	"ButtonArmedMM"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"23"
-				"tall"			"23"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/mainmenu/contracker"
-
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}
-		}
-	}
-
-	
+	//Hud buttons
 	"ReloadButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2771,42 +3078,6 @@
 				"proportionaltoparent"	"1"
 			}
 		}
-	}
-
-	"BackgroundFooter"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundFooter"
-		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"BackgroundDefault"
-		"tileImage"		"1"
-	}
-
-	"FooterLine"
-	{
-		"visible"		"0"
-		"enabled"		"0"
-	}
-
-	"FooterShadow"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"FooterShadow"
-		"xpos"			"-5"
-		"ypos"			"418"
-		"zpos"			"-5"
-		"wide"			"1300"
-		"tall"			"70"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"	"OuterShadowBorderThin"
-		"tileImage"		"1"
 	}
 
 	"BackToReplaysButton"

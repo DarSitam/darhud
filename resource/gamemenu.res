@@ -70,4 +70,32 @@
 		"subimage"		"replay/thumbnails/mainmenu/reload"
 		"tooltip" 		"Reload HUD"
 	}
+	"ReloadSoundButton"
+	{
+		"label"			""
+		"command" 		"engine snd_restart"
+		"subimage"		"replay/thumbnails/mainmenu/reload"
+		"tooltip" 		"Reload Sounds"
+	}
+	"PreviousMusicButton"
+	{
+		"label"			""
+		"command" 		"engine prevmusic"
+		"subimage"		"replay/thumbnails/mainmenu/jukebox/prev"
+		"tooltip" 		"Previous Music"
+	}
+	"NextMusicButton"
+	{
+		"label"			""
+		"command" 		"engine nextmusic"
+		"subimage"		"replay/thumbnails/mainmenu/jukebox/next"
+		"tooltip" 		"Next Music"
+	}
+	"StopMusicButton"
+	{
+		"label"			""
+		"command" 		"engine play nomusic.mp3"
+		"subimage"		"replay/thumbnails/mainmenu/jukebox/stop"
+		"tooltip" 		"Stop Music"
+	}
 }
