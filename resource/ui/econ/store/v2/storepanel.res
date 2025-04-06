@@ -33,18 +33,19 @@
 	
 	"BackgroundHeader"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"25"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"120"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"training/gradient_black"
 		"tileImage"		"1"
-		"bgcolor_override"	"TransparentStripe"
-	}				
+	}
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"EditablePanel"

@@ -287,20 +287,6 @@
 		"border"		"OuterShadowBorder"
 		"pin_to_sibling" "VerticalBG"
 	}
-	
-	"CustomTopBar"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"CustomTopBar"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"f0"
-		"tall"			"21"
-		"visible"		"1"
-		"bgcolor_override"	"BackgroundDefault"
-		"proportionaltoparent"	"1"
-	}
 
 	"TFCharacterImage"
 	{

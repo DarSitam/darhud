@@ -43,7 +43,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BGPanel"
-			"visible"		"0"
+			"xpos"			"cs-0.5"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"21"
+			"visible"		"1"
+			"bgcolor_override"	"BackgroundDefault"
+			"proportionaltoparent"	"1"
 		}
 
 		"OuterShadow"
