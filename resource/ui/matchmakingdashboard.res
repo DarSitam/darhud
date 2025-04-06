@@ -43,14 +43,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BGPanel"
-			"xpos"			"cs-0.5"
-			"ypos"			"5"
-			"zpos"			"-1"
-			"wide"			"f0"
-			"tall"			"21"
-			"visible"		"1"
-			"bgcolor_override"	"BackgroundDefault"
-			"proportionaltoparent"	"1"
+			"visible"		"0"
 		}
 
 		"OuterShadow"
@@ -89,6 +82,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
+			"defaultBgColor_override"	"0 0 0 0"
+
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
 
@@ -96,8 +91,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
+				"xpos"			"cs-0.5+1"
+				"ypos"			"cs-0.5+1"
 				"zpos"			"1"
 				"wide"			"20"
 				"tall"			"20"
@@ -113,7 +108,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"25"
+			"xpos"			"26"
 			"ypos"			"5"
 			"zpos"			"100"
 			"wide"			"o1"

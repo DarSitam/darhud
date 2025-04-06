@@ -145,7 +145,7 @@
 		"defaultBgColor_override"	"235 226 202 0"
 		"armedBgColor_override"	"94 150 49 20"
 
-		"border_default"	""
+		//"border_default"	"QuickplayBorder"
 		"border_armed"		"FriendHighlightBorderThick"
 	}
 
