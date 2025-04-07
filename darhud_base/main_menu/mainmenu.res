@@ -1692,7 +1692,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PreviousMusicButton"
-		"xpos"			"c-320"
+		"xpos"			"c161"
 		"ypos"			"r42"
 		"zpos"			"10"
 		"wide"			"22"
@@ -1955,6 +1955,24 @@
 			}
 		}
 	}
+	
+	"JukeboxButtonShadow"
+	{				
+		"pin_to_sibling"	"PreviousMusicButton"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"JukeboxButtonShadow"
+		"xpos"			"-4"
+		"ypos"			"-4"
+		"zpos"			"9"
+		"wide"			"90"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleimage"	"1"
+		"proportionaltoparent"	"1"
+
+		"bgcolor_override"	"ButtonMMShadow"
+	}
 
 	//Actions buttons
 	"MOTDButton"
@@ -2113,13 +2131,31 @@
 			}
 		}
 	}
+	
+	"ActionButtonShadow"
+	{				
+		"pin_to_sibling"	"MOTDButton"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ActionButtonShadow"
+		"xpos"			"-4"
+		"ypos"			"-4"
+		"zpos"			"9"
+		"wide"			"45"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleimage"	"1"
+		"proportionaltoparent"	"1"
+
+		"bgcolor_override"	"ButtonMMShadow"
+	}
 
 	//Misc buttons
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c117"
+		"xpos"			"c-300"
 		"ypos"			"r42"
 		"zpos"			"10"
 		"wide"			"22"
@@ -2525,13 +2561,13 @@
 		}
 	}
 	
-	"MiscButtonBG"
+	"MiscButtonShadow"
 	{				
 		"pin_to_sibling"	"NewUserForumsButton"
 		"ControlName"	"EditablePanel"
-		"fieldName"		"MiscButtonBG"
-		"xpos"			"0"
-		"ypos"			"-5"
+		"fieldName"		"MiscButtonShadow"
+		"xpos"			"-4"
+		"ypos"			"-4"
 		"zpos"			"9"
 		"wide"			"158"
 		"tall"			"23"
