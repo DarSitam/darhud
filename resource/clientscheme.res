@@ -3511,22 +3511,22 @@ Scheme
 				"1"
 				{
 					"color" "ButtonArmed"
-					"offset" "0 1"
+					"offset" "0 0"
 				}				
 				"2"
 				{
 					"color" "ButtonArmed"
-					"offset" "0 1"
+					"offset" "0 0"
 				}				
 				"3"
 				{
 					"color" "ButtonArmed"
-					"offset" "0 1"
+					"offset" "0 0"
 				}				
 				"4"
 				{
 					"color" "ButtonArmed"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -3535,22 +3535,22 @@ Scheme
 				"1"
 				{
 					"color" "ButtonArmed"
-					"offset" "1 1"
+					"offset" "1 0"
 				}				
 				"2"
 				{
 					"color" "ButtonArmed"
-					"offset" "1 1"
+					"offset" "1 0"
 				}				
 				"3"
 				{
 					"color" "ButtonArmed"
-					"offset" "1 1"
+					"offset" "1 0"
 				}				
 				"4"
 				{
 					"color" "ButtonArmed"
-					"offset" "1 1"
+					"offset" "1 0"
 				}
 			}
 

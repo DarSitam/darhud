@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"BackgroundDefault"
+		"infocus_bgcolor_override"		"BackgroundDefault"
+		"outoffocus_bgcolor_override"	"BackgroundDefault"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
@@ -30,49 +30,66 @@
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"0"
 	}
+
+	"BackgroundFull"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundFull"
+		"xpos"			"0"
+		"ypos"			"r60"
+		"zpos"			"11"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"BackgroundDefault"
+		"tileImage"		"1"
+	}	
 	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
-		"ypos"			"25"
+		"ypos"			"20"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"30"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"training/gradient_black"
+		"image"			"replay/thumbnails/mainmenu/striped_pattern"
+		"drawcolor"	"BackgroundDefault"
 		"tileImage"		"1"
-	}
+	}	
 
 	"BackgroundFooter"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundFooter"
+		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
-		"ypos"			"r2"
-		"zpos"			"-2"
+		"ypos"			"r60"
+		"zpos"			"12"
 		"wide"			"f0"
-		"tall"			"120"
-		"bgcolor_override"	"BackgroundDefault"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-	}				
+		"bgcolor_override"	"0 0 0 128"
+	}
+
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"2"
+		"ypos"			"r60"
+		"zpos"			"13"
 		"wide"			"f0"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"loadout_solid_line"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"ButtonArmed"
 		"scaleImage"	"1"
-	}				
+	}			
 	
 	"Sheet"
 	{
@@ -124,7 +141,7 @@
 		"fieldName"		"CloseButton"
 		"xpos"			"c-295"
 		"ypos"			"rs1-18"
-		"zpos"			"11"
+		"zpos"			"15"
 		"wide"			"100"
 		"tall"			"26"
 		"autoResize"	"0"
