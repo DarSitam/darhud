@@ -205,3 +205,13 @@ event HudTournament_ShowTimerDefault
 	SetVisible CountdownLabel 1 0
 	SetVisible CountdownLabelShadow 1 0
 }
+
+event CompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat ypos 275 Accel 0 0  //Default animation
+	//Fix stuck animations
+	RunEvent HudHealthDyingPulseStop 0.1
+	RunEvent HudHealthBonusPulseStop 0.1
+	RunEvent HudLowAmmoPulseStop 0.1
+	RunEvent HudMedicChargedStop 0.1
+}
