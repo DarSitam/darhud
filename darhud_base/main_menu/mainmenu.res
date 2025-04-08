@@ -862,43 +862,143 @@
 			}
 		}
 
-		"MOTD_URLButton"
+		"MOTD_TF2Button"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"MOTD_URLButton"
-			"xpos"			"75"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"MOTD_TF2Button"
+			"xpos"			"5"
 			"ypos"			"rs1.2"
-			"wide"			"150"
-			"tall"			"15"
+			"wide"			"20"
+			"tall"			"20"
+			"proportionaltoparent" "1"
+			
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labelText"		""
+				"font"			"HudFontSmallestBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"command"		"motd_viewurl"
+				"proportionaltoparent" "1"
+				"actionsignallevel"	"3"
+
+
+				"navUp"			"MOTD_CloseButton"
+				"navLeft"		"MOTD_PrevButton"
+				"navRight"		"MOTD_NextButton"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"defaultBgColor_override" "0 0 0 0"
+
+				"image_drawcolor"	"46 43 42 255"
+				"image_armedcolor"	"235 226 202 255"
+				
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
+					"zpos"			"1"
+					"wide"			"21"
+					"tall"			"21"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"			"cyoa/cyoa_classchoice_icon"
+
+					"proportionaltoparent"	"1"
+					"mouseinputenabled"	"0"
+					"keyboardinputenabled" "0"
+				}
+			}
+		}
+		
+		"MOTD_WatchStreamButton" //who cares about a twitch.tv quick link
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"MOTD_WatchStreamButton"
+			"xpos"			"25"
+			"ypos"			"rs1.2"
+			"zpos"			"11"
+			"wide"			"20"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"#MMenu_MOTD_URL"
-			"textinsetx"	"20"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
-			"actionsignallevel"	"2"
 
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"textinsetx"	"25"
+				"labelText"		""
+				"use_proportional_insets" "1"
+				"font"			"HudFontSmallBold"
+				"command"		"watch_stream"
+				"textAlignment"	"west"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"vo/null.mp3"
+				"actionsignallevel" "3"
+				"proportionaltoparent"	"1"
 
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_PrevButton"
-			"navRight"		"MOTD_NextButton"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+				"defaultBgColor_override" "0 0 0 0"
 
-			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "235 226 202 255"
+				"image_drawcolor"	"46 43 42 255"
+				"image_armedcolor"	"235 226 202 255"
+
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
+					"zpos"			"1"
+					"wide"			"18"
+					"tall"			"18"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"			"replay/thumbnails/mainmenu/twitch"
+
+					"proportionaltoparent"	"1"
+					"mouseinputenabled"	"0"
+					"keyboardinputenabled" "0"
+				}
+			}
 		}
 
 		"MOTD_PrevButton"
@@ -3171,85 +3271,6 @@
 			"enabled"		"1"
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
-		}
-	}
-	
-	"WatchStreamButton" //who cares about a twitch.tv quick link
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WatchStreamButton"
-		"xpos"			"r75"
-		"ypos"			"r25"
-		"zpos"			"11"
-		"wide"			"25"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"labelText"		""
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"command"		"watch_stream"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"			
-			
-			"paintbackground"	"0"
-
-			"paintBorder"	"1"
-			"border_default"    "customMainMenuButtonDefault"
-			"border_armed"      "customMainMenuButtonArmed"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/mainmenu/twitch"
-
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}
 		}
 	}
 }
