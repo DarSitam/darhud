@@ -1,4 +1,4 @@
 //CUSTOMIZATION
-#base "../../darhud_addons/separated_scoreboard.res"
+#base "../../cfg/darhud/separated_scoreboard.txt"
 //BASE
-#base "../../darhud_base/in_game/scoreboard/scoreboard.res"
+#base "customizations/scoreboard/scoreboard.res"

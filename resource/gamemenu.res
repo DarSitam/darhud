@@ -98,4 +98,11 @@
 		"subimage"		"replay/thumbnails/mainmenu/jukebox/stop"
 		"tooltip" 		"Stop Music"
 	}
+	"HudButton"
+	{
+		"label"			""
+		"command" 		"engine cl_mainmenu_safemode 1; mat_queue_mode 0"
+		"subimage"		"glyph_workshop_edit"
+		"tooltip" 		"Hud Options"
+	}
 }

@@ -10,7 +10,10 @@ r_decal_cullsize 1
 exec joystick.cfg
 
 // Setup jukebox.cfg
-exec jukebox.cfg
+exec dar_jukebox.cfg
+
+// Setup customization.cfg
+exec dar_customization.cfg
 
 // run a user script file if present
 exec autoexec.cfg

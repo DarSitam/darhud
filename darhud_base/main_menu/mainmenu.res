@@ -1453,7 +1453,7 @@
 		"ypos"			"-2"
 		"zpos"			"11"
 		"wide"			"31"
-		"tall"			"27"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -1692,7 +1692,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PreviousMusicButton"
-		"xpos"			"c161"
+		"xpos"			"c141"
 		"ypos"			"r42"
 		"zpos"			"10"
 		"wide"			"22"
@@ -1964,7 +1964,7 @@
 		"xpos"			"-4"
 		"ypos"			"-4"
 		"zpos"			"9"
-		"wide"			"90"
+		"wide"			"92"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2140,7 +2140,7 @@
 		"xpos"			"-4"
 		"ypos"			"-4"
 		"zpos"			"9"
-		"wide"			"45"
+		"wide"			"46"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2569,7 +2569,7 @@
 		"xpos"			"-4"
 		"ypos"			"-4"
 		"zpos"			"9"
-		"wide"			"158"
+		"wide"			"161"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2580,12 +2580,80 @@
 	}
 	
 	//Hud buttons
+	
+	"HudButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudButton"
+		"xpos"			"c255"
+		"ypos"			"r42"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+			"border_default"	"MainMenuSubButtonBorder"
+
+			"image_drawcolor"	"235 226 202 255"
+		
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5+1"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/mainmenu/console"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+
 	"ReloadButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ReloadButton"
-		"xpos"			"c298"
-		"ypos"			"r42"
+		"pin_to_sibling"	"HudButton"
+		"pin_to_sibling_corner"	"1"
+		"xpos"			"1"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"22"
 		"tall"			"23"
@@ -2643,167 +2711,25 @@
 			}
 		}
 	}
-
-	"SafeMode"
-	{
+	
+	"HudButtonShadow"
+	{				
+		"pin_to_sibling"	"HudButton"
 		"ControlName"	"EditablePanel"
-		"fieldname"		"SafeMode"
-		"xpos"			"c-295"
-		"ypos"			"205"
-		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"190"
-		"visible"		"0"
+		"fieldName"		"JukeboxButtonShadow"
+		"xpos"			"-4"
+		"ypos"			"-4"
+		"zpos"			"9"
+		"wide"			"46"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleimage"	"1"
+		"proportionaltoparent"	"1"
 
-		"Background"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"0"
-			"ypos"			"20"
-			"zpos"			"0"
-			"wide"			"260"
-			"tall"			"p0.88"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#MMenu_SafeMode_Title"
-				"textAlignment"	"west"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"20"
-				"fgcolor_override"	"235 227 203 255"
-			}
-
-			"SaveSettingsButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SaveSettingsButton"
-				"xpos"			"p0.02"
-				"ypos"			"rs1-30"
-				"zpos"			"11"
-				"wide"			"250"
-				"tall"			"26"
-				"autoResize"	"0"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"1"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				"labeltext"		"#MMenu_SafeMode_SaveSettings"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_save_settings"
-				"actionsignallevel"	"3"
-
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			}
-
-
-			"LeaveSafeModeButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SubButton"
-				"xpos"			"p0.02"
-				"ypos"			"rs1-5"
-				"zpos"			"11"
-				"wide"			"250"
-				"tall"			"26"
-				"autoResize"	"0"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"1"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				"labeltext"		"#MMenu_SafeMode_LeaveSafeMode"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_leave"
-				"actionsignallevel"	"3"
-
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			}
-
-			"Explanation"
-			{
-				"ControlName"			"Label"
-				"fieldName"				"Explanation"
-				"xpos"					"cs-0.5"
-				"ypos"					"30"
-				"zpos"					"100"
-				"wide"					"p0.92"
-				"tall"					"p0.5"
-				"textAlignment"			"north-west"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-				"wrap"					"1"
-				"labelText"				"#MMenu_SafeMode_Explanation"
-				"proportionaltoparent"	"1"
-				"font"					"HudFontSmallest"
-			}
-
-		} // Background
-
-		"InfoImage"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"InfoImage"
-			"xpos"					"rs1-5"
-			"ypos"					"5"
-			"zpos"					"100"
-			"wide"					"40"
-			"tall"					"o1"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"info"
-			"scaleImage"			"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"		"0"
-		}
-
-	} // SafeMode
-
+		"bgcolor_override"	"ButtonMMShadow"
+	}
+	////
 
 	"ShowPromoCodesButton"
 	{
