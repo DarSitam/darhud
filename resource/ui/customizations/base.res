@@ -1,6 +1,6 @@
 #base "_menu/customization_scoreboard.res"
 #base "_menu/customization_weapon_charge.res"
-//#base "_menu/customization_medigun_charge.res"
+#base "_menu/customization_ubercharge.res"
 
 ","
 {
