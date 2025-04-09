@@ -866,9 +866,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_TF2Button"
-			"xpos"			"5"
+			"xpos"			"cs-0.5"
 			"ypos"			"rs1.2"
-			"wide"			"20"
+			"wide"			"110"
 			"tall"			"20"
 			"proportionaltoparent" "1"
 			
@@ -885,16 +885,17 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labelText"		""
+				"labelText"		"#MMenu_MOTD_URL"
 				"font"			"HudFontSmallestBold"
-				"textAlignment"	"center"
+				"textAlignment"	"west"
+				"use_proportional_insets" "1"
+				"textinsetx"		"30"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
-				"command"		"motd_viewurl"
+				"command"		"url https://teamfortress.com"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"3"
-
 
 				"navUp"			"MOTD_CloseButton"
 				"navLeft"		"MOTD_PrevButton"
@@ -902,17 +903,15 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"defaultBgColor_override" "0 0 0 0"
-
-				"image_drawcolor"	"46 43 42 255"
+				
+				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"235 226 202 255"
 				
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
-					"xpos"			"cs-0.5"
+					"xpos"			"2"
 					"ypos"			"cs-0.5"
 					"zpos"			"1"
 					"wide"			"21"
@@ -933,7 +932,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_WatchStreamButton"
-			"xpos"			"25"
+			"xpos"			"5"
 			"ypos"			"rs1.2"
 			"zpos"			"11"
 			"wide"			"20"
