@@ -6,12 +6,12 @@
         {
             "PageScroller"
             {  
-                "Scoreboard"
+                "WeaponCharge"
                 {
                     "ControlName"							"EditablePanel"
-                    "fieldName"								"Scoreboard"
+                    "fieldName"								"WeaponCharge"
                     "xpos"									"cs-0.5"
-                    "ypos"									"5"
+                    "ypos"									"75"
                     "zpos"									"0"
                     "wide"									"f40"
                     "tall"									"50"
@@ -24,7 +24,7 @@
                         "ControlName"	"CExLabel"
                         "fieldName"		"Title"
                         "font"			"HudFontSmallBold"
-                        "labelText"		"Scoreboard"
+                        "labelText"		"Weapon Charge"
                         "textAlignment"	"west"
                         "xpos"			"cs-0.5"
                         "ypos"			"0"
@@ -54,10 +54,10 @@
                         "bgcolor_override"                      "235 227 203 255"
                     }
 
-                    "Separated"
+                    "NearAmmo"
                     {
                         "ControlName"	"CExButton"
-                        "fieldName"		"Separated"
+                        "fieldName"		"NearAmmo"
                         "xpos"			"c-130"
                         "ypos"			"rs1"
                         "zpos"			"11"
@@ -71,15 +71,15 @@
                         "actionsignallevel" "5"
                         "sound_depressed"	"UI/buttonclick.wav"
                         "sound_released"	"UI/buttonclickrelease.wav"
-                        "labeltext"		"Separated"
+                        "labeltext"		"Near Ammo"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_separated_scoreboard"
+                        "command"		"engine c_wcharge"
                     }
 
-                    "Default"
+                    "UnderCrosshair"
                     {
                         "ControlName"	"CExButton"
-                        "fieldName"		"Default"
+                        "fieldName"		"UnderCrosshair"
                         "xpos"			"c10"
                         "ypos"			"rs1"
                         "zpos"			"11"
@@ -94,9 +94,9 @@
                         "actionsignallevel" "5"
                         "sound_depressed"	"UI/buttonclick.wav"
                         "sound_released"	"UI/buttonclickrelease.wav"
-                        "labeltext"		"Centered"
+                        "labeltext"		"Near Crosshair"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_scoreboard"
+                        "command"		"engine c_wcharge_centered"
                     }
                 }
             }

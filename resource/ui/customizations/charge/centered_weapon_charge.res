@@ -31,5 +31,15 @@
 		"brighttext"	"0"
         "bgcolor_override" 		"MeterBackground"
 		"fgcolor_override" 		"White"
-	}					
+	}				 
+	
+	"ChargeMeterBG"
+	{
+		"visible"		"0"		
+	}	
+	
+	"ChargeMeterBGShadow"
+	{
+		"visible"		"0"
+	}
 }
