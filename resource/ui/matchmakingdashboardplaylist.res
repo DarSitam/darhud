@@ -37,10 +37,10 @@
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
 		"xpos"			"10"
-		"ypos"			"50"
+		"ypos"			"55"
 		"zpos"			"100"
 		"wide"			"255"
-		"tall"			"f60"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}

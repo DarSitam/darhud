@@ -5,7 +5,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ModeImage"
 		"xpos"			"0"
-		"ypos"			"-15"
+		"ypos"			"-20"
 		"zpos"			"0"
 		"wide"			"125"
 		"tall"			"125"
