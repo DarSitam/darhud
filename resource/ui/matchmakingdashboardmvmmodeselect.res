@@ -8,7 +8,7 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1002"		
-		"wide"			"300"
+		"wide"			"285"
 		"tall"			"f60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -35,7 +35,7 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
-		"xpos"		"20"
+		"xpos"		"10"
 		"ypos"		"80"
 		"zpos"		"1"
 		"wide"		"250"
@@ -151,7 +151,7 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"PracticeGroupBox"
-		"xpos"		"20"
+		"xpos"		"10"
 		"ypos"		"283"
 		"zpos"		"1"
 		"wide"		"250"

@@ -8,8 +8,8 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1002"		
-		"wide"			"275"
-		"tall"			"f0"
+		"wide"			"285"
+		"tall"			"f60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"0"
+		"xpos"		"rs1"
 		"ypos"		"25"
 		"zpos"		"99"
 		"wide"		"f0"
@@ -79,7 +79,7 @@
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"r268"
+		"xpos"			"r280"
 		"ypos"			"75"
 		"zpos"			"100"
 		"wide"			"300"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"r260"
+		"xpos"			"cs-0.5"
 		"ypos"			"r35"
 		"zpos"			"100"
 		"wide"			"245"
@@ -130,17 +130,12 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
+		"RoundedCorners"	"0"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
-	}	
-	
-	"CloseButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"9999"
 	}
 }
