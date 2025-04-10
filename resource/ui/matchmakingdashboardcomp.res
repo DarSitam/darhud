@@ -80,7 +80,7 @@
 	{
 		"fieldName"		"stats"
 		"xpos"			"r280"
-		"ypos"			"75"
+		"ypos"			"60"
 		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"f100"
@@ -109,10 +109,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"cs-0.5"
-		"ypos"			"r35"
+		"xpos"			"15"
+		"ypos"			"r30"
 		"zpos"			"100"
-		"wide"			"245"
+		"wide"			"240"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
