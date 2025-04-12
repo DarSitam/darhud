@@ -456,7 +456,7 @@
 		"if_mvm"
 		{
 			"xpos"			"c-65"
-			"ypos"			"r110"
+			"ypos"			"r95"
 			"wide"			"130"
 			"tall"			"70"
 		}
