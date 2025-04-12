@@ -1,6 +1,4 @@
-//reload menu
-vgui_cache_res_files 1
-//toggle mat_aaquality
+
 
 // load the base configuration
 //exec default.cfg
@@ -9,14 +7,16 @@ r_decal_cullsize 1
 // Setup custom controller
 exec joystick.cfg
 
-// Setup jukebox.cfg
-exec dar_jukebox.cfg
-
-// Setup customization.cfg
-exec dar_customization.cfg
 
 // run a user script file if present
 exec autoexec.cfg
+
+//reload menu
+vgui_cache_res_files 1
+//toggle mat_aaquality
+
+// Setup darhud cfg files
+exec dar_config
 
 //
 // stuff command line statements
