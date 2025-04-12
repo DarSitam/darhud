@@ -61,6 +61,26 @@
                     "proportionaltoparent"  "1"
                 }
                 
+                "MainMenuDesc"
+                {
+                    "ControlName"	"CExLabel"
+                    "fieldName"		"MainMenuTitle"
+                    "font"			"HudFontSmallest"
+                    "labelText"		"Reboot the game to apply changes"
+                    "textAlignment"	"south-east"
+                    "xpos"			"cs-0.5"
+                    "ypos"			"440"
+                    "wide"			"f2"
+                    "tall"			"15"
+                    "autoResize"	"0"
+                    "pinCorner"		"0"
+                    "visible"		"1"
+                    "enabled"		"1"
+                    "textinsetx"	"20"
+                    "fgcolor_override"	"235 227 203 255"
+                    "proportionaltoparent"  "1"
+                }
+                
                 "MainMenuSeparation"
                 {
                     "ControlName"							"EditablePanel"

@@ -8,8 +8,10 @@
 #base "customization_killstreak.res"
 #base "customization_health.res"
 #base "customization_class_selection.res"
-
 #base "customization_scoreboard.res"
+
+#base "customization_mainmenu.res"
+#base "customization_tflogo.res"
 
 ","
 {
@@ -65,10 +67,10 @@
                 "ControlName"								"CScrollableList"
                 "fieldName"									"PageScroller"
                 "xpos"										"5"
-                "ypos"										"29"
+                "ypos"										"35"
                 "zpos"										"-1"
                 "wide"										"f5"
-                "tall"										"f75"
+                "tall"										"f90"
                 "visible"									"1"
                 "enabled"									"1"
                 "proportionaltoparent"						"1"
@@ -151,6 +153,27 @@
                 "actionsignallevel"	"3"
             }
             
+            "WarningLabel"
+            {
+                "ControlName"	"CExLabel"
+                "fieldName"		"TWarningLabelitle"
+                "font"			"TF2Default"
+                "labelText"		"Leaving this menu on can causes lags. Quit it when you're done !"
+                "textAlignment"	"west"
+                "wrap"          "1"
+                "xpos"			"5"
+                "ypos"			"rs1-10"
+                "wide"			"190"
+                "tall"			"26"
+                "autoResize"	"0"
+                "pinCorner"		"0"
+                "visible"		"1"
+                "enabled"		"1"
+                "textinsetx"	"20"
+                "fgcolor_override"	"235 227 203 255"
+                "proportionaltoparent"  "1"
+            }
+            
             "reloadscript"
             {
                 "ControlName"	"CExButton"
@@ -161,8 +184,8 @@
                 "wide"			"20"
                 "tall"			"20"
                 "pinCorner"		"3"
-                "visible"		"1"
-                "enabled"		"1"
+                "visible"		"0"
+                "enabled"		"0"
                 "font"			"HudFontSmallestBold"
                 "textAlignment"	"center"
                 "sound_depressed"	"UI/buttonclick.wav"
