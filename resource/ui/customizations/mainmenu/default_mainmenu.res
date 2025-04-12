@@ -1621,113 +1621,159 @@
 		"scaleimage"	"1"
 	}
 	
-	"FriendsContainer"
+	"ExpandableFriendsList"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"FriendsContainer"
-		"xpos"			"c-291"
+		"ControlName"                "CMatchHistoryEntryPanel"
+		"xpos"			"c-300"
 		"ypos"			"295"
 		"zpos"			"10"
-		"wide"			"207"
-		"tall"			"115"
-		"visible"		"1"
+		"wide"			"225"
+		"tall"			"125"
 
-		"TitleLabel"
+		"ignorescheme"                "1"
+
+		"collapsed_height"            "225"
+		"expanded_height"            "10"
+		"resize_time"                "0"
+		"expand_direction"			"left"
+
+		"Container"        { "visible"        "0" }
+		"BottomStats"    { "visible"        "0" }
+
+		"toggle"
 		{
-			"wide"			"0"
-			"tall"			"0"
+			"ControlName"                    "Button"
+			"fieldname"						"toggle"
+			"Command"                        "toggle_collapse"
+			"xpos"							"0"
+			"ypos"							"115"
+			"zpos"							"11"
+
+			"textinsetx"					"0"
+			"textinsety"					"0"
+
+			"wide"							"10"
+			"tall"							"10"
+			
+			"labeltext"						">"
+			"defaultBgColor_override" 		"0 0 0 0"
+
+			"textAlignment"					"center"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 		}
 
-		"InnerShadow"
+		"FriendsContainer"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"InnerShadow"
-			"xpos"			"0"
+			"fieldname"		"FriendsContainer"
+			"xpos"			"cs-0.5"
 			"ypos"			"0"
-			"zpos"			"502"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"border"		"InnerShadowBorder"
-		}
-
-		"SteamFriendsList"
-		{
-			"ControlName"	"CSteamFriendsListPanel"
-			"fieldname"		"SteamFriendsList"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"501"
-			"wide"			"f0"
-			"tall"			"f0"
+			"zpos"			"10"
+			"wide"			"207"
+			"tall"			"115"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
-			"bgcolor_override" "BackgroundDefault"
 
-			"columns_count"	"2"
-			"inset_x"		"0"
-			"inset_y"		"5"
-			"row_gap"		"2"
-			"column_gap"	"0"
-			"restrict_width"	"0"
-
-			"friendpanel_kv"
+			"TitleLabel"
 			{
-				"wide"		"103"
-				"tall"		"20"
+				"wide"			"0"
+				"tall"			"0"
 			}
 
-			"ScrollBar"
+			"InnerShadow"
 			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"			"r5"
+				"ControlName"	"EditablePanel"
+				"fieldname"		"InnerShadow"
+				"xpos"			"0"
 				"ypos"			"0"
+				"zpos"			"502"
+				"wide"			"f0"
 				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
-				"zpos"			"1000"
-				"nobuttons"		"1"
+				"visible"		"1"
+				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+				"border"		"InnerShadowBorder"
+			}
 
-				"Slider"
+			"SteamFriendsList"
+			{
+				"ControlName"	"CSteamFriendsListPanel"
+				"fieldname"		"SteamFriendsList"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"501"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"proportionaltoparent"	"1"
+				"bgcolor_override" "BackgroundDefault"
+
+				"columns_count"	"2"
+				"inset_x"		"0"
+				"inset_y"		"5"
+				"row_gap"		"2"
+				"column_gap"	"0"
+				"restrict_width"	"0"
+
+				"friendpanel_kv"
 				{
-					"fgcolor_override"	"TanDark"
+					"wide"		"103"
+					"tall"		"20"
 				}
 
-				"UpButton"
+				"ScrollBar"
 				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-				}
+					"ControlName"	"ScrollBar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"r5"
+					"ypos"			"0"
+					"tall"			"f0"
+					"wide"			"5" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
 
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
-					"visible"		"0"
+					"Slider"
+					{
+						"fgcolor_override"	"TanDark"
+					}
+
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
 				}
 			}
-		}
 
-		"BelowDarken"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"BelowDarken"
-			"xpos"			"0"
-			"ypos"			"rs1-10"
-			"zpos"			"499"
-			"wide"			"f0"
-			"tall"			"105"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"BelowDarken"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"BelowDarken"
+				"xpos"			"0"
+				"ypos"			"rs1-10"
+				"zpos"			"499"
+				"wide"			"f0"
+				"tall"			"105"
+				"visible"		"1"
+				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
 
-			"bgcolor_override"	"0 0 0 100"
+				"bgcolor_override"	"0 0 0 100"
+			}
 		}
 	}
 	
@@ -2871,7 +2917,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
 		"xpos"			"c-65"
-		"ypos"			"150"
+		"ypos"			"115"
 		"zpos"			"11"
 		"wide"			"25"
 		"tall"			"24"
