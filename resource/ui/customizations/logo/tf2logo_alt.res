@@ -4,6 +4,6 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"image"			"replay/thumbnails/main_menu_logo"
+		"image"			"replay\thumbnails\logo\tflogo_alt"
     }
 }

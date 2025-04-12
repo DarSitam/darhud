@@ -1,4 +1,4 @@
 //CUSTOMIZATION
-#base "../../cfg/darhud/separated_scoreboard.txt"
+#base "../../cfg/darhud/scoreboard.txt"
 //BASE
-#base "customizations/scoreboard/scoreboard.res"
+#base "customizations/scoreboard/default_scoreboard.res"

@@ -7,10 +7,10 @@
 		"enabled"		"1"
 		"xpos"			"r218"
 		"xpos_minmode"	"c140"
-		"ypos"			"r33"
+		"ypos"			"r36"
 		"zpos"			"3"
 		"wide"			"82"
-		"tall"			"12"	
+		"tall"			"14"	
 	}	
 
 	"ChargeMeter"

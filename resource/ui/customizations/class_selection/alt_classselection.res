@@ -1097,7 +1097,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel1"
 		"xpos"			"43"
-		"ypos"			"12"
+		"ypos"			"20"
 		"zpos"			"10"
 		"wide"			"250"
 		"tall"			"18"

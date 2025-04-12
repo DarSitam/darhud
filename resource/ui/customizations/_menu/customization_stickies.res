@@ -6,12 +6,12 @@
         {
             "PageScroller"
             {  
-                "Ubercharge"
+                "Stickies"
                 {
                     "ControlName"							"EditablePanel"
-                    "fieldName"								"Ubercharge"
+                    "fieldName"								"Stickies"
                     "xpos"									"5"
-                    "ypos"									"30"
+                    "ypos"									"170"
                     "zpos"									"0"
                     "wide"									"p0.45"
                     "tall"									"70"
@@ -24,7 +24,7 @@
                         "ControlName"	"CExLabel"
                         "fieldName"		"Title"
                         "font"			"HudFontSmallBold"
-                        "labelText"		"Ubercharge"
+                        "labelText"		"Demoman Stickies"
                         "textAlignment"	"west"
                         "xpos"			"cs-0.5"
                         "ypos"			"0"
@@ -73,7 +73,7 @@
                         "sound_released"	"UI/buttonclickrelease.wav"
                         "labeltext"		"Default"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_uber"
+                        "command"		"engine c_sticky"
                     }
 
                     "Centered"
@@ -96,7 +96,7 @@
                         "sound_released"	"UI/buttonclickrelease.wav"
                         "labeltext"		"Centered"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_uber_centered"
+                        "command"		"engine c_sticky_centered"
                     }
                 }
             }

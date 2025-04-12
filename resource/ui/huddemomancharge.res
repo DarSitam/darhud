@@ -1,4 +1,4 @@
 //CUSTOMIZATION
-#base "../../cfg/darhud/centered_weapon_charge.txt"
+#base "../../cfg/darhud/demo_stickies.txt"
 //BASE
-#base "../../darhud_base/in_game/weapon_charge/weapon_charge.res"
+#base "customizations/charge/default_weapon_charge.res"

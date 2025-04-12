@@ -1,4 +1,4 @@
 //CUSTOMIZATION
-#base "../../darhud_addons/top_right_killstreak.res"
+#base "../../cfg/darhud/killstreak.txt"
 //BASE
-#base "../../darhud_base/in_game/counters/killstreak.res"
+#base "customizations/killstreak/default_killstreak.res"

@@ -6,12 +6,12 @@
         {
             "PageScroller"
             {  
-                "Ubercharge"
+                "Killstreak"
                 {
                     "ControlName"							"EditablePanel"
-                    "fieldName"								"Ubercharge"
-                    "xpos"									"5"
-                    "ypos"									"30"
+                    "fieldName"								"Killstreak"
+                    "xpos"									"250"
+                    "ypos"									"170"
                     "zpos"									"0"
                     "wide"									"p0.45"
                     "tall"									"70"
@@ -24,7 +24,7 @@
                         "ControlName"	"CExLabel"
                         "fieldName"		"Title"
                         "font"			"HudFontSmallBold"
-                        "labelText"		"Ubercharge"
+                        "labelText"		"Killstreak"
                         "textAlignment"	"west"
                         "xpos"			"cs-0.5"
                         "ypos"			"0"
@@ -63,7 +63,6 @@
                         "zpos"			"11"
                         "wide"			"120"
                         "tall"			"20"
-                        "pinCorner"		"3"
                         "visible"		"1"
                         "enabled"		"1"
                         "font"			"HudFontSmallestBold"
@@ -73,13 +72,13 @@
                         "sound_released"	"UI/buttonclickrelease.wav"
                         "labeltext"		"Default"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_uber"
+                        "command"		"engine c_ks"
                     }
 
-                    "Centered"
+                    "TopRight"
                     {
                         "ControlName"	"CExButton"
-                        "fieldName"		"Centered"
+                        "fieldName"		"TopRight"
                         "xpos"			"cs-0.5"
                         "ypos"			"44"
                         "zpos"			"11"
@@ -94,9 +93,9 @@
                         "actionsignallevel" "5"
                         "sound_depressed"	"UI/buttonclick.wav"
                         "sound_released"	"UI/buttonclickrelease.wav"
-                        "labeltext"		"Centered"
+                        "labeltext"		"Top-Right"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_uber_centered"
+                        "command"		"engine c_ks_topright"
                     }
                 }
             }

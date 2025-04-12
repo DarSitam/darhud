@@ -1,4 +1,4 @@
 //CUSTOMIZATION
-#base "../../darhud_addons/centered_middle_meter.res"
+#base "../../cfg/darhud/middle_meter.txt"
 //BASE
-#base "../../darhud_base/in_game/meters/meter_middle.res"
+#base "customizations/meters/default_meter_middle.res"

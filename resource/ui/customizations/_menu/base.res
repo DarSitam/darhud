@@ -1,6 +1,15 @@
-#base "_menu/customization_scoreboard.res"
-#base "_menu/customization_weapon_charge.res"
-#base "_menu/customization_ubercharge.res"
+#base "title.res"
+
+#base "customization_weapon_charge.res"
+#base "customization_ubercharge.res"
+#base "customization_meters.res"
+#base "customization_metal.res"
+#base "customization_stickies.res"
+#base "customization_killstreak.res"
+#base "customization_health.res"
+#base "customization_class_selection.res"
+
+#base "customization_scoreboard.res"
 
 ","
 {
@@ -55,11 +64,11 @@
             {
                 "ControlName"								"CScrollableList"
                 "fieldName"									"PageScroller"
-                "xpos"										"cs-0.5"
+                "xpos"										"5"
                 "ypos"										"29"
                 "zpos"										"-1"
-                "wide"										"f2"
-                "tall"										"f70"
+                "wide"										"f5"
+                "tall"										"f75"
                 "visible"									"1"
                 "enabled"									"1"
                 "proportionaltoparent"						"1"
@@ -68,7 +77,7 @@
 
                 "Scrollbar"
                 {
-                    "xpos"									"rs1-1"
+                    "xpos"									"rs1-2"
                     "ypos"									"0"
                     "wide"									"3"
                     "tall"									"f0"
@@ -139,6 +148,28 @@
                 "labeltext"		"#TR_Generic_ReloadTitle"
                 "proportionaltoparent"	"1"
                 "command"		"engine hud_reloadscheme"
+                "actionsignallevel"	"3"
+            }
+            
+            "reloadscript"
+            {
+                "ControlName"	"CExButton"
+                "fieldName"		"reloadscript"
+                "xpos"			"5"
+                "ypos"			"r25"
+                "zpos"			"11"
+                "wide"			"20"
+                "tall"			"20"
+                "pinCorner"		"3"
+                "visible"		"1"
+                "enabled"		"1"
+                "font"			"HudFontSmallestBold"
+                "textAlignment"	"center"
+                "sound_depressed"	"UI/buttonclick.wav"
+                "sound_released"	"UI/buttonclickrelease.wav"
+                "labeltext"		""
+                "proportionaltoparent"	"1"
+                "command"		"engine exec dar_customization"
                 "actionsignallevel"	"3"
             }
         }

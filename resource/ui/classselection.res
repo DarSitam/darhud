@@ -1,5 +1,4 @@
 //CUSTOMIZATION
-#base	"../../darhud_addons/alt_classselection.res"
-#base	"../../darhud_addons/old_classselection.res"
+#base "../../cfg/darhud/class_selection.txt"
 //BASE
-#base "../../darhud_base/in_game/popups/classselection.res"
+#base "customizations/class_selection/default_classselection.res"
