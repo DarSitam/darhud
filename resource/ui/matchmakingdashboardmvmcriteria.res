@@ -9,7 +9,7 @@
 		"ypos"			"0"
 		"zpos"			"1003"
 		"wide"			"420"
-		"tall"			"f0"
+		"tall"			"f60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -163,7 +163,7 @@
 		"xpos"			"r405"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
-		"wide"			"410"
+		"wide"			"400"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -212,12 +212,5 @@
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 		"fgcolor_override"	"MainMenuLabel"
 		"proportionaltoparent"	"1"
-	}	
-	
-	"CloseButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"9999"
 	}
 }

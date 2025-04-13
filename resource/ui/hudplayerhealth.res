@@ -1,4 +1,4 @@
 //CUSTOMIZATION
-#base "../../darhud_addons/overheal_cross_default_place.res"
+#base "../../cfg/darhud_overheal.txt"
 //BASE
-#base "../../darhud_base/in_game/health/health.res"
+#base "customizations/health/default_health.res"

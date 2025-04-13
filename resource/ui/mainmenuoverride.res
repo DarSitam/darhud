@@ -1,8 +1,9 @@
 #base "../preload.res"
 
 //CUSTOMIZATION
-#base "../../darhud_addons/mainmenu_alt_logo.res"
-#base "../../darhud_addons/mainmenu_remove_friendslist.res"
-#base "../../darhud_addons/old_mainmenu.res"
+#base "../../cfg/darhud_tflogo.txt"
+#base "../../cfg/darhud_friendslist.txt"
+#base "../../cfg/darhud_mainmenu.txt"
 //BASE
-#base "../../darhud_base/main_menu/mainmenu.res"
+#base "customizations/_menu/base.res"
+#base "customizations/mainmenu/default_mainmenu.res"

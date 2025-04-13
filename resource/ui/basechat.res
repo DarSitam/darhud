@@ -6,8 +6,8 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"r205"
+		"xpos"			"30"
+		"ypos"			"r215"
 		"wide"	 		"270"
 		"tall"	 		"120"
 		"PaintBackgroundType" "0"
@@ -21,9 +21,9 @@
 		"fieldName" 		ChatInputLine
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"385"
-		"wide"	 		"270"
+		"xpos"			"5"
+		"ypos"			"375"
+		"wide"	 		"260"
 		"tall"	 		"2"
 		"PaintBackgroundType"	"0"
 	}

@@ -3376,13 +3376,67 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}		
+				
+		customMainMenuTopButtonPlay
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"GreenSolid"
+		}
 		
+		customMainMenuTopButtonPlayArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"CreditsGreen"
+		}
+
+		customMainMenuTopButtonQuit
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"132 28 0 255"
+		}
+		
+		customMainMenuTopButtonQuitArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"192 28 0 255"
+		}
+
+		customMainMenuTopButtonRegular
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"ButtonDefault"
+		}
+		
+		customMainMenuTopButtonRegularArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+							
+			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"color"					"ButtonArmed"
+		}	
+
 		customMainMenuButtonItems
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_items"	
+			"image"					"replay/thumbnails/mainmenu/button1"	
 			"color"					"ButtonMM"
 		}
 		customMainMenuButtonItemsArmed
@@ -3390,7 +3444,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_items"	
+			"image"					"replay/thumbnails/mainmenu/button1"	
 			"color"					"ButtonArmedMM"
 		}
 				
@@ -3399,7 +3453,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"image"					"replay/thumbnails/mainmenu/button2"	
 			"color"					"ButtonMM"
 		}
 		
@@ -3408,7 +3462,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/button_shop"	
+			"image"					"replay/thumbnails/mainmenu/button2"	
 			"color"					"ButtonArmedMM"
 		}		
 		
@@ -3457,22 +3511,22 @@ Scheme
 				"1"
 				{
 					"color" "ButtonArmed"
-					"offset" "0 1"
+					"offset" "0 0"
 				}				
 				"2"
 				{
 					"color" "ButtonArmed"
-					"offset" "0 1"
+					"offset" "0 0"
 				}				
 				"3"
 				{
 					"color" "ButtonArmed"
-					"offset" "0 1"
+					"offset" "0 0"
 				}				
 				"4"
 				{
 					"color" "ButtonArmed"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -3481,22 +3535,22 @@ Scheme
 				"1"
 				{
 					"color" "ButtonArmed"
-					"offset" "1 1"
+					"offset" "1 0"
 				}				
 				"2"
 				{
 					"color" "ButtonArmed"
-					"offset" "1 1"
+					"offset" "1 0"
 				}				
 				"3"
 				{
 					"color" "ButtonArmed"
-					"offset" "1 1"
+					"offset" "1 0"
 				}				
 				"4"
 				{
 					"color" "ButtonArmed"
-					"offset" "1 1"
+					"offset" "1 0"
 				}
 			}
 

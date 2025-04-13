@@ -248,7 +248,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"cs-0.5"
+		"xpos"				"cs-1"
 		"ypos"				"r14"
 		"zpos"				"-2"
 		"wide"				"57"
@@ -1427,6 +1427,15 @@
 		"ypos_lodef"        "90"
 		"wide"            "f0"
 		"tall"            "100"
+	}	
+	
+	"MMDashBoardPopupContainer"
+	{
+		"xpos"					"cs-0.5"
+		"ypos"					"-470"
+		"wide"					"f0"
+		"tall"					"550"
+		"mouseinputenabled"		"1"
 	}
 }
 

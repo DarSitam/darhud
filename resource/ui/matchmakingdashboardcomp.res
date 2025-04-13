@@ -8,8 +8,8 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1002"		
-		"wide"			"275"
-		"tall"			"f0"
+		"wide"			"285"
+		"tall"			"f60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -18,15 +18,15 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"r300"
+		"xpos"		"rs1"
 		"ypos"		"25"
 		"zpos"		"99"
-		"wide"		"300"
-		"tall"		"25"
+		"wide"		"f0"
+		"tall"		"17"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFontMediumBold"
 		"fgcolor_override"	"MainMenuLabel"
 		
 		"mouseinputenabled"	"0"
@@ -79,8 +79,8 @@
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"r268"
-		"ypos"			"75"
+		"xpos"			"r280"
+		"ypos"			"60"
 		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"f100"
@@ -109,10 +109,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"r260"
-		"ypos"			"r35"
+		"xpos"			"15"
+		"ypos"			"r30"
 		"zpos"			"100"
-		"wide"			"245"
+		"wide"			"240"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -130,17 +130,12 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
+		"RoundedCorners"	"0"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
-	}	
-	
-	"CloseButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"9999"
 	}
 }

@@ -52,8 +52,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"0"		
-			"wide"			"o1"
-			"tall"			"p0.12"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -63,10 +63,10 @@
 
 			if_mini
 			{
-				"xpos"		"cs-0.5-228"
+				"xpos"		"cs-0.5-240"
 				"ypos"		"cs-0.5"
-				"wide"		"200"
-				"tall"		"200"
+				"wide"		"160"
+				"tall"		"100"
 			}
 
 			"paintbackground"	"0"
@@ -81,7 +81,7 @@
 				"angles_x"	"0"
 				"angles_y"	"180"
 				"angles_z"	"0"
-				"origin_x"		"45"
+				"origin_x"		"35"
 				"origin_y"		"0"
 				"origin_z"		"0"
 				"spotlight"	"1"
@@ -206,14 +206,14 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"0"
+			"xpos"			"9999"
 			"ypos"			"3"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFontSmallBold"
 			"fgcolor_override"	"MainMenuLabel"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
@@ -229,23 +229,23 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"0"
-			"ypos"			"20"
-			"wide"			"f0"
+			"xpos"			"60"
+			"ypos"			"0"
+			"wide"			"f60"
 			"zpos"			"100"
 			"tall"			"21"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"MainMenuLabel"
-			"textAlignment"	"north-west"
+			"textAlignment"	"west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
-				"ypos"	"4"
+				"ypos"	"0"
 			}
 
 			"fonts"
@@ -260,23 +260,23 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"0"
-			"ypos"			"31"
-			"wide"			"f0"
-			"zpos"			"100"
+			"xpos"			"60"
+			"ypos"			"13"
+			"wide"			"f60"
+			"zpos"			"225"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"MainMenuLabel"
-			"textAlignment"	"north-west"
+			"textAlignment"	"west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
-				"ypos"	"4"
+				"ypos"	"0"
 			}
 
 			"fonts"
@@ -300,7 +300,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"f0"
-			"tall"			"100"
+			"tall"			"200"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -315,9 +315,9 @@
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"0"
-				"ypos"			"rs1-40"
-				"wide"			"150"
+				"xpos"			"60"
+				"ypos"			"18"
+				"wide"			"f67"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
@@ -423,8 +423,8 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"160"
-				"ypos"			"20"
+				"xpos"			"0"
+				"ypos"			"90"
 				"wide"			"190"
 				"tall"			"40"
 				"visible"		"1"

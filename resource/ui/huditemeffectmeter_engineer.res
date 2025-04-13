@@ -1,4 +1,4 @@
-#base "../../darhud_base/in_game/counters/counter.res"
+#base "huditemeffectmeter_counter.res"
 
 "."
 {

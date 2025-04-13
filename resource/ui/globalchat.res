@@ -5,7 +5,7 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"94"
+		"xpos"					"0"
 		"ypos"					"10"
 		"zpos"					"1001"
 		"wide"					"200"
@@ -17,7 +17,7 @@
 
 		"log_font_small"			"HudFontSmallest"
 		"log_font_medium"			"HudFontSmallest"
-		"log_font_large"			"HudFontMediumSmallSecondary"
+		"log_font_large"			"HudFontSmallest"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"
@@ -42,7 +42,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"Default"
+		"font"			"HudFontSmallest"
 		
 		"bgcolor_override"	"0 0 0 50"
 
@@ -85,21 +85,21 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"95"
-		"ypos"					"rs1+19"
+		"xpos"					"1"
+		"ypos"					"206"
 		"zpos"			"1"
-		"wide"			"f2"
+		"wide"			"198"
 		"tall"			"13"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 
-		"pinCorner"		"2"
+		//"pinCorner"		"2"
 		//"autoResize"	"1"
+		"pin_to_sibling" "partychat"
 	}
 
 	"EntryShadow"

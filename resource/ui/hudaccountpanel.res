@@ -1,4 +1,4 @@
 //CUSTOMIZATION
-#base "../../darhud_addons/centered_engineer_metal.res"
+#base "../../cfg/darhud_engi_metal.txt"
 //BASE
-#base "../../darhud_base/in_game/engineer_metal/engineer_metal.res"
+#base "customizations/engi_metal/default_engineer_metal.res"
