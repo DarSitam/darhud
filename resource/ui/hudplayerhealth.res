@@ -1,4 +1,4 @@
 //CUSTOMIZATION
-#base "../../cfg/darhud/overheal.txt"
+#base "../../cfg/darhud_overheal.txt"
 //BASE
 #base "customizations/health/default_health.res"

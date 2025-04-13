@@ -1,5 +1,5 @@
 //CUSTOMIZATION
-#base "../../cfg/darhud/damagevalue.txt"
+#base "../../cfg/darhud_damagevalue.txt"
 
 "Resource/UI/HudDamageAccount.res"
 {
