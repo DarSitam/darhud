@@ -16,8 +16,7 @@ vgui_cache_res_files 1
 //toggle mat_aaquality
 
 // Setup darhud cfg files
-exec dar_customization
-exec dar_jukebox
+exec dar_scripts.cfg
 
 //
 // stuff command line statements
