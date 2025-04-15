@@ -1,5 +1,5 @@
 #base "SourceSchemeBase.res"
-#base "../darhud_addons/customcolors.res"
+#base "../customization/customcolors.res"
 
 Scheme
 {
