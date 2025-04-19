@@ -18,15 +18,30 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BG"
-		"xpos"		"0"
+		"xpos"		"rs1"
 		"ypos"		"0"
-		"zpos"		"99"
-		"wide"		"o1"
+		"zpos"		"90"
+		"wide"		"o2"
 		"tall"		"f0"
 		"proportionaltoparent"	"1"
 		"image"	"replay/thumbnails/mainmenu/illustrations/process"
 		"scaleImage"	"1"
 
+	}
+	
+	"VerticalBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"VerticalBG"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"91"
+		"wide"			"290"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"TransparentStripe"
 	}
 
 	"Title"
@@ -94,13 +109,14 @@
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"rs1"
+		"xpos"			"rs1-15"
 		"ypos"			"65"
 		"zpos"			"100"
-		"wide"			"270"
+		"wide"			"260"
 		"tall"			"370"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+		"bgcolor_override"	"BackgroundDefault"
 	}
 
 	"ToolTipButtonHack"
@@ -124,10 +140,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"r260"
+		"xpos"			"rs1-15"
 		"ypos"			"r35"
 		"zpos"			"100"
-		"wide"			"245"
+		"wide"			"260"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -157,5 +173,28 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"9999"
+	}	
+	
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"20"
+		"ypos"			"rs1"
+		"zpos"			"100"
+		"wide"			"210"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Ladder_6v6"
+
+		"show_model"	"1"
+		"show_name"		"0"
+		"show_type"		"0"
+		"show_progress"	"1"
+
+		"bgcolor_override"		"TransparentStripe"
 	}
 }

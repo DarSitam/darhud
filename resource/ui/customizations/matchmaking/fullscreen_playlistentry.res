@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ModeImage"
-		"xpos"			"7"
+		"xpos"			"cs-0.5"
 		"ypos"			"7"
 		"zpos"			"0"
-		"wide"			"176"
+		"wide"			"170"
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"

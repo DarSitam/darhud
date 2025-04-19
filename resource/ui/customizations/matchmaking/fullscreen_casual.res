@@ -13,29 +13,44 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
-
+		
 	"BG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BG"
-		"xpos"		"-20"
+		"xpos"		"rs1"
 		"ypos"		"0"
-		"zpos"		"99"
-		"wide"		"o1"
+		"zpos"		"90"
+		"wide"		"o2"
 		"tall"		"f0"
 		"proportionaltoparent"	"1"
 		"image"	"replay/thumbnails/mainmenu/illustrations/mountainlab"
 		"scaleImage"	"1"
-
+	}		
+	
+	"VerticalBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"VerticalBG"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"91"
+		"wide"			"310"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"TransparentStripe"
 	}
+
 	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"r300"
+		"xpos"		"rs1"
 		"ypos"		"25"
 		"zpos"		"100"
-		"wide"		"300"
+		"wide"		"310"
 		"tall"		"25"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
@@ -50,10 +65,10 @@
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"r300"
+		"xpos"			"rs1"
 		"ypos"			"20"
 		"zpos"			"100"
-		"wide"			"300"
+		"wide"			"310"
 		"tall"			"f74"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -80,10 +95,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"r290"
+		"xpos"			"rs1-10"
 		"ypos"			"r35"
 		"zpos"			"100"
-		"wide"			"280"
+		"wide"			"290"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -113,5 +128,28 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"9999"
+	}
+	
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"20"
+		"ypos"			"rs1"
+		"zpos"			"100"
+		"wide"			"210"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_model"	"1"
+		"show_name"		"0"
+		"show_type"		"0"
+		"show_progress"	"1"
+
+		"bgcolor_override"		"TransparentStripe"
 	}
 }

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/mainmenu/illustrations/mannworks"
+	"$basetexture" "vgui/replay/thumbnails/mainmenu/illustrations/potatotf"
     "$translucent"        "1"
     "$alpha"            "1"
     "$vertexalpha"        "1"

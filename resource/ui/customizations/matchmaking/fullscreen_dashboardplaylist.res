@@ -37,9 +37,9 @@
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
 		"xpos"			"cs-0.5"
-		"ypos"			"55"
+		"ypos"			"50"
 		"zpos"			"100"
-		"wide"			"600"
+		"wide"			"580"
 		"tall"			"f85"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -61,7 +61,7 @@
 		{
 			"ControlName"	"CPlayListEntry"
 			"fieldName"		"CasualEntry"
-			"xpos"			"c-300"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"190"
 			"tall"			"195"
@@ -105,7 +105,7 @@
 		{
 			"ControlName"	"CPlayListEntry"
 			"fieldName"		"MvMEntry"
-			"xpos"			"c110"
+			"xpos"			"rs1"
 			"ypos"			"0"
 			"wide"			"190"
 			"tall"			"195"
@@ -122,13 +122,141 @@
 				"ypos"			"153"
 			}
 		}
+		
+		"QuickplayEntry"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"VerticalBG"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"190"
+			"tall"			"195"
+			"proportionaltoparent"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"0"
+
+			"BGColor"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"BGColor"
+				"xpos"			"7"
+				"ypos"			"7"
+				"zpos"			"-1"
+				"wide"			"f14"
+				"tall"			"f14"
+				"visible"		"1"
+				"enabled"		"1"
+				
+				"proportionaltoparent"	"1"
+				"bgcolor_override"	"TanLight"
+			}
+
+			"ModeImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"ModeImage"
+				"xpos"			"7"
+				"ypos"			"-7"
+				"zpos"			"0"
+				"wide"			"176"
+				"tall"			"176"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"	
+				"proportionaltoparent"	"1"
+				"image"			"illustrations/quickplay"
+			}
+
+			"PlayListDropShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"PlayListDropShadow"
+				"xpos"			"2"
+				"ypos"			"2"
+				"zpos"			"1000"
+				"wide"			"f4"
+				"tall"			"f4"
+				"visible"		"1"
+				"PaintBackgroundType"	"2"
+				"border"		"OuterShadowBorder"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+			}
+
+			"ModeButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"ModeButton"
+				"xpos"			"7"
+				"ypos"			"125"
+				"zpos"			"6"
+				"wide"			"f14"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"QUICKPLAY"
+				"textinsetx"	"0"
+				"use_proportional_insets" "1"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"command"		"%button_command%"
+				"proportionaltoparent" "1"
+				"actionsignallevel"	"2"
+
+				//"border_default"	"MainMenuMiniButtonDefault"
+				//"border_armed"		"MainMenuMiniButtonArmed"
+				"paintbackground"	"1"
+				"roundedcorners"	"0"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override"		"TanLight"
+				"depressedFgColor_override" "TanLight"
+			}	
+
+			"DescLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"DescLabel"
+				"font"			"TF2DefaultLarge"
+				"labelText"		"#TF_GameModeDesc_Quickplay"
+				"textAlignment"	"center"
+				"xpos"			"10"
+				"ypos"			"155"
+				"zpos"			"2"
+				"wide"			"f20"
+				"tall"			"33"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"wrap"			"1"
+				"centerwrap"	"1"
+				"fgcolor_override" "Black"
+				"proportionaltoparent" "1"
+				"mouseinputenabled"	"0"
+			}
+
+			"DescLabelShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"DescLabelShadow"
+				"xpos"			"9999"
+			}
+		}
 
 		"ServerBrowserEntry"
 		{
 			"ControlName"	"CPlayListEntry"
 			"fieldName"		"ServerBrowserEntry"
-			"xpos"			"c-200"
-			"ypos"			"r195"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1"
 			"wide"			"190"
 			"tall"			"195"
 			"proportionaltoparent"	"1"
@@ -188,8 +316,8 @@
 		{
 			"ControlName"	"CPlayListEntry"
 			"fieldName"		"TrainingEntry"
-			"xpos"			"c10"
-			"ypos"			"r195"
+			"xpos"			"rs1"
+			"ypos"			"rs1"
 			"wide"			"190"
 			"tall"			"195"
 			"proportionaltoparent"	"1"

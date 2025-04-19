@@ -18,15 +18,30 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BG"
-		"xpos"		"-40"
+		"xpos"		"rs1"
 		"ypos"		"0"
-		"zpos"		"99"
-		"wide"		"480"
+		"zpos"		"90"
+		"wide"		"o2"
 		"tall"		"f0"
 		"proportionaltoparent"	"1"
-		"image"	"replay/thumbnails/mainmenu/illustrations/mannworks"
+		"image"	"replay/thumbnails/mainmenu/illustrations/bigrock"
 		"scaleImage"	"1"
 
+	}
+	
+	"VerticalBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"VerticalBG"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"91"
+		"wide"			"415"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"TransparentStripe"
 	}
 
 	"criteria"
@@ -206,7 +221,7 @@
 		"fieldName"		"JoinLateCheckButton"
 		"xpos"		"rs1"
 		"ypos"		"rs1-9"
-		"zpos"		"50"
+		"zpos"		"92"
 		"wide"		"140"
 		"tall"		"20"
 		"font"			"HudFontSmallest"
@@ -220,7 +235,7 @@
 		"fieldName"		"JoinLateLabel"
 		"xpos"		"rs1"
 		"ypos"		"rs1-9"
-		"zpos"		"50"
+		"zpos"		"92"
 		"wide"		"115"
 		"tall"		"20"
 		"font"			"HudFontSmallest"

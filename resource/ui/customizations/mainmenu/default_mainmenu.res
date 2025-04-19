@@ -413,6 +413,7 @@
 
 		"show_model"	"0"
 		"show_type"		"1"
+		"show_name"		"0"
 	}
 
 	"NoGCMessage"
