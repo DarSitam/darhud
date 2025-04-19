@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"9995"
+		"xpos"			"5"
 		"labelText"		"X"
 
 		if_left
