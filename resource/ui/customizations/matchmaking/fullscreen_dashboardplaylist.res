@@ -91,10 +91,10 @@
 
 			"image_name"		"illustrations/gamemode_cp"
 			"button_token"		"#MMenu_PlayList_Competitive_Button"
-			"button_command"	"play_competitive"
+			"button_command"	"comp_access_info"
 			"desc_token"		"#MMenu_PlayList_Competitive_Desc"
-			//"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
-			"matchgroup"		"1"
+			"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
+			//"matchgroup"		"1"
 
 			if_event
 			{
@@ -136,7 +136,7 @@
 
 			"image_name"		"illustrations/quickplay"
 			"button_token"		"#quickplay"
-			"button_command"	"comp_access_info"
+			"button_command"	"url https://quickplay.tf"
 			"desc_token"		"#TF_GameModeDesc_Quickplay"
 		}
 
