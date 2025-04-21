@@ -1121,7 +1121,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"5"
 		"wide"					"f0"
 		"tall"					"50"
 	}	
@@ -1431,9 +1431,7 @@
 	
 	"MMDashBoardPopupContainer"
 	{
-		"xpos"					"cs-0.5"
-		"ypos"					"-470"
-		"wide"					"f0"
+		"ypos"					"-293"
 		"tall"					"550"
 		"mouseinputenabled"		"1"
 	}
