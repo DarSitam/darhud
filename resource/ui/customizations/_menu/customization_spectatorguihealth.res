@@ -6,12 +6,12 @@
         {
             "PageScroller"
             {  
-                "Stickies"
+                "SpctatorGUIHealth"
                 {
                     "ControlName"							"EditablePanel"
-                    "fieldName"								"Stickies"
+                    "fieldName"								"SpctatorGUIHealth"
                     "xpos"									"5"
-                    "ypos"									"180"
+                    "ypos"									"255"
                     "zpos"									"0"
                     "wide"									"p0.45"
                     "tall"									"70"
@@ -24,7 +24,7 @@
                         "ControlName"	"CExLabel"
                         "fieldName"		"Title"
                         "font"			"HudFontSmallBold"
-                        "labelText"		"Demoman Stickies"
+                        "labelText"		"Target ID Health"
                         "textAlignment"	"west"
                         "xpos"			"cs-0.5"
                         "ypos"			"0"
@@ -73,13 +73,13 @@
                         "sound_released"	"UI/buttonclickrelease.wav"
                         "labeltext"		"Default"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_sticky"
+                        "command"		"engine c_spgui"
                     }
 
-                    "Centered"
+                    "Crosshair"
                     {
                         "ControlName"	"CExButton"
-                        "fieldName"		"Centered"
+                        "fieldName"		"Crosshair"
                         "xpos"			"cs-0.5"
                         "ypos"			"44"
                         "zpos"			"11"
@@ -94,9 +94,9 @@
                         "actionsignallevel" "5"
                         "sound_depressed"	"UI/buttonclick.wav"
                         "sound_released"	"UI/buttonclickrelease.wav"
-                        "labeltext"		"Centered"
+                        "labeltext"		"Crosshair"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_sticky_centered"
+                        "command"		"engine c_spgui_alt"
                     }
                 }
             }
