@@ -12,8 +12,7 @@ exec joystick.cfg
 exec autoexec.cfg
 
 //reload menu
-vgui_cache_res_files 1
-//toggle mat_aaquality
+wait 5; vgui_cache_res_files 0; showconsole; toggle mat_aaquality; vgui_cache_res_files 1; hideconsole
 
 // Setup darhud cfg files
 exec dar_scripts.cfg
