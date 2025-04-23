@@ -3095,6 +3095,19 @@
 			"angles_z"		"0"
 		}
 	}
+
+	"DashboardDimmer"        // allows for clicking off playlist frames
+    {
+		"xpos"				"0"
+		"ypos"				"0"
+        "wide"                "f0"
+        "tall"                "f60"
+        "paintbackground"    "1"
+        "paintborder"        "0"
+        "roundedcorners"    "0"
+        "bgColor_override"       "0 0 0 100" // Set the background color to black with transparency (alpha = 100)
+    	"fgColor_override"       "0 0 0 0"   // Set the foreground color (text, if applicable) to fully transparent
+	}
 	
 	"PopupPinner"
 	{
