@@ -492,28 +492,5 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"9999"
-	}	
-	
-	"RankPanel"
-	{
-		"ControlName"	"CPvPRankPanel"
-		"fieldName"		"RankPanel"
-		"xpos"			"20"
-		"ypos"			"rs1"
-		"zpos"			"100"
-		"wide"			"210"
-		"tall"			"100"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-
-		"matchgroup"	"MatchGroup_Ladder_6v6"
-
-		"show_model"	"1"
-		"show_name"		"0"
-		"show_type"		"0"
-		"show_progress"	"1"
-
-		"bgcolor_override"		"TransparentStripe"
 	}
 }

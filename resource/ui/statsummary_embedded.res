@@ -78,12 +78,61 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
+
+	"RankPanel_Casu"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel_Casu"
+		"xpos"			"c-285"
+		"ypos"			"3"
+		"zpos"			"100"
+		"wide"			"398"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_model"	"1"
+		"show_type"		"1"
+		"show_progress" "1"
+		"show_name"		"0"
+
+		"bgcolor_override"	"0 0 0 80"
+	}
+
+	"RankPanel_Comp"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel_Comp"
+		"xpos"			"c-285"
+		"ypos"			"57"
+		"zpos"			"100"
+		"wide"			"398"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Ladder_6v6"
+
+		"show_model"	"1"
+		"show_type"		"1"
+		"show_progress" "1"
+		"show_name"		"0"
+
+		"bgcolor_override"	"0 0 0 80"
+	}
+
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"-130"
+		"ypos"		"-100"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
@@ -2398,8 +2447,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
-		"xpos"			"30"
-		"ypos"			"280"
+		"xpos"			"c-285"
+		"ypos"			"300"
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
@@ -2417,7 +2466,7 @@
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
 		"xpos"			"c-245"
-		"ypos"			"280"
+		"ypos"			"295"
 		"zpos"			"12"
 		"wide"			"340"
 		"tall"			"45"
@@ -2431,8 +2480,8 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"NextTipButton"
-		"xpos"			"25"
-		"ypos"			"320"
+		"xpos"			"c-285"
+		"ypos"			"340"
 		"zpos"			"6"
 		"wide"			"90"
 		"tall"			"15"
@@ -2453,7 +2502,7 @@
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
 		"xpos"			"c124"
-		"ypos"			"310"
+		"ypos"			"340"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
