@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"23"
+		"xpos"			"24"
 		"ypos"			"19"
 		"zpos"			"1"
 		"wide"			"12"
