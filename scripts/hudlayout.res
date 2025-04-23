@@ -1431,7 +1431,7 @@
 	
 	"MMDashBoardPopupContainer"
 	{
-		"ypos"					"-293"
+		"ypos"					"-470"
 		"tall"					"550"
 		"mouseinputenabled"		"1"
 	}
