@@ -1373,6 +1373,7 @@
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
+		"zpos"	"11"
 		"wide"	"f0"
 		"tall"	"f0"
 	}
@@ -1427,13 +1428,6 @@
 		"ypos_lodef"        "90"
 		"wide"            "f0"
 		"tall"            "100"
-	}	
-	
-	"MMDashBoardPopupContainer"
-	{
-		"ypos"					"-293"
-		"tall"					"550"
-		"mouseinputenabled"		"1"
 	}
 }
 
