@@ -3377,21 +3377,21 @@ Scheme
 			"draw_corner_height" 	"4"	
 		}		
 				
-		customMainMenuTopButtonPlay
+		customMainMenuPlayButton
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"image"					"replay/thumbnails/mainmenu/button2"	
 			"color"					"GreenSolid"
 		}
 		
-		customMainMenuTopButtonPlayArmed
+		customMainMenuPlayButtonArmed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 							
-			"image"					"replay/thumbnails/mainmenu/topbutton_right"	
+			"image"					"replay/thumbnails/mainmenu/button2"	
 			"color"					"CreditsGreen"
 		}
 

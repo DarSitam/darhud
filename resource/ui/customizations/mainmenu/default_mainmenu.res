@@ -231,7 +231,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
 		"xpos"			"c-315"
-		"ypos"			"40"
+		"ypos"			"20"
 		"zpos"			"-2"
 		"wide"			"256"
 		"tall"			"64"
@@ -269,7 +269,7 @@
 		"fieldname"		"VerticalBG"
 		"xpos"			"c-300"
 		"ypos"			"0"
-		"zpos"			"-10"
+		"zpos"			"-90"
 		"wide"			"225"
 		"tall"			"480"
 		"visible"		"1"
@@ -283,7 +283,7 @@
 		"fieldname"		"VerticalBGBorder"
 		"xpos"			"5"
 		"ypos"			"2"
-		"zpos"			"-11"
+		"zpos"			"-91"
 		"wide"			"234"
 		"tall"			"480"
 		"visible"		"1"
@@ -304,152 +304,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-	}
-
-	"RankModelPanel"
-	{
-		"ControlName"	"CPvPRankPanel"
-		"fieldName"		"RankModelPanel"
-		"xpos"			"c-300"
-		"ypos"			"225"
-		"zpos"			"10"
-		"wide"			"60"
-		"tall"			"60"
-		"visible"		"1"
-		"proportionaltoparent"	"0"
-		"mouseinputenabled"	"1"
-
-		"matchgroup"	"MatchGroup_Casual_12v12"
-
-		"show_progress"	"0"
-	}
-
-	"CycleRankTypeButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"c-300"
-		"ypos"			"227"
-		"zpos"			"11"
-		"wide"			"11"
-		"tall"			"11"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"25"
-		"labelText"		""
-		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"command"		"open_rank_type_menu"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"vo/null.mp3"
-		"actionsignallevel" "1"
-		"proportionaltoparent"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"0"
-		"paintborder"		"0"
-
-		"image_drawcolor"	"235 226 202 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"f2"
-			"tall"			"f2"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled" "0"
-		}
-	}
-
-	"RankTooltipPanel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-90"
-		"ypos"			"230"
-		"zpos"			"11"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"1"
-		"image"			"info"
-		"scaleImage"	"1"
-		"alpha"			"75"
-	}
-
-	"RankPanel"
-	{
-		"ControlName"	"CPvPRankPanel"
-		"fieldName"		"RankPanel"
-		"xpos"			"c-300"
-		"ypos"			"227"
-		"zpos"			"2"
-		"wide"			"225"
-		"tall"			"50"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-
-		"matchgroup"	"MatchGroup_Casual_12v12"
-
-		"show_model"	"0"
-		"show_type"		"1"
-		"show_name"		"0"
-	}
-
-	"NoGCMessage"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"NoGCMessage"
-		"xpos"			"c-250"
-		"ypos"			"220"
-		"zpos"			"3"
-		"wide"			"170"
-		"tall"			"70"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-		"wrap"			"1"
-
-		"font"			"HudFontSmallestBold"
-		"fgcolor_override"	"MainMenuLabel"
-		"labelText"		"#TF_MM_NoGC_Rank"
-		"textAlignment"	"east"
-	}
-
-	"NoGCImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"NoGCImage"
-		"xpos"			"c-290"
-		"ypos"			"240"
-		"zpos"			"10"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"gc_dc"
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
 	}
 
 	"RankBorder"
@@ -1315,7 +1169,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"c-293"
-		"ypos"			"115"
+		"ypos"			"132"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"30"
@@ -1390,7 +1244,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
 		"xpos"			"c-293"
-		"ypos"			"149"
+		"ypos"			"164"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"30"
@@ -1459,7 +1313,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomSettingsButton"
 		"xpos"			"c-293"
-		"ypos"			"183"
+		"ypos"			"196"
 		"zpos"			"10"
 		"wide"			"209"
 		"tall"			"30"
@@ -1625,181 +1479,154 @@
 		"drawcolor"		"ButtonMMShadow"
 		"scaleimage"	"1"
 	}
-	
-	"ExpandableFriendsList"
+
+	"RankModelPanel"
 	{
-		"ControlName"                "CMatchHistoryEntryPanel"
-		"xpos"			"c-300"
-		"ypos"			"295"
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"c-302"
+		"ypos"			"250"
 		"zpos"			"10"
+		"wide"			"60"
+		"tall"			"60"
+		"visible"		"0"
+		"proportionaltoparent"	"0"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_progress"	"0"
+	}
+
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"c-300"
+		"ypos"			"260"
+		"zpos"			"1"
 		"wide"			"225"
-		"tall"			"125"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"25"
+		"labelText"		""
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
 
-		"ignorescheme"                "1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"paintborder"		"0"
+		"roundedcorners"	"0"
 
-		"collapsed_height"            "225"
-		"expanded_height"            "10"
-		"resize_time"                "0"
-		"expand_direction"			"left"
+		"image_drawcolor"	"235 226 202 255"
 
-		"Container"        { "visible"        "0" }
-		"BottomStats"    { "visible"        "0" }
-
-		"toggle"
+		"SubImage"
 		{
-			"ControlName"                    "Button"
-			"fieldname"						"toggle"
-			"Command"                        "toggle_collapse"
-			"xpos"							"0"
-			"ypos"							"115"
-			"zpos"							"11"
-
-			"textinsetx"					"0"
-			"textinsety"					"0"
-
-			"wide"							"10"
-			"tall"							"10"
-			
-			"labeltext"						">"
-			"defaultBgColor_override" 		"0 0 0 0"
-
-			"textAlignment"					"center"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-		}
-
-		"FriendsContainer"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"FriendsContainer"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
 			"xpos"			"cs-0.5"
-			"ypos"			"0"
-			"zpos"			"10"
-			"wide"			"207"
-			"tall"			"115"
-			"visible"		"1"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+
 			"proportionaltoparent"	"1"
-
-			"TitleLabel"
-			{
-				"wide"			"0"
-				"tall"			"0"
-			}
-
-			"InnerShadow"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"InnerShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"502"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"border"		"InnerShadowBorder"
-			}
-
-			"SteamFriendsList"
-			{
-				"ControlName"	"CSteamFriendsListPanel"
-				"fieldname"		"SteamFriendsList"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"501"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-				"bgcolor_override" "BackgroundDefault"
-
-				"columns_count"	"2"
-				"inset_x"		"0"
-				"inset_y"		"5"
-				"row_gap"		"2"
-				"column_gap"	"0"
-				"restrict_width"	"0"
-
-				"friendpanel_kv"
-				{
-					"wide"		"103"
-					"tall"		"20"
-				}
-
-				"ScrollBar"
-				{
-					"ControlName"	"ScrollBar"
-					"FieldName"		"ScrollBar"
-					"xpos"			"r5"
-					"ypos"			"0"
-					"tall"			"f0"
-					"wide"			"5" // This gets slammed from client schme.  GG.
-					"zpos"			"1000"
-					"nobuttons"		"1"
-					"proportionaltoparent"	"1"
-
-					"Slider"
-					{
-						"fgcolor_override"	"TanDark"
-					}
-
-					"UpButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"UpButton"
-						"visible"		"0"
-					}
-
-					"DownButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"DownButton"
-						"visible"		"0"
-					}
-				}
-			}
-
-			"BelowDarken"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"BelowDarken"
-				"xpos"			"0"
-				"ypos"			"rs1-10"
-				"zpos"			"499"
-				"wide"			"f0"
-				"tall"			"105"
-				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-
-				"bgcolor_override"	"0 0 0 100"
-			}
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
 		}
 	}
-	
-	// "PartyChatPin"
-	// {
-	// 	"fieldName"				"PartyChatPin"
-	// 	"ControlName"			"EditablePanel"
-	// 	"visible"				"1"
-	// 	"enabled"				"1"
-	// 	"xpos"					"c-65"
-	// 	"ypos"					"c445"
-	// 	"zpos"					"1001"
-	// 	"wide"					"1"
-	// 	"tall"					"1"
-	// }
 
-	// "partychat"
-	// {
-	// 	"pin_to_sibling" 		"PartyChatPin"
-	// }
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"c-305"
+		"ypos"			"255"
+		"zpos"			"2"
+		"wide"			"230"
+		"tall"			"50"
+		"visible"		"1"
+		"proportionaltoparent"	"0"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_model"	"0"
+		"show_name"		"0"
+		"show_type"		"1"
+		"show_progress"	"1"
+	}
 	
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"c-300"
+		"ypos"			"260"
+		"zpos"			"11"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"
+		"alpha"			"75"
+	}
+
+	"NoGCMessage"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"NoGCMessage"
+		"xpos"			"c-250"
+		"ypos"			"220"
+		"zpos"			"3"
+		"wide"			"170"
+		"tall"			"70"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+		"wrap"			"1"
+
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"MainMenuLabel"
+		"labelText"		"#TF_MM_NoGC_Rank"
+		"textAlignment"	"east"
+	}
+
+	"NoGCImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NoGCImage"
+		"xpos"			"c-290"
+		"ypos"			"240"
+		"zpos"			"10"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"gc_dc"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}
 	
 	"BackgroundFooter"
 	{
@@ -1807,7 +1634,7 @@
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"8"
+		"zpos"			"-88"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
@@ -1828,7 +1655,7 @@
 		"fieldName"		"FooterShadow"
 		"xpos"			"-5"
 		"ypos"			"418"
-		"zpos"			"-5"
+		"zpos"			"-89"
 		"wide"			"1300"
 		"tall"			"70"
 		"visible"		"1"
@@ -2029,8 +1856,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"19"
+				"tall"			"19"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
@@ -3268,18 +3095,46 @@
 			"angles_z"		"0"
 		}
 	}
+	
+	"PopupPinner"
+	{
+		"ControlName"	"Panel"
+		"ypos"			"-470"
+		"xpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+	}
 
-	"DashboardDimmer"        // allows for clicking off playlist frames
-    {
-		"xpos"				"0"
-		"ypos"				"0"
-        "wide"                "f0"
-        "tall"                "f60"
-        "paintbackground"    "1"
-        "paintborder"        "0"
-        "roundedcorners"    "0"
-        "bgColor_override"       "0 0 0 100" // Set the background color to black with transparency (alpha = 100)
-    	"fgColor_override"       "0 0 0 0"   // Set the foreground color (text, if applicable) to fully transparent
+	// "NewMatchFound" //Tied to topbar
+	// {
+	// 	"pin_to_sibling"		"PopupPinner"
+	// 	"pin_to_sibling_corner"	"3"
+	// }
+
+	"NextMapVoting" //Tied to MMDashboard
+	{
+		"pin_to_sibling"		"PopupPinner"
+		"pin_to_sibling_corner"	"3"
+	}
+	"NextMapWinner" //Tied to MMDashboard
+	{
+		"pin_to_sibling"		"PopupPinner"
+		"pin_to_sibling_corner"	"3"
+	}	
+	
+	"ChatPinner"
+	{
+		"ControlName"    "Panel"
+		"ypos"			"-255"
+		"xpos"			"c-70"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	
+	"partychat"
+	{
+		"pin_to_sibling"    "ChatPinner"
+		"pin_to_sibling_corner"	"3"
 	}
 	
 	//DISABLED BUTTONS

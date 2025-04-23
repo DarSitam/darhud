@@ -6,7 +6,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"10"
+		"ypos"					"0"
 		"zpos"					"1001"
 		"wide"					"200"
 		"tall"					"200"
@@ -85,12 +85,13 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"1"
-		"ypos"					"206"
+		"xpos"			"c258"
+		"ypos"					"401"
 		"zpos"			"1"
-		"wide"			"198"
+		"wide"			"f2"
 		"tall"			"13"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
@@ -99,7 +100,6 @@
 
 		//"pinCorner"		"2"
 		//"autoResize"	"1"
-		"pin_to_sibling" "partychat"
 	}
 
 	"EntryShadow"
