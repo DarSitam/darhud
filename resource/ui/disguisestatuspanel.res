@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"SpyIcon"
-		"xpos"			"-6"
+		"xpos"			"-5"
 		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"30"
@@ -140,11 +140,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"10"
-		"ypos"			"-10"
+		"xpos"			"3"
+		"ypos"			"cs-0.5-1"
 		"zpos"			"2"
-		"wide"			"52"
-		"tall"			"44"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
@@ -152,6 +152,7 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HealthWarning"
 		"TextColor"		"HealthNormal"
+		"proportionaltoparent"	"1"
 	}	
 	
 }
