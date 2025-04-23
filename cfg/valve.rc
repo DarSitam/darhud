@@ -11,10 +11,6 @@ exec joystick.cfg
 // run a user script file if present
 exec autoexec.cfg
 
-//reload menu
-vgui_cache_res_files 1
-//toggle mat_aaquality
-
 // Setup darhud cfg files
 exec dar_scripts.cfg
 
