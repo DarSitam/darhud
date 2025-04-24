@@ -195,15 +195,29 @@
 	"TipImage"
 	{
 		"ypos"			"420"
+		"xpos"			"20"
 	}
 	
 	"TipText"
 	{
 		"ypos"			"415"
+		"xpos"			"55"
 	}
 	
 	"CloseButton" [$WIN32]
 	{
 		"enabled"		"1"
+	}
+
+	"RankPanel_Casu"
+	{
+		"wide"		"0"
+		"tall"		"0"
+	}
+
+	"RankPanel_Comp"
+	{
+		"wide"		"0"
+		"tall"		"0"
 	}
 }
