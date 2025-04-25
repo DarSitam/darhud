@@ -88,3 +88,4 @@
 		"fgcolor"		"HealthShadow"
 		"proportionaltoparent"	"1"
 	}
+}
