@@ -38,6 +38,11 @@
 			"enabled"	"0"
 		}
 		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+		
 		"if_mvm"
 		{
 			"visible"	"0"
@@ -64,6 +69,11 @@
 		"scaleImage"	"1"	
 				
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -99,6 +109,11 @@
 			"visible"	"0"
 		}
 		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+		
 		"if_mvm"
 		{
 			"visible"	"0"
@@ -125,6 +140,11 @@
 		"scaleImage"	"1"
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -160,6 +180,11 @@
 			"visible"	"0"
 		}
 		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+		
 		"if_mvm"
 		{
 			"visible"	"0"
@@ -188,6 +213,11 @@
 		"fgcolor"		"ObjectiveLabel"		
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -227,6 +257,11 @@
 			"visible"	"0"
 		}
 		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+		
 		"if_mvm"
 		{
 			"visible"	"0"
@@ -255,6 +290,11 @@
 		"fgcolor"		"ObjectiveLabel"		
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -290,6 +330,11 @@
 		"fgcolor"		"ObjectiveShadow"		
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -369,6 +414,11 @@
 			"visible"	"0"
 		}
 		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+		
 		"if_mvm"
 		{
 			"visible"	"0"
@@ -396,6 +446,11 @@
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -432,7 +487,7 @@
 		"if_hybrid_single"
 		{
 			"xpos"		"cs-0.5"
-			"ypos"			"r80"
+			"ypos"			"r90"
 		}
 		
 		"if_hybrid_double"
@@ -516,7 +571,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"		"r80"
+			"ypos"		"r90"
 		}
 		
 		"if_specialdelivery"
