@@ -29,13 +29,7 @@
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
-	}	
-
-	"BuildingStatusHealthImageBG"
-	{
-		"wide"		"0"
-		"tall"		"0"
-	}	
+	}
 
 	"PlayerStatusHealthBonusImage"
 	{
@@ -69,7 +63,20 @@
 		"fgcolor"		"HealthNormal"
 		"proportionaltoparent"	"1"
 	}
-	
+	"BuildingStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuildingStatusHealthImageBG"
+		"xpos"			"0"
+		"ypos"			"18"
+		"zpos"			"2"
+		"wide"			"o1"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_equip_bg"
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
