@@ -11,7 +11,7 @@
                     "ControlName"							"EditablePanel"
                     "fieldName"								"TFLogo"
                     "xpos"									"5"
-                    "ypos"									"650"
+                    "ypos"									"700"
                     "zpos"									"0"
                     "wide"									"p0.95"
                     "tall"									"120"

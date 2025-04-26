@@ -12,6 +12,7 @@
 #base "customization_scoreboard.res"
 
 #base "customization_mainmenu.res"
+#base "customization_mainmenuchr.res"
 #base "customization_matchmaking.res"
 #base "customization_tflogo.res"
 
