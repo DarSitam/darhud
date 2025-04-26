@@ -17,7 +17,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ArenaWinPanelScores"
 		"xpos"			"25"
-		"ypos"			"65"
+		"ypos"			"55"
 		"wide"			"300"
 		"tall"			"60"
 		"visible"		"1"
