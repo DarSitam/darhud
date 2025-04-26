@@ -8,7 +8,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r300"
+		"ypos"					"r310"
 		"wide"					"f0"
 		"tall"					"320"
 	}
@@ -18,10 +18,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"background"
 		"xpos"			"c-100"
-		"ypos"			"130"
+		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"20"
-		"tall"			"100"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -30,6 +30,7 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"replay/thumbnails/arena/arenaclass_red"
 		"teambg_3"		"replay/thumbnails/arena/arenaclass_blue"
+		"alpha"			"200"
 	}
 	
 	"localPlayerBG"

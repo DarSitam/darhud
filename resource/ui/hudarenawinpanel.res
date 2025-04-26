@@ -328,7 +328,7 @@
 		"font"			"ScoreboardVerySmall"
 		"fgcolor_override"	"GeneralLabel"
 		"xpos"			"0"
-		"ypos"			"r135"
+		"ypos"			"r155"
 		"zpos"			"1"
 		"wide"			"350"
 		"tall"			"10"
