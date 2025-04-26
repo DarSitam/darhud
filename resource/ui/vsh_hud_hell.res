@@ -127,8 +127,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/counter_red"
-			"alpha"			"220"
+			"image"			"replay/thumbnails/counter_shadow"
 		}	
 		"dmg_icon"
 		{
@@ -158,13 +157,13 @@
 		"scaleimage"			"0"
 		"visible"				"1"
 		"enabled"				"1"
-
+		
 		"BorderImage1"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"BorderImage1"	
 			"xpos"			"c-100"
-			"ypos"			"40"
+			"ypos"			"66"
 			"zpos"			"2"
 			"wide"			"200"
 			"tall"			"25"
@@ -179,7 +178,7 @@
 		"BorderImage2"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"BorderImage2"	
+			"fieldName"		"BorderImage2"
 			"pin_to_sibling"	"BorderImage1"
 			"xpos"			"-2"
 			"ypos"			"-2"
@@ -238,14 +237,14 @@
 			"fieldName"				"ProgressBarContainer"
 			"ControlName"			"EditablePanel"
 			"xpos"					"cs-0.5"
-			"ypos"					"44"
+			"ypos"					"70"
 			"zpos"					"1"
 			"wide"					"184"
 			"tall"					"17"
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionalToParent"	"1"
-					
+
 			"RedProgressBarFill"
 			{
 				"ControlName"	"EditablePanel"
@@ -289,7 +288,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
 			"xpos"				"c-100"
-			"ypos"				"42"
+			"ypos"				"68"
 			"zpos"				"20"
 			"wide"				"200"
 			"tall"				"100"
@@ -368,7 +367,7 @@
 			"fgcolor"		"ObjectiveLabel"		
 			"proportionalToParent"	"1"
 		}	
-		
+	
 		"CountdownLabelTimeShadow"
 		{
 			"ControlName"	"CExLabel"
