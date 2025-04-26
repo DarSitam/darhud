@@ -1,0 +1,136 @@
+"resource/ui/carrier_boss_bar2.res"
+{  
+	"ObjectiveStatusRobotDestruction"
+	{
+		"wide"        "f0"
+		"tall"        "f0"
+	}
+  
+	"ScoreContainer"
+	{
+		"fieldName"		"ScoreContainer"
+		"ControlName"		"EditablePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"scaleimage"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"ProgressBarContainer"
+		{
+			"fieldName"			"ProgressBarContainer"
+			"ControlName"			"EditablePanel"
+			"xpos"				"c-76"
+			"ypos"				"64"
+			"zpos"				"1"
+			"wide"				"168"
+			"tall"				"17"
+			"visible"			"1"
+			"enabled"			"1"
+			"proportionalToParent"	"1"
+
+			"BlueProgressBarFill"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"BlueProgressBarFill"
+				"xpos"			"-25"
+				"ypos"			"0"
+				"zpos"			"5"
+				"wide"			"218"
+				"tall"			"17"
+				"autoResize"	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"scaleImage"	"1"	
+				"Image"			"replay/thumbnails/boss_bar/carrier/boss_bar"
+			}
+		}
+	}
+
+	"CountdownContainer"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"CountdownContainer"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"1"
+		"wide"					"f0"
+		"tall"					"f0"
+		"scaleimage"			"0"
+		"visible"				"1"
+		"enabled"				"1"
+
+		"CountdownImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CountdownImage"
+			"xpos"			"c-95"
+			"ypos"			"65"
+			"zpos"			"2"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"../hud/leaderboard_class_demo"
+			"scaleImage"		"1"	
+			"proportionalToParent"	"1"
+		}
+		"CountdownImageBackground"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CountdownImageBackground"
+			"pin_to_sibling"	"CountdownImage"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"19"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/health_equip_bg"
+			"scaleImage"		"1"	
+			"proportionalToParent"	"1"
+		}
+		
+		"Background"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"Background"
+			"xpos"			"c-100"
+			"ypos"			"60"
+			"zpos"			"0"
+			"wide"			"200"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"Image"			"replay/thumbnails/boss_bar/carrier/boss_bar_surround"
+			"scaleImage"	"1"		
+		}
+		"BackgroundShadow"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"BackgroundShadow"
+			"pin_to_sibling"	"Background"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"zpos"			"-1"
+			"wide"			"200"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"Image"			"replay/thumbnails/boss_bar/boss_bar_surround_shadow"
+			"scaleImage"	"1"		
+		}
+	}
+}

@@ -1,4 +1,4 @@
-"resource/ui/vsh_hud_hell.res"
+"resource/ui/vsh_hud.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{
@@ -21,7 +21,7 @@
 		
 
 		"color_blue"			"84 111 127 255"
-		"color_red"				"171 59 59 255"
+		"color_ss"				"171 59 59 255"
 
 		"if_hybrid"
 		{
@@ -127,8 +127,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/counter_red"
-			"alpha"			"220"
+			"image"			"replay/thumbnails/counter_shadow"
 		}	
 		"dmg_icon"
 		{
@@ -141,7 +140,7 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"vssaxtonhale_hell/dmg_icon"
+			"image"			"vssaxtonhale/dmg_icon"
 			"scaleImage"	"1"
 		}
 	}
@@ -173,13 +172,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"image"			"replay/thumbnails/boss_bar/vsh/hell/boss_bar_surround"
-			"scaleImage"	"1"					
+			"image"			"replay/thumbnails/boss_bar/vsh/maul/boss_bar_surround"
+			"scaleImage"	"1"
 		}
 		"BorderImage2"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"BorderImage2"	
+			"fieldName"		"BorderImage2"
 			"pin_to_sibling"	"BorderImage1"
 			"xpos"			"-2"
 			"ypos"			"-2"
@@ -202,34 +201,16 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			"xpos"			"29"
-			"ypos"			"22"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"50"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"image"			"replay/thumbnails/boss_bar/vsh/hell/hale_hat"
-			"scaleImage"	"1"					
-		}
-		"BorderImage4"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"BorderImage4"
-			"pin_to_sibling"	"BorderImage3"
-			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"18"
 			"zpos"			"4"
-			"wide"			"100"
-			"tall"			"50"
+			"wide"			"76"
+			"tall"			"38"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"image"			"replay/thumbnails/boss_bar/vsh/hell/hale_hat_fire"
+			"image"			"replay/thumbnails/boss_bar/vsh/hale_hat"
 			"scaleImage"	"1"					
 		}
 		
@@ -246,24 +227,6 @@
 			"enabled"				"1"
 			"proportionalToParent"	"1"
 					
-			"RedProgressBarFill"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"RedProgressBarFill"
-				"proportionalToParent"	"1"
-				"xpos"			"cs-0.5"
-				"ypos"			"0"
-				"zpos"			"10"
-				"wide"			"234"
-				"tall"			"17"
-				"autoResize"	"1"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"scaleImage"	"0"	
-				"Image"			"vssaxtonhale_hell/boss_bar_layer2"
-			}
 			"BlueProgressBarFill"
 			{
 				"ControlName"	"EditablePanel"
@@ -280,7 +243,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"scaleImage"	"0"	
-				"Image"			"vssaxtonhale_hell/boss_bar"
+				"Image"			"vssaxtonhale/boss_bar"
 			}
 		}
 		
@@ -334,58 +297,58 @@
 				"proportionalToParent"	"1"
 			}
 		}
-	}
-	
-	"CountdownContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"CountdownContainer"
-		"xpos"				"cs-0.5"
-		"ypos"				"r71"
-		"zpos"				"20"
-		"wide"				"200"
-		"tall"				"100"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"		"0 0 0 0"
-		"proportionalToParent"	"1"
 		
-		"CountdownLabelTime"
+		"RedScoreValueContainer"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CountdownLabelTime"
-			"font"			"HudFontMediumSmallBold"
-			"xpos"			"c-12"
-			"ypos"			"0"
-			"zpos"			"28"
-			"wide"			"30"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"	"center"	
-			"labelText"		"%countdowntime%"
-			"font"			"CenterPrintText"
-			"fgcolor"		"ObjectiveLabel"		
+			"ControlName"		"EditablePanel"
+			"fieldName"			"RedScoreValueContainer"
+			"xpos"				"cs-0.5"
+			"ypos"				"r71"
+			"zpos"				"20"
+			"wide"				"200"
+			"tall"				"100"
+			"visible"			"1"
+			"enabled"			"1"
+			"bgcolor_override"		"0 0 0 0"
 			"proportionalToParent"	"1"
-		}	
+
+			"Score"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"Score"
+				"font"			"HudFontMediumSmallBold"
+				"xpos"			"c-12"
+				"ypos"			"0"
+				"zpos"			"28"
+				"wide"			"30"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%score%"
+				"font"			"CenterPrintText"
+				"fgcolor"		"ObjectiveLabel"		
+				"proportionalToParent"	"1"
+			}	
 		
-		"CountdownLabelTimeShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CountdownLabelTimeShadow"
-			"font"			"HudFontMediumSmallBold"
-			"xpos"			"c-11"
-			"ypos"			"1"
-			"zpos"			"27"
-			"wide"			"30"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"	"center"	
-			"labelText"		"%countdowntime%"
-			"font"			"CenterPrintText"
-			"fgcolor"		"ObjectiveShadow"
-			"proportionalToParent"	"1"
+			"ScoreShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"ScoreShadow"
+				"font"			"HudFontMediumSmallBold"
+				"xpos"			"c-11"
+				"ypos"			"1"
+				"zpos"			"27"
+				"wide"			"30"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%score%"
+				"font"			"CenterPrintText"
+				"fgcolor"		"ObjectiveShadow"
+				"proportionalToParent"	"1"
+			}
 		}
 	}
 }

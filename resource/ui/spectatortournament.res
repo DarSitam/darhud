@@ -304,7 +304,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"33"
+		"ypos"			"75"
 		"wide"			"300"
 		"tall"			"18"
 		"autoResize"		"0"

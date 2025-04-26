@@ -1,0 +1,18 @@
+"UnLitTwoTexture"
+{
+	"$baseTexture" "vgui\replay\thumbnails\boss_bar\vsh\hell\hale_hat"
+	"$texture2"    "effects/tiledfire/fireLayeredSlowTiled512"
+	"$additive" "1"
+	"$ignorez" 1
+	"%keywords" "tf"
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 0.1
+			"texturescrollangle" 0
+		}
+	}
+}
