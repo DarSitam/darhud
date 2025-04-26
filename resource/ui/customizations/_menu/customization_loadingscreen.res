@@ -6,15 +6,15 @@
         {
             "PageScroller"
             {  
-                "Matchmaking"
+                "LoadingScreen"
                 {
                     "ControlName"							"EditablePanel"
-                    "fieldName"								"Matchmaking"
+                    "fieldName"								"LoadingScreen"
                     "xpos"									"5"
-                    "ypos"									"780"
+                    "ypos"									"835"
                     "zpos"									"0"
                     "wide"									"p0.95"
-                    "tall"									"43"
+                    "tall"									"45"
                     "visible"								"1"
                     "enabled"								"1"
                     "proportionaltoparent"					"1"
@@ -24,7 +24,7 @@
                         "ControlName"	"CExLabel"
                         "fieldName"		"Title"
                         "font"			"HudFontSmallBold"
-                        "labelText"		"Matchmaking Style"
+                        "labelText"		"Loading Screen"
                         "textAlignment"	"west"
                         "xpos"			"cs-0.5"
                         "ypos"			"0"
@@ -54,10 +54,10 @@
                         "bgcolor_override"                      "235 227 203 255"
                     }
 
-                    "Default"
+                    "EnableStats"
                     {
                         "ControlName"	"CExButton"
-                        "fieldName"		"Default"
+                        "fieldName"		"EnableStats"
                         "xpos"			"c-130"
                         "ypos"			"rs1"
                         "zpos"			"11"
@@ -71,15 +71,16 @@
                         "actionsignallevel" "5"
                         "sound_depressed"	"UI/buttonclick.wav"
                         "sound_released"	"UI/buttonclickrelease.wav"
-                        "labeltext"		"Default Style"
+                        "labeltext"		"Enable Stats"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_mm"
+                        "centerwrap"        "1"
+                        "command"		"engine c_loadstat"
                     }
 
-                    "Fullscreen"
+                    "DisableStats"
                     {
                         "ControlName"	"CExButton"
-                        "fieldName"		"Old"
+                        "fieldName"		"DisableStats"
                         "xpos"			"c30"
                         "ypos"			"rs1"
                         "zpos"			"11"
@@ -94,9 +95,10 @@
                         "actionsignallevel" "5"
                         "sound_depressed"	"UI/buttonclick.wav"
                         "sound_released"	"UI/buttonclickrelease.wav"
-                        "labeltext"		"Fullscreen"
+                        "labeltext"		"Disable Stats"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_mm_fullscreen"
+                        "centerwrap"        "1"
+                        "command"		"engine c_loadstat_off"
                     }
                 }
             }

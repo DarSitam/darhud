@@ -15,6 +15,7 @@
 #base "customization_mainmenuchr.res"
 #base "customization_matchmaking.res"
 #base "customization_tflogo.res"
+#base "customization_loadingscreen.res"
 
 ","
 {
