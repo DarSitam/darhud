@@ -71,7 +71,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"			"cs-0.5"
-			"ypos"			"21"
+			"ypos"			"19"
 			"zpos"			"5"
 			"wide"			"150"
 			"tall"			"19"

@@ -73,7 +73,7 @@
 			{
 				"proportionaltoparent"	"1"
 				"xpos"			"34"
-				"ypos"			"10"
+				"ypos"			"8"
 				"tall"			"12"
 				"wide"			"40"
 				"font"			"HudFontSmall"
@@ -137,7 +137,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"r55"
-				"ypos"			"10"
+				"ypos"			"8"
 				"wide"			"40"
 				"tall"			"12"
 				"font"			"HudFontSmall"
