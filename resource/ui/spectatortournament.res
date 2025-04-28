@@ -256,11 +256,11 @@
 		"ControlName"								"Panel"
 		"fieldName"									"TopBar"
 		"xpos"										"0"
-		"ypos"										"100"
+		"ypos"										"0"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"topbardark"
@@ -318,7 +318,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"100"
+			"ypos"			"95"
 		}
 	}
 
