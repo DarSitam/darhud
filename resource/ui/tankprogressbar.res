@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"190"
+		"wide"			"192"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"	
@@ -55,5 +55,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"Image"			"replay/thumbnails/boss_bar/carrier/boss_bar_surround"
+	}
+
+	"ProgressBarBGShadow"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"ProgressBarBGShadow"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"-1"
+		"wide"			"189"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"Image"			"replay/thumbnails/boss_bar/boss_bar_surround_shadow"
 	}
 }
