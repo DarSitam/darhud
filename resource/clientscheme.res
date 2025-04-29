@@ -851,14 +851,13 @@ Scheme
 				"weight"		"800"
 			}
 		}
-		CenterPrintText
+		CenterPrintText //HudMessages
 		{
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
+				"name"		"TF2 Secondary"
+				"tall"		"16"
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -3246,7 +3245,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/square_shadow"
+			"image"					"replay/thumbnails/square_shadow_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional

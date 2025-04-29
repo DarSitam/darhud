@@ -41,6 +41,7 @@ Scheme
 		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
 	}
+	
 	BaseSettings
 	{
 		// scheme-specific colors
@@ -158,6 +159,7 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"ButtonLabelArmedHovering"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"ButtonArmedHovering"
 	}
+
 	Borders
 	{
 		BaseBorder							SubtleBorder
@@ -169,58 +171,10 @@ Scheme
 
 		FrameBorder
 		{
-			Left
-			{
-				"1"
-				{
-					"color" 				"Border.DarkSolid"
-					"offset" 				"0 0"
-				}
-				"2"
-				{
-					"color" 				"Border.DarkSolid"
-					"offset" 				"0 0"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" 				"Border.DarkSolid"
-					"offset" 				"0 0"
-				}
-				"2"
-				{
-					"color" 				"Border.DarkSolid"
-					"offset" 				"0 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" 				"Border.DarkSolid"
-					"offset" 				"0 0"
-				}
-				"2"
-				{
-					"color" 				"Border.DarkSolid"
-					"offset" 				"0 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" 				"Border.DarkSolid"
-					"offset" 				"0 0"
-				}
-				"2"
-				{
-					"color"					"Border.DarkSolid"
-					"offset" 				"0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/square_shadow_opaque"
 		}
 	}
 	
@@ -247,6 +201,80 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Default"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		// "DefaultSmall"
+		// {
+		// 	"1"
+		// 	{
+		// 		"name"		"TF2 Secondary"
+		// 		"tall"		"14"
+		// 		"weight"	"500"
+		// 		"antialias" "1"
+		// 	}
+		// }
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"DefaultLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+		"PlayerPanelPlayerName"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"6"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudHintText"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"700"
+				"yres"	"480 599"
+			}
+		}
+		"SpectatorKeyHints"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"MenuLarge"
 		{
 			"1"	[$X360]
@@ -265,16 +293,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}
-		}
-
-		"Default" [$OSX]
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"500"
 			}
 		}
 
@@ -325,6 +343,27 @@ Scheme
 			}
 		}
 		
+		// Mannpower pickups, Headless Horsemann 'IT' text, MvM 'Invalid Inspect Target'
+		"Trebuchet24"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"weight"	"900"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+			"2" // misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
 				
 		AchievementItemTitle	[$WIN32]
 		{
@@ -429,6 +468,21 @@ Scheme
 			{
 				"range" "0x0000 0x0451"
 			}	
+		}
+		
+		"8"
+		{
+			"font" "resource/TF2Build.ttf"
+			"name" "TF2 Build"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"9"
+		{
+			"font" "resource/TF2secondary.ttf"
+			"name" "TF2 Secondary"
 		}
 	}
 }
