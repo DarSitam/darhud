@@ -60,7 +60,7 @@
 		"ypos"			"7"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_3"
