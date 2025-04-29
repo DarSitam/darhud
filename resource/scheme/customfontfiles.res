@@ -1,7 +1,5 @@
 //update by Jakadak https://github.com/jakadak/TF2-extended-fonts
 
-
-
 Scheme
 {	
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
