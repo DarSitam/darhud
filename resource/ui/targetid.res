@@ -55,7 +55,7 @@
 		"ypos"				"19"
 		"zpos"				"2"
 		"wide"				"f0"
-		"tall"	 			"1"
+		"tall"	 			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"GeneralShadow"
