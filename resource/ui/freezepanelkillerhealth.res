@@ -1,39 +1,37 @@
 #base "SpectatorTournamentGUIHealth.res"
 
 "."
-{
-    "PlayerStatusHealthImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"6"
-		"ypos"			"6"
-    }
-    
-    "PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"14"
-		"ypos"			"3"
-		"wide"			"26"
-		"tall"			"26"
-    }
+{	
+	"PlayerStatusHealthBonusImage"
+	{		
+		"xpos"			"13"
+		"ypos"			"13"
+		"wide"			"24"
+		"tall"			"24"
+	}
 
-    "PlayerHealthValue"
+	"PlayerHealthValue"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerHealthValue"
-		"xpos"			"0"
-		"wide"			"55"
-		"tall"			"32"
-        
-    }
-    "PlayerHealthValueShadow"
+		"font"			"HudFontMediumSmallBold"
+	}
+
+	"PlayerHealthValueShadow"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerHealthValueShadow"
-		"wide"			"55"
-		"tall"			"32"
-    }
+		"font"			"HudFontMediumSmallBold"
+	}
+	
+	"BuildingStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuildingStatusHealthImageBG"
+		"xpos"			"13"
+		"ypos"			"13"
+		"zpos"			"2"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_equip_bg"
+		"scaleImage"	"1"
+	}
 }

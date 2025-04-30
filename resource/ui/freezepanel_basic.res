@@ -72,7 +72,7 @@
 			"fieldName"		"FreezeLabel"
 			"font"			"TF2Default"
 			"fgcolor_override"		"GeneralLabel"
-			"xpos"			"55"
+			"xpos"			"54"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"200"
@@ -92,8 +92,8 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"2"
+			"ypos"			"-9"
 			"zpos"			"1"
 			"wide"			"50"
 			"tall"			"50"
@@ -130,7 +130,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"55"
+			"xpos"			"54"
 			"ypos"			"14"
 			"zpos"			"1"
 			"wide"			"16"
