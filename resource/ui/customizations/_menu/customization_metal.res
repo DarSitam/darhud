@@ -11,7 +11,7 @@
                     "ControlName"							"EditablePanel"
                     "fieldName"								"EngiMetal"
                     "xpos"									"250"
-                    "ypos"									"100"
+                    "ypos"									"105"
                     "zpos"									"0"
                     "wide"									"p0.45"
                     "tall"									"70"

@@ -11,7 +11,7 @@
                     "ControlName"							"EditablePanel"
                     "fieldName"								"Meters"
                     "xpos"									"5"
-                    "ypos"									"100"
+                    "ypos"									"105"
                     "zpos"									"0"
                     "wide"									"p0.45"
                     "tall"									"70"

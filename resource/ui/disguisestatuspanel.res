@@ -9,7 +9,7 @@
 		"ypos"		"r30"
 		"xpos_minmode"	"c-290"
 		"zpos"		"9"
-		"wide"		"165"
+		"wide"		"180"
 		"tall"		"28"
 	}
 
@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"SpyIcon"
-		"xpos"			"-6"
+		"xpos"			"-5"
 		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"30"
@@ -62,11 +62,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"0"
+		"xpos"			"10"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"160"
-		"tall"	 		"24"
+		"wide"			"170"
+		"tall"	 		"f3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -75,6 +75,7 @@
 		"scaleImage"	"1"
 		"teambg_2"		"replay/thumbnails/disguise_red"
 		"teambg_3"		"replay/thumbnails/disguise_blue"
+		"proportionaltoparent"	"1"
 	}
 
 	"DisguiseStatusBGShadow"
@@ -84,26 +85,27 @@
 		"xpos"			"3"
 		"ypos"			"3"
 		"zpos"			"-1"
-		"wide"			"160"
-		"tall"	 		"24"
+		"wide"			"170"
+		"tall"	 		"f3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/disguise_shadow"
 		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
 	}
 
 	"DisguiseNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"HudFontSmallest"
+		"font"			"ScoreboardSmall"
 		"fgcolor_override" 		"GeneralLabel"
-		"xpos"			"55"
+		"xpos"			"65"
 		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"102"
+		"zpos"			"2"
+		"wide"			"f65"
 		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -113,19 +115,20 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"proportionaltoparent"	"1"
 	}
 	
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"TF2Default"
+		"font"			"ScoreboardSmall"
 		"fgcolor_override" 		"GeneralLabel"
-		"xpos"			"55"
-		"ypos"			"13"
-		"zpos"			"1"
-		"wide"			"102"
-		"tall"			"10"
+		"xpos"			"65"
+		"ypos"			"12"
+		"zpos"			"2"
+		"wide"			"f65"
+		"tall"			"12"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -134,17 +137,18 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"proportionaltoparent"	"1"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"10"
-		"ypos"			"-10"
+		"xpos"			"18"
+		"ypos"			"cs-0.5-1"
 		"zpos"			"2"
-		"wide"			"52"
-		"tall"			"44"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
@@ -152,6 +156,7 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HealthWarning"
 		"TextColor"		"HealthNormal"
+		"proportionaltoparent"	"1"
 	}	
 	
 }

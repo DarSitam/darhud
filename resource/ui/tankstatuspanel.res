@@ -1,12 +1,8 @@
-"Resource/UI/TankStatusPanel.res"
+"Resource/UI/TankStatusPanel.res" //Completely unused
 {
 	"Background"
 	{
 		"wide"			"0"
 		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
 	}
 }

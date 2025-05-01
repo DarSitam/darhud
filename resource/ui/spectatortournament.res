@@ -42,7 +42,7 @@
 				"fgcolor_override"	"GeneralLabel"
 				"xpos"			"1"
 				"ypos"			"16"
-				"zpos"			"5"
+				"zpos"			"8"
 				"wide"			"70"
 				"tall"			"8"
 				"autoResize"	"0"
@@ -59,7 +59,7 @@
 				"fieldName"		"playernamebg"
 				"xpos"			"0"
 				"ypos"			"17"
-				"zpos"			"4"
+				"zpos"			"7"
 				"wide"			"75"
 				"tall"			"7"
 				"autoResize"		"0"
@@ -115,9 +115,9 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"0"
-				"ypos"				"0"
-				"zpos"				"3"
+				"xpos"				"8"
+				"ypos"				"-16"
+				"zpos"				"6"
 				"wide"				"55"
 				"tall"				"55"
 				"visible"			"1"
@@ -201,12 +201,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"TF2DefaultLarge"
+				"font"			"HudFontSmallest"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"75"
-				"tall"			"16"
+				"wide"			"73"
+				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -256,11 +256,11 @@
 		"ControlName"								"Panel"
 		"fieldName"									"TopBar"
 		"xpos"										"0"
-		"ypos"										"100"
+		"ypos"										"0"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"1"
-		"enabled"									"1"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"topbardark"
@@ -304,7 +304,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"33"
+		"ypos"			"50"
 		"wide"			"300"
 		"tall"			"18"
 		"autoResize"		"0"
@@ -318,7 +318,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"100"
+			"ypos"			"95"
 		}
 	}
 

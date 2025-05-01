@@ -90,8 +90,8 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"55"
-			"tall"			"33"
+			"wide"			"48"
+			"tall"			"28"
 			"zpos"			"6"
 
 			"color_ready"	"0 255 0 220"
@@ -102,8 +102,6 @@
 
 			if_mvm
 			{
-				"wide"		"48"
-				"tall"		"28"
 			}
 
 			if_competitive
@@ -114,8 +112,6 @@
 
 			if_readymode
 			{
-				"wide"		"48"
-				"tall"		"28"
 			}
 
 			"playername"
@@ -158,48 +154,37 @@
 				"tall"			"7"
 				"visible"		"1"
 				"paintBackground" "1"
-				"bgcolor_override"	"0 0 0 150"
+				"bgcolor_override"	"GeneralShadow"
 			}
 
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"4"
+				"xpos"			"0"
 				"ypos"			"2"
 				"zpos"			"2"
-				"wide"			"22"
-				"tall"			"22"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
+				"proportionaltoparent" "1"
 				"scaleImage"	"1"
 
 				if_mvm
 				{
-					"xpos"			"4"
-					"ypos"			"2"
-					"wide"			"20"
-					"tall"			"20"
+					"xpos"			"2"
 					"image"			"../vgui/hud_connecting"
 				}
 
 				if_competitive
 				{
-					"xpos"			"4"
-					"ypos"			"4"
-					"wide"			"p0.4"
-					"tall"			"p0.6"
 					"image"			"../vgui/hud_connecting"
-					"proportionaltoparent" "1"
 				}
 
 				if_readymode
 				{
-					"xpos"			"1"
-					"ypos"			"2"
-					"wide"			"20"
-					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
 			}
@@ -208,7 +193,7 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"4"
+				"xpos"			"0"
 				"ypos"			"2"
 				"zpos"			"2"
 				"wide"			"20"
@@ -220,6 +205,7 @@
 
 				if_mvm
 				{
+					"xpos"			"2"
 					"visible"		"1"
 				}
 
@@ -236,7 +222,6 @@
 				if_readymode
 				{
 					"visible"		"0"
-					"xpos"			"0"
 				}
 			}
 
@@ -244,11 +229,11 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"21"
-				"ypos"				"-3"
+				"xpos"				"9"
+				"ypos"				"-14"
 				"zpos"				"3"
-				"wide"				"36"
-				"tall"				"32"
+				"wide"				"50"
+				"tall"				"50"
 				"visible"			"1"
 				"enabled"			"1"
 				"HealthBonusPosAdj"	"10"
@@ -290,6 +275,7 @@
 
 				if_mvm
 				{
+					"xpos"			"29"
 					"visible"		"1"
 				}
 
@@ -305,7 +291,7 @@
 
 				if_readymode
 				{
-					"visible"		"1"
+					"visible"		"0"
 				}
 			}
 
@@ -313,20 +299,21 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"30"
+				"xpos"			"0"
 				"ypos"			"6"
-				"zpos"			"0"
+				"zpos"			"3"
 				"wide"			"12"
 				"tall"			"12"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"	"1"
 
 				if_mvm
 				{
+					"xpos"			"29"
 					"visible"		"1"
 				}
 
@@ -413,7 +400,7 @@
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"-1"
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"

@@ -19,7 +19,7 @@
 
 		"RoundIndicatorPanel_kv"
 		{
-			"ypos"				"1"
+			"ypos"				"0"
 			"wide"				"6"
 			"tall"				"6"
 			"zpos"				"7"
@@ -29,7 +29,7 @@
 
 		"RoundWinPanelRed_kv"
 		{
-			"ypos"				"-4"
+			"ypos"				"-5"
 			"wide"				"16"
 			"tall"				"16"
 			"zpos"				"8"
@@ -56,7 +56,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"80"
-		"tall"			"38"
+		"tall"			"32"
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"

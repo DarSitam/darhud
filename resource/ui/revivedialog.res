@@ -55,15 +55,38 @@
 			"centerwrap"	"1"
 			"fgcolor_override" "200 80 60 255"
 		}
+		
+		"CancelButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"CancelButton"
+			"xpos"			"60"
+			"ypos"			"45"
+			"zpos"			"20"
+			"wide"			"75"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"Hide"
+			"font"			"ReplayBrowserSmallest"
+			"textAlignment"	"center"
+			"textinsetx"	"50"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"cancel"
+		}
 
 		"ConfirmButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ConfirmButton"
-			"xpos"			"90"
+			"xpos"			"140"
 			"ypos"			"45"
 			"zpos"			"20"
-			"wide"			"100"
+			"wide"			"75"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -85,11 +108,11 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"SpectatorGUIHealth"
-			"xpos"				"30"
-			"ypos"				"33"
+			"xpos"				"5"
+			"ypos"				"r40"
 			"zpos"				"20"
-			"wide"				"48"
-			"tall"				"48"
+			"wide"				"50"
+			"tall"				"50"
 			"visible"			"1"
 			"enabled"			"1"	
 			"HealthBonusPosAdj"	"10"
@@ -98,6 +121,7 @@
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
 			"autoResize"	"1"
+			"proportionaltoparent"	"1"
 		}
 	}
 }

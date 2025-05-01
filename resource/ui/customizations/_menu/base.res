@@ -6,12 +6,16 @@
 #base "customization_metal.res"
 #base "customization_stickies.res"
 #base "customization_killstreak.res"
+#base "customization_spectatorguihealth.res"
 #base "customization_health.res"
 #base "customization_class_selection.res"
 #base "customization_scoreboard.res"
 
 #base "customization_mainmenu.res"
+#base "customization_mainmenuchr.res"
+#base "customization_matchmaking.res"
 #base "customization_tflogo.res"
+#base "customization_loadingscreen.res"
 
 ","
 {

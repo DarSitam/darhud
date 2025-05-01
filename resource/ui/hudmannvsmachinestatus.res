@@ -31,7 +31,7 @@
 		"ControlName"		"CMvMBossStatusPanel"
 		"fieldName"			"BossStatusPanel"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"20"
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"

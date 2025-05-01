@@ -39,15 +39,26 @@
 	
 	"MetalIcon"	
 	{
-		"wide"			"0"
-		"tall"			"0"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIcon"
+		"xpos"			"30"
+		"ypos"			"38"
+		"zpos"			"1"
+		"wide"			"10"
+		"tall"			"10"
+		"tall_lodef"	"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+		"iconColor"		"AdditionalValue"
 	}
 	
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"25"
+		"xpos"			"28"
 		"ypos"			"38"
 		"zpos"			"2"
 		"wide"			"50"
@@ -69,7 +80,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"25"
+		"xpos"			"29"
 		"ypos"			"39"
 		"zpos"			"1"
 		"wide"			"50"

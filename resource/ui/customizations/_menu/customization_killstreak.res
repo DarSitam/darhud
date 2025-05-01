@@ -11,7 +11,7 @@
                     "ControlName"							"EditablePanel"
                     "fieldName"								"Killstreak"
                     "xpos"									"250"
-                    "ypos"									"170"
+                    "ypos"									"180"
                     "zpos"									"0"
                     "wide"									"p0.45"
                     "tall"									"70"

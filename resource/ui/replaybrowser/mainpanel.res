@@ -33,35 +33,48 @@
 	
 	"BackgroundHeader"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"120"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"TransparentStripe"
+		"image"			"replay/thumbnails/mainmenu/striped_pattern"
+		"drawcolor"	"BackgroundDefault"
+		"tileImage"		"1"
 	}			
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"1"
+		"ypos"			"r60"
+		"zpos"			"10"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"BackgroundDefault"
-	}			
+		"bgcolor_override"	"0 0 0 128"
+	}
+
 	"FooterLine"
 	{
-		"visible"		"0"
-		"enabled"		"0"
-	}					
+		"ControlName"	"EditablePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"0"
+		"ypos"			"r60"
+		"zpos"			"11"
+		"wide"			"f0"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"ButtonArmed"
+		"scaleImage"	"1"
+	}				
 	
 	"Sheet"
 	{
@@ -70,20 +83,17 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"30"
+		"tabheight"		"28"
 		"transition_time" "0"
-<<<<<<< Updated upstream
-		"yoffset"	"16"
-=======
 		"yoffset"	"0"
->>>>>>> Stashed changes
+  }
 		
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"44"
+			"ypos"			"26"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"2"
@@ -115,7 +125,7 @@
 		"fieldName"		"BackButton"
 		"xpos"			"c-295"
 		"ypos"			"rs1-18"
-		"zpos"			"2"
+		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"26"
 		"autoResize"	"0"

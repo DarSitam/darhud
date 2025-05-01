@@ -19,13 +19,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
-		"ypos"			"8"
-		"wide"			"50"
-		"tall"			"50"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"	
 		"TFFont"		"HudFontSmall"
 		"TextColor"		"HudOffWhite"
 		"autoResize"	"1"
+		"proportionaltoparent"	"1"
 	}	
 }

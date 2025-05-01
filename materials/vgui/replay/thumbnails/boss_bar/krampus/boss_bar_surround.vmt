@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+    "$translucent"        "1"
+    "$baseTexture"        "vgui\replay\thumbnails\boss_bar\boss_bar_surround_mask"
+    "$alpha"            "1"
+    "$vertexalpha"        "1"
+    "$vertexcolor"        "1"
+    "$no_fullbright"    "1"
+    "$ignorez"            "1"
+    "$color"            "{80 80 80}"
+    "%keywords"            "tf"
+}

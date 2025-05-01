@@ -7,8 +7,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"190"
-		"tall"			"18"
+		"wide"			"192"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"	
 	}
@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TankImage"
-		"xpos"			"5"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"18"
@@ -26,46 +26,48 @@
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_tank"
 		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
 	}
 
 	"ProgressBar"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"			"30"
-		"ypos"			"4"
-		"zpos"			"1"
-		"wide"			"153"
-		"tall"			"10"
+		"xpos"			"23"
+		"ypos"			"3"
+		"zpos"			"0"
+		"wide"			"159"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
-		
- 		"src_corner_height"	"22"				// pixels inside the image
- 		"src_corner_width"	"22"
- 	
- 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
- 		"draw_corner_height" 	"5"
+		"Image"			"replay/thumbnails/boss_bar/carrier/boss_bar"
 	}	
 	
 	"ProgressBarBG"
 	{
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	
-	"ProgressBarBG1"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"ProgressBarBG1"
-		"xpos"			"30"
-		"ypos"			"4"
-		"zpos"			"0"
-		"wide"			"153"
-		"tall"			"10"
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"ProgressBarBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"189"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackgroundtype"	"2"
-		"bgcolor_override"	"GeneralLabel"
+		"Image"			"replay/thumbnails/boss_bar/carrier/boss_bar_surround"
+	}
+
+	"ProgressBarBGShadow"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"ProgressBarBGShadow"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"-1"
+		"wide"			"189"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"Image"			"replay/thumbnails/boss_bar/boss_bar_surround_shadow"
 	}
 }

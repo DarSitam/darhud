@@ -11,7 +11,7 @@
                     "ControlName"							"EditablePanel"
                     "fieldName"								"Scoreboard"
                     "xpos"									"5"
-                    "ypos"									"330"
+                    "ypos"									"425"
                     "zpos"									"0"
                     "wide"									"p0.95"
                     "tall"									"43"

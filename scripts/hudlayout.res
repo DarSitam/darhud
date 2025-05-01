@@ -159,7 +159,7 @@
 		"xpos"		"c-126"
 		"ypos"		"320"
 		"wide"	 	"252"
-		"tall"	 	"19"
+		"tall"	 	"20"
 		"priority"	"40"
 
 		if_vr
@@ -178,7 +178,7 @@
 		"ypos"		"320"
 		"zpos"		"2"
 		"wide"	 	"255"
-		"tall"	 	"19"
+		"tall"	 	"20"
 		"priority"	"40"
 		
 		"x_offset" "20"
@@ -193,7 +193,7 @@
 		"xpos"		"c-126"
 		"ypos"		"300"
 		"wide"	 	"252"
-		"tall"	 	"19"
+		"tall"	 	"20"
 		"priority"	"35"
 
 		if_vr
@@ -1373,6 +1373,7 @@
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
+		"zpos"	"11"
 		"wide"	"f0"
 		"tall"	"f0"
 	}
@@ -1427,15 +1428,6 @@
 		"ypos_lodef"        "90"
 		"wide"            "f0"
 		"tall"            "100"
-	}	
-	
-	"MMDashBoardPopupContainer"
-	{
-		"xpos"					"cs-0.5"
-		"ypos"					"-470"
-		"wide"					"f0"
-		"tall"					"550"
-		"mouseinputenabled"		"1"
 	}
 }
 

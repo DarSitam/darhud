@@ -187,7 +187,7 @@
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
-
+		
 		if_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
@@ -205,20 +205,24 @@
 			"image"		"../console/title_team_halloween2014_widescreen"
 		}
 		if_halloween_4
-		{
+		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
 		if_halloween_5
-		{
+		{	
 			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
+		if_christmas_0
 		{
 			"image"		"../console/background_xmas2020_widescreen"
+		}
+		if_christmas_1
+		{
+			"image"		"../console/background_xmas2023_widescreen"
 		}
 	}
 
@@ -409,17 +413,18 @@
 
 		"show_model"	"0"
 		"show_type"		"1"
+		"show_name"		"0"
 	}
 
 	"NoGCMessage"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"c-85"
-		"ypos"			"r60"
+		"xpos"			"c-250"
+		"ypos"			"220"
 		"zpos"			"3"
-		"wide"			"210"
-		"tall"			"60"
+		"wide"			"170"
+		"tall"			"70"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -435,9 +440,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-120"
-		"ypos"			"r45"
-		"zpos"			"100"
+		"xpos"			"c-290"
+		"ypos"			"240"
+		"zpos"			"10"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
@@ -868,7 +873,7 @@
 			"fieldName"		"MOTD_TF2Button"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1.2"
-			"wide"			"110"
+			"wide"			"150"
 			"tall"			"20"
 			"proportionaltoparent" "1"
 			
@@ -887,9 +892,9 @@
 				"tabPosition"	"0"
 				"labelText"		"#MMenu_MOTD_URL"
 				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
+				"textAlignment"	"center"
 				"use_proportional_insets" "1"
-				"textinsetx"		"30"
+				"textinsetx"		"0"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
@@ -914,8 +919,8 @@
 					"xpos"			"2"
 					"ypos"			"cs-0.5"
 					"zpos"			"1"
-					"wide"			"21"
-					"tall"			"21"
+					"wide"			"18"
+					"tall"			"18"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"

@@ -1,7 +1,7 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"FriendsContainer"
+	"TFCharacterImage"
 	{
-		"visible"		"0"
+		"xpos"		"9999"
 	}
 }

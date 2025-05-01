@@ -87,7 +87,7 @@
 		"fieldName"		"ReinforcementsLabel"
 		"fgcolor_override"		"GeneralLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"37"
+		"ypos"			"50"
 		"wide"			"300"
 		"tall"			"18"
 		"autoResize"		"0"
