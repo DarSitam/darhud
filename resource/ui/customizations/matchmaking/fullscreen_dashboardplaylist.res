@@ -67,12 +67,6 @@
 			"tall"			"195"
 			"proportionaltoparent"	"1"
 
-			"image_name"		"illustrations/gamemode_attackdefend"
-			"button_token"		"#MMenu_PlayList_Casual_Button"
-			"button_command"	"play_casual"
-			"desc_token"		"#MMenu_PlayList_Casual_Desc"
-			"matchgroup"		"7" // k_eTFMatchGroup_Casual_12v12
-
 			if_event
 			{
 				"ypos"			"53"
@@ -89,13 +83,6 @@
 			"tall"			"195"
 			"proportionaltoparent"	"1"
 
-			"image_name"		"illustrations/gamemode_cp"
-			"button_token"		"#MMenu_PlayList_Competitive_Button"
-			"button_command"	"play_competitive"
-			"desc_token"		"#MMenu_PlayList_Competitive_Desc"
-			"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
-			//"matchgroup"		"1"
-
 			if_event
 			{
 				"ypos"			"103"
@@ -111,12 +98,6 @@
 			"wide"			"190"
 			"tall"			"195"
 			"proportionaltoparent"	"1"
-
-			"image_name"		"replay/thumbnails/mainmenu/illustrations/gamemode_mvm"
-			"button_token"		"#MMenu_PlayList_MvM_Button"
-			"button_command"	"play_mvm"
-			"desc_token"		"#MMenu_PlayList_MvM_Desc"
-			"matchgroup"		"1" // k_eTFMatchGroup_MvM_MannUp
 
 			if_event
 			{
@@ -136,8 +117,6 @@
 
 			"image_name"		"illustrations/quickplay"
 			"button_token"		"#quickplay"
-			"button_command"	"url https://quickplay.tf"
-			//"button_command"	"comp_access_info"
 			"desc_token"		"#TF_GameModeDesc_Quickplay"
 		}
 
@@ -150,11 +129,6 @@
 			"wide"			"190"
 			"tall"			"195"
 			"proportionaltoparent"	"1"
-
-			"image_name"		"illustrations/gamemode_operation_gunmettle"
-			"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
-			"button_command"	"play_community"
-			"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
 
 			if_event
 			{
@@ -211,11 +185,6 @@
 			"wide"			"190"
 			"tall"			"195"
 			"proportionaltoparent"	"1"
-
-			"image_name"		"illustrations/training_basic"
-			"button_token"		"#MMenu_PlayList_Training_Button"
-			"button_command"	"play_training"
-			"desc_token"		"#MMenu_PlayList_Training_Desc"
 
 			if_event
 			{

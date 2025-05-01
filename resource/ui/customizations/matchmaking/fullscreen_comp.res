@@ -114,13 +114,13 @@
 		"ypos"			"60"
 		"zpos"			"101"
 		"wide"			"272"
-		"tall"			"430"
+		"tall"			"380"
 		"proportionaltoparent"	"1"
 
 		"ignorescheme"                "1"
 
 		"collapsed_height"            "20"
-		"expanded_height"            "430"
+		"expanded_height"            "380"
 		"resize_time"                "0.2"
 		"expand_direction"			"down"
 
@@ -160,7 +160,7 @@
 			"ypos"			"20"
 			"zpos"			"-1"
 			"wide"			"f0"
-			"tall"			"390"
+			"tall"			"f40"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"BackgroundDefault"
@@ -428,11 +428,11 @@
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"rs1-15"
+		"xpos"			"r275"
 		"ypos"			"85"
 		"zpos"			"100"
 		"wide"			"260"
-		"tall"			"350"
+		"tall"			"320"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"BackgroundDefault"
@@ -459,10 +459,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"rs1-15"
-		"ypos"			"r35"
-		"zpos"			"100"
-		"wide"			"260"
+		"xpos"			"rs1-20"
+		"ypos"			"r107"
+		"zpos"			"101"
+		"wide"			"250"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -485,7 +485,38 @@
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
-	}	
+	}		
+	
+	"TF2CenterButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"TF2CenterButton"
+		"xpos"			"rs1-15"
+		"ypos"			"r50"
+		"zpos"			"100"
+		"wide"			"260"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"HudFontMediumSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"url https://tf2center.com/lobbies"
+		"proportionaltoparent"	"1"
+		"labeltext"		"TF2Center"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+		"actionsignallevel"	"1"
+
+		"RoundedCorners"	"0"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 	
 	"CloseButton"
 	{
