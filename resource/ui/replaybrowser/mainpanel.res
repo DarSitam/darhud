@@ -86,7 +86,6 @@
 		"tabheight"		"28"
 		"transition_time" "0"
 		"yoffset"	"0"
-  }
 		
 		"HeaderLine"
 		{
