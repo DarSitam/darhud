@@ -28,7 +28,7 @@
 		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"sheetinset_bottom"				"10"
 	}
 	
 	"BackgroundHeader"
@@ -72,7 +72,11 @@
 		"tabwidth"		"240"
 		"tabheight"		"30"
 		"transition_time" "0"
+<<<<<<< Updated upstream
 		"yoffset"	"16"
+=======
+		"yoffset"	"0"
+>>>>>>> Stashed changes
 		
 		"HeaderLine"
 		{
