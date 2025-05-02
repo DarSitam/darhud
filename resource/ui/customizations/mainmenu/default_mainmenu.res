@@ -2635,11 +2635,11 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
+			"wide"			"17"
+			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_commentary"
+			"image"			"icon_coach"
 			"scaleImage"	"1"
 		}
 	}
