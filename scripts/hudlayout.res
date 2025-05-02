@@ -408,9 +408,9 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "6"
+		"MaxDeathNotices" "7"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "11"
+		"LineHeight"	  "13"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
