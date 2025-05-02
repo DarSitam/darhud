@@ -5,10 +5,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGImage"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"-50"
 		"zpos"			"1"
 		"wide"			"o1"
-		"tall"			"p0.75"
+		"tall"			"p0.95"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"item_carousel_bg"
@@ -33,7 +33,7 @@
 		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
 
-		"text_ypos"		"15"
+		"text_ypos"		"25"
 		"text_center"	"0"
 		"paint_icon_hide" "1"
 		"model_hide"	"1"
@@ -75,7 +75,7 @@
 			"force_pos"	"1"
 
 			"angles_x" "7"
-			"angles_y" "130"
+			"angles_y" "150"
 			"angles_z" "0"
 			"origin_x" "175"
 			"origin_y" "0"
@@ -225,7 +225,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
 		"xpos"			"cs-0.5"
-		"ypos"			"p.7"
+		"ypos"			"rs1"
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
@@ -507,7 +507,7 @@
 			"fieldName"		"NewSeedButton"
 			"font"			"HudFontSmallest"
 			"xpos"			"8"
-			"ypos"			"75"
+			"ypos"			"80"
 			"fixed_item"
 			{
 				"ypos"		"50"
@@ -518,7 +518,7 @@
 			}
 			"zpos"			"10"
 			"wide"			"70"
-			"tall"			"20"
+			"tall"			"15"
 			"autoResize"	"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -530,6 +530,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"keyboardinputenabled"	"0"
+			"RoundedCorners"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -548,7 +549,7 @@
 			"fieldName"		"SeedTextEntry"
 			"font"			"HudFontSmallest"
 			"xpos"			"90"
-			"ypos"			"75"
+			"ypos"			"80"
 			"fixed_item"
 			{
 				"ypos"		"50"
@@ -559,7 +560,7 @@
 			}
 			"zpos"			"10"
 			"wide"			"115"
-			"tall"			"20"
+			"tall"			"15"
 			"autoResize"	"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -582,7 +583,7 @@
 			"fieldName"		"MarketButton"
 			"font"			"HudFontSmallest"
 			"xpos"		"rs1-10"
-			"ypos"			"75"
+			"ypos"			"80"
 			"fixed_item"
 			{
 				"ypos"		"50"
@@ -593,7 +594,7 @@
 			}
 			"zpos"		"100"
 			"wide"		"75"
-			"tall"		"20"
+			"tall"		"15"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
 			"font"			"AdFont_PurchaseButton"
 			"textinsetx"		"0"

@@ -623,6 +623,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
+
 	"backpack_panel"
 	{
 		"ControlName"		"CBackpackPanel"
@@ -630,7 +631,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"400"
+		"tall"				"f110"
 		"zpos"				"500"
 		"visible"			"0"
 	}
@@ -2138,10 +2139,10 @@
 		"ypos"			"0"
 		"zpos"			"2000"
 		"wide"			"f0"
-		"tall"			"f100"
+		"tall"			"f110"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"30 25 25 245"
+		"bgcolor_override"	"0 0 0 220"
 	}
 
 }
