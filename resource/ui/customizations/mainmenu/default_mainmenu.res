@@ -1630,44 +1630,61 @@
 	{
 		"ControlName"                "CMatchHistoryEntryPanel"
 		"xpos"			"c-300"
-		"ypos"			"295"
+		"ypos"			"285"
 		"zpos"			"10"
 		"wide"			"225"
-		"tall"			"125"
+		"tall"			"135"
 
 		"ignorescheme"                "1"
 
-		"collapsed_height"            "225"
+		"collapsed_height"            "135"
 		"expanded_height"            "10"
-		"resize_time"                "0"
-		"expand_direction"			"left"
+		"resize_time"                "0.1"
+		"expand_direction"			"up"
 
 		"Container"        { "visible"        "0" }
 		"BottomStats"    { "visible"        "0" }
 
 		"toggle"
 		{
-			"ControlName"                    "Button"
+			"ControlName"                    "CexImageButton"
 			"fieldname"						"toggle"
 			"Command"                        "toggle_collapse"
 			"xpos"							"0"
-			"ypos"							"115"
+			"ypos"							"0"
 			"zpos"							"11"
 
 			"textinsetx"					"0"
 			"textinsety"					"0"
 
+			"labelText"	""
+
 			"wide"							"10"
 			"tall"							"10"
-			
-			"labeltext"						">"
-			"defaultBgColor_override" 		"0 0 0 0"
 
 			"textAlignment"					"center"
+
+			"paintBackground"	"0"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_expand"
+				"scaleImage"	"1"
+				"proportionaltoparent" "1"
+			}
 		}
 
 		"FriendsContainer"
@@ -1675,10 +1692,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"FriendsContainer"
 			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"ypos"			"10"
 			"zpos"			"10"
 			"wide"			"207"
-			"tall"			"115"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
