@@ -89,8 +89,8 @@ Scheme
 		RadioButton.ArmedTextColor	"ButtonLabelArmed"
 		
 		// Frames
-		Frame.BgColor					"BackgroundDefault"
-		Frame.OutOfFocusBgColor			"BackgroundDefault"
+		Frame.BgColor					"Blank"
+		Frame.OutOfFocusBgColor			"Blank"
 		FrameGrip.Color1				"MainMenuLabel"
 		FrameGrip.Color2				"MainMenuLabel"
 		
@@ -174,7 +174,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"replay/thumbnails/square_shadow_opaque"
+			"image"					"../console/gradient"
+			"color"					"BackgroundDefault"
 		}
 	}
 	

@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture" "console/gradient"
+    "$translucent"        "1"
+    "$alpha"            "1"
+    "$vertexalpha"        "1"
+    "$vertexcolor"        "1"
+    "$no_fullbright"    "1"
+    "$ignorez"            "1"
+    "%keywords"            "tf"
+}
