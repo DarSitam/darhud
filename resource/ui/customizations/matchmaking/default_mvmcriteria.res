@@ -62,7 +62,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpToolTipButtonHack"
-		"xpos"			"106"
+		"xpos"			"r310"
 		"ypos"			"rs1-8"
 		"zpos"			"101"
 		"wide"			"170"
@@ -111,10 +111,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BootCampToolTipButtonHack"
-		"xpos"			"5"
+		"xpos"			"r405"
 		"ypos"			"rs1-8"
 		"zpos"			"101"
-		"wide"			"270"
+		"wide"			"260"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"

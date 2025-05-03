@@ -49,10 +49,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"cs-0.5"
+		"xpos"			"10"
 		"ypos"			"rs1-8"
 		"zpos"			"101"
-		"wide"			"f20"
+		"wide"			"f36"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
