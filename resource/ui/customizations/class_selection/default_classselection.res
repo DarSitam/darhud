@@ -823,6 +823,26 @@
 			"image"			"../hud/backpack_01"
 			"scaleImage"	"1"
 		}
+	}	
+	
+	"LoadoutShortcutButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"LoadoutShortcutButton"
+		"xpos"			"0"
+		"ypos"			"r0"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&q"
+		"Command"		"openloadout"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"	
 	}
 
 	"ClassMenuSelect1"
