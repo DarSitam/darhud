@@ -1695,7 +1695,7 @@
 			"ypos"			"10"
 			"zpos"			"10"
 			"wide"			"207"
-			"tall"			"f10"
+			"tall"			"f20"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
