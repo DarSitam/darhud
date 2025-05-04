@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"5"
+		"xpos"			"0"
 		"labelText"		"X"
 
 		if_left
@@ -93,7 +93,7 @@
 
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"50"
+		"wide"			"35"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -112,7 +112,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"50"
+		"xpos"			"35"
 
 		if_left
 		{
@@ -122,7 +122,7 @@
 
 		"ypos"			"cs-0.5"
 		"zpos"			"10000"
-		"wide"			"35"
+		"wide"			"36"
 		"tall"			"240"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
