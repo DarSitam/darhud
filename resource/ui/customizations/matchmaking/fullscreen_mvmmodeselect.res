@@ -35,13 +35,14 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
-		"xpos"		"c-330"
+		"xpos"		"c-285"
 		"ypos"		"cs-0.5"
 		"zpos"		"1"
 		"wide"		"180"
 		"tall"		"230"
 		"visible"	"1"
 		"enabled"	"1"
+		"proportionaltoparent"	"1"
 
 		"DropShadow"
 		{

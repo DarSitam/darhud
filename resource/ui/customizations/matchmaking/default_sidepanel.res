@@ -80,32 +80,7 @@
 
 	"CloseButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"r27"
-		"labelText"		"X"
-
-		if_left
-		{
-			"xpos"		"0"
-			"labelText"		"X"
-		}
-
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"30"
-		"tall"			"f0"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"command"		"nav_close"
-
-		"textAlignment"	"east"
-		"font"			"HudFontMediumBigBold"
-
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
-
-		"armedFgColor_override"	"Orange"
+		"visible"		"0"
 	}
 
 	"ReturnButton"

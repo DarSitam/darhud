@@ -38,10 +38,11 @@
 		"xpos"		"10"
 		"ypos"		"70"
 		"zpos"		"1"
-		"wide"		"250"
+		"wide"		"f20"
 		"tall"		"110"
 		"visible"	"1"
 		"enabled"	"1"
+		"proportionaltoparent"	"1"
 
 		"DropShadow"
 		{
@@ -174,7 +175,7 @@
 		"xpos"		"10"
 		"ypos"		"190"
 		"zpos"		"1"
-		"wide"		"250"
+		"wide"		"f20"
 		"tall"		"110"
 		"visible"	"1"
 		"enabled"	"1"
@@ -311,10 +312,11 @@
 		"xpos"		"10"
 		"ypos"		"309"
 		"zpos"		"1"
-		"wide"		"250"
+		"wide"		"f20"
 		"tall"		"110"
 		"visible"	"1"
 		"enabled"	"1"
+		"proportionaltoparent"	"1"
 
 		"DropShadow"
 		{

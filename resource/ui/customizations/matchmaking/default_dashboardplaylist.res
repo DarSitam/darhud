@@ -39,7 +39,7 @@
 		"xpos"			"10"
 		"ypos"			"50"
 		"zpos"			"100"
-		"wide"			"255"
+		"wide"			"f30"
 		"tall"			"370"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -64,7 +64,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"tall"			"58"
-			"wide"			"255"
+			"wide"			"f0"
 			"proportionaltoparent"	"1"
 
 			"image_name"		"illustrations/gamemode_attackdefend"
@@ -86,7 +86,7 @@
 			"xpos"			"0"
 			"ypos"			"63"
 			"tall"			"58"
-			"wide"			"255"
+			"wide"			"f0"
 			"proportionaltoparent"	"1"
 
 			"image_name"		"illustrations/gamemode_cp"
@@ -109,7 +109,7 @@
 			"xpos"			"0"
 			"ypos"			"126"
 			"tall"			"58"
-			"wide"			"255"
+			"wide"			"f0"
 			"proportionaltoparent"	"1"
 
 			"image_name"		"replay/thumbnails/mainmenu/illustrations/gamemode_mvm"
@@ -131,7 +131,7 @@
 			"xpos"			"0"
 			"ypos"			"189"
 			"tall"			"58"
-			"wide"			"255"
+			"wide"			"f0"
 			"proportionaltoparent"	"1"
 
 			"image_name"		"illustrations/quickplay"
@@ -148,7 +148,7 @@
 			"xpos"			"0"
 			"ypos"			"252"
 			"tall"			"55"
-			"wide"			"255"
+			"wide"			"f0"
 			"proportionaltoparent"	"1"
 
 			"image_name"		"illustrations/gamemode_operation_gunmettle"
@@ -209,7 +209,7 @@
 			"xpos"			"0"
 			"ypos"			"312"
 			"tall"			"58"
-			"wide"			"255"
+			"wide"			"f0"
 			"proportionaltoparent"	"1"
 
 			"image_name"		"illustrations/training_basic"
@@ -260,10 +260,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
-		"xpos"			"8"
+		"xpos"			"10"
 		"ypos"			"50"
 		"zpos"			"1000"
-		"wide"			"255"
+		"wide"			"f30"
 		"tall"			"298"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
