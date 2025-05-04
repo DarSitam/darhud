@@ -18,6 +18,7 @@
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"		"2000"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -32,6 +33,7 @@
 		"fieldName"	"MapInfo"
 		"xpos"		"0"
 		"ypos"		"0"
+		"zpos"		"2001"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"	"0"
@@ -197,7 +199,7 @@
 		"textAlignment"		"center"
 		"xpos"			"rs1"
 		"ypos"			"30"
-		"zpos"			"40"
+		"zpos"			"2040"
 		"wide"			"300"
 		"tall"			"35"
 		"autoResize"	"0"
@@ -216,7 +218,7 @@
 		"textAlignment"		"center"
 		"xpos"			"rs1"
 		"ypos"			"55"
-		"zpos"			"50"
+		"zpos"			"2050"
 		"wide"			"300"
 		"tall"			"35"
 		"autoResize"	"0"
@@ -234,7 +236,7 @@
 		"textAlignment"	"center"
 		"xpos"			"rs1"
 		"ypos"			"80"
-		"zpos"			"50"
+		"zpos"			"2050"
 		"wide"			"300"
 		"tall"			"35"
 		"autoResize"	"0"
@@ -246,18 +248,21 @@
 	"StatData"
 	{
 		"ypos"			"-30"
+		"zpos"		"2010"
 	}
 	
 	"TipImage"
 	{
 		"ypos"			"r50"
 		"xpos"			"20"
+		"zpos"		"2010"
 	}
 	
 	"TipText"
 	{
 		"ypos"			"r55"
 		"xpos"			"55"
+		"zpos"		"2010"
 	}
 	
 	"CloseButton" [$WIN32]

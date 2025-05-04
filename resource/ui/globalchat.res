@@ -7,7 +7,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"10"
-		"zpos"					"1001"
+		"zpos"					"1010"
 		"wide"					"200"
 		"tall"					"200"
 		"proportionaltoparent"	"1"
