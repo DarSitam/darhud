@@ -46,6 +46,7 @@
 			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"0"
+			"zpos"			"1"
 			"wide"			"640"
 			"tall"			"480"
 			"visible"		"1"
