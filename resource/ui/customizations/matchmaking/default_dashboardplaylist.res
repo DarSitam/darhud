@@ -136,7 +136,7 @@
 
 			"image_name"		"illustrations/quickplay"
 			"button_token"		"#quickplay"
-			"button_command"	"url https://quickplay.tf"
+			"button_command"	"comp_access_info"
 			"desc_token"		"#TF_GameModeDesc_Quickplay"
 		}
 		
