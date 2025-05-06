@@ -98,10 +98,13 @@ event HudHealthDyingPulseStop
 event HudMedicCharged
 {
 	Animate	ChargeLabel 	FgColor		"UberForeground"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"HealthGain"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"HealthGain"		Linear 0.3 0.6
 	
 	Animate	ChargeMeter 	FgColor		"UberForeground"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"HealthGain"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"HealthGain"		Linear 0.3 0.6
+
+	Animate	UberReadyCross 	Alpha		"255"			Linear 0.0 0.1
+	Animate	UberReadyCross 	Alpha		"0"				Linear 0.3 0.6
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -119,6 +122,7 @@ event HudMedicChargedStop
 	
 	Animate	ChargeLabel 	FgColor		"UberForeground"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"UberForeground"		Linear 0.0 0.0001
+	Animate	UberReadyCross 	Alpha		"0"				Linear 0.0 0.0001
 }
 
 event HudSnapShotReminderIn

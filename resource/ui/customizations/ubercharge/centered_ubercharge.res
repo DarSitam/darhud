@@ -22,6 +22,16 @@
 	{
 		"visible"		"0"
 		"enabled"		"0"
+	}	
+	
+	"Cross"
+	{
+		"visible"		"0"
+	}		
+	
+	"UberReadyCross"
+	{
+		"visible"		"0"	
 	}
 	
 	"ChargeLabel"
@@ -50,7 +60,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c-40"
+		"xpos"			"c-38"
 		"ypos"			"c39"
 		"zpos"			"1"
 		"wide"			"15"
@@ -61,7 +71,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallBold"
@@ -98,7 +108,7 @@
 		"bgcolor_override" "MeterBackground"
 		"fgcolor_override" "UberForeground"
         "pin_to_sibling"    ""
-		"xpos"			"c-25"
+		"xpos"			"c-22"
 		"ypos"			"c52"
 		"zpos"			"3"
 		"wide"			"10"
@@ -120,9 +130,9 @@
 		"bgcolor_override" "MeterBackground"
 		"fgcolor_override" "UberForeground"
 		"pin_to_sibling" "ChargeMeter1"
-		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
-		"xpos"			"4"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		"xpos"			"1"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"10"
@@ -144,9 +154,9 @@
 		"bgcolor_override" "MeterBackground"
 		"fgcolor_override" "UberForeground"
 		"pin_to_sibling" "ChargeMeter2"
-		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
-		"xpos"			"4"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		"xpos"			"1"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"10"
@@ -168,9 +178,9 @@
 		"bgcolor_override" "MeterBackground"
 		"fgcolor_override" "UberForeground"
 		"pin_to_sibling" "ChargeMeter3"
-		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
-		"xpos"			"4"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		"xpos"			"1"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"10"
