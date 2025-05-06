@@ -1597,8 +1597,8 @@
 
 		"image_drawcolor"	"235 226 202 255"
 
-
-		"image_drawcolor"	"235 226 202 255"
+		"defaultFgColor_override"	"ButtonLabelMM"
+		"armedFgColor_override"	"ButtonLabelArmedMM"
 
 		"SubImage"
 		{

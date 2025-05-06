@@ -74,7 +74,7 @@ Scheme
 		"ButtonLabelArmedMM"	"235 235 235 255"
 		
 		//Default
-		"ButtonDefault"		"61 60 59 255"
+		"ButtonDefault"		"60 60 60 255"
 		"ButtonLabelDefault"	"235 226 202 255"
 
 		"ButtonArmed"		"178 82 22 255" //Used when you hover over a button
