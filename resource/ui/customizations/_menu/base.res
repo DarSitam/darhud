@@ -162,7 +162,7 @@
                 "ControlName"	"CExLabel"
                 "fieldName"		"TWarningLabelitle"
                 "font"			"TF2Default"
-                "labelText"		"Leaving this menu on can causes lags. Quit it when you're done !"
+                "labelText"		"Leaving this menu on can cause lags. Quit it when you're done !"
                 "textAlignment"	"west"
                 "wrap"          "1"
                 "xpos"			"5"
