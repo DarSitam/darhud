@@ -1353,15 +1353,15 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"11"
+			"xpos"			"8"
 			"ypos"			"cs-0.5"
 			"zpos"			"2"
-			"wide"			"23"
+			"wide"			"o1"
 			"tall"			"23"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"glyph_items"
+			"image"			"replay/thumbnails/icons/weapons"
 			"proportionaltoparent"	"1"
 		}
 	}
