@@ -34,7 +34,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"13"
-				"weight"	"900"
+				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"769 1023"
 				"antialias"	"1"
@@ -43,7 +43,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"17"
-				"weight"	"900"
+				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -52,7 +52,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"22"
-				"weight"	"900"
+				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
@@ -62,14 +62,14 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"22"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"weight"		"700"
 			}
 			"7"
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"22"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"weight"		"700"
 			}
 		}
 		"TF2DefaultSmall"
