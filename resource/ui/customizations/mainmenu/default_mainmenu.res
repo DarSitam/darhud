@@ -1340,8 +1340,12 @@
 		"paintbackground"	"0"
 
 		"paintBorder"	"1"
+
 		"border_default"    "customMainMenuButtonItems"
     	"border_armed"      "customMainMenuButtonItemsArmed"
+
+		"defaultFgColor_override"	"ButtonLabelMM"
+		"armedFgColor_override"	"ButtonLabelArmedMM"
 
 		"image_drawcolor"	"235 226 202 255"
 
@@ -1418,6 +1422,9 @@
 		"paintBorder"	"1"
 		"border_default"    "customMainMenuButtonShop"
     	"border_armed"      "customMainMenuButtonShopArmed"
+		
+		"defaultFgColor_override"	"ButtonLabelMM"
+		"armedFgColor_override"	"ButtonLabelArmedMM"
 
 		"image_drawcolor"	"235 226 202 255"
 
@@ -1492,7 +1499,8 @@
 		"border_default"    "customMainMenuButtonOptions"
     	"border_armed"      "customMainMenuButtonOptionsArmed"
 
-		"image_drawcolor"	"235 226 202 255"
+		"defaultFgColor_override"	"ButtonLabelMM"
+		"armedFgColor_override"	"ButtonLabelArmedMM"
 
 		"image_drawcolor"	"235 226 202 255"
 

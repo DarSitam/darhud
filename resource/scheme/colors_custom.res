@@ -71,7 +71,7 @@ Scheme
 		"ButtonMMShadow"	"10 10 10 200"
 
 		"ButtonArmedMM"		"194 52 52 255" //Used when you hover over a button
-		"ButtonLabelMM"	"235 235 235 255"
+		"ButtonLabelArmedMM"	"235 235 235 255"
 		
 		//Default
 		"ButtonDefault"		"61 60 59 255"
