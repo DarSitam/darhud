@@ -53,7 +53,7 @@
 		"wide"		"310"
 		"tall"		"25"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#quickplay"
+		"labeltext"		"#DAR_QuickplayTitle"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumBold"
 		"fgcolor_override"	"MainMenuLabel"

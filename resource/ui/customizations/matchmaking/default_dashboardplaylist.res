@@ -135,7 +135,7 @@
 			"proportionaltoparent"	"1"
 
 			"image_name"		"illustrations/quickplay"
-			"button_token"		"#quickplay"
+			"button_token"		"#DAR_QuickplayTitle"
 			"button_command"	"comp_access_info"
 			"desc_token"		"#TF_GameModeDesc_Quickplay"
 		}
