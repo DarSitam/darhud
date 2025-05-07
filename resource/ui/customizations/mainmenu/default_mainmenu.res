@@ -2380,12 +2380,70 @@
 			"scaleImage"	"1"
 		}
 	}
+	
+	"CommentaryButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CommentaryButton"
+		"pin_to_sibling" 	"NewUserForumsButton"
+		"pin_to_sibling_corner"	"1"
+		"xpos"			"1"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"OpenLoadSingleplayerCommentaryDialog"
+
+		"navUp"			"VRModeButton"
+		"navLeft"		"AchievementsButton"
+		"navRight"		"CoachPlayersButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"1"
+		"paintBorder"	"0"
+		"RoundedCorners"	"0"
+
+		"defaultBgColor_override"	"ButtonMM"
+		"armedBgColor_override"	"ButtonArmedMM"
+		"border_default"	"MainMenuSubButtonBorder"
+
+		"image_drawcolor"	"235 226 202 255"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"proportionaltoparent"	"1"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_forums"
+			"scaleImage"	"1"
+		}
+	}
 
 	"AchievementsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"pin_to_sibling" 	"NewUserForumsButton"
+		"pin_to_sibling" 	"CommentaryButton"
 		"pin_to_sibling_corner"	"1"
 		"xpos"			"1"
 		"ypos"			"0"
@@ -2438,6 +2496,7 @@
 			"scaleImage"	"1"
 		}
 	}
+
 	"WorkshopButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2552,62 +2611,67 @@
 			"scaleImage"	"1"
 		}
 	}
-
-	"CommentaryButton"
+	
+	"DemoButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CommentaryButton"
 		"pin_to_sibling" 	"ReplayButton"
 		"pin_to_sibling_corner"	"1"
+		"ControlName"	"EditablePanel"
+		"fieldname"		"DemoButton"
 		"xpos"			"1"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"22"
 		"tall"			"23"
-		"autoResize"	"0"
-		"pinCorner"		"3"
 		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"OpenLoadSingleplayerCommentaryDialog"
 
-		"navUp"			"VRModeButton"
-		"navLeft"		"AchievementsButton"
-		"navRight"		"CoachPlayersButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"paintbackground"	"1"
-		"paintBorder"	"0"
-		"RoundedCorners"	"0"
-
-		"defaultBgColor_override"	"ButtonMM"
-		"armedBgColor_override"	"ButtonArmedMM"
-		"border_default"	"MainMenuSubButtonBorder"
-
-		"image_drawcolor"	"235 226 202 255"
-		
-		"SubImage"
+		"SubButton"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"proportionaltoparent"	"1"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_forums"
-			"scaleImage"	"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+
+			"image_drawcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"o1"
+				"tall"			"17"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
 		}
 	}
 
@@ -2615,7 +2679,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ConsoleButton"
-		"pin_to_sibling" 	"CommentaryButton"
+		"pin_to_sibling" 	"DemoButton"
 		"pin_to_sibling_corner"	"1"
 		"xpos"			"1"
 		"ypos"			"0"
@@ -3243,7 +3307,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine cl_coach_toggle"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 

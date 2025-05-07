@@ -105,4 +105,11 @@
 		"subimage"		"glyph_workshop_edit"
 		"tooltip" 		"Hud Options"
 	}
+	"DemoButton"
+	{
+		"label"			""
+		"command" 		"engine demoui"
+		"subimage"			"replay/thumbnails/icons/clap"
+		"tooltip" 		"Demo"
+	}
 }
