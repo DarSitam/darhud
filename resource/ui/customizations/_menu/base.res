@@ -1,3 +1,6 @@
+#base "../../../../../darhud/resource/ui/customizations/_menu/base_folderok.res"
+#base "base_foldernotok.res"
+
 #base "title.res"
 
 #base "customization_weapon_charge.res"
@@ -70,10 +73,10 @@
             {
                 "ControlName"								"CScrollableList"
                 "fieldName"									"PageScroller"
-                "xpos"										"5"
+                "xpos"										"cs-0.5"
                 "ypos"										"35"
                 "zpos"										"-1"
-                "wide"										"f5"
+                "wide"										"f10"
                 "tall"										"f90"
                 "visible"									"1"
                 "enabled"									"1"

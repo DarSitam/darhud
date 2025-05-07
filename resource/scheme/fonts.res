@@ -505,6 +505,19 @@ Scheme
 				"yres"		"1200 10000"
 			}
 		}
+
+		"HudFontGiantSecondary"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
 		"HudFontGiantBold"
 		{
 			"1"
