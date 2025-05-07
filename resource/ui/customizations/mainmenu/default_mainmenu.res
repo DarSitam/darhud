@@ -2609,71 +2609,13 @@
 			"image"			"glyph_forums"
 			"scaleImage"	"1"
 		}
-	}	
-	
-	"CoachPlayersButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayersButton"
-		"pin_to_sibling" 	"CommentaryButton"
-		"pin_to_sibling_corner"	"1"
-		"xpos"			"1"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"22"
-		"tall"			"23"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine cl_coach_toggle"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"CommentaryButton"
-		"navRight"		"ReportBugButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"paintbackground"	"1"
-		"paintBorder"	"0"
-		"RoundedCorners"	"0"
-
-		"defaultBgColor_override"	"ButtonMM"
-		"armedBgColor_override"	"ButtonArmedMM"
-		"border_default"	"MainMenuSubButtonBorder"
-
-		"image_drawcolor"	"235 226 202 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"proportionaltoparent"	"1"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"icon_coach"
-			"scaleImage"	"1"
-		}
 	}
 
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ConsoleButton"
-		"pin_to_sibling" 	"CoachPlayersButton"
+		"pin_to_sibling" 	"CommentaryButton"
 		"pin_to_sibling_corner"	"1"
 		"xpos"			"1"
 		"ypos"			"0"
@@ -3150,75 +3092,6 @@
 		}
 	}
 
-	"RequestCoachButton"
-	{
-		"pin_to_sibling"	"MutePlayersButton"
-		"pin_to_sibling_corner"	"2"
-		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
-		"xpos"			"0"
-		"ypos"			"1"
-		"zpos"			"11"
-		"wide"			"25"
-		"tall"			"24"
-		"visible"		"1"
-
-		"navLeft"		"MutePlayersButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navDown"		"QuickplayChangeButton"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"1"
-			"paintBorder"	"0"
-			"RoundedCorners"	"0"
-
-			"defaultBgColor_override"	"ButtonMM"
-			"armedBgColor_override"	"ButtonArmedMM"
-
-			"image_drawcolor"	"235 226 202 255"
-			"proportionaltoparent"	"1"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"rs1-5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
 	"BackToReplaysButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -3346,6 +3219,122 @@
 			"enabled"		"1"
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
+		}
+	}
+	
+	"CoachPlayersButton" //Broken since MYM, can't join Casual servers
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CoachPlayersButton"
+		"xpos"			"r25"
+		"ypos"			"r50"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine cl_coach_toggle"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"1"
+		"paintBorder"	"0"
+		"RoundedCorners"	"0"
+
+		"defaultBgColor_override"	"ButtonMM"
+		"armedBgColor_override"	"ButtonArmedMM"
+		"border_default"	"MainMenuSubButtonBorder"
+
+		"image_drawcolor"	"235 226 202 255"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"proportionaltoparent"	"1"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"17"
+			"tall"			"17"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"icon_coach"
+			"scaleImage"	"1"
+		}
+	}
+	
+	"RequestCoachButton" //See above
+	{
+		"pin_to_sibling"	"MutePlayersButton"
+		"pin_to_sibling_corner"	"2"
+		"ControlName"	"EditablePanel"
+		"fieldname"		"RequestCoachButton"
+		"xpos"			"r25"
+		"ypos"			"r75"
+		"zpos"			"11"
+		"wide"			"25"
+		"tall"			"24"
+		"visible"		"0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+
+			"image_drawcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"rs1-5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
 		}
 	}
 }
