@@ -694,7 +694,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"glyph_quit"
+				"image"			"glyph_disconnect"
 				"drawcolor_override" "TanLight"
 			}
 		}
