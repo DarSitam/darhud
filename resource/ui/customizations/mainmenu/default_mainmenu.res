@@ -2666,7 +2666,7 @@
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"o1"
-				"tall"			"17"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
