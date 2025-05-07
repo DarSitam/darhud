@@ -1432,15 +1432,15 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"11"
+			"xpos"			"9"
 			"ypos"			"cs-0.5"
 			"zpos"			"2"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"22"
+			"tall"			"22"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image" "glyph_store"
+			"image" "replay/thumbnails/icons/money"
 			"proportionaltoparent"	"1"
 		}
 	}	
