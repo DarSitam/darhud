@@ -114,10 +114,6 @@
 			"wide"			"190"
 			"tall"			"195"
 			"proportionaltoparent"	"1"
-
-			"image_name"		"illustrations/quickplay"
-			"button_token"		"#quickplay"
-			"desc_token"		"#TF_GameModeDesc_Quickplay"
 		}
 
 		"ServerBrowserEntry"
