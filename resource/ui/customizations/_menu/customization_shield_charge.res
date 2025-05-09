@@ -6,12 +6,12 @@
         {
             "PageScroller"
             {  
-                "Killstreak"
+                "ShieldCharge"
                 {
                     "ControlName"							"EditablePanel"
-                    "fieldName"								"Killstreak"
+                    "fieldName"								"ShieldCharge"
                     "xpos"									"250"
-                    "ypos"									"255"
+                    "ypos"									"180"
                     "zpos"									"0"
                     "wide"									"p0.45"
                     "tall"									"70"
@@ -24,7 +24,7 @@
                         "ControlName"	"CExLabel"
                         "fieldName"		"Title"
                         "font"			"HudFontSmallBold"
-                        "labelText"		"Killstreak"
+                        "labelText"		"Shield Charge"
                         "textAlignment"	"west"
                         "xpos"			"cs-0.5"
                         "ypos"			"0"
@@ -63,6 +63,7 @@
                         "zpos"			"11"
                         "wide"			"120"
                         "tall"			"20"
+                        "pinCorner"		"3"
                         "visible"		"1"
                         "enabled"		"1"
                         "font"			"HudFontSmallestBold"
@@ -72,13 +73,13 @@
                         "sound_released"	"UI/buttonclickrelease.wav"
                         "labeltext"		"Default"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_ks"
+                        "command"		"engine c_shield"
                     }
 
-                    "TopRight"
+                    "Centered"
                     {
                         "ControlName"	"CExButton"
-                        "fieldName"		"TopRight"
+                        "fieldName"		"Centered"
                         "xpos"			"cs-0.5"
                         "ypos"			"44"
                         "zpos"			"11"
@@ -93,9 +94,9 @@
                         "actionsignallevel" "5"
                         "sound_depressed"	"UI/buttonclick.wav"
                         "sound_released"	"UI/buttonclickrelease.wav"
-                        "labeltext"		"Top-Right"
+                        "labeltext"		"Centered"
                         "proportionaltoparent"	"1"
-                        "command"		"engine c_ks_topright"
+                        "command"		"engine c_shield_centered"
                     }
                 }
             }

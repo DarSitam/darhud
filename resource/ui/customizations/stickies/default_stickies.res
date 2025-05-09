@@ -1,65 +1,11 @@
 "Resource/UI/HudDemomanPipes.res"
-{
-    HudDemomanPipes
-	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"f0"
-		"tall"			"480"
-	}	
+{	
 
 	"background"
 	{
 		"visible"		"0"
 		"enabled"		"0"
-	}
-	
-	"ChargeLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ChargeLabel"
-		"xpos"					"cs-0.5"
-		"ypos"					"c52"
-		"zpos"					"3"
-		"wide"					"50"
-		"tall"					"4"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"0"
-		"tabPosition"			"0"
-		"labelText"				"#TF_Charge"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"TF2Default"
-		"disabledfgcolor2_override" "MeterLabel"
-	}
-
-	"ChargeMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ChargeMeter"
-		"font"					"Default"
-		"bgcolor_override" 		"MeterBackground"
-		"fgcolor_override" 		"White"
-		"pin_to_sibling" 		"ChargeLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"4"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-	}				
+	}			
 		
 	"PipesPresentPanel"
 	{

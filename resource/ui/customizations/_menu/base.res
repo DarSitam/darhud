@@ -8,6 +8,7 @@
 #base "customization_meters.res"
 #base "customization_metal.res"
 #base "customization_stickies.res"
+#base "customization_shield_charge.res"
 #base "customization_killstreak.res"
 #base "customization_spectatorguihealth.res"
 #base "customization_health.res"
