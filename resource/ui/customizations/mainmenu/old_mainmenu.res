@@ -133,6 +133,8 @@
 
 		"defaultfgColor_override" "ButtonLabelDefault"
 		"armedfgColor_override" "ButtonLabelArmed"
+
+		"RoundedCorners"	"5"
 	}
 
 	"AchievementsButton"
@@ -196,7 +198,13 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+			"RoundedCorners"	"10"
 		}
+	}
+	
+	"MiscButtonShadow"
+	{				
+		"paintBackgroundType"	"2"
 	}
 	
 	//Actions buttons
@@ -210,6 +218,7 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+			"RoundedCorners"	"5"
 		}
 	}
 	
@@ -223,7 +232,13 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+			"RoundedCorners"	"10"
 		}
+	}
+	
+	"ActionButtonShadow"
+	{				
+		"paintBackgroundType"	"2"
 	}
 	
 	//Jukebox buttons
@@ -237,6 +252,7 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+			"RoundedCorners"	"5"
 		}
 	}
 
@@ -276,7 +292,13 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+			"RoundedCorners"	"10"
 		}
+	}
+	
+	"JukeboxButtonShadow"
+	{				
+		"paintBackgroundType"	"2"
 	}
 
 	//Hud buttons
@@ -289,6 +311,7 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+			"RoundedCorners"	"5"
 		}
 	}
 
@@ -301,7 +324,13 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+			"RoundedCorners"	"10"
 		}
+	}
+	
+	"HudButtonShadow"
+	{
+		"paintBackgroundType"	"2"
 	}
 
 	// In-game Special buttons
@@ -314,6 +343,8 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+			
+			"RoundedCorners"	"3"
 		}
 	}
 	"CallVoteButton"
@@ -337,6 +368,8 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+
+			"RoundedCorners"	"12"
 		}
 	}
 

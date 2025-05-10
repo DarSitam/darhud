@@ -1906,7 +1906,7 @@
 
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
-			"border_default"	"MainMenuSubButtonBorder"
+			
 
 			"image_drawcolor"	"235 226 202 255"
 			
@@ -1974,7 +1974,7 @@
 
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
-			"border_default"	"MainMenuSubButtonBorder"
+			
 
 			"image_drawcolor"	"235 226 202 255"
 			
@@ -2042,7 +2042,7 @@
 
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
-			"border_default"	"MainMenuSubButtonBorder"
+			
 
 			"image_drawcolor"	"235 226 202 255"
 			
@@ -2110,7 +2110,7 @@
 
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
-			"border_default"	"MainMenuSubButtonBorder"
+			
 
 			"image_drawcolor"	"235 226 202 255"
 			
@@ -2418,7 +2418,7 @@
 
 		"defaultBgColor_override"	"ButtonMM"
 		"armedBgColor_override"	"ButtonArmedMM"
-		"border_default"	"MainMenuSubButtonBorder"
+		
 
 		"image_drawcolor"	"235 226 202 255"
 		
@@ -2476,7 +2476,7 @@
 
 		"defaultBgColor_override"	"ButtonMM"
 		"armedBgColor_override"	"ButtonArmedMM"
-		"border_default"	"MainMenuSubButtonBorder"
+		
 
 		"image_drawcolor"	"235 226 202 255"
 
@@ -2534,7 +2534,7 @@
 
 		"defaultBgColor_override"	"ButtonMM"
 		"armedBgColor_override"	"ButtonArmedMM"
-		"border_default"	"MainMenuSubButtonBorder"
+		
 
 		"image_drawcolor"	"235 226 202 255"
 		
@@ -2718,7 +2718,7 @@
 
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
-			"border_default"	"MainMenuSubButtonBorder"
+			
 
 			"image_drawcolor"	"235 226 202 255"
 		
@@ -2803,7 +2803,7 @@
 
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
-			"border_default"	"MainMenuSubButtonBorder"
+			
 
 			"image_drawcolor"	"235 226 202 255"
 		
@@ -2869,7 +2869,7 @@
 
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
-			"border_default"	"MainMenuSubButtonBorder"
+			
 
 			"image_drawcolor"	"235 226 202 255"
 		
@@ -3317,7 +3317,7 @@
 
 		"defaultBgColor_override"	"ButtonMM"
 		"armedBgColor_override"	"ButtonArmedMM"
-		"border_default"	"MainMenuSubButtonBorder"
+		
 
 		"image_drawcolor"	"235 226 202 255"
 		
