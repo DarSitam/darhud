@@ -5,6 +5,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"					"cs-0.5"
+		"xpos_minmode"			"cs-0.5"
 		"ypos"					"c52"
 		"zpos"					"3"
 		"wide"					"50"
