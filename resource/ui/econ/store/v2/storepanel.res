@@ -28,22 +28,12 @@
 		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"0"
+		"sheetinset_bottom"				"50"
 	}
 
 	"BackgroundFull"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundFull"
-		"xpos"			"0"
-		"ypos"			"r60"
-		"zpos"			"11"
-		"wide"			"f0"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"BackgroundDefault"
-		"tileImage"		"1"
+		"visible"		"0"
 	}	
 	
 	"BackgroundHeader"
@@ -58,22 +48,22 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/mainmenu/striped_pattern"
-		"drawcolor"	"BackgroundDefault"
+		"drawcolor"		"BackgroundDefault"
 		"tileImage"		"1"
 	}	
 
 	"BackgroundFooter"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundHeader"
+		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"r60"
-		"zpos"			"12"
+		"zpos"			"10"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 128"
+		"bgcolor_override"	"FooterColor"
 	}
 
 	"FooterLine"
@@ -81,7 +71,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"r60"
+		"ypos"			"r59"
 		"zpos"			"13"
 		"wide"			"f0"
 		"tall"			"2"

@@ -63,6 +63,13 @@ Scheme
 
 		"MainMenuLabel"			"235 226 202 255"
 
+
+
+		//Backpack and co
+		"FooterColor"		"16 16 16 255"
+
+
+
 		////Buttons
 
 		//Main Menu

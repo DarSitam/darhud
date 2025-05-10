@@ -28,7 +28,7 @@
 		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"10"
+		"sheetinset_bottom"				"50"
 	}
 	
 	"BackgroundHeader"
@@ -58,7 +58,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 128"
+		"bgcolor_override"	"FooterColor"
 	}
 
 	"FooterLine"
