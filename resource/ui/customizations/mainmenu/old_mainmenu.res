@@ -176,6 +176,25 @@
 		"border_default"    "customMainMenuButtonGradient"
     	"border_armed"      "customMainMenuButtonGradientArmed"
 	}
+	
+	"DemoButton"
+	{
+		"xpos"			"0"
+
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"paintbackground"	"0"
+			"paintBorder"	"1"
+			"RoundedCorners"	"0"
+
+			"border_default"    "customMainMenuButtonGradient"
+			"border_armed"      "customMainMenuButtonGradientArmed"
+		}
+	}
 	"CommentaryButton"
 	{
 		"ControlName"	"CExImageButton"
