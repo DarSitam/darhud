@@ -28,13 +28,13 @@
 	
 	"CharacterSetupButtonBG"
 	{
-		"visible"		"0"
-	}
-
-	"StoreHasNewItemsImage"
-	{
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"3"
+		"ypos"			"3"
+		"wide"			"216"
+		"tall"			"36"
+		"paintBorder"	"1"
+		"paintBackground"	"0"
+		"border"		"OuterShadowBorder"
 	}
 
 	"GeneralStoreButton"
@@ -53,7 +53,13 @@
 	
 	"GeneralStoreButtonBG"
 	{
-		"visible"		"0"
+		"xpos"			"3"
+		"ypos"			"3"
+		"wide"			"216"
+		"tall"			"36"
+		"paintBorder"	"1"
+		"paintBackground"	"0"
+		"border"		"OuterShadowBorder"
 	}
 	
 	"CustomSettingsButton"
@@ -71,7 +77,13 @@
 	
 	"CustomSettingsButtonBG"
 	{
-		"visible"		"0"
+		"xpos"			"3"
+		"ypos"			"3"
+		"wide"			"185"
+		"tall"			"36"
+		"paintBorder"	"1"
+		"paintBackground"	"0"
+		"border"		"OuterShadowBorder"
 	}	
 	
 	"OptionBlocker"
@@ -104,424 +116,238 @@
 	
 	"TF2SettingsButtonBG"
 	{
-		"visible"		"0"
+		"xpos"			"3"
+		"ypos"			"3"
+		"wide"			"36"
+		"tall"			"36"
+		"paintBorder"	"1"
+		"paintBackground"	"0"
+		"border"		"OuterShadowBorder"
 	}
 
+	//Misc buttons
 	"NewUserForumsButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"NewUserForumsButton"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
 
-		"ypos"			"r46"
-
-		"wide"			"25"
-		"tall"			"25"
-
-		"paintbackground"	"0"
-		"paintBorder"	"1"
-		"RoundedCorners"	"0"
-
-		"border_default"    "customMainMenuButtonGradient"
-    	"border_armed"      "customMainMenuButtonGradientArmed"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"AchievementsButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"AchievementsButton"
-		
-		"xpos"			"0"
+	{		
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
 
-		"wide"			"25"
-		"tall"			"25"
-
-		"paintbackground"	"0"
-		"paintBorder"	"1"
-		"RoundedCorners"	"0"
-
-		"border_default"    "customMainMenuButtonGradient"
-    	"border_armed"      "customMainMenuButtonGradientArmed"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"WorkshopButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"WorkshopButton"
-		"xpos"			"0"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
 
-		"wide"			"25"
-		"tall"			"25"
-
-		"paintbackground"	"0"
-		"paintBorder"	"1"
-		"RoundedCorners"	"0"
-
-		"border_default"    "customMainMenuButtonGradient"
-    	"border_armed"      "customMainMenuButtonGradientArmed"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"ReplayButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplayButton"
-		"xpos"			"0"
 
-		"wide"			"25"
-		"tall"			"25"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
 
-		"paintbackground"	"0"
-		"paintBorder"	"1"
-		"RoundedCorners"	"0"
-
-		"border_default"    "customMainMenuButtonGradient"
-    	"border_armed"      "customMainMenuButtonGradientArmed"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 	
 	"DemoButton"
 	{
-		"xpos"			"0"
-
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
 
 		"SubButton"
 		{
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
 
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 		}
 	}
 	"CommentaryButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CommentaryButton"
-		"xpos"			"0"
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
 
-		"wide"			"25"
-		"tall"			"25"
-
-		"paintbackground"	"0"
-		"paintBorder"	"1"
-		"RoundedCorners"	"0"
-
-		"border_default"    "customMainMenuButtonGradient"
-    	"border_armed"      "customMainMenuButtonGradientArmed"
-	}
-
-	"CoachPlayersButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayersButton"
-
-		"xpos"			"0"
-
-		"wide"			"25"
-		"tall"			"25"
-
-		"paintbackground"	"0"
-		"paintBorder"	"1"
-		"RoundedCorners"	"0"
-
-		"border_default"    "customMainMenuButtonGradient"
-    	"border_armed"      "customMainMenuButtonGradientArmed"
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
 	}
 
 	"ConsoleButton"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ConsoleButton"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
 
 		"SubButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
-			"xpos"			"0"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
 
-			"wide"			"25"
-			"tall"			"25"
-
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
-
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 		}
-	}
-	
-	"MiscButtonShadow"
-	{				
-		"visible"		"0"
-	}
-	
-	"HudButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudButton"
-		"ypos"			"r46"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
-			"xpos"			"0"
-
-			"wide"			"25"
-			"tall"			"25"
-
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
-
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
-		}
-	}
-
-	"ReloadButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ReloadButton"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
-			"xpos"			"0"
-
-			"wide"			"25"
-			"tall"			"25"
-
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
-
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
-		}
-	}
-	
-	"HudButtonShadow"
-	{				
-		"visible"		"0"
 	}
 	
 	//Actions buttons
 	"MOTDButton"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTDButton"
-		"ypos"			"r46"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
 
 		"SubButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
-			"xpos"			"0"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
 
-			"wide"			"25"
-			"tall"			"25"
-
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
-
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 		}
 	}
 	
 	"QuestLogButton"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"QuestLogButton"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
 
 		"SubButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
-			"xpos"			"0"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
 
-			"wide"			"25"
-			"tall"			"25"
-
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
-
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 		}
 	}
 	
-	"ActionButtonShadow"
-	{
-		"visible"		"0"
-	}
-
 	//Jukebox buttons
 	"PreviousMusicButton"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PreviousMusicButton"
-		"ypos"			"r46"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
 
 		"SubButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
-			"xpos"			"0"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
 
-			"wide"			"25"
-			"tall"			"25"
-
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
-
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 		}
 	}
 
 	"NextMusicButton"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NextMusicButton"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
 
 		"SubButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
-			"xpos"			"0"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
 
-			"wide"			"25"
-			"tall"			"25"
-
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
-
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 		}
 	}
 
 	"StopMusicButton"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"StopMusicButton"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
 
 		"SubButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
-			"xpos"			"0"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
 
-			"wide"			"25"
-			"tall"			"25"
-
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
-
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 		}
 	}
 
 	"ReloadSoundButton"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ReloadSoundButton"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
 
 		"SubButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
-			"xpos"			"0"
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
 
-			"wide"			"25"
-			"tall"			"25"
-
-			"paintbackground"	"0"
-			"paintBorder"	"1"
-			"RoundedCorners"	"0"
-
-			"border_default"    "customMainMenuButtonGradient"
-			"border_armed"      "customMainMenuButtonGradientArmed"
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 		}
 	}
-	
-	"JukeboxButtonShadow"
+
+	//Hud buttons
+	"HudButton"
 	{
-		"visible"		"0"
+		"SubButton"
+		{
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
+
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
+		}
 	}
+
+	"ReloadButton"
+	{
+		"SubButton"
+		{
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
+
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
+		}
+	}
+
+	// In-game Special buttons
+	"ReportPlayerButton"
+	{
+		"SubButton"
+		{
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
+
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
+		}
+	}
+	"CallVoteButton"
+	{
+		"SubButton"
+		{
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
+
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
+		}
+	}
+
+	"MutePlayersButton"
+	{
+		"SubButton"
+		{
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
+
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
+		}
+	}
+
+	//Disabled Buttons
+	"CoachPlayersButton"
+	{
+		"defaultbgColor_override" "ButtonDefault"
+		"armedbgColor_override" "ButtonArmed"
+
+		"defaultfgColor_override" "ButtonLabelDefault"
+		"armedfgColor_override" "ButtonLabelArmed"
+	}
+
 }
