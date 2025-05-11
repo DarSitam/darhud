@@ -404,7 +404,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r628"
-		"ypos"	 "20"
+		"ypos"	 "21"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -665,7 +665,7 @@
 		"avatar_tall"		"17"
 
 		"show_dead_icon"	"1"
-		"dead_xpos"			"103"
+		"dead_xpos"			"129"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
