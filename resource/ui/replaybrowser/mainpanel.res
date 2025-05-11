@@ -76,7 +76,7 @@
 		"scaleImage"	"1"
 	}				
 	
-	"Sheet"
+		"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
@@ -85,14 +85,14 @@
 		"tabwidth"		"240"
 		"tabheight"		"28"
 		"transition_time" "0"
-		"yoffset"	"0"
+		"yoffset"	"2"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"27"
+			"ypos"			"28"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"2"

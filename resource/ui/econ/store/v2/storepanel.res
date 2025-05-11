@@ -81,24 +81,23 @@
 		"scaleImage"	"1"
 	}			
 	
-	"Sheet"
+		"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"zpos"			"10"
-		"tabxindent"	"10"
-		"tabxdelta"		"3"
-		"tabxfittotext"	"1"
-		"tabheight"		"20"
-		"yoffset"		"0"
+		"tabxindent"	"80"
+		"tabxdelta"		"10"
+		"tabwidth"		"240"
+		"tabheight"		"28"
 		"transition_time" "0"
+		"yoffset"	"2"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"19"
+			"ypos"			"28"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"2"
@@ -106,13 +105,12 @@
 			"enabled"		"1"
 			"bgcolor_override"	"ButtonArmed"
 			"scaleImage"	"1"
-		}				
+		}			
 		
 		"tabskv"
 		{
-			"textinsetx"		"6"
-			"textAlignment"		"center"
-			"font"				"HudFontSmallBold"
+			"textinsetx"		"40"
+			"font"				"HudFontMediumSmallBold"
 			"selectedcolor"		"ButtonLabelArmed"
 			"unselectedcolor"	"ButtonLabelDefault"	
 			"defaultBgColor_override"	"BackgroundDefault"
