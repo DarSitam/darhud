@@ -71,7 +71,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"r59"
+		"ypos"			"r60"
 		"zpos"			"13"
 		"wide"			"f0"
 		"tall"			"2"
