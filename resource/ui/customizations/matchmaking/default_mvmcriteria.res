@@ -21,8 +21,8 @@
 		"xpos"			"r405"
 		"ypos"			"15"
 		"zpos"			"100"
-		"wide"		"o1"
-		"tall"		"f50"
+		"wide"		"400"
+		"tall"		"o1"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
