@@ -54,14 +54,14 @@
                         "bgcolor_override"                      "235 227 203 255"
                     }
 
-                    "Default"
+                    "BottomLeft"
                     {
                         "ControlName"	"CExButton"
-                        "fieldName"		"Default"
-                        "xpos"			"cs-0.5"
+                        "fieldName"		"BottomLeft"
+                        "xpos"			"0"
                         "ypos"			"22"
                         "zpos"			"11"
-                        "wide"			"120"
+                        "wide"			"105"
                         "tall"			"20"
                         "visible"		"1"
                         "enabled"		"1"
@@ -70,7 +70,7 @@
                         "actionsignallevel" "5"
                         "sound_depressed"	"UI/buttonclick.wav"
                         "sound_released"	"UI/buttonclickrelease.wav"
-                        "labeltext"		"Default"
+                        "labeltext"		"Bottom Left"
                         "proportionaltoparent"	"1"
                         "command"		"engine c_ks"
                     }
@@ -79,10 +79,10 @@
                     {
                         "ControlName"	"CExButton"
                         "fieldName"		"TopRight"
-                        "xpos"			"cs-0.5"
-                        "ypos"			"44"
+                        "xpos"			"rs1"
+                        "ypos"			"22"
                         "zpos"			"11"
-                        "wide"			"120"
+                        "wide"			"105"
                         "tall"			"20"
                         "pinCorner"		"3"
                         "visible"		"1"
@@ -96,6 +96,27 @@
                         "labeltext"		"Top-Right"
                         "proportionaltoparent"	"1"
                         "command"		"engine c_ks_topright"
+                    }
+
+                    "BottomRight"
+                    {
+                        "ControlName"	"CExButton"
+                        "fieldName"		"BottomRight"
+                        "xpos"			"0"
+                        "ypos"			"44"
+                        "zpos"			"11"
+                        "wide"			"105"
+                        "tall"			"20"
+                        "visible"		"1"
+                        "enabled"		"1"
+                        "font"			"HudFontSmallestBold"
+                        "textAlignment"	"center"
+                        "actionsignallevel" "5"
+                        "sound_depressed"	"UI/buttonclick.wav"
+                        "sound_released"	"UI/buttonclickrelease.wav"
+                        "labeltext"		"Bottom Right"
+                        "proportionaltoparent"	"1"
+                        "command"		"engine c_ks_bottomright"
                     }
                 }
             }
