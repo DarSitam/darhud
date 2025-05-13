@@ -8,7 +8,7 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override" "BackgroundDefault"
+		"bgcolor_override"		"ConfirmColor"
 	}
 
 	"ConfirmLabel"

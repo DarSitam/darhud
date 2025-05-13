@@ -90,5 +90,10 @@ Scheme
 
 		"ButtonArmedHovering"	"178 82 22 128" //Used when you hover over a selected button
 		"ButtonLabelArmedHovering"	"235 235 235 255"
+
+
+
+		//Others
+		"ConfirmColor" "20 20 20 255"
 	}
 }

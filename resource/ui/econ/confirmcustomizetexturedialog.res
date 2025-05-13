@@ -9,7 +9,7 @@
 		"ypos"					"c-225"
 		"wide"					"560"
 		"tall"					"345"
-		"bgcolor_override" "BackgroundDefault"
+		"bgcolor_override"		"ConfirmColor"
 	}
 
 //	"Container"

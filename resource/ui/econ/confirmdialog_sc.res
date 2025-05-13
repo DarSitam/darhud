@@ -9,7 +9,7 @@
 		"ypos"					"c-200"
 		"wide"					"300"
 		"tall"					"240"
-		"bgcolor_override"		"BackgroundDefault"
+		"bgcolor_override"		"ConfirmColor"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
         "paintBorder"   "0"

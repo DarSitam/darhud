@@ -11,7 +11,7 @@
 		"tall"					"240"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override" "BackgroundDefault"
+		"bgcolor_override"		"ConfirmColor"
 	}
 
 	"mouseoveritempanel"

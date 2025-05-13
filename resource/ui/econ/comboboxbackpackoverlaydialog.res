@@ -9,7 +9,7 @@
 		"ypos"					"105"
 		"wide"					"280"
 		"tall"					"240"
-		"bgcolor_override"		"BackgroundDefault"
+		"bgcolor_override"		"ConfirmColor"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
 		"border"				"DarkComboBoxBorder"
