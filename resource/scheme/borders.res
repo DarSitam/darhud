@@ -875,13 +875,10 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"TanDark"
+			"color"					"Black"
 			
-			"image"					"replay/thumbnails/backpack/border"
-			"src_corner_height"		"3"				// pixels inside the image
-			"src_corner_width"		"3"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"
+			
+			"image"					"replay/thumbnails/square_white"
 		}
 		Econ.Button.Border.Default
 		{
@@ -898,7 +895,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"TanDark"
+			"color"					"Black"
 			
 			"image"					"replay/thumbnails/backpack/border_selected"
 			"src_corner_height"		"3"				// pixels inside the image
