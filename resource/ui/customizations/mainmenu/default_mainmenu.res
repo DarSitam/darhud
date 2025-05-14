@@ -1867,7 +1867,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PreviousMusicButton"
-		"xpos"			"c141"
+		"xpos"			"c117"
 		"ypos"			"r42"
 		"zpos"			"10"
 		"wide"			"22"
@@ -2063,73 +2063,6 @@
 			}
 		}
 	}
-
-	"ReloadSoundButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ReloadSoundButton"
-		"pin_to_sibling" 	"StopMusicButton"
-		"pin_to_sibling_corner"	"1"
-		"xpos"			"1"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"22"
-		"tall"			"23"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"proportionaltoparent"	"1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"Command"		"engine snd_restart"
-
-			"navUp"			"VRModeButton"
-			"navLeft"		"CommentaryButton"
-			"navRight"		"ReportBugButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"1"
-			"paintBorder"	"0"
-			"RoundedCorners"	"0"
-
-			"defaultBgColor_override"	"ButtonMM"
-			"armedBgColor_override"	"ButtonArmedMM"
-			
-
-			"image_drawcolor"	"235 226 202 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"proportionaltoparent"	"1"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
 	
 	"JukeboxButtonShadow"
 	{				
@@ -2139,7 +2072,7 @@
 		"xpos"			"-4"
 		"ypos"			"-4"
 		"zpos"			"9"
-		"wide"			"92"
+		"wide"			"69"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2760,13 +2693,13 @@
 		"bgcolor_override"	"ButtonMMShadow"
 	}
 	
-	//Hud buttons
+	//Hud button
 	
 	"HudButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudButton"
-		"xpos"			"c255"
+		"xpos"			"c298"
 		"ypos"			"r42"
 		"zpos"			"10"
 		"wide"			"22"
@@ -2826,15 +2759,33 @@
 			}
 		}
 	}
+	
+	"HudButtonShadow"
+	{				
+		"pin_to_sibling"	"HudButton"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"JukeboxButtonShadow"
+		"xpos"			"-4"
+		"ypos"			"-4"
+		"zpos"			"9"
+		"wide"			"23"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleimage"	"1"
+		"proportionaltoparent"	"1"
 
+		"bgcolor_override"	"ButtonMMShadow"
+	}
+	
+	
+	//Fix Buttons
 	"ReloadButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ReloadButton"
-		"pin_to_sibling"	"HudButton"
-		"pin_to_sibling_corner"	"1"
-		"xpos"			"1"
-		"ypos"			"0"
+		"xpos"			"c206"
+		"ypos"			"r42"
 		"zpos"			"10"
 		"wide"			"22"
 		"tall"			"23"
@@ -2892,16 +2843,148 @@
 			}
 		}
 	}
-	
-	"HudButtonShadow"
-	{				
-		"pin_to_sibling"	"HudButton"
+	"ReloadSoundButton"
+	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"JukeboxButtonShadow"
+		"fieldName"		"ReloadSoundButton"
+		"pin_to_sibling" 	"ReloadButton"
+		"pin_to_sibling_corner"	"1"
+		"xpos"			"1"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"engine snd_restart"
+
+			"navUp"			"VRModeButton"
+			"navLeft"		"CommentaryButton"
+			"navRight"		"ReportBugButton"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+			
+
+			"image_drawcolor"	"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"proportionaltoparent"	"1"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+
+	"InvisButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"InvisButton"
+		"pin_to_sibling" 	"ReloadSoundButton"
+		"pin_to_sibling_corner"	"1"
+		"xpos"			"1"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"22"
+		"tall"			"23"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"paintbackground"	"1"
+			"paintBorder"	"0"
+			"RoundedCorners"	"0"
+
+			"defaultBgColor_override"	"ButtonMM"
+			"armedBgColor_override"	"ButtonArmedMM"
+			
+
+			"image_drawcolor"	"235 226 202 255"
+		
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"f2"
+				"tall"			"f2"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
+	
+	"FixButtonShadow"
+	{				
+		"pin_to_sibling"	"ReloadButton"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"FixButtonShadow"
 		"xpos"			"-4"
 		"ypos"			"-4"
 		"zpos"			"9"
-		"wide"			"46"
+		"wide"			"69"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2910,7 +2993,6 @@
 
 		"bgcolor_override"	"ButtonMMShadow"
 	}
-	////
 
 	"ShowPromoCodesButton"
 	{

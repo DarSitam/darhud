@@ -112,4 +112,11 @@
 		"subimage"			"replay/thumbnails/icons/clap"
 		"tooltip" 		"Demo"
 	}
+	"InvisButton"
+	{
+		"label"			""
+		"command" 		"engine record fix; stop"
+		"subimage"			"glyph_view"
+		"tooltip" 		"Fix Invisible Players"
+	}
 }

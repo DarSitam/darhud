@@ -279,19 +279,6 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
-		}
-	}
-
-	"ReloadSoundButton"
-	{
-
-		"SubButton"
-		{
-			"defaultbgColor_override" "ButtonDefault"
-			"armedbgColor_override" "ButtonArmed"
-
-			"defaultfgColor_override" "ButtonLabelDefault"
-			"armedfgColor_override" "ButtonLabelArmed"
 			"RoundedCorners"	"10"
 		}
 	}
@@ -311,12 +298,45 @@
 
 			"defaultfgColor_override" "ButtonLabelDefault"
 			"armedfgColor_override" "ButtonLabelArmed"
+			"RoundedCorners"	"15"
+		}
+	}
+
+	"HudButtonShadow"
+	{
+		"paintBackgroundType"	"2"
+	}
+
+	//Fix buttons
+	"ReloadButton"
+	{
+		"SubButton"
+		{
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
+
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
 			"RoundedCorners"	"5"
 		}
 	}
 
-	"ReloadButton"
+	"ReloadSoundButton"
 	{
+
+		"SubButton"
+		{
+			"defaultbgColor_override" "ButtonDefault"
+			"armedbgColor_override" "ButtonArmed"
+
+			"defaultfgColor_override" "ButtonLabelDefault"
+			"armedfgColor_override" "ButtonLabelArmed"
+		}
+	}
+
+	"InvisButton"
+	{
+
 		"SubButton"
 		{
 			"defaultbgColor_override" "ButtonDefault"
@@ -328,7 +348,7 @@
 		}
 	}
 	
-	"HudButtonShadow"
+	"FixButtonShadow"
 	{
 		"paintBackgroundType"	"2"
 	}
