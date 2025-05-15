@@ -658,24 +658,24 @@
 		"wide" "145"
 		"tall" "385"
 
-		"item_wide"	"145"
+		"item_wide"	"129"
 
 		"show_avatar"		"1"
-		"avatar_xpos"		"-11"
+		"avatar_xpos"		"118"
 		"avatar_tall"		"17"
-
+		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"129"
+		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
-
+		
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
 		"icon_xpos"			"15"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
-
+		
 		"text_xpos"			"33"
 	}
 
