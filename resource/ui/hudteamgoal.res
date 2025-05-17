@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudTeamGoalBG"
-		"xpos"			"10"
-		"ypos"			"10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"300"
-		"tall"			"80"
+		"wide"			"f2"
+		"tall"			"f2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -17,6 +17,7 @@
 		"scaleImage"		"1"
 		"teambg_2"		"replay/thumbnails/arena/arenaclass_red"
 		"teambg_3"		"replay/thumbnails/arena/arenaclass_blue"
+		"proportionaltoparent"	"1"
 	}
 	"HudTeamGoalBGShadow"
 	{
@@ -26,25 +27,26 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"-2"
-		"wide"			"300"
-		"tall"			"80"
+		"wide"			"f2"
+		"tall"			"f2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/arena/arenaclass_shadow"
 		"scaleImage"		"1"
+		"proportionaltoparent"	"1"
 	}
-	"SwitchLabel"
+
+	"SwitchLabel"  //Is this even used anymore ?
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
 		"font"			"HudFontSmallBold"
-		"xpos"			"80"
-		"ypos"			"20"
+		"xpos"			"60"
+		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"220"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"f60"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -54,33 +56,32 @@
 		"labelText"		"#TF_teamswitch_attackers"
 		"textAlignment"		"North"
 	}
+
 	"GoalLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
 		"font"			"HudFontSmall"
-		"xpos"			"80"
-		"ypos"			"35"
+		"xpos"			"60"
+		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"220"
-		"wide_hidef"	"200"
-		"wide_lodef"		"230"
-		"tall"			"55"
-		"tall_lodef"	"60"
+		"wide"			"f60"
+		"tall"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"labelText"		""
+		"labelText"		"Capturez le point de contrôle pour ouvrir les portails menant à la bataille à trois contre trois et accorder des coups critiques à toute votre équipe ! Conservez le point pour gagner la partie."
 		"textAlignment"		"North"
+		"proportionaltoparent"	"1"
 	}
 	"GoalImage"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"GoalImage"
-		"xpos"			"27"
-		"ypos"			"25"
+		"xpos"			"10"
+		"ypos"			"cs-0.5-2"
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"45"
@@ -90,5 +91,6 @@
 		"enabled"		"1"
 		"image"			"../hud/hud_icon_attack"
 		"scaleImage"		"1"
+		"proportionaltoparent"	"1"
 	}
 }

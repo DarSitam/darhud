@@ -959,14 +959,13 @@
 
 	HudTeamGoal
 	{
-    "fieldName"                "HudTeamGoal"
-    "visible"                "1"
-    "enabled"                "1"
-    "xpos"                    "c-160"
-    "ypos"                    "65"
-    "ypos_lodef"            "75"
-    "wide"                    "320"
-    "tall"                    "100"
+		"fieldName"                "HudTeamGoal"
+		"visible"                "1"
+		"enabled"                "1"
+		"xpos"                    "c-170"
+		"ypos"                    "35"
+		"wide"                    "340"
+		"tall"                    "70"
 	}
 
 
