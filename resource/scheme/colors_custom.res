@@ -66,7 +66,7 @@ Scheme
 
 
 		//Backpack and co
-		"FooterColor"		"16 16 16 255"
+		"FooterColor"		"20 20 20 255"
 
 
 
