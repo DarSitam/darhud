@@ -2263,7 +2263,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-300"
+		"xpos"			"c-320"
 		"ypos"			"r42"
 		"zpos"			"10"
 		"wide"			"22"
