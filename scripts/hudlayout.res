@@ -981,19 +981,6 @@
 		"tall"					"300"
 	}
 
-	HudTeamSwitch
-	{
-		"fieldName"				"HudTeamSwitch"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
-		"wide"					"320"
-		"tall"					"100"
-	}
-
 	HudArenaNotification
 	{
 		"fieldName"				"HudArenaNotification"
@@ -1257,17 +1244,6 @@
 		"PaintBackgroundType"	"0" // rounded corners
 	}
 
-	"HudAlert"
-	{
-		"fieldName"		"HudAlert"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"c-160"
-		"ypos"			"100"
-		"wide"			"320"
-		"tall"			"150"
-	}
-
 
 	"CTFStreakNotice"
 	{
@@ -1409,10 +1385,10 @@
 		"fieldName"        "HudAlert"
 		"visible"        "0"
 		"enable"        "1"
-		"xpos"            "0"
-		"ypos"            "100"
-		"wide"            "f0"
-		"tall"            "72"
+		"xpos"            "cs-0.5"
+		"ypos"            "65"
+		"wide"            "300"
+		"tall"            "40"
 	}
 
 	HudTeamSwitch
@@ -1420,12 +1396,9 @@
 		"fieldName"        "HudTeamSwitch"
 		"visible"        "0"
 		"enabled"        "1"
-		"xpos"            "0"
-		"ypos"            "75"
-		"ypos_hidef"        "90"
-		"ypos_lodef"        "90"
-		"wide"            "f0"
-		"tall"            "100"
+		"xpos"            "cs-0.5"
+		"ypos"            "65"
+		"wide"            "300"
+		"tall"            "50"
 	}
 }
-
