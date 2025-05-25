@@ -902,7 +902,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
-		"xpos"			"cs-0.5-100"
+		"xpos"			"cs-0.5-120"
 		"ypos"			"r90"
 		"zpos"			"14"
 		"wide"			"45"
@@ -917,7 +917,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
-		"xpos"			"cs-0.5-100"
+		"xpos"			"cs-0.5-120"
 		"ypos"			"rs1"
 		"zpos"			"15"
 		"wide"			"45"
