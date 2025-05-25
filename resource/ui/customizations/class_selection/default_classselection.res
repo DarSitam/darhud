@@ -36,7 +36,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Stripe"
 		"xpos"			"cs-0.5"
-		"ypos"			"c-22"
+		"ypos"			"c-5"
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"165"
@@ -45,6 +45,22 @@
 		"bgcolor_override"	"TransparentStripe"
 	}
 	
+	"light"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"light"
+		"xpos"			"80"
+		"ypos"			"175"
+		"zpos"			"0"
+		"wide"			"225"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../models/vgui/light_red"
+		"scaleImage"	"1"	
+		"teambg_2"		"../models/vgui/light_red"
+		"teambg_3"		"../models/vgui/light_blue"
+	}	
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -1661,7 +1677,7 @@
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"r260"
-		"ypos"			"c-22"
+		"ypos"			"c-5"
 		"zpos"			"7"
 		"wide"			"240"
 		"tall"			"165"

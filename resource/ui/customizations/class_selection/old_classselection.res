@@ -43,7 +43,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentStripe"
-	}
+	}	
+	
+	"light"
+	{
+		"visible"		"0"
+	}	
 	
 	"SysMenu"
 	{

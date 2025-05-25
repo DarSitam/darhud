@@ -819,7 +819,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"EditLoadoutButton"
 		"xpos"			"85"
-		"ypos"			"c50"
+		"ypos"			"c35"
 		"zpos"			"6"
 		"wide"			"175"
 		"tall"			"25"
@@ -879,7 +879,27 @@
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"GeneralLabel"
 	}
+
+	"ClassMenuSelect1Shadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassMenuSelect1Shadow"
+		"pin_to_sibling" "ClassMenuSelect1"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"8"
+		"wide"			"210"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"centerwrap"	"1"
+		"labelText"		"#TF_SelectAClass"
+		"textAlignment"	"center"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"GeneralShadow"
+	}
 	
 	"MenuBG"
 	{	
@@ -1626,7 +1646,7 @@
 		"fieldName"		"TFPlayerModel"
 		
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"0"
 		"zpos"			"1"		
 		"wide"			"480"
 		"tall"			"480"
