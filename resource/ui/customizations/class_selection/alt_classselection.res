@@ -60,6 +60,23 @@
 		"tabPosition"	"0"
 	}
 
+	"light"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"light"
+		"xpos"			"60"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"230"
+		"tall"			"p0.5"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../models/vgui/light_red"
+		"scaleImage"	"1"	
+		"teambg_2"		"../models/vgui/light_red"
+		"teambg_3"		"../models/vgui/light_blue"
+	}	
+
 	"classBg"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -862,6 +879,7 @@
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"GeneralLabel"
 	}
+		"fgcolor"		"GeneralShadow"
 	
 	"MenuBG"
 	{	
