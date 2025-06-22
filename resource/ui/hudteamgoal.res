@@ -72,7 +72,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"labelText"		"Capturez le point de contrôle pour ouvrir les portails menant à la bataille à trois contre trois et accorder des coups critiques à toute votre équipe ! Conservez le point pour gagner la partie."
+		"labelText"		""
 		"textAlignment"		"North"
 		"proportionaltoparent"	"1"
 	}
