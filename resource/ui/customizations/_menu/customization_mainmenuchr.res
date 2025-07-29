@@ -11,7 +11,7 @@
                     "ControlName"							"EditablePanel"
                     "fieldName"								"MainMenuCHR"
                     "xpos"									"5"
-                    "ypos"									"600"
+                    "ypos"									"700"
                     "zpos"									"0"
                     "wide"									"p0.95"
                     "tall"									"43"

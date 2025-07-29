@@ -11,7 +11,7 @@
                     "ControlName"							"EditablePanel"
                     "fieldName"								"LoadingScreen"
                     "xpos"									"5"
-                    "ypos"									"835"
+                    "ypos"									"935"
                     "zpos"									"0"
                     "wide"									"p0.95"
                     "tall"									"65"

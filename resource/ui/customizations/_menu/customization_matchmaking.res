@@ -11,7 +11,7 @@
                     "ControlName"							"EditablePanel"
                     "fieldName"								"Matchmaking"
                     "xpos"									"5"
-                    "ypos"									"780"
+                    "ypos"									"880"
                     "zpos"									"0"
                     "wide"									"p0.95"
                     "tall"									"43"

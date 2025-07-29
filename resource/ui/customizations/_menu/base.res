@@ -14,6 +14,7 @@
 #base "customization_health.res"
 #base "customization_class_selection.res"
 #base "customization_scoreboard.res"
+#base "customization_mvm.res"
 
 #base "customization_mainmenu.res"
 #base "customization_mainmenuchr.res"
