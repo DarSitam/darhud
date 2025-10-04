@@ -24,10 +24,23 @@
 		"enabled"		"0"
 	}	
 	
-	"Cross"
+	"CrossGrey"
 	{
 		"visible"		"0"
-	}		
+		"enabled"		"0"			
+	}
+	
+	"CrossColored"
+	{
+		"visible"		"0"
+		"enabled"		"0"			
+	}
+	
+	"CrossShadow"
+	{
+		"visible"		"0"
+		"enabled"		"0"			
+	}			
 	
 	"UberReadyCross"
 	{
