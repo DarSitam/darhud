@@ -11,9 +11,9 @@
 
 		"Background"
 		{
-			"image" "../hud/powerhouse_event_hud_bg"
-			"teambg_2" "../hud/powerhouse_event_hud_bg"
-			"teambg_3" "../hud/powerhouse_event_hud_bg"
+			"image" "replay/thumbnails/cowerhouse/powerhouse_event_hud_bg"
+			"teambg_2" "replay/thumbnails/cowerhouse/powerhouse_event_hud_bg"
+			"teambg_3" "replay/thumbnails/cowerhouse/powerhouse_event_hud_bg"
 			"xpos" "c-44"
 			"ypos" "c-10"
 			"wide" "88"
