@@ -4,7 +4,7 @@
 	{
 		"xpos"			"r205"
 		"ypos"			"r45"
-		"xpos_minmode" "c155"
+		"xpos_minmode" "c135"
 		"zpos"			"2"
         "wide"          "64"
 		"tall"			"50"

@@ -34,7 +34,7 @@
 		"dropshadow"	"1"
 		"font"			"HudFontBiggerBold"
 		"xpos"			0
-		"ypos"			c100
+		"ypos"			c90
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"25"
@@ -94,8 +94,9 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"r87"
 		"zpos"			"0"
-		"wide"			"376"
-		"tall"			"o0.125"
+		"wide"			"350"
+		"wide_minmode"			"230"
+		"tall"			"47"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
@@ -111,6 +112,7 @@
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
 		"xpos"			"c-152"
+		"xpos_minmode"			"c-100"
 		"ypos"			"r64"
 		"visible"		"0"
 	}
@@ -122,6 +124,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
 		"xpos"			"c152"
+		"xpos_minmode"			"c100"
 		"ypos"			"r64"
 		"visible"		"0"
 	}	

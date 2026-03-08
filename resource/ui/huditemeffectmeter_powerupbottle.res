@@ -9,7 +9,7 @@
 		"enabled"		"1"
 		"xpos"			"r200"
 		"ypos"			"r25"
-		"xpos_minmode" "c160"
+		"xpos_minmode" "c140"
 		"ypos_minmode" "r25"
 	}
 

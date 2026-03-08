@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"	
-	}		
+	}
 			
 	"PlayerStatusClassImageBG"
 	{
@@ -102,7 +102,7 @@
 		
 		"xpos"			"0"
 		"ypos"			"r220"
-		"xpos_minmode"			"c-360"
+		"xpos_minmode"			"c-340"
 		"zpos"			"2"		
 		"wide"			"100"
 		"tall"			"220"
