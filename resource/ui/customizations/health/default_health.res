@@ -136,6 +136,40 @@
 		"textAlignment"	"center"	
 		"font"			"HudFontSmall"
 		"fgcolor"		"MaxHealth"
+	}	
+	
+	"HealthBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"99"
+		"ypos"			"33"
+		"xpos_minmode"			"c-327"
+		"zpos"			"1"
+		"wide"			"118"
+		"tall"			"58"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/chr_red"	
+		"teambg_2"			"replay/thumbnails/chr_red"
+		"teambg_3"			"replay/thumbnails/chr_blue"
+	}
+
+	"HealthBGShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBGShadow"
+		"pin_to_sibling" "HealthBG"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"1"
+		"wide"			"118"
+		"tall"			"58"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/chr_shadow"
 	}
 	"PlayerStatusBleedImage"
 	{
