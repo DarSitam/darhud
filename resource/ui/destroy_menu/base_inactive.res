@@ -42,13 +42,13 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"TF2Default"
+		"font"			"TF2DefaultSmall"
 		"fgcolor"		"White"
 		"xpos"			"0"
-		"ypos"			"21"
+		"ypos"			"10"
 		"zpos"			"3"
 		"wide"			"62"
-		"tall"			"18"
+		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -57,6 +57,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"centerwrap"	"1"
 	}
 		
 	"BuildingIcon"	
