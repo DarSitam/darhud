@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 
-		"bgcolor_override"	"0 0 0 150"
+//		"bgcolor_override"	"0 0 0 240"
 
 		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"https://www.teamfortress.com/"
