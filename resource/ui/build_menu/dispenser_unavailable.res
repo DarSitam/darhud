@@ -6,6 +6,12 @@
 	{	
 		"labelText"		"#TF_Object_dispenser"
 	}
+
+	"BuildingIcon"	
+	{
+		"icon"			"obj_status_dispenser"
+	}
+
 	
 	"NumberLabel"
 	{	
