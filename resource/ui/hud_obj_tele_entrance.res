@@ -388,6 +388,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
+				"bgcolor_override" 		"255 255 255 24"
 				"xpos"			"12"
 				"ypos"			"17"
 				"wide"			"36"
