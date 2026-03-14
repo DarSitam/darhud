@@ -180,21 +180,21 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"105"
+			"xpos"			"107"
 			"ypos"			"0"
 			"zpos"			"-3"
-			"wide"			"50"
-			"tall"			"28"
+			"wide"			"140"
+			"tall"			"55"
 			"visible"		"1"
 			"enabled"		"1"	
-			"icon"			"obj_status_alert_background"
+			"icon"			"dar_building_alert"
 		}
 
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"120"
+			"xpos"			"118"
 			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"23"

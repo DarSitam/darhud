@@ -1,0 +1,43 @@
+"custom_sprites"
+{
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+	"TextureData"
+	{		
+		"obj_status_sentrygun_mini"
+		{
+			"file"	"vgui/logos/buildings/hud_obj_status_sentry_mini"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
+		"dar_sentry_alert"
+		{
+			"file"	"vgui/replay/thumbnails/building/build_sentry_alert"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"256"
+		}
+
+		"dar_building_alert"
+		{
+			"file"	"vgui/replay/thumbnails/building/build_alt_alert"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"128"
+		}
+	}
+}

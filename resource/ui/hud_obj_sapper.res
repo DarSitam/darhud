@@ -26,7 +26,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
 		"xpos"			"20"
-		"ypos"			"0"
+		"ypos"			"2"
 		"wide"			"28"
 		"tall"			"28"
 		"visible"		"1"

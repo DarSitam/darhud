@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "vgui/replay/thumbnails/building/build_sentry_alert"
+	"$vertexcolor" 1
+	"$alpha"            "0.6"
+    "$vertexalpha"        "1"
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"$detail"		""
+	"$detailblendmode"	"1"
+	"$separatedetailuvs"	"1"
+
+	"%keywords" "tf"
+}
