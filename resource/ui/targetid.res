@@ -53,7 +53,7 @@
 		"fieldName"			"TargetIDBGShadow"
 		"xpos"				"0"
 		"ypos"				"19"
-		"zpos"				"2"
+		"zpos"				"4"
 		"wide"				"f0"
 		"tall"	 			"2"
 		"visible"			"1"
@@ -126,7 +126,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"4"
+		"xpos"			"0"
 		"ypos"			"-12"
 		"zpos" 			"3"
 		"wide"			"50"
