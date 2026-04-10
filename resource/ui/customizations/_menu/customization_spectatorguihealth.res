@@ -76,10 +76,10 @@
                         "command"		"engine c_spgui"
                     }
 
-                    "Crosshair"
+                    "Cross"
                     {
                         "ControlName"	"CExButton"
-                        "fieldName"		"Crosshair"
+                        "fieldName"		"Cross"
                         "xpos"			"cs-0.5"
                         "ypos"			"44"
                         "zpos"			"11"
@@ -94,7 +94,7 @@
                         "actionsignallevel" "5"
                         "sound_depressed"	"UI/buttonclick.wav"
                         "sound_released"	"UI/buttonclickrelease.wav"
-                        "labeltext"		"Crosshair"
+                        "labeltext"		"With cross"
                         "proportionaltoparent"	"1"
                         "command"		"engine c_spgui_alt"
                     }
