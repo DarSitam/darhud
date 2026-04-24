@@ -151,8 +151,8 @@
 			"drawcolor"				"84 111 127 255"
 			"Image"					"../HUD/obj_rd_powersupply_meter"
 
-			"left_offset"			"0"
-			"right_offset"			"0"
+			"left_offset"			"20"
+			"right_offset"			"8"
 			"standard_color"		"84  111 127 255"
 			"bright_color"			"110 159 189 255"
 			"left_to_right"			"1"
