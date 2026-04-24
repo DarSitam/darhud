@@ -354,10 +354,11 @@
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"	"west"
+				"textAlignment"	"center"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
+				"centerwrap"	"1"
 
 				"fonts"
 				{
@@ -523,19 +524,20 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PromptText"
-				"xpos"			"cs-0.5"
+				"xpos"			"0"
 				"ypos"			"1"
-				"wide"			"f35"
+				"wide"			"f40"
 				"zpos"			"100"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"	"west"
+				"textAlignment"	"center"
 				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
+				"centerwrap"	"1"
 			}		
 
 			"JoinNowButton"
