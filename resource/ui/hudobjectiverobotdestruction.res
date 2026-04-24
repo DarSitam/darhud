@@ -14,10 +14,10 @@
 
 		"left_steal_edge_offset"	"15"
 		"right_steal_edge_offset"	"15"
-		"robot_x_offset"		"40"
+		"robot_x_offset"		"100"
 		"robot_y_offset"		"0"
-		"robot_x_step"			"20"
-		"robot_y_step"			"0"
+		"robot_x_step"			"-6"
+		"robot_y_step"			"16"
 		
 
 		"color_blue"			"84 111 127 255"
