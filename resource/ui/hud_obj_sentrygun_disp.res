@@ -87,7 +87,7 @@
 			"fieldName"		"BuiltBgDark"
 			"xpos"			"0"
 			"ypos"			"1"
-			"zpos"			"-1"
+			"zpos"			"-2"
 			"wide"			"117"
 			"tall"			"25"
 			"visible"		"1"
