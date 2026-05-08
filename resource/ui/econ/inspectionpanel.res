@@ -9,10 +9,25 @@
 		"zpos"			"1"
 		"wide"			"o1"
 		"tall"			"p0.95"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"item_carousel_bg"
 		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}
+
+	"BG"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"BG"
+		"xpos"			"cs-0.5"
+		"ypos"			"-50"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"BackgroundDefault"
 		"proportionaltoparent" "1"
 	}
 
@@ -22,7 +37,7 @@
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"5"
+		"zpos"			"6"
 		"wide"			"f0"
 		"tall"			"200"
 		"visible"		"1"
@@ -55,7 +70,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"o1.5"
+		"wide"			"o1.7"
 		"tall"			"p0.8"
 		"visible"		"1"
 
