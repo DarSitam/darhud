@@ -16,129 +16,23 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 768"
-			}
-			"3"
-			{
 				"name"		"TF2 Secondary"
-				"tall"		"13"
-				"weight"	"700"
+				"tall"		"8"
+				"weight"	"800"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"769 1023"
 				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"17"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 1499"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"32"
-				"weight"		"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1500 10000"
-				"antialias"	"1"
-			}
-			"7"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"700"
 			}
 		}
+
 		"TF2DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 768"
-			}
-			"3"
-			{
 				"name"		"TF2 Build"
-				"tall"		"11"
+				"tall"		"7"
 				"weight"	"0"
 				"antialias"	"1"
 				"range"		"0x0000 0x017F"
-				"yres"	"769 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"TF2 Build"
-				"tall"		"16"
-				"weight"	"0"
-				"antialias"	"1"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"TF2 Build"
-				"tall"		"20"
-				"weight"	"0"
-				"antialias"	"1"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 1499"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"TF2 Build"
-				"tall"		"28"
-				"weight"	"0"
-				"antialias"	"1"
-				"range"		"0x0000 0x017F"
-				"yres"	"1500 6000"
-				"antialias"	"1"
-			}
-			"7"
-			{
-				"name"		"TF2 Build"
-				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
-				"antialias"	"1"
 			}
 		}
 		
