@@ -256,7 +256,17 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"	"1200 1499"
+				"antialias"	"1"
+			}
+
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"28"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1500 10000"
 				"antialias"	"1"
 			}
 		}
@@ -390,7 +400,16 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"22"
 				"weight"	"700"
-				"yres"		"1200 10000"
+				"yres"		"1200 1499"
+				"dropshadow"	"1"
+			}
+
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"29"
+				"weight"	"700"
+				"yres"		"1500 10000"
 				"dropshadow"	"1"
 			}
 		}
