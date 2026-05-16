@@ -213,13 +213,14 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"12" [!$POSIX]
+				"tall"		"14" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -227,7 +228,8 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"13" [!$POSIX]
+				"tall"		"16" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -235,7 +237,8 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"14" [!$POSIX]
+				"tall"		"16" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -244,29 +247,19 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"16" [!$POSIX]
+				"tall"		"18" [$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"20"
+				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 1499"
-				"antialias"	"1"
-			}
-
-			"6"
-			{
-				"name"		"Verdana"
-				"tall"		"28"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1500 10000"
 				"antialias"	"1"
 			}
 		}
@@ -363,17 +356,55 @@ Scheme
 
 		"ChatFont"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"8"
-				"weight"	"600"
+				"tall"		"12"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
+				"weight"	"700"
+				"yres"		"480 599"
 				"dropshadow"	"1"
-				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"14"	[!$POSIX]
+				"tall"		"17"	[$POSIX]
+				"weight"	"700"
+				"yres"		"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"15"	[!$POSIX]
+				"tall"		"18"	[$POSIX]
+				"weight"	"700"
+				"yres"		"768 1023"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"17"	[!$POSIX]
+				"tall"		"20"	[$POSIX]
+				"weight"	"700"
+				"yres"		"1024 1199"
+				"dropshadow"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				// Misyl: Looks bad when proportional
+				// Removing the weight here.
+				"weight" "300"
+				//"weight"	"700"
+				"dropshadow"	"1"
+				"antialias" "1"
 			}
 		}
-
-
 	}
 
 	//
