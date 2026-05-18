@@ -57,11 +57,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"13"
+		"xpos"			"11"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"26"
-		"tall"			"10"
+		"wide"			"30"
+		"tall"			"11"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -81,8 +81,8 @@
 		"fieldName"		"AccountValueShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
-		"wide"			"26"
-		"tall"			"10"
+		"wide"			"30"
+		"tall"			"11"
 		"font"			"HudFontSmallBold"
 	}
 }
